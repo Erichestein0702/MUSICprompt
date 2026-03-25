@@ -1,0 +1,75 @@
+[
+  {
+    "id": "mp_c9a28184ce73",
+    "prompt_text": "Progressive Psytrance, Deep Pulsating Bassline, Hypnotic Synth Stabs, Shimmering Arpeggios, Energetic Percussion, Psychedelic Atmosphere, Driving 138 BPM, Evolving Pads, Trippy FX, Uplifting yet Dark, Mystical and Intense, Club Anthem Vibe",
+    "prompt_zh": "渐进迷幻电子 (Progressive Psytrance)，深沉跳动的贝斯线 (Deep Pulsating Bassline)，催眠的合成器断奏 (Hypnotic Synth Stabs)，闪耀的琶音 (Shimmering Arpeggios)，充满能量的打击乐 (Energetic Percussion)，迷幻的氛围 (Psychedelic Atmosphere)，138 BPM，不断演变的音垫 (Evolving Pads)，迷幻效果 (Trippy FX)，振奋而黑暗 (Uplifting yet Dark)，神秘而强烈 (Mystical and Intense)，俱乐部圣歌的感觉 (Club Anthem Vibe)",
+    "platform": "udio",
+    "genre": [
+      "trance"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.0,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/8520367d-95c7-467c-81ae-9b64213beda6",
+    "title": "AI_DJ - See You Again",
+    "translation_meta": {
+      "title_zh": "迷幻渐进曲",
+      "genre_tags_zh": [
+        "迷幻渐进电子 (Progressive Psytrance)"
+      ],
+      "mood_keywords_zh": [
+        "深沉跳动",
+        "催眠",
+        "闪耀",
+        "充满能量",
+        "迷幻",
+        "振奋而黑暗",
+        "神秘而强烈",
+        "俱乐部圣歌的感觉"
+      ],
+      "translated_at": "2026-03-25T14:51:10.358939"
+    }
+  },
+  {
+    "id": "mp_621d0f20648b",
+    "prompt_text": "Trance,dynamic and uplifting,Fast (122 BPM), Pressing fire drums, Snare, Hi-hats and claps, Powerful bassline, hot and wide synth pads, Lead synth for striking melodies, arpeggios and pluck sounds",
+    "prompt_zh": "Trance, 动态且鼓舞人心, 快速 (122 BPM), 强烈的打击鼓, 军鼓, 钹和掌声, 强劲的贝斯线, 热烈且宽广的合成器垫音, 用于引人旋律的主合成器, 琶音和拨弦音",
+    "platform": "suno",
+    "genre": [
+      "trance"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "drums",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.0,
+    "use_cases": [],
+    "source": "mister-magpie/fa1a2773-1ac1-4dc9-9cd7-bdc7017b51b0",
+    "title": "Into the Night",
+    "translation_meta": {
+      "title_zh": "Trance风格动态且鼓舞人心的音乐",
+      "genre_tags_zh": [
+        "Trance (Trance)",
+        "电子舞曲 (Electronic Dance Music)"
+      ],
+      "mood_keywords_zh": [
+        "动态",
+        "鼓舞人心",
+        "快速",
+        "热烈",
+        "引人"
+      ],
+      "translated_at": "2026-03-25T14:53:25.726216"
+    }
+  }
+]

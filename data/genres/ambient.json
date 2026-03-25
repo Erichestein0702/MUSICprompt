@@ -1,0 +1,46 @@
+{
+  "genre": "ambient",
+  "count": 1,
+  "documents": [
+    {
+      "id": "vmdp_4107c27347cc",
+      "version": "1.0.0",
+      "original_prompt": "3. Texture and Space This is where you tell the AI where the music is happening. Do you want it to sound like it was recorded in a bedroom or a stadium? Use tags like [Dry Vocals] or [Large Hall Reverb].",
+      "translated_prompt": "这是你告诉AI音乐发生在哪里的地方。你希望它听起来像是在卧室还是体育场录制的？使用标签如 [Dry Vocals] 或 [Large Hall Reverb]。",
+      "title": {
+        "en": "3. Texture and Space This is where you tell the AI",
+        "zh": "3. 纹理与空间"
+      },
+      "prompt": {
+        "en": "3. Texture and Space This is where you tell the AI where the music is happening. Do you want it to sound like it was recorded in a bedroom or a stadium? Use tags like [Dry Vocals] or [Large Hall Reverb].",
+        "zh": "这是你告诉AI音乐发生在哪里的地方。你希望它听起来像是在卧室还是体育场录制的？使用标签如 [Dry Vocals] 或 [Large Hall Reverb]。"
+      },
+      "genre": "ambient",
+      "tags": [],
+      "douyin_tags": [
+        "Dry Vocals",
+        "Large Hall Reverb"
+      ],
+      "dsp_params": {
+        "bpm": 80,
+        "key": "C Minor",
+        "energy_level": "low",
+        "frequency_center": "100Hz-200Hz",
+        "dynamics_range": "Wide",
+        "reverb": "Large Hall",
+        "compression": "Light"
+      },
+      "gem_suggestion": "使用大型厅堂混响来增加空间感，保持动态范围宽广，以营造丰富的纹理和空间效果。",
+      "viral_score": 3.2,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T22:48:01.249022"
+      },
+      "created_at": "2026-03-24T22:48:01.249022",
+      "updated_at": "2026-03-24T22:48:01.249022"
+    }
+  ],
+  "updated_at": "2026-03-24T22:48:01.258513"
+}

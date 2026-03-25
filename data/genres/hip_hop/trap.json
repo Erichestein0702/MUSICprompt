@@ -1,0 +1,427 @@
+{
+  "genre": "hip_hop.trap",
+  "count": 11,
+  "documents": [
+    {
+      "id": "vmdp_16e27f624b8a",
+      "version": "1.0.0",
+      "original_prompt": "Hard-hitting 808s, menacing trap beat, rapid hi-hat rolls,",
+      "translated_prompt": "沉重的808低音，威胁感十足的陷阱节拍，快速的军鼓滚奏",
+      "title": {
+        "en": "Hard-hitting 808s, menacing trap beat, rapid hi-ha",
+        "zh": "沉重的808低音，威胁感十足的陷阱节拍，快速的军鼓滚奏"
+      },
+      "prompt": {
+        "en": "Hard-hitting 808s, menacing trap beat, rapid hi-hat rolls,",
+        "zh": "沉重的808低音，威胁感十足的陷阱节拍，快速的军鼓滚奏"
+      },
+      "genre": "hip_hop.trap",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 140,
+        "key": "F Minor",
+        "energy_level": "high",
+        "frequency_center": "30Hz-80Hz",
+        "dynamics_range": "Wide",
+        "reverb": "Large Hall",
+        "compression": "Aggressive"
+      },
+      "gem_suggestion": "增加军鼓的清晰度和低音的冲击力，保持整体的威胁感和紧张氛围",
+      "viral_score": 0.1,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T22:56:43.516681"
+      },
+      "created_at": "2026-03-24T22:56:43.516681",
+      "updated_at": "2026-03-24T22:56:43.516681"
+    },
+    {
+      "id": "vmdp_f1b987fffa1d",
+      "version": "1.0.0",
+      "original_prompt": "Hard-hitting 808s, menacing trap beat, rapid hi-hat rolls, atmospheric pads, dark melodic undertones, confident rap flow, ad-libs throughout, hard bass drop, modern rap production, BPM: 75, Key: F Minor",
+      "translated_prompt": "沉重的808低音，威胁感十足的陷阱节拍，快速的踩镲连击，氛围垫音，黑暗的旋律底色，自信的说唱flow，全程有ad-libs，强烈的低音drop，现代说唱制作，BPM: 75，Key: F Minor",
+      "title": {
+        "en": "Hard-hitting 808s, menacing trap beat, rapid hi-ha",
+        "zh": "沉重的808低音，威胁感十足的陷阱节拍，快速的踩镲"
+      },
+      "prompt": {
+        "en": "Hard-hitting 808s, menacing trap beat, rapid hi-hat rolls, atmospheric pads, dark melodic undertones, confident rap flow, ad-libs throughout, hard bass drop, modern rap production, BPM: 75, Key: F Minor",
+        "zh": "沉重的808低音，威胁感十足的陷阱节拍，快速的踩镲连击，氛围垫音，黑暗的旋律底色，自信的说唱flow，全程有ad-libs，强烈的低音drop，现代说唱制作，BPM: 75，Key: F Minor"
+      },
+      "genre": "hip_hop.trap",
+      "tags": [],
+      "douyin_tags": [
+        "沉重808",
+        "陷阱节拍",
+        "快速踩镲"
+      ],
+      "dsp_params": {
+        "bpm": 75,
+        "key": "F Minor",
+        "energy_level": "high",
+        "frequency_center": "30Hz-80Hz",
+        "dynamics_range": "Wide",
+        "reverb": "Large Hall",
+        "compression": "Aggressive"
+      },
+      "gem_suggestion": "增加低频的力度和清晰度，确保快速的踩镲连击和低音drop的冲击感。",
+      "viral_score": 4.8,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T22:56:43.516681"
+      },
+      "created_at": "2026-03-24T22:56:43.516681",
+      "updated_at": "2026-03-24T22:56:43.516681"
+    },
+    {
+      "id": "vmdp_f57be2a3cd4f",
+      "version": "1.0.0",
+      "original_prompt": "Hard-hitting trap beat, menacing 808s, rapid hi-hat rolls,",
+      "translated_prompt": "强烈的陷阱节拍，威胁性的808低音，快速的踩镲滚动",
+      "title": {
+        "en": "Hard-hitting trap beat, menacing 808s, rapid hi-ha",
+        "zh": "强烈的陷阱节拍，威胁性的808低音，快速的踩镲滚动"
+      },
+      "prompt": {
+        "en": "Hard-hitting trap beat, menacing 808s, rapid hi-hat rolls,",
+        "zh": "强烈的陷阱节拍，威胁性的808低音，快速的踩镲滚动"
+      },
+      "genre": "hip_hop.trap",
+      "tags": [],
+      "douyin_tags": [
+        "硬核陷阱",
+        "808低音",
+        "快速踩镲"
+      ],
+      "dsp_params": {
+        "bpm": 140,
+        "key": "F Minor",
+        "energy_level": "very_high",
+        "frequency_center": "30Hz-80Hz",
+        "dynamics_range": "Wide",
+        "reverb": "Large Hall",
+        "compression": "Aggressive"
+      },
+      "gem_suggestion": "增加低频的冲击感和中高频的清晰度，使用快速的压缩和宽广的动态范围来增强音乐的紧张感和力度",
+      "viral_score": 4.6,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T22:56:43.516681"
+      },
+      "created_at": "2026-03-24T22:56:43.516681",
+      "updated_at": "2026-03-24T22:56:43.516681"
+    },
+    {
+      "id": "vmdp_9c34a5b41976",
+      "version": "1.0.0",
+      "original_prompt": "Hard-hitting trap beat, menacing 808s, rapid hi-hat rolls, dark atmospheric pads, confident rap flow, modern production, BPM: 75, Key: F Minor",
+      "translated_prompt": "硬核陷阱节拍，威胁感十足的808低音，快速的踩镲滚动，黑暗的氛围垫，自信的说唱flow，现代制作，BPM: 75，调式：F小调",
+      "title": {
+        "en": "Hard-hitting trap beat, menacing 808s, rapid hi-ha",
+        "zh": "硬核陷阱节拍，威胁感十足的808低音，快速的踩镲滚动"
+      },
+      "prompt": {
+        "en": "Hard-hitting trap beat, menacing 808s, rapid hi-hat rolls, dark atmospheric pads, confident rap flow, modern production, BPM: 75, Key: F Minor",
+        "zh": "硬核陷阱节拍，威胁感十足的808低音，快速的踩镲滚动，黑暗的氛围垫，自信的说唱flow，现代制作，BPM: 75，调式：F小调"
+      },
+      "genre": "hip_hop.trap",
+      "tags": [],
+      "douyin_tags": [
+        "硬核陷阱",
+        "808低音",
+        "踩镲滚动",
+        "黑暗氛围"
+      ],
+      "dsp_params": {
+        "bpm": 75,
+        "key": "F Minor",
+        "energy_level": "high",
+        "frequency_center": "30Hz-80Hz",
+        "dynamics_range": "Wide",
+        "reverb": "Large Hall",
+        "compression": "Aggressive"
+      },
+      "gem_suggestion": "增加低频的力度和冲击感，保持快速的踩镲滚动，增强黑暗氛围的音效处理",
+      "viral_score": 6.2,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T22:56:43.516681"
+      },
+      "created_at": "2026-03-24T22:56:43.516681",
+      "updated_at": "2026-03-24T22:56:43.516681"
+    },
+    {
+      "id": "vmdp_936c62192b06",
+      "version": "1.0.0",
+      "original_prompt": "Use Case: Club tracks, aggressive rap Suno Version: V5 Energy: Very High (9/10) [🎨 Auto-generate similar →](https://www.songaifarm.com?genre=hip-hop&mood=aggressive) --- Chill Boom Bap",
+      "translated_prompt": "用途：俱乐部曲目，激进说唱 Suno 版本：V5 能量：非常高 (9/10) [🎨 自动生成类似 →](https://www.songaifarm.com?genre=hip-hop&mood=aggressive) --- 冷静的 Boom Bap",
+      "title": {
+        "en": "Use Case: Club tracks, aggressive rap Suno Version",
+        "zh": "俱乐部曲目，激进说唱 Suno 版本"
+      },
+      "prompt": {
+        "en": "Use Case: Club tracks, aggressive rap Suno Version: V5 Energy: Very High (9/10) [🎨 Auto-generate similar →](https://www.songaifarm.com?genre=hip-hop&mood=aggressive) --- Chill Boom Bap",
+        "zh": "用途：俱乐部曲目，激进说唱 Suno 版本：V5 能量：非常高 (9/10) [🎨 自动生成类似 →](https://www.songaifarm.com?genre=hip-hop&mood=aggressive) --- 冷静的 Boom Bap"
+      },
+      "genre": "hip_hop.trap",
+      "tags": [],
+      "douyin_tags": [
+        "俱乐部",
+        "激进说唱"
+      ],
+      "dsp_params": {
+        "bpm": 140,
+        "key": "F Minor",
+        "energy_level": "very_high",
+        "frequency_center": "30Hz-80Hz",
+        "dynamics_range": "Wide",
+        "reverb": "Large Hall",
+        "compression": "Aggressive"
+      },
+      "gem_suggestion": "使用高能量的压缩和宽动态范围，增强激进的低频效果",
+      "viral_score": 3.4,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T23:09:16.396197"
+      },
+      "created_at": "2026-03-24T23:09:16.396197",
+      "updated_at": "2026-03-24T23:09:16.396197"
+    },
+    {
+      "id": "vmdp_e2120da074ca",
+      "version": "1.0.0",
+      "original_prompt": "[Foundation] Punchy kick, deep 808 bass",
+      "translated_prompt": "基础：有力的低音鼓，深沉的808贝斯",
+      "title": {
+        "en": "[Foundation] Punchy kick, deep 808 bass",
+        "zh": "基础：有力的低音鼓，深沉的808贝斯"
+      },
+      "prompt": {
+        "en": "[Foundation] Punchy kick, deep 808 bass",
+        "zh": "基础：有力的低音鼓，深沉的808贝斯"
+      },
+      "genre": "hip_hop.trap",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 140,
+        "key": "F Minor",
+        "energy_level": "high",
+        "frequency_center": "30Hz-80Hz",
+        "dynamics_range": "Wide",
+        "reverb": "Large Hall",
+        "compression": "Aggressive"
+      },
+      "gem_suggestion": "增强低频的力度和深度，使用压缩和混响来增加空间感和动态范围",
+      "viral_score": 0.1,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T23:16:07.743100"
+      },
+      "created_at": "2026-03-24T23:16:07.743100",
+      "updated_at": "2026-03-24T23:16:07.743100"
+    },
+    {
+      "id": "vmdp_42af059df39d",
+      "version": "1.0.0",
+      "original_prompt": "ad-libs throughout, hard bass drop, modern rap production,",
+      "translated_prompt": "贯穿的ad-libs，强烈的贝斯Drop，现代说唱制作",
+      "title": {
+        "en": "ad-libs throughout, hard bass drop, modern rap pro",
+        "zh": "贯穿的ad-libs，强烈的贝斯Drop，现代说唱制作"
+      },
+      "prompt": {
+        "en": "ad-libs throughout, hard bass drop, modern rap production,",
+        "zh": "贯穿的ad-libs，强烈的贝斯Drop，现代说唱制作"
+      },
+      "genre": "hip_hop.trap",
+      "tags": [],
+      "douyin_tags": [
+        "ad-libs",
+        "hard_bass_drop",
+        "modern_rap"
+      ],
+      "dsp_params": {
+        "bpm": 140,
+        "key": "F Minor",
+        "energy_level": "very_high",
+        "frequency_center": "30Hz-60Hz heavy sub",
+        "dynamics_range": "Wide",
+        "reverb": "Large Hall",
+        "compression": "Aggressive"
+      },
+      "gem_suggestion": "使用强烈的压缩和宽广的动态范围来增强贝斯Drop的冲击力，同时保持整体音轨的清晰度。",
+      "viral_score": 4.6,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T23:25:40.037138"
+      },
+      "created_at": "2026-03-24T23:25:40.037138",
+      "updated_at": "2026-03-24T23:25:40.037138"
+    },
+    {
+      "id": "vmdp_0b76c3915019",
+      "version": "1.0.0",
+      "original_prompt": "dark atmospheric pads, confident rap flow, modern production,",
+      "translated_prompt": "暗黑氛围垫音，自信的说唱节奏，现代制作",
+      "title": {
+        "en": "dark atmospheric pads, confident rap flow, modern",
+        "zh": "暗黑氛围垫音，自信的说唱节奏，现代制作"
+      },
+      "prompt": {
+        "en": "dark atmospheric pads, confident rap flow, modern production,",
+        "zh": "暗黑氛围垫音，自信的说唱节奏，现代制作"
+      },
+      "genre": "hip_hop.trap",
+      "tags": [],
+      "douyin_tags": [
+        "暗黑",
+        "说唱",
+        "现代"
+      ],
+      "dsp_params": {
+        "bpm": 140,
+        "key": "F Minor",
+        "energy_level": "medium",
+        "frequency_center": "30Hz-80Hz",
+        "dynamics_range": "Wide",
+        "reverb": "Large Hall",
+        "compression": "Moderate"
+      },
+      "gem_suggestion": "使用深沉的氛围垫音和自信的说唱节奏，结合现代制作技巧，营造出一种既黑暗又充满力量的音乐氛围。",
+      "viral_score": 4.6,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T23:26:58.143411"
+      },
+      "created_at": "2026-03-24T23:26:58.143411",
+      "updated_at": "2026-03-24T23:26:58.143411"
+    },
+    {
+      "id": "vmdp_d9ab52a274b0",
+      "version": "1.0.0",
+      "original_prompt": "epic armor wars gangsta rap girl sings",
+      "translated_prompt": "史诗装甲战争帮派说唱女孩唱歌",
+      "title": {
+        "en": "epic armor wars gangsta rap girl sings",
+        "zh": "史诗装甲战争帮派说唱女孩唱歌"
+      },
+      "prompt": {
+        "en": "epic armor wars gangsta rap girl sings",
+        "zh": "史诗装甲战争帮派说唱女孩唱歌"
+      },
+      "genre": "hip_hop.trap",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 140,
+        "key": "F Minor",
+        "energy_level": "high",
+        "frequency_center": "30Hz-80Hz",
+        "dynamics_range": "Wide",
+        "reverb": "Large Hall",
+        "compression": "Aggressive"
+      },
+      "gem_suggestion": "增加低频的力度和清晰度，使用宽动态范围和大堂混响效果，压缩设置为激进模式以增强整体冲击感。",
+      "viral_score": 0.0,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T23:28:21.254164"
+      },
+      "created_at": "2026-03-24T23:28:21.254164",
+      "updated_at": "2026-03-24T23:28:21.254164"
+    },
+    {
+      "id": "vmdp_5e2b5c6b5a03",
+      "version": "1.0.0",
+      "original_prompt": "laid-back 808 bass, syncopated hi-hats, intimate production,",
+      "translated_prompt": "轻松的808贝斯，错落的踩镲，亲密的制作",
+      "title": {
+        "en": "laid-back 808 bass, syncopated hi-hats, intimate p",
+        "zh": "轻松的808贝斯，错落的踩镲，亲密的制作"
+      },
+      "prompt": {
+        "en": "laid-back 808 bass, syncopated hi-hats, intimate production,",
+        "zh": "轻松的808贝斯，错落的踩镲，亲密的制作"
+      },
+      "genre": "hip_hop.trap",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 90,
+        "key": "A Minor",
+        "energy_level": "low",
+        "frequency_center": "30Hz-80Hz",
+        "dynamics_range": "Narrow",
+        "reverb": "Small Room",
+        "compression": "Light"
+      },
+      "gem_suggestion": "使用轻柔的808贝斯和错落的踩镲，保持制作的亲密感，适合低能量的氛围。",
+      "viral_score": 0.1,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T23:29:29.995515"
+      },
+      "created_at": "2026-03-24T23:29:29.995515",
+      "updated_at": "2026-03-24T23:29:29.995515"
+    },
+    {
+      "id": "vmdp_897c88da781d",
+      "version": "1.0.0",
+      "original_prompt": "| Hip-Hop | 808 bass, trap hi-hats, flow | 70-90 | Minor keys | Variable |",
+      "translated_prompt": "808贝斯，陷阱军鼓，流畅的节奏 | 70-90 BPM | 小调 | 变化多端",
+      "title": {
+        "en": "| Hip-Hop | 808 bass, trap hi-hats, flow | 70-90 |",
+        "zh": "808贝斯，陷阱军鼓，流畅的节奏"
+      },
+      "prompt": {
+        "en": "| Hip-Hop | 808 bass, trap hi-hats, flow | 70-90 | Minor keys | Variable |",
+        "zh": "808贝斯，陷阱军鼓，流畅的节奏 | 70-90 BPM | 小调 | 变化多端"
+      },
+      "genre": "hip_hop.trap",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 80,
+        "key": "Minor",
+        "energy_level": "medium",
+        "frequency_center": "30Hz-80Hz",
+        "dynamics_range": "Variable",
+        "reverb": "Small Room",
+        "compression": "Moderate"
+      },
+      "gem_suggestion": "增加一些军鼓的打击感和贝斯的深度，保持节奏的流畅性。",
+      "viral_score": 0.1,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T23:35:14.616391"
+      },
+      "created_at": "2026-03-24T23:35:14.616391",
+      "updated_at": "2026-03-24T23:35:14.616391"
+    }
+  ],
+  "updated_at": "2026-03-24T23:35:14.646474"
+}

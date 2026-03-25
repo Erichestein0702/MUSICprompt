@@ -1,0 +1,567 @@
+[
+  {
+    "id": "mp_cdf492be3916",
+    "prompt_text": "post-hardcore, metalcore, electronic, alternative metal, electronicore, passionate, energetic, introspective, male vocalist, cold, depressive, anxious, pessimistic, melancholic, atmospheric, bittersweet, ethereal, anthemic, nocturnal, melodic, percussion , electronic guitar, synthesizer, drums (drum set), bass guitar, production, c minor, repeat chorus, ",
+    "prompt_zh": "后硬核 (post-hardcore), 金属核 (metalcore), 电子 (electronic), 另类金属 (alternative metal), 电子核 (electronicore), 激情的, 有活力的, 内省的, 男性主唱, 冷酷的, 抑郁的, 焦虑的, 悲观的, 忧郁的, 氛围的, 苦乐参半的, 虚无缥缈的, 宏大的, 夜曲的, 旋律的, 打击乐, 电子吉他, 合成器, 鼓 (drum set), 低音吉他, 制作, C小调, 重复副歌",
+    "platform": "udio",
+    "genre": [
+      "electronic",
+      "metal"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/1002264b-b0a0-4d98-8342-302e13fc2b84",
+    "title": "Timeless",
+    "translation_meta": {
+      "title_zh": "音乐提示词翻译",
+      "genre_tags_zh": [
+        "后硬核 (post-hardcore)",
+        "金属核 (metalcore)",
+        "电子 (electronic)",
+        "另类金属 (alternative metal)",
+        "电子核 (electronicore)"
+      ],
+      "mood_keywords_zh": [
+        "激情的",
+        "有活力的",
+        "内省的",
+        "冷酷的",
+        "抑郁的",
+        "焦虑的",
+        "悲观的",
+        "忧郁的",
+        "氛围的",
+        "苦乐参半的",
+        "虚无缥缈的",
+        "宏大的",
+        "夜曲的",
+        "旋律的"
+      ],
+      "translated_at": "2026-03-25T14:19:13.334461"
+    },
+    "usage_tips": [
+      "可以尝试调整BPM来改变能量感"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "synthwave",
+      "ambient electronic",
+      "future bass"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_c7c7f26928f2",
+    "prompt_text": "funky, groovy bassline, driving disco-inspired rhythm section, late 90's, jazzy horn sections, lush synth pads, retro-futuristic production, soulful lead vocals, falsetto flourishes, syncopated rhythms, infectious dance-floor energy, blend of classic funk and modern electronic influences, interplay between analog and digital sounds, dynamic chord progressions, complex arrangements, seamless integration of live instrumentation and programmed elements, hint of psychedelic undertones, anthemic melodies, catchy hooks, nostalgic yet contemporary vibe, lyrical themes of escapism and social commentary, incorporation of world music elements, emphasis on improvisation and instrumentation, layered textures and sonic depth, infectious rhythm that compels movement, attention to sonic detail and production quality, seamless fusion of multiple genres into a cohesive whole",
+    "prompt_zh": "充满韵律感的 funky, groovy bassline，充满活力的 disco-inspired 节奏部分，90年代末，jazzy 铜管乐部分，丰富的 synth pads，复古未来主义的制作，深情的 lead vocals，falsetto 花腔，syncopated 节奏，极具感染力的舞池能量，经典放克与现代电子音乐影响的融合，模拟与数字声音的互动，动态和弦进行，复杂的编排，现场乐器与编程元素的无缝结合，带有轻微的 psychedelic 心理迷幻色彩，anthemic 旋律，抓耳的 hooks，怀旧而现代的氛围，歌词主题涉及逃避现实与社会评论，融入世界音乐元素，注重即兴演奏与乐器表现，层次丰富的质感和声音深度，极具感染力的节奏让人忍不住舞动，对声音细节和制作质量的重视，多种音乐风格的无缝融合，形成一个整体",
+    "platform": "udio",
+    "genre": [
+      "electronic",
+      "jazz",
+      "soul"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/1fca9a71-3e22-470d-82eb-273f1478017d",
+    "title": "Celestial Rendezvous",
+    "translation_meta": {
+      "title_zh": "中文标题",
+      "genre_tags_zh": [
+        "放克 (Funk)",
+        "电子 (Electronic)",
+        "迪斯科 (Disco)",
+        "爵士 (Jazz)",
+        "世界音乐 (World Music)"
+      ],
+      "mood_keywords_zh": [
+        "充满韵律感",
+        "充满活力",
+        "深情",
+        "花腔",
+        "同步节奏",
+        "极具感染力",
+        "怀旧",
+        "现代",
+        "逃避现实",
+        "社会评论",
+        "即兴演奏",
+        "层次丰富",
+        "质感",
+        "声音深度",
+        "舞动"
+      ],
+      "translated_at": "2026-03-25T14:19:23.464991"
+    },
+    "usage_tips": [
+      "可以尝试调整BPM来改变能量感"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "synthwave",
+      "ambient electronic",
+      "future bass"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_0cbb93be476e",
+    "prompt_text": "electronic, atmospheric, rhythmic, dark, melancholic, energetic, female vocalist. a build up tech house song, hypnotic analog bassline, drum machine, 808, 909, chorus with strings and synth horns, dark melody,  minor tune, Chorus, high energy drum loop",
+    "prompt_zh": "electronic, atmospheric, rhythmic, dark, melancholic, energetic, female vocalist. 一首渐进的 tech house 歌曲，催眠的模拟贝斯线，鼓机，808, 909, [副歌] 有弦乐和合成号，黑暗旋律，小调旋律，[副歌]，高能量的鼓循环",
+    "platform": "udio",
+    "genre": [
+      "electronic",
+      "house"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/1ec30ada-7acb-4be5-8459-e5c45a1a7e5d",
+    "title": "Echoes in the Maze",
+    "translation_meta": {
+      "title_zh": "电子氛围节奏曲",
+      "genre_tags_zh": [
+        "电子 (Electronic)",
+        "科技浩室 (Tech House)"
+      ],
+      "mood_keywords_zh": [
+        "氛围 (Atmospheric)",
+        "节奏 (Rhythmic)",
+        "黑暗 (Dark)",
+        "忧郁 (Melancholic)",
+        "充满能量 (Energetic)"
+      ],
+      "translated_at": "2026-03-25T14:20:22.403131"
+    },
+    "usage_tips": [
+      "可以尝试调整BPM来改变能量感"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "synthwave",
+      "ambient electronic",
+      "future bass"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_d581e234b395",
+    "prompt_text": "EDM, electronic dance music, orchestral dubstep, dubstep, xtrullor, triumphant, suspenseful, atmospheric, epic, complex, metallic structure, energetic, introspective, dense, mechanical, technical, ethereal, transformers sound design, sombre, mysterious, heavy, cinematic, film score, massive, heavy middle ages, battle of kingdoms, battlefield, dubstep, growling bass, dark, chaotic, anxious, terror, intricate melodies, harmonic richness, rhythmic complexity, pads, synthesizers, orchestral instruments, dramatic, fantasy, mystic, uneven rhythms, polyrhythms, polarize, polarizing, two-phase, cinematic build-up, dynamic shifts, orchestral hits, soundscapes, glitch elements, hybrid orchestration, impactful drops, layered sound design, agressive leads, reverb-drenched, massive drums, ethereal",
+    "prompt_zh": "EDM, electronic dance music, 交响Dubstep (Orchestral Dubstep), Dubstep, Xtrullor, 壮丽的, 悬疑的, 大气的, 壮阔的, 复杂的, 金属结构, 充满能量的, 内省的, 浓密的, 机械的, 技术性的, 空灵的, 变形金刚音效设计, 沉重的, 神秘的, 阴暗的, 电影般的, 电影配乐, 中世纪的, 王国之战, 战场, Dubstep, 咆哮的低音, 黑暗的, 混乱的, 焦虑的, 恐怖的, 精细的旋律, 和声丰富, 节奏复杂, 垫底音, 合成器, 交响乐器, 戏剧性的, 幻想的, 神秘的, 不规则的节奏, 复节奏, 极化的, 两阶段的, 电影般的铺垫, 动态变化, 交响打击, 声景, 故障元素, 混合编配, 强烈的下降, 层次分明的音效设计, 侵略性的主旋律, 混响浓厚, 巨大的鼓声, 空灵的",
+    "platform": "udio",
+    "genre": [
+      "electronic",
+      "edm",
+      "metal"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "drums",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "gaming",
+      "cinematic",
+      "party"
+    ],
+    "source": "mister-magpie/a0bdc206-eefb-4875-a6c3-93ff59a2b2f8",
+    "title": "Battle of Kingdoms",
+    "translation_meta": {
+      "title_zh": "电子舞曲与交响Dubstep",
+      "genre_tags_zh": [
+        "电子舞曲 (EDM)",
+        "交响Dubstep (Orchestral Dubstep)",
+        "Dubstep"
+      ],
+      "mood_keywords_zh": [
+        "壮丽的",
+        "悬疑的",
+        "大气的",
+        "壮阔的",
+        "复杂的",
+        "充满能量的",
+        "内省的",
+        "浓密的",
+        "机械的",
+        "技术性的",
+        "空灵的",
+        "沉重的",
+        "神秘的",
+        "阴暗的",
+        "电影般的",
+        "黑暗的",
+        "混乱的",
+        "焦虑的",
+        "恐怖的",
+        "精细的",
+        "和声丰富",
+        "节奏复杂",
+        "戏剧性的",
+        "幻想的",
+        "神秘的",
+        "不规则的",
+        "复节奏",
+        "极化的",
+        "两阶段的",
+        "动态变化",
+        "层次分明的",
+        "侵略性的",
+        "混响浓厚",
+        "巨大的",
+        "空灵的"
+      ],
+      "translated_at": "2026-03-25T14:21:21.887098"
+    },
+    "usage_tips": [
+      "可以尝试调整BPM来改变能量感"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "synthwave",
+      "ambient electronic",
+      "future bass"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_722d3cf2725e",
+    "prompt_text": "electronic, industrial/electro / darkwave, cinematic, cyberpunk, rhythmic, nocturnal, energetic, dark wave, darkwave, industrial/electro, electro, dark electro, technical, mechanical, industrial, techno, dark techno, techno-industrial, techno bass, futuristic, dark, hard, psychedelic, drifting, gliding, maintain previous beat tempo, maintain previous beat timing, maintain previous bpm, hypnotic, mysterious, tech house, tech trance, peak time techno, melodic, atmospheric, gliding, synth electronic, tender, submissive, soft, wanton, quiet, ",
+    "prompt_zh": "电子, 工业/电音 (industrial/electro) / 暗潮 (darkwave), 电影感, 赛博朋克, 节奏感, 夜曲, 有能量的, 暗潮, 暗电, 技术性, 机械感, 工业, 技术, 暗技术, 技术-工业, 技术贝斯 (techno bass), 未来感, 暗, 硬, 迷幻, 漂浮, 滑行, 保持之前的节拍速度 (maintain previous beat tempo), 保持之前的节拍时机 (maintain previous beat timing), 保持之前的BPM (maintain previous bpm), 催眠, 神秘, 技术浩室 (tech house), 技术恍惚 (tech trance), 高峰时段技术 (peak time techno), 旋律, 氛围, 滑行, 合成器电子 (synth electronic), 温柔, 顺从, 柔软, 淫荡, 安静",
+    "platform": "udio",
+    "genre": [
+      "electronic",
+      "punk",
+      "house"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "cinematic"
+    ],
+    "source": "mister-magpie/4a7acd13-8c9e-441b-9c40-9a3f6f26d631",
+    "title": "The Last War - Welcome to the Refuge (OST)",
+    "translation_meta": {
+      "title_zh": "电子音乐提示词",
+      "genre_tags_zh": [
+        "电子",
+        "工业/电音 (industrial/electro)",
+        "暗潮 (darkwave)",
+        "电影感",
+        "赛博朋克",
+        "技术浩室 (tech house)",
+        "技术恍惚 (tech trance)",
+        "高峰时段技术 (peak time techno)"
+      ],
+      "mood_keywords_zh": [
+        "节奏感",
+        "夜曲",
+        "有能量的",
+        "暗潮",
+        "暗电",
+        "技术性",
+        "机械感",
+        "工业",
+        "技术",
+        "暗技术",
+        "技术-工业",
+        "技术贝斯 (techno bass)",
+        "未来感",
+        "暗",
+        "硬",
+        "迷幻",
+        "漂浮",
+        "滑行",
+        "催眠",
+        "神秘",
+        "旋律",
+        "氛围",
+        "温柔",
+        "顺从",
+        "柔软",
+        "淫荡",
+        "安静"
+      ],
+      "translated_at": "2026-03-25T14:28:21.000868"
+    },
+    "usage_tips": [
+      "可以尝试调整BPM来改变能量感"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "synthwave",
+      "ambient electronic",
+      "future bass"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_ce70a39d9c65",
+    "prompt_text": "female vocalist, dark synth bass, heavy industrial drums, distorted electric guitar, eerie choir pads, rising orchestral strings, metallic percussion, robotic vocal effects, low atmospheric drones, sharp synth stabs, pulsating electronic rhythms, slow tempo, minor key, building tension, aggressive dynamics, ominous tone",
+    "prompt_zh": "女声主唱，dark synth bass，heavy industrial drums，distorted electric guitar，eerie choir pads，rising orchestral strings，metallic percussion，robotic vocal effects，low atmospheric drones，sharp synth stabs，pulsating electronic rhythms，slow tempo，minor key，逐渐增强的紧张感，强烈的动态变化，阴森的氛围",
+    "platform": "udio",
+    "genre": [
+      "electronic",
+      "metal"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "bass",
+      "synth",
+      "harp"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/75921a38-b936-4ea1-9477-31479a12409c",
+    "title": "Robot Maria's Song",
+    "translation_meta": {
+      "title_zh": "神秘电子乐",
+      "genre_tags_zh": [
+        "工业电子 (Industrial Electronic)",
+        "黑暗电子 (Dark Electronic)"
+      ],
+      "mood_keywords_zh": [
+        "紧张",
+        "阴森",
+        "强烈",
+        "逐渐增强"
+      ],
+      "translated_at": "2026-03-25T14:29:18.260230"
+    },
+    "usage_tips": [
+      "可以尝试调整BPM来改变能量感"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "synthwave",
+      "ambient electronic",
+      "future bass"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_06ab3105f6fd",
+    "prompt_text": "Sinister Electro house, Progressive house, Electronic dance music, House, Electronic, Tech house, Trip hop, Energetic, Dark, Repetitive, Sinister, Instrumental, Nocturnal, Eclectic, Rhythmic, Lush, Futuristic, Mechanical. evoke a sense of malevolence and intensity, with a fast tempo around 130-140 BPM. Incorporate ominous, dark synth melodies and aggressive, driving beats. The bassline should be powerful and foreboding, enhancing the dark and intense atmosphere. Smooth yet unsettling transitions should be used to maintain a consistent, sinister tone throughout the track. The music should reflect the theme of an AI that controls an human, the AI is arrogant, and psychopathic, descending into evil. Aim to create a soundscape that feels both futuristic and menacing, capturing the essence of a malevolent electronic entity.",
+    "prompt_zh": "阴森的 Electro house、Progressive house、Electronic dance music、House、Electronic、Tech house、Trip hop、充满活力的、黑暗的、重复的、阴森的、纯器乐、夜曲风格的、多元的、节奏感强的、丰富的、未来的、机械的。营造一种邪恶和紧张的感觉，节奏约为 130-140 BPM。融入不祥的黑暗合成器旋律和激烈的、推动性的节拍。低音线应强劲且令人不安，增强黑暗和紧张的氛围。使用平滑但令人不安的过渡，以保持整首曲子一致的阴森基调。音乐应反映一个控制人类的 AI，这个 AI 高傲且心理变态，逐渐堕入邪恶。力求创造一个既未来感又威胁感的音景，捕捉邪恶电子实体的本质。",
+    "platform": "udio",
+    "genre": [
+      "electronic",
+      "house"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/f639436f-5906-4086-acf1-3c1a795e9676",
+    "title": "AI Morning Routine",
+    "translation_meta": {
+      "title_zh": "阴森电子浩室",
+      "genre_tags_zh": [
+        "电子浩室 (Electro house)",
+        "渐进浩室 (Progressive house)",
+        "电子舞曲 (Electronic dance music)",
+        "浩室 (House)",
+        "电子 (Electronic)",
+        "科技浩室 (Tech house)",
+        "三拍子 (Trip hop)"
+      ],
+      "mood_keywords_zh": [
+        "充满活力的",
+        "黑暗的",
+        "重复的",
+        "阴森的",
+        "夜曲风格的",
+        "多元的",
+        "节奏感强的",
+        "丰富的",
+        "未来的",
+        "机械的",
+        "邪恶的",
+        "紧张的",
+        "令人不安的",
+        "高傲的",
+        "心理变态的",
+        "堕入邪恶的",
+        "威胁感的"
+      ],
+      "translated_at": "2026-03-25T14:29:30.073186"
+    },
+    "usage_tips": [
+      "可以尝试调整BPM来改变能量感"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "synthwave",
+      "ambient electronic",
+      "future bass"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_3cbcd42b027f",
+    "prompt_text": "Djent, ambient, delay, reverb, genre singing, clean vocals, thall, industrial, building, industrial metal, electro-industrial, drums (drum set), synthesizer, electronic drums, percussion, bass, ",
+    "prompt_zh": "Djent, 环境音乐 (ambient), 延迟 (delay), 混响 (reverb), 人声演唱 (genre singing), 清澈人声 (clean vocals), Thall, 工业 (industrial), 前奏 (building), 工业金属 (industrial metal), 电子工业 (electro-industrial), 鼓组 (drum set), 合成器 (synthesizer), 电子鼓 (electronic drums), 打击乐 (percussion), 贝斯 (bass)",
+    "platform": "udio",
+    "genre": [
+      "electronic",
+      "metal",
+      "ambient"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "drums",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "study"
+    ],
+    "source": "mister-magpie/6656af10-a49c-44c7-98c6-251985dfa911",
+    "title": "The Scar",
+    "translation_meta": {
+      "title_zh": "音乐提示词翻译",
+      "genre_tags_zh": [
+        "环境音乐 (ambient)",
+        "工业 (industrial)",
+        "工业金属 (industrial metal)",
+        "电子工业 (electro-industrial)"
+      ],
+      "mood_keywords_zh": [
+        "Djent",
+        "清澈人声",
+        "Thall"
+      ],
+      "translated_at": "2026-03-25T14:31:01.944840"
+    },
+    "usage_tips": [
+      "可以尝试调整BPM来改变能量感",
+      "适合冥想或学习场景，建议保持原参数",
+      "学习时使用建议降低音量，避免分心"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "synthwave",
+      "ambient electronic",
+      "future bass"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_fdaf2bf99e1f",
+    "prompt_text": "a song about going into danger, dark synth melodies, atmospheric pads, nostalgic 80s vibe, futuristic twist, progressive house beats, trance arpeggios, eerie soundscapes, driving basslines, cinematic elements, suspenseful build-ups, electronic, synthesizer, keyboard, electro, ",
+    "prompt_zh": "一首关于进入危险的歌曲，黑暗的synth旋律，氛围pad，怀旧的80s感觉，未来感的转折，progressive house节奏，trance琶音，诡异的音景，推动性的bassline，电影元素，悬疑的渐强，电子，synthesizer，keyboard，electro",
+    "platform": "udio",
+    "genre": [
+      "electronic",
+      "house",
+      "trance"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth",
+      "keyboard"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "cinematic"
+    ],
+    "source": "mister-magpie/d4f158de-84e9-45d7-8580-c80a6558d9fc",
+    "title": "Eclipse of Shadows",
+    "translation_meta": {
+      "title_zh": "危险之旅",
+      "genre_tags_zh": [
+        "电子 (Electronic)",
+        "合成器 (Synthesizer)",
+        "键盘 (Keyboard)",
+        "电子舞曲 (Electro)"
+      ],
+      "mood_keywords_zh": [
+        "黑暗",
+        "怀旧",
+        "未来感",
+        "诡异",
+        "推动性",
+        "电影感",
+        "悬疑"
+      ],
+      "translated_at": "2026-03-25T14:31:07.577374"
+    },
+    "usage_tips": [
+      "可以尝试调整BPM来改变能量感"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "synthwave",
+      "ambient electronic",
+      "future bass"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  }
+]

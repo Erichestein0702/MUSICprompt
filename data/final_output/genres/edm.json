@@ -1,0 +1,139 @@
+[
+  {
+    "id": "mp_035776400ee0",
+    "prompt_text": "a downtempo punk inspired song with 94bpm F, a key changge, some edm house low end, and keep it relaxed but allow the guitar to have some flavour, there should be a blend of organic instruments and synths, and should sound like fidlar meets rufus du sol meets daniel caesar",
+    "prompt_zh": "一首受慢节奏朋克 (Downtempo Punk) 启发的歌曲，94bpm F，有调性变化，加入一些EDM House的低频部分，保持放松但允许吉他有一些韵味，应该融合有机乐器和合成器，听起来像是Fidlar遇到Rufus Du Sol遇到Daniel Caesar",
+    "platform": "udio",
+    "genre": [
+      "edm",
+      "punk",
+      "house"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "meditation"
+    ],
+    "source": "mister-magpie/c3adde6f-4b82-4660-8a2d-1dba08f82ef1",
+    "title": "Until the Sun Rises",
+    "translation_meta": {
+      "title_zh": "慢节奏朋克风格的歌曲",
+      "genre_tags_zh": [
+        "慢节奏朋克 (Downtempo Punk)",
+        "电子舞曲 (EDM)",
+        "浩室 (House)"
+      ],
+      "mood_keywords_zh": [
+        "放松",
+        "韵味"
+      ],
+      "translated_at": "2026-03-25T14:28:54.582701"
+    }
+  },
+  {
+    "id": "mp_2d6b026a3cfd",
+    "prompt_text": "Vocaloid, drum and bass, chaotic, EDM drop, female vocals, electro, techno, synth, bass, song about being a lesbian. ",
+    "prompt_zh": "Vocaloid, drum and bass, 混乱, EDM drop, 女声, electro, techno, synth, bass, 关于同性恋的歌曲。",
+    "platform": "suno",
+    "genre": [
+      "edm",
+      "techno"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [],
+    "source": "mister-magpie/ad9dec6a-d2ab-4e74-949c-dfd332edf8da",
+    "title": "Electric Love",
+    "translation_meta": {
+      "title_zh": "关于同性恋的歌曲",
+      "genre_tags_zh": [
+        "电子舞曲 (EDM)",
+        "鼓打贝斯 (Drum and Bass)"
+      ],
+      "mood_keywords_zh": [
+        "混乱",
+        "女声"
+      ],
+      "translated_at": "2026-03-25T14:48:18.953533"
+    }
+  },
+  {
+    "id": "mp_9026c9d24240",
+    "prompt_text": "g minor key, eerie, metalcore, aggressive,female vocals, electro, edm, dark trance, disturbing, atmospheric drum and bass",
+    "prompt_zh": "g minor key, 惊悚, metalcore (金属核), 凶猛, 女声, electro (电子), edm (电子舞曲), 黑暗迷幻, 扰乱, atmospheric drum and bass (氛围鼓与贝斯)",
+    "platform": "udio",
+    "genre": [
+      "edm",
+      "metal",
+      "trance"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 7.0,
+    "use_cases": [],
+    "source": "mister-magpie/5cddb355-f35e-4a96-8e17-b96233e9db9b",
+    "title": "Midori",
+    "translation_meta": {
+      "title_zh": "小调氛围鼓与贝斯",
+      "genre_tags_zh": [
+        "金属核 (metalcore)",
+        "电子舞曲 (edm)",
+        "氛围鼓与贝斯 (atmospheric drum and bass)"
+      ],
+      "mood_keywords_zh": [
+        "惊悚",
+        "凶猛",
+        "黑暗",
+        "扰乱"
+      ],
+      "translated_at": "2026-03-25T14:51:47.250416"
+    }
+  },
+  {
+    "id": "mp_2d34b07ef650",
+    "prompt_text": "EDM: 128-140 BPM, driving bass, cycling rhythm, group chants, synths soar, push together, gym music",
+    "prompt_zh": "EDM: 128-140 BPM, 强劲的贝斯, 循环的节奏, 团体合唱, 合成器高亢, 推动一起, 健身房音乐",
+    "platform": "suno",
+    "genre": [
+      "edm"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.0,
+    "use_cases": [
+      "workout"
+    ],
+    "source": "mister-magpie/ed87c82f-2147-4c86-ba16-0863455e6eb4",
+    "title": "Push Together",
+    "translation_meta": {
+      "title_zh": "电子舞曲",
+      "genre_tags_zh": [
+        "电子舞曲 (EDM)"
+      ],
+      "mood_keywords_zh": [
+        "强劲",
+        "循环",
+        "高亢",
+        "推动"
+      ],
+      "translated_at": "2026-03-25T14:53:09.921816"
+    }
+  }
+]

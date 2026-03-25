@@ -1,0 +1,315 @@
+[
+  {
+    "id": "mp_2579feed4e20",
+    "prompt_text": "climax, saxophone, snyth, keyboards, Camelot 11B, A Major, high energy, female vocalist, house disco, disco house, female vocalist, Jazztronica, upbeat, romantic, passionate, longing, energetic, warm, breakbeat, maracas, bass, keyboard, club/dance, piano, trumpets, drums, spooky, dark cabaret, psychedelic, Japanese Jazztronica, nu jazz, broken beats,",
+    "prompt_zh": "高潮, 萨克斯风, 合成器, 键盘, Camelot 11B, A Major, 高能量, 女声主唱, 房屋迪斯科 (House Disco), 迪斯科房屋 (Disco House), 女声主唱, 爵士电子 (Jazztronica), 欢快, 浪漫, 热情, 思念, 充满活力, 温暖, 断奏, 沙球, 低音, 键盘, 俱乐部/舞蹈 (Club/Dance), 钢琴, 小号, 鼓, 神秘, 黑暗歌舞厅 (Dark Cabaret), 迷幻, 日本爵士电子 (Japanese Jazztronica), 新爵士 (Nu Jazz), 破碎节拍 (Broken Beats)",
+    "platform": "udio",
+    "genre": [
+      "jazz",
+      "house"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "piano",
+      "drums",
+      "bass",
+      "keyboard",
+      "saxophone"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/67b2b2ea-eeb8-48f9-b491-e150e9eee43a",
+    "title": "Confessions",
+    "translation_meta": {
+      "title_zh": "音乐提示词翻译",
+      "genre_tags_zh": [
+        "房屋迪斯科 (House Disco)",
+        "迪斯科房屋 (Disco House)",
+        "爵士电子 (Jazztronica)",
+        "俱乐部/舞蹈 (Club/Dance)",
+        "黑暗歌舞厅 (Dark Cabaret)",
+        "日本爵士电子 (Japanese Jazztronica)",
+        "新爵士 (Nu Jazz)"
+      ],
+      "mood_keywords_zh": [
+        "高潮",
+        "高能量",
+        "女声主唱",
+        "欢快",
+        "浪漫",
+        "热情",
+        "思念",
+        "充满活力",
+        "温暖",
+        "断奏",
+        "神秘",
+        "迷幻"
+      ],
+      "translated_at": "2026-03-25T14:26:33.099076"
+    }
+  },
+  {
+    "id": "mp_75e5244c6589",
+    "prompt_text": "a funky groove, jazz, contemporary jazz, soul,soul jazz, jazz-funk, tenor saxophone, drums (drum set), soul/smooth jazz, guitar, r&b, piano, bass, double bass, jazz vocals, ",
+    "prompt_zh": "一段充满律动感的 funky groove，风格为爵士 (jazz)、当代爵士 (contemporary jazz)、灵魂乐 (soul)、灵魂爵士 (soul jazz)、爵士放克 (jazz-funk)。主要乐器包括次中音萨克斯风 (tenor saxophone)、鼓组 (drums)、吉他 (guitar)、R&B (r&b)、钢琴 (piano)、贝斯 (bass)、低音提琴 (double bass) 和爵士人声 (jazz vocals)。",
+    "platform": "udio",
+    "genre": [
+      "jazz",
+      "r&b",
+      "soul"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "piano",
+      "drums",
+      "bass",
+      "saxophone"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [],
+    "source": "mister-magpie/ad93672f-eaba-43c8-be32-7489632235f2",
+    "title": "Heartbeat of the City ",
+    "translation_meta": {
+      "title_zh": " funky groove",
+      "genre_tags_zh": [
+        "爵士 (jazz)",
+        "当代爵士 (contemporary jazz)",
+        "灵魂乐 (soul)",
+        "灵魂爵士 (soul jazz)",
+        "爵士放克 (jazz-funk)",
+        "灵魂爵士 (soul/smooth jazz)",
+        "R&B (r&b)"
+      ],
+      "mood_keywords_zh": [
+        "充满律动感",
+        "funky"
+      ],
+      "translated_at": "2026-03-25T14:33:58.846885"
+    }
+  },
+  {
+    "id": "mp_b4ef463ac87d",
+    "prompt_text": "r&b, female vocalists, bass house, flute, trumpet jazz, keyboard, ",
+    "prompt_zh": "节奏布鲁斯 (R&B)，女声主唱，贝斯浩室 (Bass House)，长笛，小号爵士 (Trumpet Jazz)，键盘",
+    "platform": "udio",
+    "genre": [
+      "jazz",
+      "r&b",
+      "house"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "keyboard",
+      "flute",
+      "trumpet"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [],
+    "source": "mister-magpie/679156f3-1af8-4abd-b55e-590ea266df97",
+    "title": "With You Boy",
+    "translation_meta": {
+      "title_zh": "音乐提示词翻译",
+      "genre_tags_zh": [
+        "节奏布鲁斯 (R&B)",
+        "贝斯浩室 (Bass House)",
+        "小号爵士 (Trumpet Jazz)"
+      ],
+      "mood_keywords_zh": [
+        "女声主唱",
+        "长笛",
+        "键盘"
+      ],
+      "translated_at": "2026-03-25T14:39:58.283229"
+    }
+  },
+  {
+    "id": "mp_df8d2bcd49d0",
+    "prompt_text": "live in a jazz bar, voice over, female singer intro, concert, fusion jazz, nu jazz, blues, jazz, female vocal, double bass, smokey bar, acoustic, piano, live concert, listeners enjoying live music, Applause, clapping, Whistles, Exclamations",
+    "prompt_zh": "现场在爵士酒吧，旁白，女歌手介绍，音乐会，融合爵士 (Fusion Jazz)，新爵士 (Nu Jazz)，蓝调 (Blues)，爵士 (Jazz)，女声 (Female Vocal)，低音提琴 (Double Bass)，烟雾缭绕的酒吧，原声 (Acoustic)，钢琴 (Piano)，现场音乐会，听众享受现场音乐，掌声 (Applause)，拍手 (Clapping)，口哨声 (Whistles)，欢呼声 (Exclamations)",
+    "platform": "udio",
+    "genre": [
+      "jazz",
+      "blues"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "piano",
+      "bass"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [],
+    "source": "mister-magpie/9ede50f0-35ee-48d6-869a-08c60108d324",
+    "title": "Dreams of Summer Grass (Matsuo Basho live)",
+    "translation_meta": {
+      "title_zh": "爵士酒吧现场",
+      "genre_tags_zh": [
+        "融合爵士 (Fusion Jazz)",
+        "新爵士 (Nu Jazz)",
+        "蓝调 (Blues)",
+        "爵士 (Jazz)"
+      ],
+      "mood_keywords_zh": [
+        "烟雾缭绕的酒吧",
+        "原声",
+        "掌声",
+        "拍手",
+        "口哨声",
+        "欢呼声"
+      ],
+      "translated_at": "2026-03-25T14:41:36.092773"
+    }
+  },
+  {
+    "id": "mp_d1fe34e2914e",
+    "prompt_text": "emo, jazz, deep, funk, bass, emotional,electric music , dreamy, psychedelic, soul , synth , country guitar , memory , shake, deep man voice",
+    "prompt_zh": "情感 (emo), 爵士 (jazz), 深沉 (deep), 放克 (funk), 低音贝斯 (bass), 情感化 (emotional), 电子音乐 (electric music), 梦幻 (dreamy), 迷幻 (psychedelic), 灵魂乐 (soul), 合成器 (synth), 乡村吉他 (country guitar), 记忆 (memory), 摇摆 (shake), 深沉男声 (deep man voice)",
+    "platform": "suno",
+    "genre": [
+      "jazz",
+      "country",
+      "soul"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [
+      "sleep"
+    ],
+    "source": "mister-magpie/e89f200b-cb0a-4e45-bdea-345dd16a005f",
+    "title": "Electric Memory Groove",
+    "translation_meta": {
+      "title_zh": "情感爵士与深沉放克",
+      "genre_tags_zh": [
+        "情感 (emo)",
+        "爵士 (jazz)",
+        "放克 (funk)",
+        "灵魂乐 (soul)"
+      ],
+      "mood_keywords_zh": [
+        "深沉",
+        "情感化",
+        "梦幻",
+        "迷幻",
+        "摇摆"
+      ],
+      "translated_at": "2026-03-25T14:48:01.451999"
+    }
+  },
+  {
+    "id": "mp_d59d08892102",
+    "prompt_text": "Key: G Major 7...melodic...acoustic jazz bass+piano+ French Horns+Jazzy strings+male and female singing duo",
+    "prompt_zh": "Key: G Major 7...旋律...Acoustic Jazz Bass + Piano + French Horns + Jazzy Strings + 男女二重唱",
+    "platform": "udio",
+    "genre": [
+      "jazz"
+    ],
+    "bpm": null,
+    "key": "g major",
+    "instruments": [
+      "piano",
+      "bass"
+    ],
+    "quality_score": 7.0,
+    "use_cases": [],
+    "source": "mister-magpie/b31f53ce-a6b3-4db2-a06d-aec0f38c8408",
+    "title": "Thrills of the Afternoon ext v1.1.1.1",
+    "translation_meta": {
+      "title_zh": "G大调7和弦旋律",
+      "genre_tags_zh": [
+        "爵士 (Jazz)"
+      ],
+      "mood_keywords_zh": [
+        "旋律优美",
+        "轻松愉快"
+      ],
+      "translated_at": "2026-03-25T14:49:49.847648"
+    }
+  },
+  {
+    "id": "mp_57e4b89da6f3",
+    "prompt_text": "soft and cool female vocalist with deep reverb, passionate, Harmony-rich chorus, contemporary gospel, rhythm & blues, jazz blues, timpani, double bass, finger snaps, chic, sophisticated, mature, refined,",
+    "prompt_zh": "柔和而酷炫的女声歌手，带有深混响，充满激情，和声丰富的[副歌]，当代福音音乐 (contemporary gospel)，节奏布鲁斯 (rhythm & blues)，爵士布鲁斯 (jazz blues)，定音鼓 (timpani)，低音提琴 (double bass)，手指打响，时尚，高雅，成熟，精致",
+    "platform": "udio",
+    "genre": [
+      "jazz",
+      "blues"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 7.0,
+    "use_cases": [],
+    "source": "mister-magpie/85ead33d-034d-40a7-9d10-836c7c14f46a",
+    "title": "This Magic",
+    "translation_meta": {
+      "title_zh": "柔和而酷炫的女声歌手",
+      "genre_tags_zh": [
+        "当代福音音乐 (contemporary gospel)",
+        "节奏布鲁斯 (rhythm & blues)",
+        "爵士布鲁斯 (jazz blues)"
+      ],
+      "mood_keywords_zh": [
+        "柔和",
+        "酷炫",
+        "充满激情",
+        "和声丰富",
+        "时尚",
+        "高雅",
+        "成熟",
+        "精致"
+      ],
+      "translated_at": "2026-03-25T14:51:16.837456"
+    }
+  },
+  {
+    "id": "mp_5b5afd1a374e",
+    "prompt_text": "83 bpm, cinematic Japanese violin elements, 808s, side chain bass, orchestral,  downtempo, female vocalist, smooth jazz drums,",
+    "prompt_zh": "83 bpm, cinematic Japanese violin elements, 808s, side chain bass, orchestral, 下节奏, 女声主唱, smooth jazz drums",
+    "platform": "udio",
+    "genre": [
+      "jazz"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "violin",
+      "drums",
+      "bass"
+    ],
+    "quality_score": 7.0,
+    "use_cases": [
+      "cinematic"
+    ],
+    "source": "mister-magpie/18ac4065-3b5d-454d-b118-aebff608400d",
+    "title": "We Were Young",
+    "translation_meta": {
+      "title_zh": "83 BPM 日本电影风格小提琴元素",
+      "genre_tags_zh": [
+        "电影音乐 (Cinematic)",
+        "下节奏 (Downtempo)",
+        "爵士乐 (Smooth Jazz)"
+      ],
+      "mood_keywords_zh": [
+        "电影风格",
+        "平滑",
+        "优雅"
+      ],
+      "translated_at": "2026-03-25T14:51:50.984491"
+    }
+  }
+]

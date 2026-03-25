@@ -1,0 +1,417 @@
+- 1,247 prompts across 8 genres
+- Album art: <main subject or vibe, whatever the centerpiece or main focus is>, <background or context, such as scene construction>, <visual styles and techniques such as "B&W photography" or "psychedelic art">, <colors and moods, such as palette and emotions to convey>, text reads "STARGAZER" at the top - Album art: <main subject or vibe, whatever the centerpiece or main focus is>, <background or context, such as scene construction>, <visual styles and techniques such as "B&W photography" or "psychedelic art">, <colors and moods, such as palette and emotions to convey>, text reads "STARGAZER" at the top - Album art: <main subject or vibe, whatever the centerpiece or main focus is>, <background or context, such as scene construction>, <visual styles and techniques such as "B&W photography" or "psychedelic art">, <colors and moods, such as palette and emotions to convey>, text reads "STARGAZER" at the top - Album art: <main subject or vibe, whatever the centerpiece or main focus is>, <background or context, such as scene construction>, <visual styles and techniques such as "B&W photography" or "psychedelic art">, <colors and moods, such as palette and emotions to convey>, text reads "STARGAZER" at the top
+- BPM: 120-140 (fits platform tempo)
+- BPM: 130-150 (workout-friendly)
+- BPM: 60-90 (reflective tempo)
+- BPM: 80-100 (calm tempo)
+- Be specific with instrumentation - Instead of "guitar", say "crunchy distorted guitar" or "clean fingerpicked acoustic"
+- Elipsis... - Exclamation! - Vocalizaaaaaaaaaations - (Parenthesis)
+- Elipsis... this tends to make the system approach it more slowly, particularly if it's used... multiple times... in the line... - Exclamation! this doensn't often have a huge impact but it can tell the system to emphasize a line - Oooooohhh whoaaa ahhhh! vocalizations generally work extremely well to amp up a chorus (the system will not render non-word vocalizations without explicitly being told) - mmmmmmmmmmm oh... gentler vocalizations will have a similar dampening effect - (parenthesis lyrics) this does really well, and seems to do really good at making it do call-and-response or antiphonal
+- Forget to specify Suno version (V4.5 vs V5 have different strengths)
+- Genre(s) - one or more genres in sequence - Emotions - one or more "vibes" to go with - Instruments - violins, handpans, orchestras, etc (particularly if it's either not obvious or guaranteed from the genre) - Vocal styles - opera, growling, etc
+- Ignore genre conventions (every genre has expected elements)
+- Include BPM and Key - Helps Suno understand tempo and melodic framework
+- Instrumental-focused
+- Mention mixing approach - Radio-ready, lo-fi, live recording, analog warmth, etc.
+- Mix contradictory styles (e.g., "lo-fi + stadium production")
+- Piano or acoustic-driven
+- Specify vocal style - Raspy, smooth, breathy, powerful, melismatic, etc.
+- Stay under 950 characters - Suno truncates longer prompts
+- The amazing Suno AI community sharing their discoveries
+- Use arrow notation for evolution - "soft verse → explosive chorus"
+- Use production terminology - Reverb, saturation, compression, sidechain, etc.
+- Use vague terms like "good song" or "nice beat"
+- [Angry Verse] - [Mysterious Verse] - [Whispered Verse] - [Spoken Verse] - [Opera Verse]
+- [Begin Psychedelic Movement] - [Transition to Faster Harder Movement] - [Long Orchestral Movement]
+- [EDM/Electronic Prompts]( -edmelectronic-prompts) (130+ examples)
+- [Genre Collections]( -genre-collections)
+- [Genre Production Guide](https://www.songaifarm.com/blog/genre-production) - Genre-specific tips
+- [Haunting Whispered Pre-Chorus] - [Staticky Spoken Pre-Chorus] - [Primal Scream Pre-Chorus] - [Opera Female Pre-Chorus]
+- [Instrumental Bridge] - this seems to have the most impact or be most useful
+- [Intro] - [Hook] - [Pre-Chorus] - [Chorus] - [Verse] - [Interlude] - [Break] - [Movement] - [Instrumental] - [Solo] - [Build] - [Bridge] - [Outro] - [End] - [<vocals>] (clarification later) - [<specific instrument>] (clarification later)
+- [Jazz/Blues Prompts]( -jazzblues-prompts) (60+ examples)
+- [Long Fading Outro] - [Urgent Loud Outro] - [Mournful Outro]
+- [Long Mellow Intro] - [Short Exciting Intro] - [Dreamy Slow Intro]
+- [Melodic Interlude] this one is pretty reliable, so similar modifiers should work. - [Long Melancholy Interlude] this works about half the time - [Short Accelerating Interlude] the system tends to prefer short instrumentals anyways
+- [Pop Prompts]( -pop-prompts) (200+ examples)
+- [R&B/Soul Prompts]( -rbsoul-prompts) (80+ examples)
+- [Rock Prompts]( -rock-prompts) (150+ examples)
+- [Soaring Lead Guitar Solo] - [Fast and Intense Drum Solo] - [Dancing Fiddle Solo] - [Playful Flute Solo] - [Finger Style Guitar Solo]
+- [Suno AI Masterclass](https://www.songaifarm.com/blog/suno-masterclass) - Complete guide to Suno prompts
+- [Suno AI](https://suno.com) - Text-to-music platform (where these prompts work)
+- [Suno Discord](https://discord.gg/suno) - Official Suno server
+- [Udio](https://udio.com) - Alternative AI music generator
+- [Violin Break] - [Drum Break] - [Scream Break] - [Lead Guitar Break] - [Bass Guitar Break]
+- [Whispered Chorus] - [Eerie Chorus] - [Ensemble Chorus] - [Slow Chorus]
+- [r/SunoAI](https://reddit.com/r/SunoAI) - Reddit community (45k+ members)
+- album art, psychedelic, a beautiful feminine figure dances in the silver moonlight, temple archway, night sky, dark mountains in the distance, flowing dress and feathers, dark and light, mystical, blues and silver and black, text reads "STARGAZER" at the top
+- album art: psychedelic desert scene, super trippy, cactus and iguana and hot sun, vivid colors - album art: statuesque feminine figure emerging from cosmic darkness, her classical features barely visible beneath translucent hood, wings of pure void extending gracefully outward consuming light, her flowing dress moving like living nebula, stars visible through her ethereal form creating sense of infinite depth, text "NYX" written where starlight meets shadow - album art, psychedelic, bronze giant, talos on crete, minoan, text reads "STARGAZER" at the top - album art, psychedelic, sexy woman in the desert at night, cactus, dance party in the desert, attractive woman, booze, text reads "STARGAZER" at the top, purple blue green black, yellow and orange accents - album art, spaceship, psychedelic, spaceship over an alien planet, starship is damaged and leaking fumes, ship in distress, "STARGAZER" at the top - album art: ethereal night sky scene, deep purple and blue cosmos, massive spiral galaxy center frame surrounded by shimmering stars, small silhouetted figure on mountainous ridge in foreground, telescope beside them pointing upward, subtle lens flare effects from distant stars, cosmic dust and nebulae wisping across background, minimalist text "STARGAZER" in thin glowing font at bottom
+- space rock, psychedelic rock, desert rock, stoner rock, shoegaze
+- space rock, stoner rock, slow build, epic crescendos, psychedelic riffing, soaring solos, pensive interludes, shoegaze
+- stoner space rock shoegaze slow build epic crescendos psychedelic riffing soaring solos pensive interludes long intro
+- witchpop, electro swing, eerie - witchpop, house, hypnotic, dreamy, eerie - Acoustic, Desert, Nubidian, Acoustic nu-metal, - Hurdy-gurdy, dark, scary, otherwordly
+- witchpop, witchrock, folk, violin, acoustic, eerie, mysterious, clean vocals, classically trained - neofolk, celtic, dance, celebratory, orchestral - Electronic, sweet female voice, eerie, swing, dreamy, melodic, electro, sad, emotional - Folkmetal, Folk, Metal, Hurdy-Gurdy, Hand-Organ, Gaelic Woman, Female, Beautiful, Top 40, English Lyrics - New Age, Celtic, Slow, Celtic Harp, Piano, Flute, ethereal female vocals, atmospheric - Medieval Folk, Neofolk, Pagan Folk, German Folk, European folk, neoclassical music, ethereal music, darkwave, Folk Dance (sounds a lot like Faun or Celtic Woman)
+- ✅ Test on Suno AI V4.5 or V5
+- 🐛 [Report Issues](https://github.com/naqashmunir21/awesome-suno-prompts/issues)
+- 💡 [Request Prompts](https://github.com/naqashmunir21/awesome-suno-prompts/issues/new?template=prompt-request.md)
+- 💬 [Join Discussions](https://github.com/naqashmunir21/awesome-suno-prompts/discussions)
+1. Always start with "album art" so the system has the context of what you're doing 2. Then you focus on main styles or genres, again, providing context first 3. Next, you focus on the main subject and scene construction 4. Finally, you can add in all kinds of details, such as colors, emotive modifiers, descriptions and even text (keep in mind that the less text the better, typically does best with one or two words)
+1. Choose Your Genre
+1. The Rhythmic Anchor You have to set the speed first. Without a BPM tag, the AI might start slow and speed up randomly. I always start with something like [120 BPM] or [85 BPM].
+12-bar blues progression, slide guitar wails, harmonica,
+12-bar blues progression, slide guitar wails, harmonica, raw authentic vocals, vintage blues feel, analog warmth, emotional guitar bends, walking bass, genuine blues soul, BPM: 80, Key: E Blues Scale
+2. Add your prompt to the appropriate genre file in [ prompts/ ](prompts/)
+2. The Harmonic Foundation Setting a key is a game changer. If you want a dark, cinematic feel, use [D Minor]. If you want something bright and happy for a YouTube intro, go with [G Major]. This one small step prevents the AI from picking a key that sounds "off."
+3. Generate with Suno
+3. Texture and Space This is where you tell the AI where the music is happening. Do you want it to sound like it was recorded in a bedroom or a stadium? Use tags like [Dry Vocals] or [Large Hall Reverb].
+4. Submit a Pull Request
+4. The Genre Description Only after those three steps do I add the actual style, like "Lo-fi hip hop" or "Synthwave."
+70% Country storytelling + 20% Hip-Hop 808s + 10% Rock guitar riffs =
+70% Country storytelling + 20% Hip-Hop 808s + 10% Rock guitar riffs = Modern country-rap fusion with edge
+> "Prompts from [Awesome Suno Prompts](https://github.com/naqashmunir21/awesome-suno-prompts)"
+> A community-curated collection of 1000+ professional Suno AI style prompts that actually work. Create chart-quality songs without being a prompt engineer.
+> Download the 3500+ Suno AI Prompts List PDF Bundle here:
+AI models like Suno v5 and v6 are actually very technical. They don't just "feel" your prompt; they process it based on a library of acoustic markers. When you give it too much freedom, it defaults to the safest, most boring sounds. This is why understanding the mechanics of a prompt is more important than the genre itself.
+Abstract: >Online AI platforms for creating music from text prompts (AI music), such as Suno and Udio, are now being used by hundreds of thousands of users. Some AI music is appearing in advertising, and even charting, in multiple countries. How are these platforms being used? What subjects are inspiring their users? This article answers these questions for Suno and Udio using a large collection of songs generated by users of these platforms from May to October 2024. Using a combination of state-of-the-art text embedding models, dimensionality reduction and clustering methods, we analyze the prompts, tags and lyrics, and automatically annotate and display the processed data in interactive plots. Our results reveal prominent themes in lyrics, language preference, prompting strategies, as well as peculiar attempts at steering models through the use of metatags. To promote the musicological study of the developing cultural practice of AI-generated music we share our code and resources.
+Acoustic, Desert, Nubidian, Acoustic nu-metal,
+Alternative Rock Edge
+Angular guitar riffs, post-punk energy, driving bass lines,
+Angular guitar riffs, post-punk energy, driving bass lines, unconventional song structure, artistic experimentation, raw emotional delivery, indie rock attitude, gritty production, BPM: 130, Key: B Minor
+At the time of writing we do not plan to share the original collected data, nor the post-processed version, with the sole exception of the plots. However, we provide the list of URLs for the songs we collected from Suno and Udio respectively in the files named suno urls and udio urls .
+Attribution appreciated but not required:
+Awesome Suno Prompts
+BPM: 105, Key: E♭ Major
+BPM: 110, Key: G Major
+BPM: 115, Key: A Minor
+BPM: 124, Key: A Minor
+BPM: 128, Key: C Major
+BPM: 128, Key: C Minor
+BPM: 130, Key: B Minor
+BPM: 140, Key: E Minor
+BPM: 70, Key: D♭ Major
+BPM: 72, Key: G Major
+BPM: 75, Key: F Minor
+BPM: 80, Key: E Blues Scale
+BPM: 85, Key: A Major
+BPM: 88, Key: E♭ Major
+BPM: 92, Key: B♭ Major
+BPM: 95, Key: D Minor
+BPM: 95, Key: F Major
+Billie Eilish whisper vocals + The Weeknd dark production +
+Billie Eilish whisper vocals + The Weeknd dark production + unexpected saxophone solo + trip-hop beats
+Break is strictly instrumental often defaults to one measure or phrase, and can be used quite frequently. Almost no modifiers work here, and it has the most impact on the song when wedged between verses and choruses. What does tend to work is specifying the instrument to lead during the break:
+Browse the [genre collections]( -genre-collections) below or dive into detailed prompt files in the [ prompts/ ](prompts/) directory.
+But there was a catch Even with this formula, I realized I was still spending too much time typing out the same tags over and over. I also didn't know every technical term for every genre. I'm not a professional music producer, so I had to learn what "Staccato" or "Syncopation" meant by trial and error.
+Cinematic Soundscapes: These are highly sought after by indie filmmakers and game developers.
+Classic boom bap drums, vinyl crackle, jazzy piano samples,
+Classic boom bap drums, vinyl crackle, jazzy piano samples, laid-back smooth flow, storytelling rap, 90s hip-hop nostalgia, warm analog sound, deep bass, conscious lyrics vibe, BPM: 88, Key: E♭ Major
+Combine 2-3 genres with clear ratio:
+Data-Driven Analysis of Text-Conditioned AI-Generated Music: A Case Study with Suno and Udio
+Don't get too creative with the modifier tags. For instance, genre-specific modifiers don't really seem to work like [Psychedelic Interlude] even though it makes sense to us, the system doesn't seem to recognize it. However, there is another option we have to modify all instrumental sections, and that is periods and exclamations to try and shape the pacing.
+EDM/Electronic Prompts
+Each prompt is ready to use. Modify BPM, key, or instrumentation to fit your vision.
+Electronic, sweet female voice, eerie, swing, dreamy, melodic, electro, sad, emotional
+Emotional Pop Ballad
+Emotional chord progressions, atmospheric builds, lush pads,
+Emotional chord progressions, atmospheric builds, lush pads, melodic piano melodies, progressive house evolution, uplifting energy, clean modern production, vocal chops, BPM: 124, Key: A Minor
+Fast and Intense Drum Solo
+Final Words AI music generation is one of the coolest skills you can learn right now. It is opening doors for people who never thought they could compose music. Don't get discouraged if your first few tracks sound weird. Just keep refining your "Technical Stack" and stay consistent.
+Finger Style Guitar Solo
+Folkmetal, Folk, Metal, Hurdy-Gurdy, Hand-Organ, Gaelic Woman, Female, Beautiful, Top 40, English Lyrics
+For Emotional Storytelling
+Found a broken prompt or have suggestions? [Open an issue](https://github.com/yourusername/awesome-suno-prompts/issues/new/choose)
+Fuzzy distorted guitars, 90s grunge aesthetic, raw anguished vocals,
+Fuzzy distorted guitars, 90s grunge aesthetic, raw anguished vocals, dynamic quiet-loud structure, analog tape grit, genuine angst, stripped-down verse, explosive chorus, feedback and noise, BPM: 95, Key: D Minor
+Generally not necessary unless you modify it, more or less treated like an intro. Can be used to transition from intro to main part of song, particularly if the intro is different.
+Generally speaking, the style of the music (not specified in this document) will dictate the voice, which is generated automatically, however, in songs where the vocals change significantly the song will honor it.
+Genre Fusion Formula
+Genre Fusion Formula Combine 2-3 genres with clear ratio:
+Genre Production Guide
+Hammond organ, dynamic vocal performance, authentic soul feel,
+Hard-hitting 808s, menacing trap beat, rapid hi-hat rolls,
+Hard-hitting 808s, menacing trap beat, rapid hi-hat rolls, atmospheric pads, dark melodic undertones, confident rap flow, ad-libs throughout, hard bass drop, modern rap production, BPM: 75, Key: F Minor
+Hard-hitting trap beat, menacing 808s, rapid hi-hat rolls,
+Hard-hitting trap beat, menacing 808s, rapid hi-hat rolls, dark atmospheric pads, confident rap flow, modern production, BPM: 75, Key: F Minor
+Haunting Whispered Pre-Chorus
+However, the system tends to work better with commas separating the distinct genres and modifiers:
+However, the system tends to work better with commas separating the distinct genres and modifiers: -
+Hurdy-gurdy, dark, scary, otherwordly
+I found that certain tags behave differently in Suno v6 compared to v5. For example, v6 is much more sensitive to [Analog Warmth] tags. If you use that tag correctly, you can almost entirely remove that "robotic" sound that usually gives away AI music.
+Infectious pop anthem, female powerhouse vocals, pulsing 808 bass,
+Infectious pop anthem, female powerhouse vocals, pulsing 808 bass, synth-wave layers, euphoric build-ups, radio-ready polish, modern production, vocal harmonies on chorus, BPM: 128, Key: C Major
+Infectious synth-pop, female powerhouse vocals with layered harmonies,
+Infectious synth-pop, female powerhouse vocals with layered harmonies, pulsing 808 bass, euphoric build-ups, modern radio production, BPM: 128, Key: C Major
+It includes everything from genre-specific formulas to a deep dive into the hidden tags that the Suno developers don't really talk about. > 🚀 Get Suno AI Prompts Book PDF
+Jangly indie-pop, warm lo-fi aesthetic, vintage synths, organic drums,
+Jangly indie-pop, warm lo-fi aesthetic, vintage synths, organic drums, bedroom recording charm, catchy but not over-produced, tape saturation warmth, imperfect and authentic, BPM: 115, Key: A Minor
+Lo-Fi Study Beats: These are perfect for faceless YouTube channels. They need to be consistent and non-distracting.
+Lo-fi bedroom aesthetic with stadium reverb and arena production
+Lo-fi bedroom pop, tape saturation, intimate vocals, organic drums,
+Lo-fi bedroom pop, tape saturation, intimate vocals, organic drums, vintage synth pads, DIY charm, authentic and unpolished
+Lo-fi bedroom production, dreamy vocals, jangly guitars,
+Lo-fi bedroom production, dreamy vocals, jangly guitars, vintage synths, tape saturation, DIY charm, imperfect and intimate, nostalgic atmosphere, organic percussion, authentic and raw, BPM: 105, Key: E♭ Major
+Long Instrumental Intro
+Long Orchestral Movement
+Lyric construction also has a huge impact on how the chorus is sung, and is often more important once the construction has been set up correctly. The system seems to ignore capitalization, but the vibe of the lyrics has an impact. Punctuation seems to have a larger impact
+Make a pop song with good vocals and catchy melody
+Massive power chords, arena rock production, anthemic chorus,
+Massive power chords, arena rock production, anthemic chorus, driving rhythm section, guitar solo at 2:15, crowd-ready hooks, distorted guitars, thunderous drums, raw powerful vocals, BPM: 140, Key: E Minor
+Massive synth drops, festival-ready energy, pulsing sub-bass,
+Massive synth drops, festival-ready energy, pulsing sub-bass, euphoric builds, sidechain compression, crowd-hyping elements, laser synths, punchy kicks, anthem-level production, BPM: 128, Key: C Minor
+Medieval Folk, Neofolk, Pagan Folk, German Folk, European folk, neoclassical music, ethereal music, darkwave, Folk Dance
+Melodic Progressive House
+My go-to genres for monetization If you are doing this as a side hustle, you probably want to know which genres actually sell or get views. In my experience, these are the top three:
+New Age, Celtic, Slow, Celtic Harp, Piano, Flute, ethereal female vocals, atmospheric
+Opera Female Pre-Chorus
+Paste the prompt into Suno AI (V4.5 or V5) and let the magic happen!
+Piano-driven ballad, raw emotional vocals, subtle string arrangements,
+Piano-driven ballad, raw emotional vocals, subtle string arrangements, builds from intimate verse to soaring chorus, modern radio production, reverb on vocals, stripped-down bridge, powerful final chorus, BPM: 72, Key: G Major
+Pick your BPM and Key: Don't skip this. Choose a speed and a scale before you think about the genre.
+Primal Scream Pre-Chorus
+Raw acoustic guitar, whiskey-soaked vocals, harmonica, honest storytelling,
+Raw acoustic guitar, whiskey-soaked vocals, harmonica, honest storytelling, outlaw country grit, minimal production, authentic emotion, walking bass line, vintage country sound, real and unpolished, BPM: 85, Key: A Major
+Recommended: [Jazz Lounge](prompts/jazz-blues.md smooth-jazz), [Indie Dreamy](prompts/indie.md bedroom-pop)
+Recommended: [Pop Ballad](prompts/pop.md emotional-ballad), [Country Narrative](prompts/country.md storytelling-ballad)
+Recommended: [Pop Upbeat](prompts/pop.md upbeat-dance-pop), [EDM Festival](prompts/edm.md festival-banger)
+Recommended: [Rock Anthem](prompts/rock.md stadium-anthem), [Trap Banger](prompts/hip-hop.md modern-trap)
+Short Exciting Intro
+Shows Suno the song's dynamic evolution:
+Simple Example This is a pretty minimalist example which worked really well. The system will fill in a lot of gaps, so you can see you really don't need much. Less is often more, particularly if the STYLE is well defined. \
+Simply creating a list of genres tends to work extremely well, almost like a taxonomy. In this case, space rock provides the most influence, which each subsequent modifier having less and less influence.
+Simply creating a list of genres tends to work extremely well, almost like a taxonomy. In this case, space rock provides the most influence, which each subsequent modifier having less and less influence. -
+Smooth soulful vocals, trap-influenced R&B, sultry vibe,
+Smooth soulful vocals, trap-influenced R&B, sultry vibe, laid-back 808 bass, syncopated hi-hats, intimate production, lo-fi texture, bedroom R&B aesthetic, melismatic runs, BPM: 70, Key: D♭ Major
+So in general the things that work best when constructing styles are:
+Soaring Lead Guitar Solo
+Soft piano intro → gentle drums at 0:30 →
+Soft piano intro → gentle drums at 0:30 → builds with strings → explosive guitar-driven chorus at 1:00 → stripped-down acoustic bridge → massive final chorus with full orchestration
+Sometimes less is more and sometimes you have a very specific concept you want to portray. Mix it up
+Sophisticated jazz vibes, brushed drums, upright bass,
+Sophisticated jazz vibes, brushed drums, upright bass, smooth saxophone, piano comping, intimate club atmosphere, late-night sophistication, improvised feel, mellow and refined, BPM: 92, Key: B♭ Major
+Staticky Spoken Pre-Chorus
+Styles Styles are limited to 120 characters total and should not be included in the song, this is crafted separately The system accepts a separate STYLE tag that is a simple comma separate list of genres and modifiers. Interestingly, commas are not necessary and you can get some really interesting hybrid styles without them. Here's one of my most successful examples: -
+Styles are limited to 120 characters total and should not be included in the song, this is crafted separately
+Suno AI Prompts Book PDF: 2026 Pro Guide Mastering Suno AI music generation has moved beyond simple genre descriptions. I remember sitting at my desk last month, staring at my dashboard and realizing I had no idea how to write effective Suno AI music prompts. I had spent nearly 500 credits in a single hour, but every track sounded like a generic elevator song or had that weird, metallic vocal buzz. It was frustrating because I knew the tool was capable of more. I had heard what other creators were producing, so I knew the problem wasn't the AI. The problem was my approach to prompting.
+Suno Version: V4.5 or V5
+Suno Version: [V4.5, V5, or Both]
+Suno uses Chirp to generate songs, which is a generative model. We must create documents that prompt the model correctly. To do this, we use specific tags to break the songs up into sections that the model understands.
+Taking it to the next level If you really want to dive deep and save yourself the weeks of frustration I went through, I have put all my research into a single place. I created a massive PDF bundle that includes my full database of 3,500+ prompts and style tags. It is essentially the "cheat sheet" I wish I had when I started.
+Test the Intro: Don't listen to the whole song. Listen to the first ten seconds. If the "energy" is right, keep going. If not, tweak the Rhythmic Anchor and try again.
+The intro tag should generally only be used at the beginning and is strictly instrumental. It can be modified with several adjectives. For instance:
+The system accepts a separate STYLE tag that is a simple comma separate list of genres and modifiers. Interestingly, commas are not necessary and you can get some really interesting hybrid styles without them. Here's one of my most successful examples:
+The system doesn't seem to know what to do with bridges. It often just treats them like a verse or a chorus, sometimes a refrain. Use them sparingly, at most once per song.
+These concrete modifiers are most likely to be honored. The same lyrical modifiers from the chorus also apply
+These modifiers, while not strictly required, can confer very specific feels. As with intro, emotive, intensity, and pacing adjectives tend to work well, with the added option of singing styles, gender, and so on.
+These tags can be used in lieu of verse or chorus tags and there can be a lot of flexibility, as these sorts of tags appear in the training data and significantly modify how the song is delivered.
+This is a pretty minimalist example which worked really well. The system will fill in a lot of gaps, so you can see you really don't need much. Less is often more, particularly if the STYLE is well defined.
+This is a strictly vocal tag that is often used at the beginning of songs to sort of introduce the story or narrative. It may or may not be sung (could be spoken, can be specified). This tag should generally only be used once or before chorus tags.
+This is about what you'd expect for any song construction. Generally speaking, the Chirp system decides how to render the chorus, so modifiers are often NOT honored, for whatever reason. The documentation says that the chosen style and lyrics tend to do more to modify how the chorus is sung. However, very concrete modifiers are most likely to be honored. This tag is one of the prime workhorses.
+This is one of the main workhorses of the instrumental tags. It's pretty much what you'd expect. Many modifiers don't seem to impact this tag, but a few tend to be more reliable.
+This is the repository contains code and plots for the paper: >"Data-Driven Analysis of Text-Conditioned AI-Generated Music: A Case Study with Suno and Udio"
+This repository contains battle-tested Suno AI style prompts organized by genre, mood, and use case. Whether you're creating a viral hit, emotional ballad, or genre-bending experiment, you'll find professional-quality prompts here.
+This tag is often less effective than interlude or solo, and is often treated like a break. Period and exlcamation rhythms seem to have relatively little effect, though it seems to have a decent effect when sandwiched between verse and chorus (e.g. to build to a soaring chorus) but that can be redundant. This should only be used when it really makes sense for the song, and probably only once. In most cases, a break, solo, or interlude should be used, that's how specific this use case is.
+This tag is the other primary workhorse and is used pretty much identically to [Chorus]. It is not strictly necessary to modify it, and in many cases the system will decide how to modify it (consider that in most of it's training data, chorus and verse are left plain). So again, the content of the lyrics tend to do more. The system seems particularly sensitive to where in the song it is, meaning that if the generator feels like it's more likely a crescendo rather than a key change, the system will make that judgment call. However, emotive, intensity, and pace modifiers tend to work.
+This tag seems to work if it's either instrumental or vocal, and can be treated pretty flexibly. It's primary purpose is to tell the system to start preparing for the end of the song and should be used exactly once.
+Twangy steel guitar, modern pop production, catchy hooks,
+Twangy steel guitar, modern pop production, catchy hooks, warm heartfelt vocals, banjo accents, uplifting chorus, radio-friendly country, polished mix, relatable storytelling, BPM: 110, Key: G Major
+Use Brackets: Always put your technical tags inside [Brackets]. It helps the AI distinguish between a style and a command.
+Use Case: Alternative rock, emotional release
+Use Case: Alternative rock, emotional release Suno Version: V4.5 or V5 Energy: High (8/10) [📖 150+ Rock Prompts → ](prompts/rock.md) --- 🎤 Hip-Hop/Rap Prompts Modern Trap Banger
+Use Case: Art rock, experimental indie
+Use Case: Art rock, experimental indie Suno Version: V4.5 or V5 Energy: High (8/10) [📖 90+ Indie Prompts → ](prompts/indie.md) --- 🎷 Jazz/Blues Prompts Smooth Jazz Lounge
+Use Case: Authentic blues, emotional storytelling
+Use Case: Authentic blues, emotional storytelling Suno Version: V4.5 Energy: Medium (5/10) [📖 60+ Jazz/Blues Prompts → ](prompts/jazz-blues.md) --- 💡 Best Practices ✅ DO: - Be specific with instrumentation - Instead of "guitar", say "crunchy distorted guitar" or "clean fingerpicked acoustic" - Include BPM and Key - Helps Suno understand tempo and melodic framework - Use production terminology - Reverb, saturation, compression, sidechain, etc. - Specify vocal style - Raspy, smooth, breathy, powerful, melismatic, etc. - Mention mixing approach - Radio-ready, lo-fi, live recording, analog warmth, etc. - Use arrow notation for evolution - "soft verse → explosive chorus" - Stay under 950 characters - Suno truncates longer prompts ❌ DON'T: - Use vague terms like "good song" or "nice beat" - Mix contradictory styles (e.g., "lo-fi + stadium production") - Forget to specify Suno version (V4.5 vs V5 have different strengths) - Ignore genre conventions (every genre has expected elements) - Overload with too many ideas (focus on 3-5 core elements) Need help optimizing your prompt? [Song AI Farm](https://www.songaifarm.com) automatically applies these best practices and generates production-ready prompts. --- 🚫 Common Mistakes ❌ Problem: Generic Prompt
+Use Case: Authentic country, storytelling Suno Version: V4.5 Energy: Low-Medium (4/10) [📖 100+ Country Prompts → ](prompts/country.md) --- 🎧 EDM/Electronic Prompts Festival Main Stage Banger
+Use Case: Authentic storytelling, chill vibes
+Use Case: Authentic storytelling, chill vibes Suno Version: V5 Energy: Medium-Low (4/10) [📖 200+ Pop Prompts → ](prompts/pop.md) --- 🎸 Rock Prompts Stadium Rock Anthem
+Use Case: Background music, sophisticated vibes Suno Version: V4.5 Energy: Low (2/10) [🎨 Auto-generate similar →](https://www.songaifarm.com?genre=jazz&mood=smooth) --- Chicago Blues Grit
+Use Case: Club tracks, aggressive rap Suno Version: V5 Energy: Very High (9/10) [🎨 Auto-generate similar →](https://www.songaifarm.com?genre=hip-hop&mood=aggressive) --- Chill Boom Bap
+Use Case: Festival sets, club bangers Suno Version: V5 Energy: Extreme (10/10) [🎨 Auto-generate similar →](https://www.songaifarm.com?genre=edm&mood=energetic) --- Melodic Progressive House
+Use Case: Heartbreak songs, emotional storytelling
+Use Case: Heartbreak songs, emotional storytelling Suno Version: V4.5 or V5 Energy: Medium (5/10) --- Indie Pop Vibe
+Use Case: Intimate storytelling, chill vibes
+Use Case: Intimate storytelling, chill vibes Suno Version: V5 Energy: Low (3/10) [🎨 Auto-generate similar →](https://www.songaifarm.com?genre=indie&mood=dreamy) --- Alternative Rock Edge
+Use Case: Late-night vibes, romantic songs Suno Version: V5 Energy: Low-Medium (3/10) [🎨 Auto-generate similar →](https://www.songaifarm.com?genre=r-b&mood=sultry) --- Classic Soul Revival
+Use Case: Melodic sets, emotional journeys
+Use Case: Melodic sets, emotional journeys Suno Version: V5 Energy: High (8/10) [📖 130+ EDM Prompts → ](prompts/edm.md) --- 💕 R&B/Soul Prompts Modern R&B Groove
+Use Case: Pump-up songs, sports anthems Suno Version: V5 Energy: Very High (10/10) [🎨 Auto-generate similar →](https://www.songaifarm.com?genre=rock&mood=energetic) --- Grunge Revival
+Use Case: Radio country, crossover appeal Suno Version: V5 Energy: Medium-High (7/10) [🎨 Auto-generate similar →](https://www.songaifarm.com?genre=country&mood=uplifting) --- Outlaw Country Ballad
+Use Case: Storytelling rap, old-school vibes Suno Version: V4.5 Energy: Medium (5/10) [📖 120+ Hip-Hop Prompts → ](prompts/hip-hop.md) --- 🤠 Country Prompts Modern Country Pop
+Use Case: Summer anthems, party songs, TikTok viral potential Suno Version: V5 Energy: High (9/10) [🎨 Auto-generate similar →](https://www.songaifarm.com?genre=pop&mood=upbeat) --- Emotional Pop Ballad
+Use Case: Throwback soul, powerful vocals
+Use Case: Throwback soul, powerful vocals Suno Version: V4.5 Energy: Medium-High (7/10) [📖 80+ R&B/Soul Prompts → ](prompts/rnb-soul.md) --- 🎼 Indie/Alternative Prompts Bedroom Pop Dreamy
+Use Case: [When to use this] Suno Version: [V4.5, V5, or Both] Energy: [1-10 scale] Notes: [Any special considerations]
+User-agent: Allow: / Sitemap: https://AlijeeWrites.github.io/suno-ai-prompts-book-pdf-2026-guide/sitemap.xml
+Vintage soul production, powerful gospel-influenced vocals,
+Vintage soul production, powerful gospel-influenced vocals, live horn section, warm analog mix, Motown vibes, Hammond organ, dynamic vocal performance, authentic soul feel, BPM: 95, Key: F Major
+Vocal Effects Specification
+Want these techniques applied automatically? [Song AI Farm's AI](https://www.songaifarm.com/blog/advanced-suno-techniques) masters these patterns for you.
+We leave to any interested party to obtain the metadata autonomously. Please notice that since the time of collection, some of the songs have been removed from the platform and as such any subsequent analysis might slightly drift from the paper results. At the time of writing we verified that 4.59% of Udio songs and 1.02% of Suno are lost.
+Why I built my own prompt database I started keeping a spreadsheet of every tag that actually worked. Every time I hit a "Gold" track, I would reverse-engineer the prompt to see why it was so good. Eventually, that spreadsheet grew into a massive database of over 3,000 style tags and formulas.
+Why it fails: Lo-fi and stadium production are opposite approaches
+Why it fails: Lo-fi and stadium production are opposite approaches ✅ Solution: Cohesive Vision
+Why it fails: Suno truncates after 950 characters, loses important details
+Why it fails: Suno truncates after 950 characters, loses important details ✅ Solution: Focused & Concise
+Why it works: Clear genre, specific vocals, production details, technical specs
+Why it works: Clear genre, specific vocals, production details, technical specs --- ❌ Problem: Contradictory Elements
+Why it works: Under 950 chars, focused on core elements [🎓 More examples → ](examples/common-mistakes.md) --- 🔥 Advanced Techniques Progressive Prompts (Arrow Technique) Shows Suno the song's dynamic evolution:
+Why standard prompting fails for music The main reason beginners struggle is that they describe a mood instead of a structure. If you type "sad acoustic song," the AI has to guess the tempo, the key, and the vocal style. Usually, it guesses wrong.
+You can play with this tag some, but generally it just serves as a standalone tag. Some of the same modifiers here can work for the outro tag as well.
+[ verse] hyperdrive ignition flows new stars glowing as we go ancient light guides us here through the void without fear
+[![Discussions](https://img.shields.io/github/discussions/naqashmunir21/awesome-suno-prompts)](https://github.com/naqashmunir21/awesome-suno-prompts/discussions)
+[![Forks](https://img.shields.io/github/forks/naqashmunir21/awesome-suno-prompts?style=social)](https://github.com/naqashmunir21/awesome-suno-prompts/network/members)
+[![GitHub Stars](https://img.shields.io/github/stars/naqashmunir21/awesome-suno-prompts?style=social)](https://github.com/naqashmunir21/awesome-suno-prompts)
+[![Maintained](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/naqashmunir21/awesome-suno-prompts/graphs/commit-activity)
+[![Open Issues](https://img.shields.io/github/issues/naqashmunir21/awesome-suno-prompts)](https://github.com/naqashmunir21/awesome-suno-prompts/issues)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[Bridge] Distorted megaphone effect, raw emotion
+[Bridge] Time drips slow never ends Mind’s eye bends and bends Vultures fly high in the sky Dreams of rain make me cry
+[Chorus] Heavy reverb, doubled vocals, layered harmonies
+[Chorus] Lost in the wasteland void Echoes of time destroy Lost in the desert sand Seeking the promised land
+[Chugging Guitar] chuka-chuka-chuka-chuka \
+[Ensemble Chorus] Lost in the wasteland void Echoes of time destroy Lost in the desert sand Seeking the promised land
+[Foundation] Punchy kick, deep 808 bass
+[Foundation] Punchy kick, deep 808 bass [Rhythm] Syncopated hi-hats, snappy snare [Melody] Lush pad chords, arpeggiated synth lead [Vocals] Layered harmonies, ad-libs, subtle autotune
+[Insert massive paragraph with 50+ descriptors and contradictory ideas]
+[Intense Interlude] !! . ! !! ! !! !! ! !! \
+[Interlude] This is one of the main workhorses of the instrumental tags. It's pretty much what you'd expect. Many modifiers don't seem to impact this tag, but a few tend to be more reliable. - [Melodic Interlude] this one is pretty reliable, so similar modifiers should work. - [Long Melancholy Interlude] this works about half the time - [Short Accelerating Interlude] the system tends to prefer short instrumentals anyways Don't get too creative with the modifier tags. For instance, genre-specific modifiers don't really seem to work like
+[Interlude] This is one of the main workhorses of the instrumental tags. It's pretty much what you'd expect. Many modifiers don't seem to impact this tag, but a few tend to be more reliable. - [Melodic Interlude] this one is pretty reliable, so similar modifiers should work. - [Long Melancholy Interlude] this works about half the time - [Short Accelerating Interlude] the system tends to prefer short instrumentals anyways Don't get too creative with the modifier tags. For instance, genre-specific modifiers don't really seem to work like [Psychedelic Interlude] even though it makes sense to us, the system doesn't seem to recognize it. However, there is another option we have to modify all instrumental sections, and that is periods and exclamations to try and shape the pacing. \
+[Long Instrumental Intro] [Verse] Sun beats down hard dry road Dust devils dance shadows long Heat waves twist in gold Mirages fade now gone [Chorus] Lost in the wasteland void Echoes of time destroy Lost in the desert sand Seeking the promised land [Lead Guitar Solo] [Verse 2] Cactus stands alone silent guard Hawks circling overhead far Bleached bones in the arid yard Searching for a falling star [Bridge] Time drips slow never ends Mind’s eye bends and bends Vultures fly high in the sky Dreams of rain make me cry [Build] [Ensemble Chorus] Lost in the wasteland void Echoes of time destroy Lost in the desert sand Seeking the promised land [Melancholy Outro] [Verse 3] Night falls cool winds rise Stars blaze across the skies Desert whispers truth and lies In the silence spirit flies [Fade to End] \
+[Melodic Interlude] . . . ! . . . ! . . . ! \
+[Melody] Lush pad chords, arpeggiated synth lead
+[Overblown Flute] \
+[Prompt Name]
+[Sad Trombone] waah-Waaah-WAAH \
+[Spoken Word Narration] static ...final log... coordinates unknown... ...oxygen critical... systems failing... ...tell earth we made it... we saw such beautiful things... ...orion spur expedition... signing off... static \
+[Trilling Pennywhistle] \
+[Verse 2] Cactus stands alone silent guard Hawks circling overhead far Bleached bones in the arid yard Searching for a falling star
+[Verse 3] Night falls cool winds rise Stars blaze across the skies Desert whispers truth and lies In the silence spirit flies
+[Verse 3] Night falls cool winds rise Stars blaze across the skies Desert whispers truth and lies In the silence spirit flies \
+[Verse] <lyrics> \
+[Verse] Clean dry vocals, intimate delivery
+[Verse] Clean dry vocals, intimate delivery [Chorus] Heavy reverb, doubled vocals, layered harmonies [Bridge] Distorted megaphone effect, raw emotion
+[Verse] Sun beats down hard dry road Dust devils dance shadows long Heat waves twist in gold Mirages fade now gone
+[Verse] Sun beats down hard dry road Dust devils dance shadows long Heat waves twist in gold Mirages fade now gone [Chorus] Lost in the wasteland void Echoes of time destroy Lost in the desert sand Seeking the promised land [Verse 2] Cactus stands alone silent guard Hawks circling overhead far Bleached bones in the arid yard Searching for a falling star [Bridge] Time drips slow never ends Mind’s eye bends and bends Vultures fly high in the sky Dreams of rain make me cry [Chorus] Lost in the wasteland void Echoes of time destroy Lost in the desert sand Seeking the promised land [Verse 3] Night falls cool winds rise Stars blaze across the skies Desert whispers truth and lies In the silence spirit flies \
+[Vocals] Layered harmonies, ad-libs, subtle autotune
+[Your prompt text here]
+[bridge] warning lights begin to flash systems failing coming crash alien world draws us near atmosphere of cosmic fear
+[chorus] beyond the orion spur where no one's gone before beyond the orion spur ten thousand worlds explore
+[chorus] beyond the orion spur... where no return is sure... beyond the orion spur... forever we endure...
+[chorus] drifting through the starlit deep further than our maps can reach signals fading into night earth has vanished from our sight
+[intro] . . . ! . . . . ! . . . [build] . ! . . ! . ! . ! . ! ! ! ! . ! ! ! [verse] engines burning bright and strong breaking free from earthly bonds through the atmosphere we climb leaving all we knew behind [break] [chorus] beyond the orion spur where no one's gone before beyond the orion spur ten thousand worlds explore [break] . . . ! . . . ! . . ! . [ verse] hyperdrive ignition flows new stars glowing as we go ancient light guides us here through the void without fear [interlude] . ! . . . ! . . . ! . . [verse] cosmic winds carry us far past the light of dying stars through the gates of space and time leaving known space far behind [solo] ! . . ! . . ! . ! . ! ! [bridge] warning lights begin to flash systems failing coming crash alien world draws us near atmosphere of cosmic fear [break] ! ! . . ! ! ! . ! ! . ! [verse] toxic clouds below our wings alien horrors this world brings must escape this deadly sphere but our engines disappear [break] . . . ! . . . . . . ! . [chorus] drifting through the starlit deep further than our maps can reach signals fading into night earth has vanished from our sight [solo] . . ! . . . . . . ! . . [verse] oxygen running so low our final moment to know that we flew too far too fast beyond where our fate was cast [break] . . . ! . . . ! . . . . [chorus] beyond the orion spur... where no return is sure... beyond the orion spur... forever we endure... [spoken word narration] static ...final log... coordinates unknown... ...oxygen critical... systems failing... ...tell earth we made it... we saw such beautiful things... ...orion spur expedition... signing off... static [beeping carrier signal] . . . ! . . ! . ! . [slow fade] . . . . . . [fade to end] \
+[verse] cosmic winds carry us far past the light of dying stars through the gates of space and time leaving known space far behind
+[verse] engines burning bright and strong breaking free from earthly bonds through the atmosphere we climb leaving all we knew behind
+[verse] oxygen running so low our final moment to know that we flew too far too fast beyond where our fate was cast
+[verse] toxic clouds below our wings alien horrors this world brings must escape this deadly sphere but our engines disappear
+[🎨 Auto-generate similar →](https://www.songaifarm.com?genre=country&mood=uplifting)
+[🎨 Auto-generate similar →](https://www.songaifarm.com?genre=edm&mood=energetic)
+[🎨 Auto-generate similar →](https://www.songaifarm.com?genre=hip-hop&mood=aggressive)
+[🎨 Auto-generate similar →](https://www.songaifarm.com?genre=indie&mood=dreamy)
+[🎨 Auto-generate similar →](https://www.songaifarm.com?genre=jazz&mood=smooth)
+[🎨 Auto-generate similar →](https://www.songaifarm.com?genre=pop&mood=upbeat)
+[🎨 Auto-generate similar →](https://www.songaifarm.com?genre=r-b&mood=sultry)
+[🎨 Auto-generate similar →](https://www.songaifarm.com?genre=rock&mood=energetic)
+[📖 150+ Rock Prompts → ](prompts/rock.md)
+[📖 200+ Pop Prompts → ](prompts/pop.md)
+[📖 60+ Jazz/Blues Prompts → ](prompts/jazz-blues.md)
+[📖 80+ R&B/Soul Prompts → ](prompts/rnb-soul.md)
+\ [Chugging Guitar] chuka-chuka-chuka-chuka \
+\ [Intense Interlude] !! . ! !! ! !! !! ! !! \
+\ [Long Instrumental Intro]
+\ [Verse] <lyrics> \
+\ [Verse] Sun beats down hard dry road Dust devils dance shadows long Heat waves twist in gold Mirages fade now gone
+\ [intro] . . . ! . . . . ! . . .
+](prompts/) directory. 2. Copy & Customize Each prompt is ready to use. Modify BPM, key, or instrumentation to fit your vision. 3. Generate with Suno Paste the prompt into Suno AI (V4.5 or V5) and let the magic happen! Pro Tip: Not sure how to customize prompts? Use [Song AI Farm's free generator](https://www.songaifarm.com) - it handles all the technical details automatically. --- 🎤 Genre Collections 🎵 Pop Prompts Upbeat Dance Pop
+acoustic mellow folk
+ad-libs throughout, hard bass drop, modern rap production,
+alternative/indie rock
+atmospheric pads, dark melodic undertones, confident rap flow,
+builds from intimate verse to soaring chorus, modern radio production,
+builds with strings → explosive guitar-driven chorus at 1:00 →
+catchy instrumental intro
+contains the interactive visualizations generated using Plotly that available through [GitHub Pages](https://mister-magpie.github.io/aims prompts/). A version of these is also available on a private server (might be unreachble at times) [LINK](http://130.237.3.110:22330/). At the time of writing we do not plan to share the original collected data, nor the post-processed version, with the sole exception of the plots. However, we provide the list of URLs for the songs we collected from Suno and Udio respectively in the files named
+contemporary christian
+contemporary country
+contemporary pop/rock
+d-minor slow melancholic emotional orchestral romantic music masterpiece
+dancefloor drum and bass
+dark atmospheric pads, confident rap flow, modern production,
+dark electronic rock
+distorted guitars, thunderous drums, raw powerful vocals,
+driving rhythm section, guitar solo at 2:15, crowd-ready hooks,
+electric bass guitar
+electronic dance music
+electronic piano and violin with high bass
+emotional guitar bends, walking bass, genuine blues soul,
+epic armor wars gangsta rap girl sings
+euphoric builds, sidechain compression, crowd-hyping elements,
+even though it makes sense to us, the system doesn't seem to recognize it. However, there is another option we have to modify all instrumental sections, and that is periods and exclamations to try and shape the pacing. \
+experimental electronic
+experimental hip hop
+festival progressive house
+futuristic alternative rock
+futuristic pop electronic synth
+general contemporary country
+haunting emotional blues
+industrial metal robotic pop-punk funk
+intense rock ballad melodic
+j-rock intense spiritual
+laid-back 808 bass, syncopated hi-hats, intimate production,
+laser synths, punchy kicks, anthem-level production,
+liquid drum and bass
+live horn section, warm analog mix, Motown vibes,
+lo-fi texture, bedroom R&B aesthetic, melismatic runs,
+markdown [Prompt Name]
+melodic piano melodies, progressive house evolution,
+modern production, vocal harmonies on chorus,
+neoclassical darkwave
+neoclassical new age
+neofolk, celtic, dance, celebratory, orchestral
+playful folk pop light
+powerful female vocals
+progressive electronic
+progressive psytrance
+pulsing 808 bass, euphoric build-ups, modern radio production,
+radio-friendly country, polished mix, relatable storytelling,
+raw authentic vocals, vintage blues feel, analog warmth,
+raw emotional delivery, indie rock attitude, gritty production,
+relaxed chill reggaeton
+reverb on vocals, stripped-down bridge, powerful final chorus,
+smooth saxophone, piano comping, intimate club atmosphere,
+soulful male vocalist
+stripped-down acoustic bridge → massive final chorus with full orchestration
+stripped-down verse, explosive chorus, feedback and noise,
+synth-wave layers, euphoric build-ups, radio-ready polish,
+unexpected saxophone solo + trip-hop beats
+uplifting energy, clean modern production, vocal chops,
+vintage synth pads, DIY charm, authentic and unpolished
+vintage synths, tape saturation, DIY charm, imperfect and intimate,
+walking bass line, vintage country sound, real and unpolished,
+warm analog sound, deep bass, conscious lyrics vibe,
+warm heartfelt vocals, banjo accents, uplifting chorus,
+western classical music
+witchpop, house, hypnotic, dreamy, eerie
+witchpop, witchrock, folk, violin, acoustic, eerie, mysterious, clean vocals, classically trained
+| Blues | Slide guitar, 12-bar, raw emotion | 70-100 | Blues scale | Medium |
+| Country | Steel guitar, storytelling, twang | 90-120 | Major keys | Medium |
+| EDM | Synth drops, builds, festival energy | 120-140 | Minor keys | Extreme |
+| Effects | Reverb, delay, compression, saturation, sidechain, autotune | Production techniques |
+| Genre | Key Elements | BPM Range | Typical Key | Energy Level |
+| Hip-Hop | 808 bass, trap hi-hats, flow | 70-90 | Minor keys | Variable |
+| Indie | Jangly guitars, lo-fi, authenticity | 100-130 | Variable | Variable |
+| Instruments | 808 bass, distorted guitar, jangly acoustic, Rhodes keys | Core sound palette |
+| Jazz | Upright bass, brushed drums, sophistication | 80-120 | Complex chords | Low |
+| Pop | Synths, 808s, hooks, radio polish | 100-128 | Major keys | High |
+| Production | Lo-fi texture, stadium reverb, analog warmth, radio polish | Overall sonic aesthetic |
+| R&B | Smooth vocals, lo-fi texture, groove | 60-90 | Major/Minor | Low-Medium |
+| Rock | Distorted guitars, live drums, power | 120-160 | Minor keys | Very High |
+| Structure | Intro → verse → pre-chorus → chorus → bridge | Song flow (optional) |
+| Vocal Style | Raspy, smooth, breathy, powerful, melismatic, whispered | Sets voice character |
+🎧 EDM/Electronic Prompts
+🎵 Awesome Suno AI Prompts
+🎷 Jazz/Blues Prompts
+📊 Genre Quick Reference
+📖 150+ Rock Prompts →
+📖 200+ Pop Prompts →
+📖 60+ Jazz/Blues Prompts →
+📖 80+ R&B/Soul Prompts →

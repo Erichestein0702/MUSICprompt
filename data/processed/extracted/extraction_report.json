@@ -1,0 +1,136 @@
+{
+  "total_extracted": 1291,
+  "quality_distribution": {
+    "excellent (9-10)": 1,
+    "good (7-8.9)": 282,
+    "average (5-6.9)": 1008
+  },
+  "platform_distribution": {
+    "udio": 1064,
+    "suno": 227
+  },
+  "genre_distribution": {
+    "rock": 452,
+    "jazz": 91,
+    "pop": 577,
+    "rap": 140,
+    "r&b": 69,
+    "electronic": 306,
+    "folk": 62,
+    "house": 102,
+    "country": 24,
+    "soul": 104,
+    "funk": 92,
+    "punk": 59,
+    "metal": 141,
+    "ambient": 56,
+    "edm": 68,
+    "techno": 31,
+    "hip hop": 55,
+    "trap": 44,
+    "trance": 40,
+    "classical": 30,
+    "blues": 57,
+    "indie": 65,
+    "dubstep": 26,
+    "lo-fi": 6
+  },
+  "top_prompts": [
+    {
+      "id": "mp_09801a9d6f31",
+      "score": 9.17,
+      "genre": [
+        "country",
+        "house"
+      ],
+      "preview": "“House of the Rising Sun”, deep voice, bass voice, old man singing, dark country cover of 'House of ..."
+    },
+    {
+      "id": "mp_c08084a3720b",
+      "score": 8.33,
+      "genre": [
+        "rock",
+        "electronic",
+        "house"
+      ],
+      "preview": "Create a track that combines the moody, atmospheric trip-hop elements of Portishead with the intrica..."
+    },
+    {
+      "id": "mp_9351aa79e0a3",
+      "score": 8.17,
+      "genre": [
+        "rock",
+        "ambient"
+      ],
+      "preview": "Genre: Alternative Rock/Emo\nTheme/Subject: Overcoming adversity and finding hope in the face of dark..."
+    },
+    {
+      "id": "mp_ddad1b6dac3e",
+      "score": 8.17,
+      "genre": [
+        "rock",
+        "jazz",
+        "ambient"
+      ],
+      "preview": "wonky, jazz rock fusion,  future bass, uptempo, rhythmic, tension, drumset (Future Bass), acustic ba..."
+    },
+    {
+      "id": "mp_3679abb23954",
+      "score": 8.17,
+      "genre": [
+        "rock",
+        "funk"
+      ],
+      "preview": "funk  rock, future bass, synth funk, funk rock bass, anthemic, energetic, energetic,  2000s, [Outro]..."
+    },
+    {
+      "id": "mp_26202383bdce",
+      "score": 8.0,
+      "genre": [
+        "rock",
+        "blues",
+        "soul"
+      ],
+      "preview": "Hard Rock, blues rock, emotional, longing, slow, 1970s, ballad, Powerful electric guitars, Heavy rif..."
+    },
+    {
+      "id": "mp_aca5615df208",
+      "score": 8.0,
+      "genre": [
+        "rap",
+        "blues",
+        "trap"
+      ],
+      "preview": "Trap Fractal harmony, sou and blues sampling, sample drill, plunderphonics, alto flute, polyphonic c..."
+    },
+    {
+      "id": "mp_e69dcd727999",
+      "score": 8.0,
+      "genre": [
+        "rock",
+        "pop",
+        "indie"
+      ],
+      "preview": "Key of D# Minor, energetic, fun, dynamic playing, indie pop, indie rock, alternative rock, full band..."
+    },
+    {
+      "id": "mp_cdf492be3916",
+      "score": 8.0,
+      "genre": [
+        "electronic",
+        "metal"
+      ],
+      "preview": "post-hardcore, metalcore, electronic, alternative metal, electronicore, passionate, energetic, intro..."
+    },
+    {
+      "id": "mp_c7c7f26928f2",
+      "score": 8.0,
+      "genre": [
+        "electronic",
+        "jazz",
+        "soul"
+      ],
+      "preview": "funky, groovy bassline, driving disco-inspired rhythm section, late 90's, jazzy horn sections, lush ..."
+    }
+  ]
+}

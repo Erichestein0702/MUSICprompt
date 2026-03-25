@@ -1,0 +1,146 @@
+{
+  "total_prompts": 283,
+  "quality_summary": {
+    "excellent": 1,
+    "good": 282,
+    "average": 0
+  },
+  "genre_summary": {
+    "country": 5,
+    "house": 24,
+    "rock": 118,
+    "electronic": 90,
+    "ambient": 18,
+    "jazz": 22,
+    "funk": 27,
+    "blues": 16,
+    "soul": 32,
+    "rap": 32,
+    "trap": 13,
+    "pop": 131,
+    "indie": 18,
+    "metal": 32,
+    "trance": 12,
+    "r&b": 25,
+    "edm": 15,
+    "folk": 12,
+    "hip hop": 11,
+    "punk": 9,
+    "techno": 5,
+    "lo-fi": 2,
+    "classical": 3,
+    "dubstep": 3
+  },
+  "platform_summary": {
+    "udio": 251,
+    "suno": 32
+  },
+  "top_10_prompts": [
+    {
+      "id": "mp_09801a9d6f31",
+      "title": "The House Of The Rising Sun",
+      "score": 9.17,
+      "genre": [
+        "country",
+        "house"
+      ],
+      "preview": "“House of the Rising Sun”, deep voice, bass voice, old man singing, dark country..."
+    },
+    {
+      "id": "mp_c08084a3720b",
+      "title": "Burdens ",
+      "score": 8.33,
+      "genre": [
+        "rock",
+        "electronic",
+        "house"
+      ],
+      "preview": "Create a track that combines the moody, atmospheric trip-hop elements of Portish..."
+    },
+    {
+      "id": "mp_9351aa79e0a3",
+      "title": "Shadows to Light",
+      "score": 8.17,
+      "genre": [
+        "rock",
+        "ambient"
+      ],
+      "preview": "Genre: Alternative Rock/Emo\nTheme/Subject: Overcoming adversity and finding hope..."
+    },
+    {
+      "id": "mp_ddad1b6dac3e",
+      "title": "Pinguin Dive [FusionBass]",
+      "score": 8.17,
+      "genre": [
+        "rock",
+        "jazz",
+        "ambient"
+      ],
+      "preview": "wonky, jazz rock fusion,  future bass, uptempo, rhythmic, tension, drumset (Futu..."
+    },
+    {
+      "id": "mp_3679abb23954",
+      "title": "FUnK YOU!",
+      "score": 8.17,
+      "genre": [
+        "rock",
+        "funk"
+      ],
+      "preview": "funk  rock, future bass, synth funk, funk rock bass, anthemic, energetic, energe..."
+    },
+    {
+      "id": "mp_26202383bdce",
+      "title": "Fallen Hero",
+      "score": 8.0,
+      "genre": [
+        "rock",
+        "blues",
+        "soul"
+      ],
+      "preview": "Hard Rock, blues rock, emotional, longing, slow, 1970s, ballad, Powerful electri..."
+    },
+    {
+      "id": "mp_aca5615df208",
+      "title": "Fractal Ascent",
+      "score": 8.0,
+      "genre": [
+        "rap",
+        "blues",
+        "trap"
+      ],
+      "preview": "Trap Fractal harmony, sou and blues sampling, sample drill, plunderphonics, alto..."
+    },
+    {
+      "id": "mp_e69dcd727999",
+      "title": "It's All the Same",
+      "score": 8.0,
+      "genre": [
+        "rock",
+        "pop",
+        "indie"
+      ],
+      "preview": "Key of D# Minor, energetic, fun, dynamic playing, indie pop, indie rock, alterna..."
+    },
+    {
+      "id": "mp_cdf492be3916",
+      "title": "Timeless",
+      "score": 8.0,
+      "genre": [
+        "electronic",
+        "metal"
+      ],
+      "preview": "post-hardcore, metalcore, electronic, alternative metal, electronicore, passiona..."
+    },
+    {
+      "id": "mp_c7c7f26928f2",
+      "title": "Celestial Rendezvous",
+      "score": 8.0,
+      "genre": [
+        "electronic",
+        "jazz",
+        "soul"
+      ],
+      "preview": "funky, groovy bassline, driving disco-inspired rhythm section, late 90's, jazzy ..."
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "genre": "pop",
+  "count": 6,
+  "documents": [
+    {
+      "id": "vmdp_764989ebd869",
+      "version": "1.0.0",
+      "original_prompt": "- Use arrow notation for evolution - \"soft verse → explosive chorus\"",
+      "translated_prompt": "使用箭头符号表示演变 - “柔和的诗篇 → 爆炸性的副歌”",
+      "title": {
+        "en": "- Use arrow notation for evolution - \"soft verse →",
+        "zh": "使用箭头符号表示演变 - “柔和的诗篇 →”"
+      },
+      "prompt": {
+        "en": "- Use arrow notation for evolution - \"soft verse → explosive chorus\"",
+        "zh": "使用箭头符号表示演变 - “柔和的诗篇 → 爆炸性的副歌”"
+      },
+      "genre": "pop",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 120,
+        "key": "C Major",
+        "energy_level": "medium",
+        "frequency_center": "100Hz-300Hz",
+        "dynamics_range": "Wide",
+        "reverb": "Small Room",
+        "compression": "Moderate"
+      },
+      "gem_suggestion": "在副歌部分增加动态范围和压缩，以增强爆炸性的效果",
+      "viral_score": 0.1,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T22:42:30.588003"
+      },
+      "created_at": "2026-03-24T22:42:30.588003",
+      "updated_at": "2026-03-24T22:42:30.588003"
+    },
+    {
+      "id": "vmdp_b6825c71fe3d",
+      "version": "1.0.0",
+      "original_prompt": "- [Pop Prompts]( -pop-prompts) (200+ examples)",
+      "translated_prompt": "流行音乐提示 (200+ 示例)",
+      "title": {
+        "en": "- [Pop Prompts]( -pop-prompts) (200+ examples)",
+        "zh": "流行音乐提示"
+      },
+      "prompt": {
+        "en": "- [Pop Prompts]( -pop-prompts) (200+ examples)",
+        "zh": "流行音乐提示 (200+ 示例)"
+      },
+      "genre": "pop",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 120,
+        "key": "C Major",
+        "energy_level": "medium",
+        "frequency_center": "100Hz-300Hz",
+        "dynamics_range": "Medium",
+        "reverb": "Small Room",
+        "compression": "Moderate"
+      },
+      "gem_suggestion": "增加人声的清晰度和乐器的层次感",
+      "viral_score": 0.0,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T22:43:45.619507"
+      },
+      "created_at": "2026-03-24T22:43:45.619507",
+      "updated_at": "2026-03-24T22:43:45.619507"
+    },
+    {
+      "id": "vmdp_02324a912454",
+      "version": "1.0.0",
+      "original_prompt": "Make a pop song with good vocals and catchy melody",
+      "translated_prompt": "制作一首有好嗓音和朗朗上口旋律的流行歌曲",
+      "title": {
+        "en": "Make a pop song with good vocals and catchy melody",
+        "zh": "制作一首有好嗓音和朗朗上口旋律的流行歌曲"
+      },
+      "prompt": {
+        "en": "Make a pop song with good vocals and catchy melody",
+        "zh": "制作一首有好嗓音和朗朗上口旋律的流行歌曲"
+      },
+      "genre": "pop",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 120,
+        "key": "C Major",
+        "energy_level": "medium",
+        "frequency_center": "100Hz-3kHz",
+        "dynamics_range": "Moderate",
+        "reverb": "Small Room",
+        "compression": "Light"
+      },
+      "gem_suggestion": "增强人声清晰度和旋律的吸引力",
+      "viral_score": 0.1,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T22:59:44.014036"
+      },
+      "created_at": "2026-03-24T22:59:44.014036",
+      "updated_at": "2026-03-24T22:59:44.014036"
+    },
+    {
+      "id": "vmdp_f64b43d51f9c",
+      "version": "1.0.0",
+      "original_prompt": "[🎨 Auto-generate similar →](https://www.songaifarm.com?genre=pop&mood=upbeat)",
+      "translated_prompt": "自动生成类似作品",
+      "title": {
+        "en": "[🎨 Auto-generate similar →](https://www.songaifarm",
+        "zh": "自动生成相似作品"
+      },
+      "prompt": {
+        "en": "[🎨 Auto-generate similar →](https://www.songaifarm.com?genre=pop&mood=upbeat)",
+        "zh": "自动生成类似作品"
+      },
+      "genre": "pop",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 120,
+        "key": "C Major",
+        "energy_level": "medium",
+        "frequency_center": "100Hz-300Hz",
+        "dynamics_range": "Medium",
+        "reverb": "Small Room",
+        "compression": "Moderate"
+      },
+      "gem_suggestion": "增加明亮的合成器和清脆的鼓点，保持节奏感和积极的氛围",
+      "viral_score": 0.0,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T23:24:19.722724"
+      },
+      "created_at": "2026-03-24T23:24:19.722724",
+      "updated_at": "2026-03-24T23:24:19.722724"
+    },
+    {
+      "id": "vmdp_7ce125a0d101",
+      "version": "1.0.0",
+      "original_prompt": "[📖 200+ Pop Prompts → ](prompts/pop.md)",
+      "translated_prompt": "[📖 200+ Pop Prompts → ](prompts/pop.md)",
+      "title": {
+        "en": "[📖 200+ Pop Prompts → ](prompts/pop.md)",
+        "zh": "[📖 200+ Pop Prompts → ](prompts/pop.md)"
+      },
+      "prompt": {
+        "en": "[📖 200+ Pop Prompts → ](prompts/pop.md)",
+        "zh": "[📖 200+ Pop Prompts → ](prompts/pop.md)"
+      },
+      "genre": "pop",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 120,
+        "key": "C Major",
+        "energy_level": "medium",
+        "frequency_center": "100Hz-300Hz",
+        "dynamics_range": "Moderate",
+        "reverb": "Small Room",
+        "compression": "Light"
+      },
+      "gem_suggestion": "",
+      "viral_score": 0.1,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T23:24:19.722724"
+      },
+      "created_at": "2026-03-24T23:24:19.722724",
+      "updated_at": "2026-03-24T23:24:19.722724"
+    },
+    {
+      "id": "vmdp_f6e4a6e7946d",
+      "version": "1.0.0",
+      "original_prompt": "📖 200+ Pop Prompts →",
+      "translated_prompt": "200+ 流行音乐提示",
+      "title": {
+        "en": "📖 200+ Pop Prompts →",
+        "zh": "200+ 流行音乐提示"
+      },
+      "prompt": {
+        "en": "📖 200+ Pop Prompts →",
+        "zh": "200+ 流行音乐提示"
+      },
+      "genre": "pop",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 120,
+        "key": "C Major",
+        "energy_level": "medium",
+        "frequency_center": "100Hz-300Hz",
+        "dynamics_range": "Medium",
+        "reverb": "Small Room",
+        "compression": "Light"
+      },
+      "gem_suggestion": "保持旋律清晰，节奏感强，适合流行音乐的制作。",
+      "viral_score": 0.0,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T23:37:53.750401"
+      },
+      "created_at": "2026-03-24T23:37:53.750401",
+      "updated_at": "2026-03-24T23:37:53.750401"
+    }
+  ],
+  "updated_at": "2026-03-24T23:37:53.781127"
+}

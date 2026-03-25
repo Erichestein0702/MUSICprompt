@@ -1,0 +1,4 @@
+4. The Genre Description Only after those three steps do I add the actual style, like "Lo-fi hip hop" or "Synthwave."
+My go-to genres for monetization If you are doing this as a side hustle, you probably want to know which genres actually sell or get views. In my experience, these are the top three:
+The system accepts a separate STYLE tag that is a simple comma separate list of genres and modifiers. Interestingly, commas are not necessary and you can get some really interesting hybrid styles without them. Here's one of my most successful examples:
+📊 Genre Quick Reference

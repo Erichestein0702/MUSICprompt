@@ -1,0 +1,79 @@
+{
+  "genre": "lo_fi",
+  "count": 2,
+  "documents": [
+    {
+      "id": "vmdp_5c6179c7c8b5",
+      "version": "1.0.0",
+      "original_prompt": "- Mention mixing approach - Radio-ready, lo-fi, live recording, analog warmth, etc.",
+      "translated_prompt": "提及混音方法 - 适合广播，低保真，现场录音，模拟温暖等",
+      "title": {
+        "en": "- Mention mixing approach - Radio-ready, lo-fi, li",
+        "zh": "提及混音方法 - 适合广播，低保真，现场录音，模拟温暖等"
+      },
+      "prompt": {
+        "en": "- Mention mixing approach - Radio-ready, lo-fi, live recording, analog warmth, etc.",
+        "zh": "提及混音方法 - 适合广播，低保真，现场录音，模拟温暖等"
+      },
+      "genre": "lo_fi",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 90,
+        "key": "C Major",
+        "energy_level": "medium",
+        "frequency_center": "100Hz-300Hz",
+        "dynamics_range": "Moderate",
+        "reverb": "Small Room",
+        "compression": "Light"
+      },
+      "gem_suggestion": "使用模拟设备进行混音，增加温暖感和现场感，同时保持低保真的质感。",
+      "viral_score": 0.1,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T22:41:16.186086"
+      },
+      "created_at": "2026-03-24T22:41:16.186086",
+      "updated_at": "2026-03-24T22:41:16.186086"
+    },
+    {
+      "id": "vmdp_2ac43823782f",
+      "version": "1.0.0",
+      "original_prompt": "Why it fails: Lo-fi and stadium production are opposite approaches ✅ Solution: Cohesive Vision",
+      "translated_prompt": "为什么失败：Lo-fi 和体育场制作是相反的方法 ✅ 解决方案：统一的愿景",
+      "title": {
+        "en": "Why it fails: Lo-fi and stadium production are opp",
+        "zh": "为什么失败：Lo-fi 和体育场制作是相反的方法"
+      },
+      "prompt": {
+        "en": "Why it fails: Lo-fi and stadium production are opposite approaches ✅ Solution: Cohesive Vision",
+        "zh": "为什么失败：Lo-fi 和体育场制作是相反的方法 ✅ 解决方案：统一的愿景"
+      },
+      "genre": "lo_fi",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 80,
+        "key": "C Minor",
+        "energy_level": "low",
+        "frequency_center": "100Hz-300Hz",
+        "dynamics_range": "Narrow",
+        "reverb": "Small Room",
+        "compression": "Light"
+      },
+      "gem_suggestion": "为了使 Lo-fi 和体育场制作的元素更好地融合，建议在混音中保持统一的愿景，适当调整动态范围和混响，以适应不同的制作风格。",
+      "viral_score": 0.1,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T23:13:15.205443"
+      },
+      "created_at": "2026-03-24T23:13:15.205443",
+      "updated_at": "2026-03-24T23:13:15.205443"
+    }
+  ],
+  "updated_at": "2026-03-24T23:13:15.223407"
+}

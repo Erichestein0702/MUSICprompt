@@ -1,0 +1,106 @@
+[
+  {
+    "id": "mp_04ee2bfa33dd",
+    "prompt_text": "Create a drum and bass track that blends the haunting allure of ethereal vocals with the gritty, urban feel of boom-bap drums. Start with a deep, resonant bassline that sets a dark, compelling undertone. Layer crisp, punchy drum patterns that embody the classic boom-bap style — think sharp snares and deep kick drums that resonate with each beat. downtempo, deep house, ",
+    "prompt_zh": "创作一首鼓与贝斯 (Drum and Bass) 曲目，将空灵人声的神秘魅力与Boom-Bap鼓的粗犷城市感融为一体。以深沉、共鸣的贝斯线开始，营造出一种黑暗而引人入胜的基调。叠加清脆、有力的鼓点模式，体现经典的Boom-Bap风格——想象一下尖锐的军鼓和深沉的底鼓，每一下都与节拍共鸣。[Downtempo, Deep House]",
+    "platform": "udio",
+    "genre": [
+      "house"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "drums",
+      "bass",
+      "harp"
+    ],
+    "quality_score": 7.0,
+    "use_cases": [],
+    "source": "mister-magpie/e66ce942-f083-437a-9baf-8304b2306391",
+    "title": "I wish <cover> ._ [Anagnorisis]\\[UDIO] _.@",
+    "translation_meta": {
+      "title_zh": "鼓与贝斯曲目",
+      "genre_tags_zh": [
+        "鼓与贝斯 (Drum and Bass)",
+        "Downtempo",
+        "Deep House"
+      ],
+      "mood_keywords_zh": [
+        "神秘魅力",
+        "粗犷城市感",
+        "黑暗",
+        "引人入胜"
+      ],
+      "translated_at": "2026-03-25T14:49:40.473294"
+    }
+  },
+  {
+    "id": "mp_2bcab1c4b51e",
+    "prompt_text": "An organic tribal deep house track with melodic synth, percussion, filtered cowbell, glockenspiel, hi hats, Moog Sub 37 bassline synth, bongos and filtered kick drum. Harmonic male smokey voice, slightly dissonant with some octave shift, fusion, filtered house organ",
+    "prompt_zh": "一首有机的部落深屋 (Tribal Deep House) 曲目，包含旋律合成器 (melodic synth)、打击乐 (percussion)、滤波牛铃 (filtered cowbell)、铁琴 (glockenspiel)、军鼓 (hi hats)、Moog Sub 37 低音合成器 (bongos) 和滤波踢鼓 (filtered kick drum)。和谐的男性烟嗓 (harmonic male smokey voice)，略带不和谐音 (slightly dissonant) 和八度变化 (octave shift)，融合 (fusion) 和滤波浩室风风琴 (filtered house organ)。",
+    "platform": "udio",
+    "genre": [
+      "house"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.0,
+    "use_cases": [],
+    "source": "mister-magpie/801b01fd-b007-4dfa-aef4-974fc140262e",
+    "title": "On The Sands of Goa (Cool Intro Mix)",
+    "translation_meta": {
+      "title_zh": "有机部落深屋",
+      "genre_tags_zh": [
+        "部落深屋 (Tribal Deep House)"
+      ],
+      "mood_keywords_zh": [
+        "有机",
+        "和谐",
+        "烟嗓",
+        "略带不和谐音",
+        "八度变化",
+        "融合"
+      ],
+      "translated_at": "2026-03-25T14:50:39.350174"
+    }
+  },
+  {
+    "id": "mp_208d03a9ef2f",
+    "prompt_text": "progressive synthwave, festival progressive house, longing synthwave, palm-muted electric guitar, deep electric bass, soft synth pad arpeggio, continuously evolving, soft wide synth string pad, epic, bass line octave glides,  massive drum beats, long echo on snare, melodic structure",
+    "prompt_zh": "progressive synthwave, festival progressive house, 渴望的合成器浪潮, palm-muted electric guitar, deep electric bass, 柔和的合成器琶音垫, 持续演变, 柔和宽广的合成器弦乐垫, 雄伟的, bass line octave glides, massive drum beats, snare的长回声, 旋律结构",
+    "platform": "udio",
+    "genre": [
+      "house"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.0,
+    "use_cases": [
+      "gaming",
+      "party"
+    ],
+    "source": "mister-magpie/147e5c02-9fdc-4f73-8967-1e9b1c507695",
+    "title": "Create, Extend, and (try to) End",
+    "translation_meta": {
+      "title_zh": "渐进合成器浪潮",
+      "genre_tags_zh": [
+        "渐进合成器浪潮 (progressive synthwave)",
+        "节日渐进浩室 (festival progressive house)"
+      ],
+      "mood_keywords_zh": [
+        "渴望的",
+        "雄伟的"
+      ],
+      "translated_at": "2026-03-25T14:51:34.160949"
+    }
+  }
+]

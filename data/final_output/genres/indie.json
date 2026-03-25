@@ -1,0 +1,35 @@
+[
+  {
+    "id": "mp_bec75ed14df2",
+    "prompt_text": " a love song with G-major key,  Indie,  lo-fi,  female voice,  romantic,  ukulele,  piano",
+    "prompt_zh": "一首以G-major调性创作的，Indie (独立音乐), lo-fi (低保真)风格的歌曲，包含女性声音，浪漫氛围，使用ukulele和piano伴奏。",
+    "platform": "suno",
+    "genre": [
+      "indie",
+      "lo-fi"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "piano",
+      "ukulele"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [
+      "study"
+    ],
+    "source": "mister-magpie/3e666087-0bb2-40ff-b864-91390cbfdfcc",
+    "title": "Whispers in the Wind",
+    "translation_meta": {
+      "title_zh": "爱情歌曲",
+      "genre_tags_zh": [
+        "独立音乐 (Indie)",
+        "低保真 (lo-fi)"
+      ],
+      "mood_keywords_zh": [
+        "浪漫"
+      ],
+      "translated_at": "2026-03-25T14:48:22.282810"
+    }
+  }
+]

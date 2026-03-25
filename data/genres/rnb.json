@@ -1,0 +1,43 @@
+{
+  "genre": "rnb",
+  "count": 1,
+  "documents": [
+    {
+      "id": "vmdp_f5470b3afd52",
+      "version": "1.0.0",
+      "original_prompt": "| R&B | Smooth vocals, lo-fi texture, groove | 60-90 | Major/Minor | Low-Medium |",
+      "translated_prompt": "R&B | 丝滑人声，低保真质感，律动 | 60-90 | 大调/小调 | 低-中等 |",
+      "title": {
+        "en": "| R&B | Smooth vocals, lo-fi texture, groove | 60-",
+        "zh": "R&B | 丝滑人声，低保真质感，律动 | 60-"
+      },
+      "prompt": {
+        "en": "| R&B | Smooth vocals, lo-fi texture, groove | 60-90 | Major/Minor | Low-Medium |",
+        "zh": "R&B | 丝滑人声，低保真质感，律动 | 60-90 | 大调/小调 | 低-中等 |"
+      },
+      "genre": "rnb",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 75,
+        "key": "Major/Minor",
+        "energy_level": "low",
+        "frequency_center": "100Hz-300Hz",
+        "dynamics_range": "Narrow",
+        "reverb": "Small Room",
+        "compression": "Light"
+      },
+      "gem_suggestion": "增强人声的清晰度和温暖感，适当增加低保真效果以营造复古氛围。",
+      "viral_score": 0.1,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T23:36:59.576900"
+      },
+      "created_at": "2026-03-24T23:36:59.576900",
+      "updated_at": "2026-03-24T23:36:59.576900"
+    }
+  ],
+  "updated_at": "2026-03-24T23:36:59.600393"
+}

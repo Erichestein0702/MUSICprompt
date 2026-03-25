@@ -1,0 +1,118 @@
+[
+  {
+    "id": "mp_44290b0996e3",
+    "prompt_text": "Vocalists Falsetto(Sultry~ Female), Hard Style~ Psytrance-Talkbox~ ambient house~ Upbeat-Dark-Synthwave~ dark synthwave~ Deep-Soul. Contemporary Rnb~  Funky Synthwave~  Electro Bass~  house disco~  Down-Tempo~,\na song about painful break up\n",
+    "prompt_zh": "主唱 Falsetto (Sultry~ Female), Hard Style~ Psytrance-Talkbox~ 氛围浩室 (ambient house)~ 欢快-黑暗-合成器浪潮 (Upbeat-Dark-Synthwave)~ 黑暗合成器浪潮 (dark synthwave)~ 深沉灵魂 (Deep-Soul)。当代节奏布鲁斯 (Contemporary Rnb)~ 摇摆合成器浪潮 (Funky Synthwave)~ 电子贝斯 (Electro Bass)~ 迪斯科浩室 (house disco)~ 低速 (Down-Tempo)~",
+    "platform": "udio",
+    "genre": [
+      "soul",
+      "funk",
+      "ambient"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "study"
+    ],
+    "source": "mister-magpie/f938d404-bde2-4ea6-8efa-3fe81dd4f16a",
+    "title": "Hurtin' Breakin'",
+    "translation_meta": {
+      "title_zh": "痛苦的分手",
+      "genre_tags_zh": [
+        "氛围浩室 (ambient house)",
+        "黑暗合成器浪潮 (dark synthwave)",
+        "深沉灵魂 (Deep-Soul)",
+        "当代节奏布鲁斯 (Contemporary Rnb)",
+        "摇摆合成器浪潮 (Funky Synthwave)",
+        "电子贝斯 (Electro Bass)",
+        "迪斯科浩室 (house disco)",
+        "低速 (Down-Tempo)"
+      ],
+      "mood_keywords_zh": [
+        "痛苦",
+        "分手"
+      ],
+      "translated_at": "2026-03-25T14:23:08.180165"
+    }
+  },
+  {
+    "id": "mp_59017d48fd61",
+    "prompt_text": "club track with a Robin S vibe: punchy four-on-the-floor kick, warm bass synth, iconic house organ synth riff, soulful female vocals, dynamic build-ups and drops, spatial reverb and delay effects, and a clear intro, verse, chorus, bridge, outro structure",
+    "prompt_zh": "具有Robin S风格的俱乐部曲目：有力的四拍踢鼓 (four-on-the-floor kick)，温暖的贝斯合成器 (warm bass synth)，标志性的浩室风风琴合成器旋律 (iconic house organ synth riff)，深情的女声 (soulful female vocals)，动态的渐强和渐弱 (dynamic build-ups and drops)，空间混响和延迟效果 (spatial reverb and delay effects)，以及清晰的[前奏]、[主歌]、[副歌]、[桥段]、[尾奏]结构",
+    "platform": "udio",
+    "genre": [
+      "soul",
+      "house"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/f5ce90a7-91bf-47cd-935d-b6f2de042513",
+    "title": "Feel the Love (closing-set edit)",
+    "translation_meta": {
+      "title_zh": "具有Robin S风格的俱乐部曲目",
+      "genre_tags_zh": [
+        "浩室 (House)",
+        "电子舞曲 (Electronic Dance Music)"
+      ],
+      "mood_keywords_zh": [
+        "有力的",
+        "温暖的",
+        "标志性的",
+        "深情的",
+        "动态的",
+        "空间的"
+      ],
+      "translated_at": "2026-03-25T14:28:28.607884"
+    }
+  },
+  {
+    "id": "mp_07dd82856187",
+    "prompt_text": "vocal synth song about the ultimate heartache, beautifully sung, harmonic vocal group, german synth band, heart wrenching vocals, minor chords, key change, tape played backwards, reversed recording effect, yearning, guitar feedback, sine wave arpeggios, sorrowful, mournful, hoarse, raspy, soulful, broken spirit",
+    "prompt_zh": "一首关于终极心碎的声乐合成曲，演唱优美，和声声乐组合，德国合成乐队，撕心裂肺的歌声，minor chords，调性变化，倒带效果，反向录音效果，渴望，吉他反馈，sine wave arpeggios，悲伤，哀怨，嘶哑，粗糙，深情，破碎的心灵",
+    "platform": "udio",
+    "genre": [
+      "soul"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "synth"
+    ],
+    "quality_score": 7.0,
+    "use_cases": [],
+    "source": "mister-magpie/f2538b02-cdb2-4196-a6b1-cd83ebfebb34",
+    "title": "Echoes of Reversal",
+    "translation_meta": {
+      "title_zh": "终极心碎的声乐合成曲",
+      "genre_tags_zh": [
+        "电子 (Synth)",
+        "另类 (Alternative)"
+      ],
+      "mood_keywords_zh": [
+        "撕心裂肺",
+        "渴望",
+        "悲伤",
+        "哀怨",
+        "嘶哑",
+        "粗糙",
+        "深情",
+        "破碎的心灵"
+      ],
+      "translated_at": "2026-03-25T14:50:21.602672"
+    }
+  }
+]

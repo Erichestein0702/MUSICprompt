@@ -1,0 +1,108 @@
+[
+  {
+    "id": "mp_f890cf61ea26",
+    "prompt_text": "R&B, Quiet Storm, Soul, 1980s, soft piano melodies, gentle synth pads, smooth vocals, male vocalist, subtle harmonies, heartfelt lyrics, romantic, intimate, slow tempo, tender, emotional, soothing, ballad, minimalistic production, warm bassline, delicate percussion, lush reverb, tender emotions, mellow, serene, love ballad, sentimental, cozy, soft instrumentation, nostalgic, atmospheric, gentle rhythm, relaxing, polished production, acoustic warmth, soulful expression, timeless, heartfelt storytelling, intimate atmosphere, calming, introspective, smooth transitions, warm tones, cinematic feel, dolby atmos, wall of sound, passionate",
+    "prompt_zh": "R&B, Quiet Storm, Soul, 1980s, 柔和的钢琴旋律, 温柔的合成器垫音, 丝滑的人声, 男歌手, 细腻的和声, 感人的歌词, 浪漫, 亲密, 缓慢的节奏, 温柔, 情感丰富, 安抚人心, 抒情曲, 极简制作, 温暖的贝斯线, 精致的打击乐, 丰富的混响, 温柔的情感, 柔和, 宁静, 爱的抒情曲, 感伤, 舒适, 柔和的编配, 怀旧, 氛围感, 温柔的节奏, 放松, 精致的制作, 原声温暖, 有灵魂的表达, 经典, 感人的故事, 亲密的氛围, 安静, 内省, 丝滑的过渡, 温暖的音色, 电影感, dolby atmos, wall of sound, 热情",
+    "platform": "udio",
+    "genre": [
+      "r&b",
+      "soul"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "piano",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "cinematic",
+      "meditation"
+    ],
+    "source": "mister-magpie/de78f27a-97f2-43e9-8e24-64bf31e5fdf3",
+    "title": "Gentle Heart",
+    "translation_meta": {
+      "title_zh": "R&B 音乐提示词",
+      "genre_tags_zh": [
+        "R&B",
+        "Quiet Storm",
+        "Soul",
+        "1980s"
+      ],
+      "mood_keywords_zh": [
+        "柔和",
+        "温柔",
+        "丝滑",
+        "感伤",
+        "怀旧",
+        "亲密",
+        "宁静",
+        "安抚人心",
+        "情感丰富",
+        "浪漫",
+        "抒情",
+        "放松",
+        "原声温暖",
+        "有灵魂的表达",
+        "经典",
+        "安静",
+        "内省",
+        "温暖",
+        "电影感",
+        "热情"
+      ],
+      "translated_at": "2026-03-25T14:22:20.752615"
+    },
+    "usage_tips": [],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_41b91fc4ba46",
+    "prompt_text": "Create a mid-tempo soul/R&B ballad in E♭ major, 72 BPM, 8 mins long. Reflective mood, soft piano, steady bass/drums. Gradual build with strings and synths, evoking deep emotion and longing.",
+    "prompt_zh": "创作一首中速的灵魂乐/R&B抒情曲，调性为E♭ major，72 BPM，时长8分钟。营造一种沉思的情绪，使用柔和的钢琴，稳定的贝斯/鼓。逐渐加入弦乐和合成器，唤起深刻的情感和渴望。",
+    "platform": "suno",
+    "genre": [
+      "r&b",
+      "soul"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "piano",
+      "drums",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/70efabd0-1e22-4c72-a292-ef138e10abdc",
+    "title": "Bittersweet Echoes",
+    "translation_meta": {
+      "title_zh": "中速灵魂乐/R&B抒情曲",
+      "genre_tags_zh": [
+        "灵魂乐 (Soul)",
+        "R&B"
+      ],
+      "mood_keywords_zh": [
+        "沉思",
+        "柔和",
+        "深刻的情感",
+        "渴望"
+      ],
+      "translated_at": "2026-03-25T14:31:42.237068"
+    },
+    "usage_tips": [],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [],
+    "refined": true,
+    "refined_version": "1.0"
+  }
+]

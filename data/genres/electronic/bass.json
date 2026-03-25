@@ -1,0 +1,43 @@
+{
+  "genre": "electronic.bass",
+  "count": 1,
+  "documents": [
+    {
+      "id": "vmdp_c382612d7478",
+      "version": "1.0.0",
+      "original_prompt": "electric bass guitar",
+      "translated_prompt": "电贝斯吉他",
+      "title": {
+        "en": "electric bass guitar",
+        "zh": "电贝斯吉他"
+      },
+      "prompt": {
+        "en": "electric bass guitar",
+        "zh": "电贝斯吉他"
+      },
+      "genre": "electronic.bass",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 120,
+        "key": "C Minor",
+        "energy_level": "medium",
+        "frequency_center": "30Hz-80Hz",
+        "dynamics_range": "Medium",
+        "reverb": "Small Room",
+        "compression": "Moderate"
+      },
+      "gem_suggestion": "增加一些低频的饱和度和压缩，使贝斯更加突出和有力。",
+      "viral_score": 0.0,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T23:28:21.254164"
+      },
+      "created_at": "2026-03-24T23:28:21.254164",
+      "updated_at": "2026-03-24T23:28:21.254164"
+    }
+  ],
+  "updated_at": "2026-03-24T23:28:21.277406"
+}

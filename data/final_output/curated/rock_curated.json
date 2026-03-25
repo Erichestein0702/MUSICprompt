@@ -1,0 +1,2396 @@
+[
+  {
+    "id": "mp_c08084a3720b",
+    "prompt_text": "Create a track that combines the moody, atmospheric trip-hop elements of Portishead with the intricate, melodic guitar work of Johnny Marr and the electronic, progressive house influences of Underworld. The music should complement the following lyrics, which explore themes of time, love, mistakes, and understanding what is dear. The result should be a haunting and emotive blend of trip-hop, alternative rock, and electronic dance music, with layered synths, captivating guitar riffs, and a strong, atmospheric presence.  [Verse] What we carry  As it hangs over time  All our loves and our mistakes  And how they make us defined   [Chorus] You can't see the burdens  But the spirits know what's near  It's only when we're ripped apart That we understand what's dear",
+    "prompt_zh": "创作一首结合Portishead的忧郁、氛围化Trip-Hop元素、Johnny Marr复杂而旋律化的吉他演奏以及Underworld的电子、Progressive House影响的曲目。音乐应与以下歌词相辅相成，歌词探讨了时间、爱情、错误和理解珍贵之物的主题。最终结果应是一首融合了Trip-Hop、另类摇滚 (Alternative Rock) 和电子舞曲 (Electronic Dance Music) 的令人难忘且情感丰富的作品，包含层次分明的合成器、引人入胜的吉他旋律和强烈的氛围感。 [主歌] 我们背负的  随时间悬挂在心头  所有的爱与错误  以及它们如何定义了我们 [副歌] 你看不到那些重担  但灵魂知道近在咫尺  只有当我们被撕裂  才能理解何为珍贵",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "electronic",
+      "house"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "synth"
+    ],
+    "quality_score": 8.33,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/62061322-be94-40c6-859e-e290ebed4c15",
+    "title": "Burdens ",
+    "translation_meta": {
+      "title_zh": "时间的重负",
+      "genre_tags_zh": [
+        "Trip-Hop",
+        "另类摇滚 (Alternative Rock)",
+        "电子舞曲 (Electronic Dance Music)"
+      ],
+      "mood_keywords_zh": [
+        "忧郁",
+        "氛围化",
+        "情感丰富",
+        "引人入胜",
+        "层次分明"
+      ],
+      "translated_at": "2026-03-25T14:18:06.019400"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪",
+      "可以尝试调整BPM来改变能量感"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_9351aa79e0a3",
+    "prompt_text": "Genre: Alternative Rock/Emo\nTheme/Subject: Overcoming adversity and finding hope in the face of darkness\nKey Elements: Emotive and melodic vocals, atmospheric guitar riffs, introspective and hopeful lyrics\nStructure: [Intro], [Verse 1], [Chorus], [Verse 2], [Chorus], [Bridge], [Chorus], [Outro]\nTone/Voice Descriptions: Melancholic, hopeful, emotive, male vocalist\nAtmospheric Guitar Riffs: Morningstar features ambient, reverb-heavy guitar riffs that create a melancholic atmosphere.Emotive \nVocals: Davey Havok’s vocals are emotive, with a blend of softness and intensity.\nDynamic Build-Up: The song builds dynamically, starting softer and gradually adding intensity towards the climax.\nOvercoming Darkness: The lyrics focus on overcoming adversity and finding light in the darkness.\nHope and Resilience: There is a strong theme of hope and resilience throughout the song.",
+    "prompt_zh": "流派: 另类摇滚/情绪摇滚 (Alternative Rock/Emo)\n主题/题材: 战胜逆境并在黑暗中找到希望\n关键元素: 情感化的旋律人声，氛围吉他 riff，内省而充满希望的歌词\n结构: [前奏], [主歌 1], [副歌], [主歌 2], [副歌], [桥段], [副歌], [尾奏]\n音色/人声描述: 忧郁的，充满希望的，情感化的，男性主唱\n氛围吉他 riff: Morningstar 特点是氛围感强、混响厚重的吉他 riff，营造出一种忧郁的氛围。\n情感化人声: Davey Havok 的人声情感化，兼具柔和与强烈。\n动态渐强: 歌曲动态渐强，从柔和开始，逐渐增加强度直至高潮。\n战胜黑暗: 歌词集中在战胜逆境并在黑暗中找到光明。\n希望与坚韧: 歌曲中贯穿了强烈的希望与坚韧主题。",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "ambient"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar"
+    ],
+    "quality_score": 8.17,
+    "use_cases": [
+      "study"
+    ],
+    "source": "mister-magpie/e1828a39-2ebd-4161-9c63-e311b4a7a404",
+    "title": "Shadows to Light",
+    "translation_meta": {
+      "title_zh": "战胜逆境",
+      "genre_tags_zh": [
+        "另类摇滚",
+        "情绪摇滚"
+      ],
+      "mood_keywords_zh": [
+        "忧郁",
+        "充满希望",
+        "情感化",
+        "柔和",
+        "强烈",
+        "动态渐强",
+        "战胜逆境",
+        "希望与坚韧"
+      ],
+      "translated_at": "2026-03-25T14:18:16.619940"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪",
+      "适合冥想或学习场景，建议保持原参数",
+      "学习时使用建议降低音量，避免分心"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_ddad1b6dac3e",
+    "prompt_text": "wonky, jazz rock fusion,  future bass, uptempo, rhythmic, tension, drumset (Future Bass), acustic bass, electric guitar, [Intro] a (purple sound && ambient FX)",
+    "prompt_zh": "wonky, 爵士摇滚融合 (Jazz Rock Fusion), 未来贝斯 (Future Bass), 快节奏, 节奏感强, 紧张, drumset (Future Bass), acoustic bass, electric guitar, [前奏] a (紫色音效 && 环境音效)",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "jazz",
+      "ambient"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "bass"
+    ],
+    "quality_score": 8.17,
+    "use_cases": [
+      "study"
+    ],
+    "source": "mister-magpie/cf0eb3fd-2c61-4906-a058-488f15c790fb",
+    "title": "Pinguin Dive [FusionBass]",
+    "translation_meta": {
+      "title_zh": "紫色氛围的爵士摇滚融合与未来贝斯",
+      "genre_tags_zh": [
+        "爵士摇滚融合 (Jazz Rock Fusion)",
+        "未来贝斯 (Future Bass)"
+      ],
+      "mood_keywords_zh": [
+        "wonky",
+        "快节奏",
+        "节奏感强",
+        "紧张"
+      ],
+      "translated_at": "2026-03-25T14:18:21.684357"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪",
+      "适合冥想或学习场景，建议保持原参数",
+      "学习时使用建议降低音量，避免分心"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_3679abb23954",
+    "prompt_text": "funk  rock, future bass, synth funk, funk rock bass, anthemic, energetic, energetic,  2000s, [Outro] do what f*ck I says in the Custom FunkyUdio",
+    "prompt_zh": "放克摇滚 (Funk Rock)、未来贝斯 (Future Bass)、合成器放克 (Synth Funk)、放克摇滚贝斯 (Funk Rock Bass)，气势磅礴、充满活力、2000年代风格，[尾奏] 按我说的做",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.17,
+    "use_cases": [],
+    "source": "mister-magpie/fb665d02-f8c7-4b4e-8c96-46fdb13cfe92",
+    "title": "FUnK YOU!",
+    "translation_meta": {
+      "title_zh": "自定义 FunkyUdio",
+      "genre_tags_zh": [
+        "放克摇滚 (Funk Rock)",
+        "未来贝斯 (Future Bass)",
+        "合成器放克 (Synth Funk)",
+        "放克摇滚贝斯 (Funk Rock Bass)"
+      ],
+      "mood_keywords_zh": [
+        "气势磅礴",
+        "充满活力"
+      ],
+      "translated_at": "2026-03-25T14:18:27.272240"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_26202383bdce",
+    "prompt_text": "Hard Rock, blues rock, emotional, longing, slow, 1970s, ballad, Powerful electric guitars, Heavy riffs, Dynamic solos, Energetic drums, Prominent snare and bass drum, Deep bass lines, Optional atmospheric keys, Expressive vocals, Strong and soulful, Raw emotion, High energy, Intense build-ups, Dramatic tone, Dark and brooding atmosphere, Soaring highs, Intense lows, Epic and cinematic vibe, passionate, soulful, Classic rock sound, Vintage feel, male vocalist, dolby atmos, wall of sound",
+    "prompt_zh": "硬摇滚 (Hard Rock)、布鲁斯摇滚 (Blues Rock)、情感丰富、充满渴望、缓慢、1970年代、抒情曲 (ballad)、强大的电吉他 (Powerful electric guitars)、重型 riff (Heavy riffs)、动态独奏 (Dynamic solos)、充满活力的鼓 (Energetic drums)、突出的军鼓和贝斯鼓 (Prominent snare and bass drum)、深沉的贝斯线条 (Deep bass lines)、可选的大气键盘 (Optional atmospheric keys)、富有表现力的人声 (Expressive vocals)、强烈而深情、原始的情感 (Raw emotion)、高能量 (High energy)、强烈的渐强 (Intense build-ups)、戏剧性的音调 (Dramatic tone)、黑暗而忧郁的氛围 (Dark and brooding atmosphere)、高昂的高潮 (Soaring highs)、强烈的低谷 (Intense lows)、史诗般的电影感 (Epic and cinematic vibe)、热情洋溢、深情款款、经典的摇滚声音 (Classic rock sound)、复古的感觉 (Vintage feel)、男性主唱 (male vocalist)、杜比全景声 (dolby atmos)、声音墙 (wall of sound)",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "blues",
+      "soul"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "bass"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "gaming",
+      "cinematic"
+    ],
+    "source": "mister-magpie/b63be8f3-c590-4570-b68c-d31861bcace4",
+    "title": "Fallen Hero",
+    "translation_meta": {
+      "title_zh": "摇滚情歌",
+      "genre_tags_zh": [
+        "硬摇滚 (Hard Rock)",
+        "布鲁斯摇滚 (Blues Rock)"
+      ],
+      "mood_keywords_zh": [
+        "情感丰富",
+        "充满渴望",
+        "缓慢",
+        "1970年代",
+        "抒情曲 (ballad)",
+        "强烈而深情",
+        "原始的情感 (Raw emotion)",
+        "高能量 (High energy)",
+        "强烈的渐强 (Intense build-ups)",
+        "戏剧性的音调 (Dramatic tone)",
+        "黑暗而忧郁的氛围 (Dark and brooding atmosphere)",
+        "高昂的高潮 (Soaring highs)",
+        "强烈的低谷 (Intense lows)",
+        "史诗般的电影感 (Epic and cinematic vibe)",
+        "热情洋溢",
+        "深情款款",
+        "经典的摇滚声音 (Classic rock sound)",
+        "复古的感觉 (Vintage feel)"
+      ],
+      "translated_at": "2026-03-25T14:18:42.483406"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_e69dcd727999",
+    "prompt_text": "Key of D# Minor, energetic, fun, dynamic playing, indie pop, indie rock, alternative rock, full band, singer-songwriter, acoustic, guitar, flute, harmonia, bass guitar, unquantized, session drummer, ",
+    "prompt_zh": "Key of D# Minor, 充满活力、有趣、动态演奏, 独立流行 (Indie Pop)、独立摇滚 (Indie Rock)、另类摇滚 (Alternative Rock), 全乐队编制, 词曲作者, 原声, 吉他 (Guitar), 长笛 (Flute), 谐音器 (Harmonia), 低音吉他 (Bass Guitar), 非量化, 会话鼓手 (Session Drummer)",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "pop",
+      "indie"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass",
+      "flute"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/42f2d91a-3400-4139-8eb1-72bdd65e5db4",
+    "title": "It's All the Same",
+    "translation_meta": {
+      "title_zh": "D#小调充满活力的独立流行与摇滚",
+      "genre_tags_zh": [
+        "独立流行 (Indie Pop)",
+        "独立摇滚 (Indie Rock)",
+        "另类摇滚 (Alternative Rock)"
+      ],
+      "mood_keywords_zh": [
+        "充满活力",
+        "有趣",
+        "动态演奏"
+      ],
+      "translated_at": "2026-03-25T14:19:03.514096"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_5f1c43146e5b",
+    "prompt_text": "emotional synthwave,  dark electronica, alt-rock, melodic synth, deep clean male voice, electronic dance music, electric guitar, ethereal, atmospheric, Electronic, Electronic dance music, emotional, synthwave, A minor key, progressive trance, ethereal, atmospheric, Electronic, Electronic dance music, Trance, Progressive trance, Atmospheric, Ethereal",
+    "prompt_zh": "情感合成波 (emotional synthwave)，黑暗电子乐 (dark electronica)，另类摇滚 (alt-rock)，旋律合成器 (melodic synth)，深沉干净的男声 (deep clean male voice)，电子舞曲 (electronic dance music)，电吉他 (electric guitar)，空灵 (ethereal)，氛围 (atmospheric)，电子 (Electronic)，电子舞曲 (Electronic dance music)，情感 (emotional)，合成波 (synthwave)，A小调 (A minor key)，渐进恍惚 (progressive trance)，空灵 (ethereal)，氛围 (atmospheric)，电子 (Electronic)，电子舞曲 (Electronic dance music)，恍惚 (Trance)，渐进恍惚 (Progressive trance)，氛围 (Atmospheric)，空灵 (Ethereal)",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "electronic",
+      "trance"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/07ef9c59-8261-4ddf-b8b9-ba131a5c20b1",
+    "title": "Shadows of Tomorrow",
+    "translation_meta": {
+      "title_zh": "情感合成波，黑暗电子乐，另类摇滚，旋律合成器，深沉干净的男声，电子舞曲，电吉他，空灵，氛围，电子，电子舞曲，情感，合成波，A小调，渐进恍惚，空灵，氛围，电子，电子舞曲，恍惚，渐进恍惚，氛围，空灵",
+      "genre_tags_zh": [
+        "合成波 (Synthwave)",
+        "黑暗电子乐 (Dark Electronica)",
+        "另类摇滚 (Alt-Rock)",
+        "电子舞曲 (Electronic Dance Music)",
+        "渐进恍惚 (Progressive Trance)",
+        "恍惚 (Trance)"
+      ],
+      "mood_keywords_zh": [
+        "情感",
+        "空灵",
+        "氛围"
+      ],
+      "translated_at": "2026-03-25T14:19:33.820345"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪",
+      "可以尝试调整BPM来改变能量感"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_c0e9002b95a8",
+    "prompt_text": "pop rock 120 bpm female vocals up tempo expressive vocals with a touch of humor electric guitar bass drums synthesizer ",
+    "prompt_zh": "120 BPM 女声 主歌部分节奏明快，表达富有情感，带有一点幽默感 电吉他 贝斯 鼓 合成器",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "pop"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/4ccd8f70-9e13-45c5-89b0-98c8f4828931",
+    "title": "Adventures in Adulting",
+    "translation_meta": {
+      "title_zh": "流行摇滚 (Pop Rock)",
+      "genre_tags_zh": [
+        "流行摇滚 (Pop Rock)"
+      ],
+      "mood_keywords_zh": [
+        "节奏明快",
+        "富有情感",
+        "带有一点幽默感"
+      ],
+      "translated_at": "2026-03-25T14:19:56.644686"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_cb7d39b9d971",
+    "prompt_text": "an 1970's heavy punk rock song about living in New York City, northeast Bronx punk, hard rock, obnoxious power vocals, driving, heavy riffs, anthemic, energetic, dynamic, melodic, sleaze rock, New York sound, Queens sound, punk rock, heavy, intense, electric bass guitar, electric guitar, drums (drum set), guitar, keyboard, bass guitar, rock, heavy metal, male vocalist, male vocalists, male vocals, arena rock, blues rock, rock and roll, synthesizer, melodic, album rock, energetic, passionate, anthemic, rhythmic, uptempo, allegro, electric guitar, electric bass guitar, electric blues, electric piano, wurlitzer electric piano, Oberheim OB-X, synthesizer rock, slide guitar, male vocalist, male vocalists, male vocal",
+    "prompt_zh": "一首关于生活在纽约市的1970年代 heavy punk rock 歌曲，northeast Bronx punk，hard rock，刺耳的 power vocals，节奏紧凑，重型 riffs，具有颂歌般的效果，充满活力，动态十足，旋律优美，sleaze rock，纽约风格，皇后区风格，punk rock，重型，强烈，electric bass guitar，electric guitar，drums (drum set)，guitar，keyboard，bass guitar，rock，heavy metal，男歌手，男声歌手，男声，arena rock，blues rock，rock and roll，synthesizer，旋律优美，充满激情，具有颂歌般的效果，节奏感强，快节奏，allegro，electric guitar，electric bass guitar，electric blues，electric piano，wurlitzer electric piano，Oberheim OB-X，synthesizer rock，滑棒吉他，男歌手，男声歌手，男声",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "blues",
+      "metal"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "piano",
+      "drums",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/fc7a59f2-9d0d-4d86-901d-228fe00f509d",
+    "title": "I’m A City Boy by The Pelham Longhairs 🗽, classic heavy urban punk",
+    "translation_meta": {
+      "title_zh": "关于纽约市生活的1970年代重型朋克摇滚歌曲",
+      "genre_tags_zh": [
+        "朋克摇滚 (punk rock)",
+        "硬摇滚 (hard rock)",
+        "滑稽摇滚 (sleaze rock)",
+        "纽约风格 (New York sound)",
+        "皇后区风格 (Queens sound)",
+        "重金属 (heavy metal)",
+        "竞技场摇滚 (arena rock)",
+        "布鲁斯摇滚 (blues rock)",
+        "摇滚 (rock and roll)",
+        "合成器摇滚 (synthesizer rock)"
+      ],
+      "mood_keywords_zh": [
+        "刺耳的",
+        "节奏紧凑",
+        "重型",
+        "具有颂歌般的效果",
+        "充满活力",
+        "动态十足",
+        "旋律优美",
+        "强烈",
+        "旋律优美",
+        "充满激情",
+        "节奏感强",
+        "快节奏",
+        "allegro"
+      ],
+      "translated_at": "2026-03-25T14:20:15.677692"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_4e63039fb482",
+    "prompt_text": "keyboard/synthesizer/new age, bass, electric guitar, drums (drum set), pop, male vocalist, catchy beat, rock/pop, electric guitar, bass guitar, keyboard/synthesizer/new age, alternative rock, drums (drum set), Nova sings a song confronting someone who keeps meddling in his life.",
+    "prompt_zh": "keyboard/synthesizer/new age, bass, electric guitar, drums (drum set), 流行 (pop), 男声主唱, 抓耳的节奏, 摇滚/流行 (rock/pop), electric guitar, bass guitar, keyboard/synthesizer/new age, 另类摇滚 (alternative rock), drums (drum set), 诺瓦演唱了一首直面那些不断干涉他生活的人的歌曲。",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "pop"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "bass",
+      "synth",
+      "keyboard"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/e0961e15-65f4-482a-a7d6-5214b99b0f0d",
+    "title": " Mind Your Buissness",
+    "translation_meta": {
+      "title_zh": "诺瓦直面生活的干扰者",
+      "genre_tags_zh": [
+        "流行 (pop)",
+        "摇滚/流行 (rock/pop)",
+        "另类摇滚 (alternative rock)"
+      ],
+      "mood_keywords_zh": [
+        "抓耳的节奏"
+      ],
+      "translated_at": "2026-03-25T14:20:27.574579"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_1c210eb94299",
+    "prompt_text": "horrorwave, emotional synthwave, dark electronica, alt-rock, melodic synth, deep clean male voice, electronic dance music, electric guitar,  Electronic, Electronic dance music, emotional, synthwave, A minor key, progressive trance, ethereal, atmospheric, Electronic, Electronic dance music, Trance, Progressive trance, Atmospheric, Ethereal Horrorwave, Emotional synthwave, dark electronica, Alt-rock, Melodic synth, Deep clean male voice, Electronic dance music, Electric guitar, Ethereal, Atmospheric, Electronic, Electronic dance music, Emotional, Synthwave, A minor key, Progressive trance, Ethereal, Atmospheric, Electronic, Electronic dance music, Trance, Progressive trance, Atmospheric, Ethereal",
+    "prompt_zh": "恐怖氛围合成器音乐 (Horrorwave)，情感合成器音乐 (Emotional synthwave)，黑暗电子音乐 (Dark electronica)，另类摇滚 (Alt-rock)，旋律合成器 (Melodic synth)，深沉干净的男声 (Deep clean male voice)，电子舞曲 (Electronic dance music)，电吉他 (Electric guitar)，电子 (Electronic)，电子舞曲 (Electronic dance music)，情感 (Emotional)，合成器音乐 (Synthwave)，A小调 (A minor key)，渐进恍惚 (Progressive trance)，空灵 (Ethereal)，氛围 (Atmospheric)，电子 (Electronic)，电子舞曲 (Electronic dance music)，恍惚 (Trance)，渐进恍惚 (Progressive trance)，氛围 (Atmospheric)，空灵 (Ethereal)",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "electronic",
+      "trance"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/f30b80a7-b1d0-40a5-9996-08ceb498b4f3",
+    "title": "Tormentor",
+    "translation_meta": {
+      "title_zh": "恐怖氛围合成器音乐",
+      "genre_tags_zh": [
+        "恐怖氛围合成器音乐 (Horrorwave)",
+        "情感合成器音乐 (Emotional synthwave)",
+        "黑暗电子音乐 (Dark electronica)",
+        "另类摇滚 (Alt-rock)",
+        "旋律合成器 (Melodic synth)",
+        "电子舞曲 (Electronic dance music)",
+        "电子 (Electronic)",
+        "渐进恍惚 (Progressive trance)",
+        "恍惚 (Trance)"
+      ],
+      "mood_keywords_zh": [
+        "情感 (Emotional)",
+        "空灵 (Ethereal)",
+        "氛围 (Atmospheric)"
+      ],
+      "translated_at": "2026-03-25T14:20:41.729724"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪",
+      "可以尝试调整BPM来改变能量感"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_de8afe7de8ba",
+    "prompt_text": "an late-1980's hard rock song about the future of romantic relationships, hard rock, power vocals, driving, heavy riffs, anthemic, energetic, dynamic, melodic, sleaze rock, heavy, intense, electric bass guitar, electric guitar, drums (drum set), guitar, keyboard, bass guitar, rock, heavy metal, male vocalist, male vocalists, male vocals, arena rock, blues rock, rock and roll, synthesizer, melodic, album rock, energetic, passionate, anthemic, rhythmic, uptempo, allegro, electric guitar, electric bass guitar, electric blues, electric piano, wurlitzer electric piano, Oberheim OB-X, synthesizer rock, slide guitar, male vocalist, male vocalists, male vocal",
+    "prompt_zh": "一首关于未来浪漫关系的1980年代末硬摇滚 (hard rock) 歌曲，具有强力的嗓音 (power vocals)，节奏紧凑 (driving)，重型 riff (heavy riffs)，充满激情 (anthemic)，充满活力 (energetic)，动态 (dynamic)，旋律 (melodic)，滑稽摇滚 (sleaze rock)，重型 (heavy)，强烈 (intense)，使用电贝斯 (electric bass guitar)，电吉他 (electric guitar)，鼓组 (drum set)，吉他 (guitar)，键盘 (keyboard)，贝斯 (bass guitar)，摇滚 (rock)，重金属 (heavy metal)，男声主唱 (male vocalist)，男声主唱 (male vocalists)，男声 (male vocals)，竞技场摇滚 (arena rock)，蓝调摇滚 (blues rock)，摇滚和滚 (rock and roll)，合成器 (synthesizer)，旋律 (melodic)，充满活力 (energetic)，热情 (passionate)，充满激情 (anthemic)，节奏感强 (rhythmic)，快节奏 (uptempo)，快板 (allegro)，电吉他 (electric guitar)，电贝斯 (electric bass guitar)，电蓝调 (electric blues)，电钢琴 (electric piano)，Wurlitzer 电钢琴 (Wurlitzer electric piano)，Oberheim OB-X，合成器摇滚 (synthesizer rock)，滑棒吉他 (slide guitar)，男声主唱 (male vocalist)，男声主唱 (male vocalists)，男声 (male vocal)",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "blues",
+      "metal"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "piano",
+      "drums",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/bece88ba-8a97-4e6f-842d-422686e61dea",
+    "title": "Future Fembots by Ripster’s Raunchy Robo-Rockers, classic hard rock/heavy metal",
+    "translation_meta": {
+      "title_zh": "关于未来浪漫关系的1980年代末硬摇滚歌曲",
+      "genre_tags_zh": [
+        "硬摇滚 (hard rock)",
+        "滑稽摇滚 (sleaze rock)",
+        "竞技场摇滚 (arena rock)",
+        "蓝调摇滚 (blues rock)",
+        "摇滚和滚 (rock and roll)",
+        "合成器摇滚 (synthesizer rock)",
+        "专辑摇滚 (album rock)"
+      ],
+      "mood_keywords_zh": [
+        "强力的嗓音 (power vocals)",
+        "节奏紧凑 (driving)",
+        "重型 riff (heavy riffs)",
+        "充满激情 (anthemic)",
+        "充满活力 (energetic)",
+        "动态 (dynamic)",
+        "旋律 (melodic)",
+        "重型 (heavy)",
+        "强烈 (intense)",
+        "热情 (passionate)",
+        "节奏感强 (rhythmic)",
+        "快节奏 (uptempo)",
+        "快板 (allegro)"
+      ],
+      "translated_at": "2026-03-25T14:21:04.586702"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_0a89fe5c7759",
+    "prompt_text": "Electronic, house, yacht rock, psychedelic rock, city pop, synth-pop, kawaii future bass, female vocalist, synthesized vocals, compressor effect, talkbox, synthesizer keyboard, guitar synthesizer, mellow, upbeat, Frantic, energetic, scratching, sampling,",
+    "prompt_zh": "电子 (Electronic), 房屋 (House), 游艇摇滚 (Yacht Rock), 迷幻摇滚 (Psychedelic Rock), 城市流行 (City Pop), 合成流行 (Synth-pop), 卡哇伊未来贝斯 (Kawaii Future Bass), 女声主唱 (female vocalist), 合成声 (synthesized vocals), 压缩器效果 (compressor effect), 话筒 (talkbox), 合成器键盘 (synthesizer keyboard), 吉他合成器 (guitar synthesizer), 温柔 (mellow), 欢快 (upbeat), 紧张 (Frantic), 有活力 (energetic), 唱盘刮擦 (scratching), 采样 (sampling)",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "pop",
+      "electronic"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass",
+      "synth",
+      "keyboard"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/8c466de7-e000-4e01-9e1d-d46316968f50",
+    "title": "One More Time",
+    "translation_meta": {
+      "title_zh": "多风格电子音乐",
+      "genre_tags_zh": [
+        "电子",
+        "房屋",
+        "游艇摇滚",
+        "迷幻摇滚",
+        "城市流行",
+        "合成流行",
+        "卡哇伊未来贝斯"
+      ],
+      "mood_keywords_zh": [
+        "温柔",
+        "欢快",
+        "紧张",
+        "有活力"
+      ],
+      "translated_at": "2026-03-25T14:22:01.382228"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪",
+      "可以尝试调整BPM来改变能量感"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_aadfe61edf96",
+    "prompt_text": "electronic, funk, synth-pop, dance, electro, guitar.  Keyboard.  Reverb.  Delay.  , drums (drum set), bass guitar, bass, hard rock, 142 bpm",
+    "prompt_zh": "电子, 放克, 合成器流行, 舞曲, 电子音乐, guitar. Keyboard. Reverb. Delay. , drums (drum set), bass guitar, bass, 硬摇滚, 142 bpm",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "pop",
+      "electronic"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "bass",
+      "synth",
+      "keyboard"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/40326451-7e6d-47a2-b184-7d58ee6af8df",
+    "title": "Let Loose Tonight",
+    "translation_meta": {
+      "title_zh": "电子、放克、合成器流行、舞曲、电子音乐、吉他",
+      "genre_tags_zh": [
+        "电子 (electronic)",
+        "放克 (funk)",
+        "合成器流行 (synth-pop)",
+        "舞曲 (dance)",
+        "电子音乐 (electro)",
+        "硬摇滚 (hard rock)"
+      ],
+      "mood_keywords_zh": [
+        "合成器",
+        "混响",
+        "延迟",
+        "鼓组",
+        "贝斯吉他",
+        "贝斯"
+      ],
+      "translated_at": "2026-03-25T14:22:25.967090"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪",
+      "可以尝试调整BPM来改变能量感"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_ae3a8f0b24b7",
+    "prompt_text": "Funky pop rock intro with energetic guitar riffs and playful synth melodies. Upbeat drum groove sets the tone for a quirky and catchy song. Gradual build-up of instruments. pop rock; funky; energetic; playful; guitar riffs; synth melodies; upbeat drums; D major; 140 BPM.",
+    "prompt_zh": "有趣的流行摇滚 (Funky Pop Rock) 引子，充满活力的吉他 riffs 和欢快的合成器旋律。欢快的鼓点节奏为这首古怪且上口的歌曲定下了基调。乐器逐渐增加。pop rock; funky; energetic; playful; guitar riffs; synth melodies; upbeat drums; D major; 140 BPM.",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "pop",
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/34dc18a8-71f3-40ae-b32a-e7c0290659e6",
+    "title": "Been / J-pop rock",
+    "translation_meta": {
+      "title_zh": "有趣的流行摇滚 (Funky Pop Rock) 引子",
+      "genre_tags_zh": [
+        "流行摇滚 (Pop Rock)",
+        "放克 (Funky)"
+      ],
+      "mood_keywords_zh": [
+        "充满活力",
+        "欢快",
+        "古怪",
+        "上口"
+      ],
+      "translated_at": "2026-03-25T14:22:30.736755"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_e00158658148",
+    "prompt_text": "f major key, indie rock, female vocals, rock, passionate, love, orchestral, Lauren Babic, atmospheric, atmospheric drum and bass, Piano,, melancholic, bittersweet, ",
+    "prompt_zh": "F major key, 独立摇滚 (indie rock), 女声演唱, 摇滚 (rock), 激情, 爱情, 管弦乐, Lauren Babic, 氛围, 氛围鼓与贝斯 (atmospheric drum and bass), 钢琴, 忧郁, 甜蜜而苦涩",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "indie"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "piano",
+      "bass"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/1b4c9294-9782-472a-b496-c8325251a292",
+    "title": "Why Do I?",
+    "translation_meta": {
+      "title_zh": "音乐提示词翻译",
+      "genre_tags_zh": [
+        "独立摇滚 (indie rock)",
+        "摇滚 (rock)",
+        "氛围鼓与贝斯 (atmospheric drum and bass)"
+      ],
+      "mood_keywords_zh": [
+        "激情",
+        "爱情",
+        "忧郁",
+        "甜蜜而苦涩"
+      ],
+      "translated_at": "2026-03-25T14:22:40.247490"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_c41825790542",
+    "prompt_text": "This saxophone solo should explode with happy energy that matches the song, ending on a resolution that ends the whole song at the same time.   This is a contemporary indie/alternative/pop rock song with a female vocalist with dreamy, reverb-heavy vocals, vocal harmonies, and two electric guitars providing rhythmic and harmonic support.   Female vocalist, vocal harmonies, indie pop, dreamy, beach, wistful, youthful, indie, happy, emotional, summer, nostalgic, romantic, reverb, dynamic, electric guitar, synthesizer.  Here are some artists that match the vibe we are looking to create with this song:  Hazel English, Alvvays, Day Wave, Glades.   The song should be dynamic, with a chorus that has more harmonies, guitars, and energy than the verses. , energetic, ",
+    "prompt_zh": "这段萨克斯独奏应该充满与歌曲相匹配的快乐能量，以一个和弦解决结束，同时结束整首歌。这是一首当代独立/另类/流行摇滚 (Contemporary Indie/Alternative/Pop Rock) 歌曲，由一位女歌手用梦幻且混响厚重的嗓音演唱，有和声和两把电吉他提供节奏和和声支持。女歌手，和声，独立流行 (Indie Pop)，梦幻，海滩，怀旧，年轻，独立，快乐，情感，夏天，怀旧，浪漫，混响，动态，电吉他，合成器。以下是一些与我们想要创造的歌曲氛围相符的艺术家：Hazel English, Alvvays, Day Wave, Glades。歌曲应该具有动态性，副歌部分比主歌部分有更多的和声、吉他和能量。",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "pop",
+      "indie"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "synth",
+      "saxophone"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "sleep"
+    ],
+    "source": "mister-magpie/0f808529-6a22-4095-b697-f4a2a127a206",
+    "title": "Dream Girl (Indie/Synth Pop, Full Track)",
+    "translation_meta": {
+      "title_zh": "中文标题",
+      "genre_tags_zh": [
+        "独立流行 (Indie Pop)",
+        "另类摇滚 (Alternative Rock)",
+        "流行摇滚 (Pop Rock)"
+      ],
+      "mood_keywords_zh": [
+        "快乐",
+        "梦幻",
+        "怀旧",
+        "年轻",
+        "独立",
+        "情感",
+        "夏天",
+        "浪漫",
+        "怀旧",
+        "动态",
+        "能量"
+      ],
+      "translated_at": "2026-03-25T14:22:49.096193"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_02997f1b31c1",
+    "prompt_text": "indie rock, contemporary rock, post grunge, pop-rock, female vocalist, electric guitar, bass guitar, drums (drum set), synthesizer, rock synthesizer, keyboard, melodic, rhythmic, screamo, 120 bpm",
+    "prompt_zh": "独立摇滚 (indie rock)，当代摇滚 (contemporary rock)，后垃圾摇滚 (post grunge)，流行摇滚 (pop-rock)，女声主唱 (female vocalist)，电吉他 (electric guitar)，贝斯 (bass guitar)，鼓组 (drums)，合成器 (synthesizer)，摇滚合成器 (rock synthesizer)，键盘 (keyboard)，旋律性 (melodic)，节奏感 (rhythmic)，尖叫核 (screamo)，120 bpm",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "pop",
+      "indie"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "bass",
+      "synth",
+      "keyboard"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/5b4e514d-2415-47b0-8fc8-ef3836b9b04b",
+    "title": "Seven Days",
+    "translation_meta": {
+      "title_zh": "音乐提示词翻译",
+      "genre_tags_zh": [
+        "独立摇滚 (indie rock)",
+        "当代摇滚 (contemporary rock)",
+        "后垃圾摇滚 (post grunge)",
+        "流行摇滚 (pop-rock)"
+      ],
+      "mood_keywords_zh": [
+        "旋律性 (melodic)",
+        "节奏感 (rhythmic)",
+        "尖叫核 (screamo)"
+      ],
+      "translated_at": "2026-03-25T14:22:55.089038"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_b3ec0dfb4955",
+    "prompt_text": "Genre: Heavy Metal, Hard Rock Guitar Tone: Aggressive, full-bodied, melodic solos Tempo: Upbeat, mid-tempo, energetic Drums: Powerful, polished, prominent kick and snare Vocals: Raspy, harsh, melodic chorus Lyrics: Desire, energy, human experience, introspective Production: Polished, clear, powerful",
+    "prompt_zh": "流派: 重金属 (Heavy Metal), 硬摇滚 (Hard Rock)\n吉他音色: 激烈、饱满、旋律独奏\n节奏: 欢快、中速、充满活力\n鼓: 强劲、精致、突出的底鼓和军鼓\n人声: 沙哑、粗糙、旋律副歌\n歌词: 欲望、能量、人生体验、内省\n制作: 精致、清晰、强劲",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "metal"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/b54653b1-2c9f-4c37-b88c-3ead3d5540b8",
+    "title": "Unquenched Fire",
+    "translation_meta": {
+      "title_zh": "重金属与硬摇滚音乐提示词",
+      "genre_tags_zh": [
+        "重金属 (Heavy Metal)",
+        "硬摇滚 (Hard Rock)"
+      ],
+      "mood_keywords_zh": [
+        "激烈",
+        "饱满",
+        "旋律独奏",
+        "欢快",
+        "中速",
+        "充满活力",
+        "强劲",
+        "精致",
+        "突出的底鼓和军鼓",
+        "沙哑",
+        "粗糙",
+        "旋律副歌",
+        "欲望",
+        "能量",
+        "人生体验",
+        "内省",
+        "精致",
+        "清晰",
+        "强劲"
+      ],
+      "translated_at": "2026-03-25T14:23:20.207909"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_2e1e6fbe2804",
+    "prompt_text": "Jazz Fusion: The song features complex harmonies, intricate melodies, and sophisticated chord progressions typical of jazz fusion.Rock Influences: There are elements of rock, especially in the use of electric guitar riffs and driving rhythms.Pop Sensibilities: The track has catchy, memorable melodies and a polished, accessible sound that appeals to a broad audience.Funky Rhythms: The basslines and drum patterns often incorporate funk elements, adding a groovy, danceable quality to the music.Instrumental Virtuosity: The musicianship is top-notch, with each instrument contributing to the overall complexity and richness of the arrangement.Synthesizers and Electronic Elements: Prominent use of synthesizers adds a modern, polished feel to the track.melodic, catchy, passionate, pop,pop rock, energetic, uplifting, , r&b, funk, rock, uplifting, pop, melodic, rhythmic, passionate, romantic, contemporary r&b, pop soul, lush, instrumental",
+    "prompt_zh": "这首歌曲包含复杂的和声、精致的旋律和典型的爵士融合 (Jazz Fusion) 和弦进程。摇滚影响 (Rock Influences)：在电吉他 (Electric Guitar) 旋律和强烈的节奏中融入了摇滚元素。流行元素 (Pop Sensibilities)：曲目具有朗朗上口、令人难忘的旋律和精致、易于接受的声音，能够吸引广泛的听众。放克节奏 (Funky Rhythms)：贝斯线 (Basslines) 和鼓点 (Drum Patterns) 经常融入放克元素，使音乐更加摇摆、可舞动。器乐技巧 (Instrumental Virtuosity)：演奏技巧一流，每件乐器都为整体编排的复杂性和丰富性做出了贡献。合成器和电子元素 (Synthesizers and Electronic Elements)：合成器的显著使用为曲目增添了现代、精致的感觉。",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "pop",
+      "electronic"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/0e08e94f-78ff-4d78-83df-9b6ed29f500f",
+    "title": "Funky Love",
+    "translation_meta": {
+      "title_zh": "爵士融合",
+      "genre_tags_zh": [
+        "爵士融合 (Jazz Fusion)",
+        "摇滚 (Rock)",
+        "流行 (Pop)",
+        "放克 (Funk)",
+        "R&B",
+        "流行灵魂 (Pop Soul)"
+      ],
+      "mood_keywords_zh": [
+        "旋律优美",
+        "朗朗上口",
+        "充满激情",
+        "流行",
+        "摇滚流行 (Pop Rock)",
+        "充满活力",
+        "鼓舞人心",
+        "R&B",
+        "放克",
+        "摇滚",
+        "鼓舞人心",
+        "流行",
+        "旋律优美",
+        "节奏感强",
+        "充满激情",
+        "浪漫",
+        "当代R&B (Contemporary R&B)",
+        "流行灵魂 (Pop Soul)",
+        "丰富",
+        "器乐"
+      ],
+      "translated_at": "2026-03-25T14:23:33.915928"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪",
+      "可以尝试调整BPM来改变能量感"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_bbb867b33c15",
+    "prompt_text": "horrorwave, emotional synthwave,  dark electronica, alt-rock, melodic synth, deep clean male voice, electronic dance music, electric guitar, ethereal, atmospheric, Electronic, Electronic dance music, emotional, synthwave, A minor key, progressive trance, ethereal, atmospheric, Electronic, Electronic dance music, Trance, Progressive trance, Atmospheric, Ethereal",
+    "prompt_zh": "horrorwave, 情感合成波 (emotional synthwave), 暗黑电子 (dark electronica), 另类摇滚 (alt-rock), 旋律合成 (melodic synth), 深沉干净的男声 (deep clean male voice), 电子舞曲 (electronic dance music), 电吉他 (electric guitar), 空灵 (ethereal), 氛围 (atmospheric), 电子 (Electronic), 电子舞曲 (electronic dance music), 情感 (emotional), 合成波 (synthwave), A minor key, 进步恍惚 (progressive trance), 空灵 (ethereal), 氛围 (atmospheric), 电子 (Electronic), 电子舞曲 (electronic dance music), 恍惚 (Trance), 进步恍惚 (progressive trance), 氛围 (Atmospheric), 空灵 (Ethereal)",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "electronic",
+      "trance"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/8539d946-ec5d-4092-b36f-75d26779add7",
+    "title": "Tormented",
+    "translation_meta": {
+      "title_zh": "恐怖氛围合成波",
+      "genre_tags_zh": [
+        "恐怖氛围合成波",
+        "情感合成波",
+        "暗黑电子",
+        "另类摇滚",
+        "旋律合成",
+        "电子舞曲",
+        "进步恍惚",
+        "恍惚"
+      ],
+      "mood_keywords_zh": [
+        "空灵",
+        "氛围",
+        "情感"
+      ],
+      "translated_at": "2026-03-25T14:24:15.242211"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪",
+      "可以尝试调整BPM来改变能量感"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_c931ae9a371b",
+    "prompt_text": "alternative rock, trip hop, indie rock, female vocalist, electric guitar, electric bass guitar, drums (drum set), synthesizer rock, keyboard, ambient, american vocals, melodic, rhythmic",
+    "prompt_zh": "另类摇滚 (alternative rock)，迷幻嘻哈 (trip hop)，独立摇滚 (indie rock)，女声主唱 (female vocalist)，电吉他 (electric guitar)，电贝斯 (electric bass guitar)，鼓组 (drums)，合成器摇滚 (synthesizer rock)，键盘 (keyboard)，氛围 (ambient)，美国唱腔 (american vocals)，旋律性 (melodic)，节奏感 (rhythmic)",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "indie",
+      "ambient"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "bass",
+      "synth",
+      "keyboard"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "study"
+    ],
+    "source": "mister-magpie/2836ab0d-b544-4cb5-a273-3d59d1ae1d87",
+    "title": "Global Paralysis",
+    "translation_meta": {
+      "title_zh": "音乐提示词翻译",
+      "genre_tags_zh": [
+        "另类摇滚 (alternative rock)",
+        "迷幻嘻哈 (trip hop)",
+        "独立摇滚 (indie rock)"
+      ],
+      "mood_keywords_zh": [
+        "女声主唱 (female vocalist)",
+        "电吉他 (electric guitar)",
+        "电贝斯 (electric bass guitar)",
+        "鼓组 (drums)",
+        "合成器摇滚 (synthesizer rock)",
+        "键盘 (keyboard)",
+        "氛围 (ambient)",
+        "美国唱腔 (american vocals)",
+        "旋律性 (melodic)",
+        "节奏感 (rhythmic)"
+      ],
+      "translated_at": "2026-03-25T14:24:24.263644"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪",
+      "适合冥想或学习场景，建议保持原参数",
+      "学习时使用建议降低音量，避免分心"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_4824bcbf6c98",
+    "prompt_text": " Surf rock, Indie surf, Alt rock, Pop rock, Pop, Female vocalist, Female vocal (Playful && pop), Lap steel guitar, Acoustic guitar, Electric guitar, Bass, Drums, 90s, Flow, Melodic, Sensual, Hedonistic, Reverb delay, Tremolo, Surf rock, Upbeat, Energetic, Uptempo, Nostalgic, Beachy, Psychedelic ",
+    "prompt_zh": "Surf rock, Indie surf, Alt rock, Pop rock, Pop, 女声主唱, 女声 (Playful && pop), Lap steel guitar, Acoustic guitar, Electric guitar, Bass, Drums, 90s, 流畅, 旋律性, 感性, 享乐主义, Reverb delay, Tremolo, Surf rock, 欢快, 有活力, 快节奏, 怀旧, 海滩风情, 迷幻",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "pop",
+      "indie"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "bass"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/93103020-eb3c-43c7-9e5c-6e1ee294e0b1",
+    "title": "Eternal Radio",
+    "translation_meta": {
+      "title_zh": "冲浪摇滚提示词",
+      "genre_tags_zh": [
+        "冲浪摇滚 (Surf rock)",
+        "独立冲浪 (Indie surf)",
+        "另类摇滚 (Alt rock)",
+        "流行摇滚 (Pop rock)",
+        "流行 (Pop)"
+      ],
+      "mood_keywords_zh": [
+        "欢快",
+        "有活力",
+        "快节奏",
+        "怀旧",
+        "海滩风情",
+        "迷幻",
+        "感性",
+        "享乐主义"
+      ],
+      "translated_at": "2026-03-25T14:24:52.553353"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_56c996bf8ea2",
+    "prompt_text": "British rock, oldies 70 s, pub rock, rock, blues rock, classic rock, roots rock, progressive rock, soft rock, classic soft rock, precise guitar sound, melodic guitar solos, minimalistic, atmospheric, male vocalist, drums (drum set), electric guitar, electric bass guitar, keyboard, piano, synthesizer, piano, harmonica, tenor saxophone, ",
+    "prompt_zh": "英式摇滚 (British rock)，老歌 70 年代 (oldies 70s)，酒吧摇滚 (pub rock)，摇滚 (rock)，布鲁斯摇滚 (blues rock)，经典摇滚 (classic rock)，根源摇滚 (roots rock)，前卫摇滚 (progressive rock)，软摇滚 (soft rock)，经典软摇滚 (classic soft rock)，精准的吉他音色 (precise guitar sound)，旋律优美的吉他独奏 (melodic guitar solos)，极简主义 (minimalistic)，氛围感 (atmospheric)，男声主唱 (male vocalist)，鼓 (drum set)，电吉他 (electric guitar)，电贝斯 (electric bass guitar)，键盘 (keyboard)，钢琴 (piano)，合成器 (synthesizer)，钢琴 (piano)，口琴 (harmonica)，次中音萨克斯 (tenor saxophone)，",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "blues"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "piano",
+      "drums",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/bb4ea982-9130-49d8-a22d-4b6e443b7ff2",
+    "title": "Companions in the Night",
+    "translation_meta": {
+      "title_zh": "英式摇滚与经典软摇滚",
+      "genre_tags_zh": [
+        "英式摇滚",
+        "老歌 70 年代",
+        "酒吧摇滚",
+        "摇滚",
+        "布鲁斯摇滚",
+        "经典摇滚",
+        "根源摇滚",
+        "前卫摇滚",
+        "软摇滚",
+        "经典软摇滚"
+      ],
+      "mood_keywords_zh": [
+        "精准的吉他音色",
+        "旋律优美的吉他独奏",
+        "极简主义",
+        "氛围感"
+      ],
+      "translated_at": "2026-03-25T14:25:01.905829"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_fb874f75ccb0",
+    "prompt_text": "celectian lush caving dark grim ethereal grooving rifting black metal, Electro house, Trap, Moombahton, Future bass, Pop, dubstep, brostep, edm, complextro, drumstep, electropop, contemporary r&b, europop, euro house, eurodance, pop rap, pop rock, dance-pop, electronic, synth-pop, trance, progressive house, downtempo, soul, alternative rock, soft rock, hip hop, r&b, drums (drum set), new wave, indie rock, adult contemporary, male vocalist, female vocalist, keyboard, dance, house, rock, electro, guitar, disco, club, melodic, bass guitar, energetic, classic rock, contemporary pop/rock, folk rock, ",
+    "prompt_zh": "繁复洞穴般的黑暗氛围黑金属，电子浩室，陷阱，魔幻顿，未来贝斯，流行，Dubstep，Brostep，EDM，Complextro，Drumstep，电流行，当代R&B，欧流行，Euro House，Eurodance，流行说唱，流行摇滚，舞曲流行，电子，合成器流行，迷幻舞曲，Progressive House，Down tempo，灵魂乐，另类摇滚，软摇滚，嘻哈，R&B，鼓组 (drum set)，男声主唱，女声主唱，键盘，舞蹈，浩室，摇滚，电子，吉他，迪斯科，俱乐部，旋律，贝斯吉他，充满活力，经典摇滚，当代流行/摇滚，民谣摇滚",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "pop",
+      "hip hop"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "bass",
+      "synth",
+      "keyboard"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/f08bb33a-1ccc-44c8-acd7-62a2eb66b078",
+    "title": "caving down",
+    "translation_meta": {
+      "title_zh": "繁复洞穴般的黑暗氛围黑金属，电子浩室，陷阱，魔幻顿，未来贝斯，流行，Dubstep，Brostep，EDM，Complextro，Drumstep，电流行，当代R&B，欧流行，Euro House，Eurodance，流行说唱，流行摇滚，舞曲流行，电子，合成器流行，迷幻舞曲，Progressive House，Down tempo，灵魂乐，另类摇滚，软摇滚，嘻哈，R&B，鼓组 (drum set)，男声主唱，女声主唱，键盘，舞蹈，浩室，摇滚，电子，吉他，迪斯科，俱乐部，旋律，贝斯吉他，充满活力，经典摇滚，当代流行/摇滚，民谣摇滚",
+      "genre_tags_zh": [
+        "黑金属 (Black Metal)",
+        "电子浩室 (Electro House)",
+        "陷阱 (Trap)",
+        "魔幻顿 (Moombahton)",
+        "未来贝斯 (Future Bass)",
+        "流行 (Pop)",
+        "Dubstep",
+        "Brostep",
+        "EDM",
+        "Complextro",
+        "Drumstep",
+        "电流行 (Electropop)",
+        "当代R&B (Contemporary R&B)",
+        "欧流行 (Europop)",
+        "Euro House",
+        "Eurodance",
+        "流行说唱 (Pop Rap)",
+        "流行摇滚 (Pop Rock)",
+        "舞曲流行 (Dance-Pop)",
+        "电子 (Electronic)",
+        "合成器流行 (Synth-Pop)",
+        "迷幻舞曲 (Trance)",
+        "Progressive House",
+        "Down tempo",
+        "灵魂乐 (Soul)",
+        "另类摇滚 (Alternative Rock)",
+        "软摇滚 (Soft Rock)",
+        "嘻哈 (Hip Hop)",
+        "R&B",
+        "迪斯科 (Disco)",
+        "俱乐部 (Club)",
+        "当代流行/摇滚 (Contemporary Pop/Rock)",
+        "民谣摇滚 (Folk Rock)"
+      ],
+      "mood_keywords_zh": [
+        "繁复洞穴般的黑暗氛围",
+        "充满活力",
+        "旋律"
+      ],
+      "translated_at": "2026-03-25T14:25:35.771584"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_97b75a9d6a63",
+    "prompt_text": "Hard Rock, blues rock, 1970s progressive rock, acoustic guitar, acoustic ballad, Powerful electric guitars, Heavy riffs, Dynamic solos, Prominent snare and bass drum, Deep bass lines, Optional atmospheric keys, Expressive vocals, Strong and soulful, Raw emotion, longing, sorrow, bittersweet, sentimental, Intense build-ups, Dramatic tone, Dark and brooding atmosphere, Soaring highs, Intense lows, Epic and cinematic vibe, Classic rock sound, Vintage feel, male vocalist, dolby atmos, wall of sound",
+    "prompt_zh": "硬摇滚 (Hard Rock)，蓝调摇滚 (Blues Rock)，1970年代前卫摇滚 (1970s Progressive Rock)，原声吉他 (acoustic guitar)，原声民谣 (acoustic ballad)，强有力的电吉他 (Powerful electric guitars)，沉重的 riff (Heavy riffs)，动态的独奏 (Dynamic solos)，突出的军鼓和贝斯鼓 (Prominent snare and bass drum)，深沉的贝斯线 (Deep bass lines)，可选的大气键盘 (Optional atmospheric keys)，富有表现力的 vocals (Expressive vocals)，强烈而深情，原始的情感，渴望，悲伤，苦乐参半，感伤，强烈的渐强 (Intense build-ups)，戏剧性的音调 (Dramatic tone)，黑暗而沉郁的氛围 (Dark and brooding atmosphere)，高亢的高潮 (Soaring highs)，低沉的低谷 (Intense lows)，史诗般的电影感 (Epic and cinematic vibe)，经典摇滚声音 (Classic rock sound)，复古感 (Vintage feel)，男声主唱 (male vocalist)，杜比全景声 (dolby atmos)，声音墙 (wall of sound)",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "blues",
+      "soul"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "gaming",
+      "cinematic"
+    ],
+    "source": "mister-magpie/20ee4adc-ad7d-4ff1-92c9-aab84e5b48d8",
+    "title": "In the Valley of the Broken Rose",
+    "translation_meta": {
+      "title_zh": "摇滚乐提示词",
+      "genre_tags_zh": [
+        "硬摇滚 (Hard Rock)",
+        "蓝调摇滚 (Blues Rock)",
+        "前卫摇滚 (1970s Progressive Rock)",
+        "原声民谣 (acoustic ballad)",
+        "经典摇滚 (Classic rock)"
+      ],
+      "mood_keywords_zh": [
+        "强烈而深情",
+        "原始的情感",
+        "渴望",
+        "悲伤",
+        "苦乐参半",
+        "感伤",
+        "戏剧性的音调",
+        "黑暗而沉郁的氛围",
+        "高亢的高潮",
+        "低沉的低谷",
+        "史诗般的电影感",
+        "复古感"
+      ],
+      "translated_at": "2026-03-25T14:26:07.496141"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_53299ec11996",
+    "prompt_text": "A song name melrose about fragile love , rock, pop, synth-pop, classic rock, blues rock, new wave, contemporary pop/rock, alternative rock, heavy metal, ballad, rock and roll, keyboard, ",
+    "prompt_zh": "一首关于脆弱爱情的歌曲，rock, pop, synth-pop, classic rock, blues rock, new wave, 当代流行摇滚 (contemporary pop/rock), 另类摇滚 (alternative rock), 重金属 (heavy metal), 抒情曲 (ballad), 摇滚 (rock and roll), keyboard",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "pop",
+      "blues"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "synth",
+      "keyboard"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/a493a733-3027-42bb-8a3a-5a4e2c7f691c",
+    "title": "Melrose Avenue",
+    "translation_meta": {
+      "title_zh": "Melrose",
+      "genre_tags_zh": [
+        "摇滚 (rock)",
+        "流行 (pop)",
+        "合成器流行 (synth-pop)",
+        "经典摇滚 (classic rock)",
+        "蓝调摇滚 (blues rock)",
+        "新浪潮 (new wave)",
+        "当代流行摇滚 (contemporary pop/rock)",
+        "另类摇滚 (alternative rock)",
+        "重金属 (heavy metal)",
+        "抒情曲 (ballad)",
+        "摇滚 (rock and roll)"
+      ],
+      "mood_keywords_zh": [
+        "脆弱",
+        "爱情"
+      ],
+      "translated_at": "2026-03-25T14:26:14.488563"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_b2c93f5833e3",
+    "prompt_text": "a happy song about a happy romantic relationship, upbeat, fast pace, Indie Rock / Synth Rock, 110bpm, a minor, Synth leads Electric guitars Drums Bass guitar Synth pads Atmospheric effects Dynamic vocals, uplifting",
+    "prompt_zh": "一首关于幸福浪漫关系的快乐歌曲，节奏明快，快速，Indie Rock / Synth Rock，110bpm，a minor，合成器主导，电吉他，鼓，贝斯吉他，合成器垫，氛围效果，富有表现力的歌声，鼓舞人心",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "indie"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/1df931c2-ae1b-49c3-9138-bdef3272c37c",
+    "title": "Loop",
+    "translation_meta": {
+      "title_zh": "关于幸福浪漫关系的快乐歌曲",
+      "genre_tags_zh": [
+        "独立摇滚 (Indie Rock)",
+        "合成器摇滚 (Synth Rock)"
+      ],
+      "mood_keywords_zh": [
+        "快乐",
+        "节奏明快",
+        "快速",
+        "富有表现力",
+        "鼓舞人心"
+      ],
+      "translated_at": "2026-03-25T14:26:52.344660"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_a17046c1c0c3",
+    "prompt_text": "An electro, rock, alternative rock, guitar, keyboard, electronic, piano, electric guitar, electric bass guitar, synth-pop, new wave, hip hop, storytelling synthesizer, about Jupiter’s moon “Europa” and all te alien life that lives, thrives in its ocean",
+    "prompt_zh": "电子 (Electro)、摇滚 (Rock)、另类摇滚 (Alternative Rock)、吉他 (Guitar)、键盘 (Keyboard)、电子 (Electronic)、钢琴 (Piano)、电吉他 (Electric Guitar)、电贝斯 (Electric Bass Guitar)、合成器流行 (Synth-pop)、新浪潮 (New Wave)、嘻哈 (Hip Hop)、叙事合成器 (Storytelling Synthesizer)，关于木星的卫星“欧罗巴”及其海洋中繁衍生息的外星生命",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "pop",
+      "hip hop"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "piano",
+      "bass",
+      "synth",
+      "keyboard"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/732a3b2a-502a-48ca-b91c-53d34c140c0d",
+    "title": "Europa Swim",
+    "translation_meta": {
+      "title_zh": "木卫二上的外星生命",
+      "genre_tags_zh": [
+        "电子 (Electro)",
+        "摇滚 (Rock)",
+        "另类摇滚 (Alternative Rock)",
+        "电子 (Electronic)",
+        "合成器流行 (Synth-pop)",
+        "新浪潮 (New Wave)",
+        "嘻哈 (Hip Hop)"
+      ],
+      "mood_keywords_zh": [
+        "叙事",
+        "繁衍生息"
+      ],
+      "translated_at": "2026-03-25T14:27:19.067499"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_5667c2a86827",
+    "prompt_text": "Lighthearted, comedic Star Wars-themed song with an upbeat, grime/rock/pop-influenced sound. A hybrid of pop-rock and power pop, with a touch of punk energy. Brisk, uptempo pace. Snarky, tongue-in-cheek lead vocals, backed by gang-vocal style shouts and \"Ooh's\" in the chorus. Driving, distorted guitar riffs and power chords, melodic bouncing bassline, fast-paced energetic drums with crashing cymbals. Optional sci-fi/galactic keyboard flourishes",
+    "prompt_zh": "轻松、喜剧的《星球大战》主题歌曲，带有欢快的 grime/rock/pop 风格。流行摇滚 (pop-rock) 和强力流行 (power pop) 的混合，带有一点朋克能量。节奏明快、快速。主唱声音带有讽刺和戏谑，副歌部分有群体合唱风格的喊叫和“Ooh”的声音。强劲的失真吉他 riff 和强力和弦，旋律跳跃的贝斯线，快速而充满活力的鼓点，带有撞击的钹声。可选的科幻/银河键盘装饰音。",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "pop",
+      "punk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "bass",
+      "keyboard"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/e7747ed5-02a9-4d14-8dc0-97bcd1e163bf",
+    "title": "Sith Happens! [Star Wars]",
+    "translation_meta": {
+      "title_zh": "星球大战主题的轻松喜剧歌曲",
+      "genre_tags_zh": [
+        "流行摇滚 (pop-rock)",
+        "强力流行 (power pop)",
+        "朋克 (punk)"
+      ],
+      "mood_keywords_zh": [
+        "轻松",
+        "喜剧",
+        "欢快",
+        "讽刺",
+        "戏谑",
+        "强劲",
+        "充满活力"
+      ],
+      "translated_at": "2026-03-25T14:27:25.236371"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_7093eede20e3",
+    "prompt_text": "folk, folk rock, singer-songwriter, country rock, acoustic guitar, piano, bass, electric guitar, keyboard, bass guitar, synthesizer, drums (drum set), electric bass guitar, melodic, passionate, ",
+    "prompt_zh": "民谣 (folk), 民谣摇滚 (folk rock), 唱作人 (singer-songwriter), 乡村摇滚 (country rock), 原声吉他 (acoustic guitar), 钢琴 (piano), 贝斯 (bass), 电吉他 (electric guitar), 键盘 (keyboard), 贝斯吉他 (bass guitar), 合成器 (synthesizer), 鼓组 (drum set), 电贝斯 (electric bass guitar), 旋律优美, 激情四溢",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "folk",
+      "country"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "piano",
+      "drums",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/277fa055-36a4-42a9-b55f-db989c186c3f",
+    "title": "Old Oak Tree",
+    "translation_meta": {
+      "title_zh": "民谣风格提示词",
+      "genre_tags_zh": [
+        "民谣 (folk)",
+        "民谣摇滚 (folk rock)",
+        "唱作人 (singer-songwriter)",
+        "乡村摇滚 (country rock)"
+      ],
+      "mood_keywords_zh": [
+        "旋律优美",
+        "激情四溢"
+      ],
+      "translated_at": "2026-03-25T14:27:43.552308"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_1900bd3b9966",
+    "prompt_text": "Progressive Trance & Techno & Tribal throat singing & Electro & Industrial & Rave & psytrance & Synth Rock & Future Bass & warm & dense & high-energy & tribal & driving beats & Downtempo & repetitive melodies & hypnotic & intense & mechanical & anthemic melodies & energetic build-ups & infectious hooks",
+    "prompt_zh": "Progressive Trance & Techno & Tribal 喉音演唱 & Electro & Industrial & Rave & 心灵迷幻电子 (Psytrance) & Synth Rock & Future Bass & 温暖 & 浓郁 & 高能量 & 原生态 & 强劲的节奏 & Downtempo & 重复的旋律 & 迷幻 & 强烈 & 机械感 & 气势磅礴的旋律 & 高潮迭起 & 朗朗上口的Hook",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "techno",
+      "trance"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/c7828e2f-9390-4c67-8f1b-2344ed189fa2",
+    "title": "TRIbal Pulse ( Rumbaster - Maranya - Xbit - Rumbaster )",
+    "translation_meta": {
+      "title_zh": "多风格融合音乐",
+      "genre_tags_zh": [
+        "Progressive Trance",
+        "Techno",
+        "Tribal",
+        "Electro",
+        "Industrial",
+        "Rave",
+        "心灵迷幻电子 (Psytrance)",
+        "Synth Rock",
+        "Future Bass"
+      ],
+      "mood_keywords_zh": [
+        "温暖",
+        "浓郁",
+        "高能量",
+        "原生态",
+        "迷幻",
+        "强烈",
+        "机械感",
+        "气势磅礴",
+        "高潮迭起",
+        "朗朗上口"
+      ],
+      "translated_at": "2026-03-25T14:27:56.248384"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_a430917226b6",
+    "prompt_text": "Rock,  metal, synthwave / electro, aor, electric guitar, drums (drum set), bass guitar, keyboard",
+    "prompt_zh": "摇滚 (Rock)，金属 (Metal)，合成器浪潮 / 电子 (Synthwave / Electro)，成人导向摇滚 (AOR)，电吉他 (electric guitar)，鼓组 (drum set)，贝斯吉他 (bass guitar)，键盘 (keyboard)",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "metal"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "bass",
+      "synth",
+      "keyboard"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/d5dad746-3e59-4bfc-8f5f-637ae7968098",
+    "title": "A lone rider",
+    "translation_meta": {
+      "title_zh": "摇滚、金属、合成器浪潮 / 电子、成人导向摇滚",
+      "genre_tags_zh": [
+        "摇滚 (Rock)",
+        "金属 (Metal)",
+        "合成器浪潮 / 电子 (Synthwave / Electro)",
+        "成人导向摇滚 (AOR)"
+      ],
+      "mood_keywords_zh": [
+        "电吉他",
+        "鼓组",
+        "贝斯吉他",
+        "键盘"
+      ],
+      "translated_at": "2026-03-25T14:28:08.106741"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_ecedbaf6d95c",
+    "prompt_text": "a song about a summer fixation, male vocalist, rock'n'roll, rock, classic rock, surf, 1960s, 1970s, melodic, passionate, lusty, energetic, harmonies, electric harmonica, harmonica, drums (drum set), guitar, bass, keyboard, bass guitar, electric guitar, piano, acoustic guitar, melancholic, electric bass guitar, introspective, organ, electric organ, electronic organ, moog, synthesizer, album rock, blues rock, rock and roll, hard rock, arena rock, blues, rhythmic, sexy, sensual, ribald, bawdy, electric harmonica, harmonica, ",
+    "prompt_zh": "一首关于夏日迷恋的歌曲，男声主唱，摇滚 (Rock'n'Roll)，摇滚 (Rock)，经典摇滚 (Classic Rock)，冲浪音乐 (Surf)，1960年代，1970年代，旋律优美，充满激情，热烈，充满活力，和声丰富，使用电口琴 (Electric Harmonica)，口琴 (Harmonica)，鼓 (Drum Set)，吉他 (Guitar)，贝斯 (Bass)，键盘 (Keyboard)，贝斯吉他 (Bass Guitar)，电吉他 (Electric Guitar)，钢琴 (Piano)，原声吉他 (Acoustic Guitar)，忧郁，内省，使用风琴 (Organ)，电风琴 (Electric Organ)，电子风琴 (Electronic Organ)，Moog合成器 (Moog)，合成器 (Synthesizer)，专辑摇滚 (Album Rock)，蓝调摇滚 (Blues Rock)，摇滚 (Rock and Roll)，硬摇滚 (Hard Rock)，竞技场摇滚 (Arena Rock)，蓝调 (Blues)，节奏感强，性感，充满情欲，粗犷，俚俗，使用电口琴 (Electric Harmonica)，口琴 (Harmonica)。",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "electronic",
+      "blues"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "piano",
+      "drums",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/60738f47-9c0c-4027-8181-921ae74adb0d",
+    "title": "Summer Lust by Orange Sundial, classic rock, freakbeat, psychedelic",
+    "translation_meta": {
+      "title_zh": "夏日迷恋",
+      "genre_tags_zh": [
+        "摇滚 (Rock'n'Roll)",
+        "摇滚 (Rock)",
+        "经典摇滚 (Classic Rock)",
+        "冲浪音乐 (Surf)",
+        "专辑摇滚 (Album Rock)",
+        "蓝调摇滚 (Blues Rock)",
+        "摇滚 (Rock and Roll)",
+        "硬摇滚 (Hard Rock)",
+        "竞技场摇滚 (Arena Rock)",
+        "蓝调 (Blues)"
+      ],
+      "mood_keywords_zh": [
+        "旋律优美",
+        "充满激情",
+        "热烈",
+        "充满活力",
+        "和声丰富",
+        "忧郁",
+        "内省",
+        "节奏感强",
+        "性感",
+        "充满情欲",
+        "粗犷",
+        "俚俗"
+      ],
+      "translated_at": "2026-03-25T14:28:41.231032"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪",
+      "可以尝试调整BPM来改变能量感"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_51a9b5b8d8fe",
+    "prompt_text": "G.O.O.D. MUSIC rappers, riri, G.O.O.D. MUSIC sampler, prismizer vocal harmonies, 2010 trap hip-hop, 808s, direct chicago ye raps, braggadocious rap about fame art thoughts feelings and society, prismizer vocals, lush boniver autotune vocal harmonies, lush prismizer vocal harmony, dolby studio master, professional mix, unique male ye rap vocals, 808s, epic synth driven orchestral hip-hop with lush primizer vocal choir harmonies, direct simple nasal ye rap style, 808s heavy bass, rocafella, prog rock samples",
+    "prompt_zh": "G.O.O.D. MUSIC 说唱歌手，riri，G.O.O.D. MUSIC 采样器，prismizer 人声和声，2010 年的 trap hip-hop，808s，直接的芝加哥 ye 说唱，炫耀的说唱关于名望、艺术、思想、感受和社会，prismizer 人声，丰富的 boniver 自动调音人声和声，丰富的 prismizer 人声和声，杜比工作室母带，专业混音，独特的男性 ye 说唱人声，808s，宏大的合成器主导的交响 hip-hop，丰富的 prismizer 人声合唱和声，直接简单的鼻音 ye 说唱风格，808s 重低音，rocafella，prog rock 采样",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "gaming"
+    ],
+    "source": "mister-magpie/101ba10e-eb8f-4903-8e1a-4ef33274fe22",
+    "title": "Of Gold (og demo leak)",
+    "translation_meta": {
+      "title_zh": "G.O.O.D. MUSIC 说唱",
+      "genre_tags_zh": [
+        "说唱 (Rap)",
+        "嘻哈 (Hip-Hop)",
+        "交响嘻哈 (Orchestral Hip-Hop)",
+        "prog rock (Progressive Rock)"
+      ],
+      "mood_keywords_zh": [
+        "炫耀的",
+        "宏大的",
+        "丰富的",
+        "直接的",
+        "简单的",
+        "鼻音的"
+      ],
+      "translated_at": "2026-03-25T14:28:49.993497"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_8f78e664dec2",
+    "prompt_text": "A sweet song about the possibilities of meeting someone new.  Female voice, pop rock, guitar, keyboard, bass, percussion, electric guitar, bass guitar, synthesizer, ballad, electric bass guitar ",
+    "prompt_zh": "一首关于遇见新朋友的可能性的甜美歌曲。女声，Pop Rock (Pop Rock)，guitar，keyboard，bass，percussion，electric guitar，bass guitar，synthesizer，ballad，electric bass guitar",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "pop"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass",
+      "synth",
+      "keyboard"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/57957d00-1062-442c-a98f-1cff3df4c99d",
+    "title": "Reflections of Tomorrow",
+    "translation_meta": {
+      "title_zh": "关于遇见新朋友的可能性的甜美歌曲",
+      "genre_tags_zh": [
+        "流行摇滚 (Pop Rock)",
+        "抒情曲 (Ballad)"
+      ],
+      "mood_keywords_zh": [
+        "甜美",
+        "可能性"
+      ],
+      "translated_at": "2026-03-25T14:29:47.706526"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_7bc577ddd5a6",
+    "prompt_text": "indie rock, blues rock, e minor, 120 bpm, driving bassline, electric guitar, drums (drum set), please please please let me be pleased",
+    "prompt_zh": "独立摇滚 (indie rock), 蓝调摇滚 (blues rock), e minor, 120 bpm, 强劲的贝斯线 (driving bassline), 电吉他 (electric guitar), 鼓组 (drums) 请请请让我感到满足 (please please please let me be pleased)",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "blues",
+      "indie"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "bass"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/5e8a22fe-574c-44d7-90ff-3e14624a707f",
+    "title": "run run run till the morning light",
+    "translation_meta": {
+      "title_zh": "请让我感到满足",
+      "genre_tags_zh": [
+        "独立摇滚 (indie rock)",
+        "蓝调摇滚 (blues rock)"
+      ],
+      "mood_keywords_zh": [
+        "强劲的贝斯线",
+        "电吉他",
+        "鼓组"
+      ],
+      "translated_at": "2026-03-25T14:30:04.562297"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_e34ff2ebe200",
+    "prompt_text": "Create a dreamy, ethereal song in the Dream Pop and Indie Rock genres, evoking a floating, introspective feel. Use lush synthesizers, clean reverb-heavy electric guitar, melodic basslines, and a drum machine for a consistent rhythm. Apply reverb and delay extensively to enhance the spacious, immersive quality. Aim for a moderate tempo of 60 to 90 BPM, with soft, breathy vocals blending into the mix. Include smooth key changes to add depth and movement., jazz, ",
+    "prompt_zh": "创作一首在Dream Pop和Indie Rock (独立摇滚)流派中的梦幻、飘渺的歌曲，营造一种漂浮、内省的感觉。使用丰富的合成器 (lush synthesizers)、干净且带有大量混响的电吉他 (clean reverb-heavy electric guitar)、旋律贝斯线条 (melodic basslines) 和鼓机 (drum machine) 以保持节奏的一致性。广泛使用混响和延迟 (reverb and delay) 以增强空间感和沉浸感。目标是中等速度，60到90 BPM，用柔和、气息感的 vocals 融入混音中。加入平滑的调性变化 (smooth key changes) 以增加深度和动感。",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "pop",
+      "jazz"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "sleep"
+    ],
+    "source": "mister-magpie/566499bc-164f-4559-82d7-a521e240b01e",
+    "title": "Back to the Source",
+    "translation_meta": {
+      "title_zh": "梦幻飘渺的歌曲",
+      "genre_tags_zh": [
+        "Dream Pop (梦幻流行)",
+        "Indie Rock (独立摇滚)"
+      ],
+      "mood_keywords_zh": [
+        "梦幻",
+        "飘渺",
+        "漂浮",
+        "内省",
+        "柔和",
+        "气息感",
+        "空间感",
+        "沉浸感",
+        "深度",
+        "动感"
+      ],
+      "translated_at": "2026-03-25T14:30:12.123747"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_4012d2cdf7d9",
+    "prompt_text": "Black Desert angry moon, indie rock, neo-psychedelia, ethereal, Spaghetti Western soundtrack, The Good, the Bad and the Ugly styling, catchy hooks, Dolby atmos, original studio recordings, indie pop, dream pop, psychedelic, male vocalists, pop, rhythmic, nocturnal, electronic, synth-pop, new wave, drums (drum set), keyboard, bass, lush, percussion, bass guitar, atmospheric, bittersweet, alternative rock, pop rock, rock, guitar, male vocalist, electric guitar, MALE VOCALIST, energetic, classic rock, contemporary pop/rock, ",
+    "prompt_zh": "黑沙漠愤怒的月亮，独立摇滚 (indie rock)，新迷幻 (neo-psychedelia)，空灵 (ethereal)，意大利西部片配乐 (Spaghetti Western soundtrack)，《好、坏与丑》风格 (The Good, the Bad and the Ugly styling)，朗朗上口的旋律 (catchy hooks)，杜比全景声 (Dolby atmos)，原创录音室录音 (original studio recordings)，独立流行 (indie pop)，梦幻流行 (dream pop)，迷幻 (psychedelic)，男性歌手 (male vocalists)，流行 (pop)，节奏感强 (rhythmic)，夜曲 (nocturnal)，电子 (electronic)，合成器流行 (synth-pop)，新浪潮 (new wave)，鼓 (drum set)，键盘 (keyboard)，贝斯 (bass)，丰富 (lush)，打击乐 (percussion)，贝斯吉他 (bass guitar)，氛围 (atmospheric)，苦乐参半 (bittersweet)，另类摇滚 (alternative rock)，流行摇滚 (pop rock)，摇滚 (rock)，吉他 (guitar)，男性主唱 (male vocalist)，电吉他 (electric guitar)，男性主唱 (MALE VOCALIST)，充满活力 (energetic)，经典摇滚 (classic rock)，当代流行/摇滚 (contemporary pop/rock)",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "pop",
+      "electronic"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "bass",
+      "synth",
+      "keyboard"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "cinematic",
+      "sleep"
+    ],
+    "source": "mister-magpie/a80144f1-ba95-4610-b2a0-93a0904949e9",
+    "title": "Desert Moonlight remix v2 ext v2.2.2.2.2 remix v1.2 ext v2.2.2.1.2",
+    "translation_meta": {
+      "title_zh": "黑沙漠愤怒的月亮",
+      "genre_tags_zh": [
+        "独立摇滚 (indie rock)",
+        "新迷幻 (neo-psychedelia)",
+        "意大利西部片配乐 (Spaghetti Western soundtrack)",
+        "独立流行 (indie pop)",
+        "梦幻流行 (dream pop)",
+        "迷幻 (psychedelic)",
+        "流行 (pop)",
+        "电子 (electronic)",
+        "合成器流行 (synth-pop)",
+        "新浪潮 (new wave)",
+        "另类摇滚 (alternative rock)",
+        "流行摇滚 (pop rock)",
+        "摇滚 (rock)",
+        "经典摇滚 (classic rock)",
+        "当代流行/摇滚 (contemporary pop/rock)"
+      ],
+      "mood_keywords_zh": [
+        "空灵 (ethereal)",
+        "朗朗上口的旋律 (catchy hooks)",
+        "《好、坏与丑》风格 (The Good, the Bad and the Ugly styling)",
+        "丰富 (lush)",
+        "氛围 (atmospheric)",
+        "苦乐参半 (bittersweet)",
+        "节奏感强 (rhythmic)",
+        "夜曲 (nocturnal)",
+        "充满活力 (energetic)"
+      ],
+      "translated_at": "2026-03-25T14:30:27.279986"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪",
+      "可以尝试调整BPM来改变能量感"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_836c6f360189",
+    "prompt_text": "pop rock, pop romantic, female voice, girl voice, bass, drums, keyboard, synthesizer, ",
+    "prompt_zh": "流行摇滚 (pop rock)，浪漫流行 (pop romantic)，女声，少女声，bass，drums，keyboard，synthesizer",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "pop"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "drums",
+      "bass",
+      "synth",
+      "keyboard"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/2deb4efa-10f4-456a-bc0b-1c2395b7ab2b",
+    "title": "JENNA ORTEGA",
+    "translation_meta": {
+      "title_zh": "流行摇滚与浪漫流行",
+      "genre_tags_zh": [
+        "流行摇滚 (pop rock)",
+        "浪漫流行 (pop romantic)"
+      ],
+      "mood_keywords_zh": [
+        "女声",
+        "少女声"
+      ],
+      "translated_at": "2026-03-25T14:30:47.124172"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_c7646e127268",
+    "prompt_text": "pop rock, contemporary pop/rock, keyboard, electric guitar, bass, ",
+    "prompt_zh": "流行摇滚 (Pop Rock), 当代流行/摇滚 (Contemporary Pop/Rock), keyboard, electric guitar, bass,",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "pop"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass",
+      "keyboard"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/50d985f0-e447-4019-8653-c600c1c44ae9",
+    "title": "Here and Now ext v2.2.1.2",
+    "translation_meta": {
+      "title_zh": "流行摇滚",
+      "genre_tags_zh": [
+        "流行摇滚 (Pop Rock)",
+        "当代流行/摇滚 (Contemporary Pop/Rock)"
+      ],
+      "mood_keywords_zh": [],
+      "translated_at": "2026-03-25T14:31:10.721966"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  },
+  {
+    "id": "mp_6ea20cd1f41a",
+    "prompt_text": "a song about the devils return, Electronicore,  Metalcore,  Pop/Rock,  Alternative/Indie Rock,  Heavy Metal,  Electronic Dance Music (EDM), Europop, slap house, metalcore drum and bass, drum and bass, dancefloor drum and bass, liquid drum and bass, liquid metal,alternative metal, hard rock, nu metal, post-grunge, drums (drum set), bass guitar, alternative rock, electric guitar, energetic, percussion, pop rock, metal, classic rock, electric bass guitar, contemporary pop/rock, album rock, male vocalist, arena rock, blues rock, acoustic guitar, alternative pop/rock, rock and roll, folk rock, indie rock, new wave, synthesizer, progressive rock, art rock, alternative, heavy, synth-pop, energetic, flow, heavy metal, punk, power pop, hyperpop, hyperpop, hyperpop, hyperpop, indie, anthemic, ",
+    "prompt_zh": "一首关于恶魔归来的歌曲，风格为 Electronicore, Metalcore, Pop/Rock, Alternative/Indie Rock, 重金属 (Heavy Metal), 电子舞曲 (Electronic Dance Music (EDM)), 欧洲流行 (Europop), Slap House, 金属核鼓打贝斯 (metalcore drum and bass), 鼓打贝斯 (drum and bass), 舞池鼓打贝斯 (dancefloor drum and bass), 液态鼓打贝斯 (liquid drum and bass), 液态金属 (liquid metal), 另类金属 (alternative metal), 重金属 (hard rock), 新金属 (nu metal), 后垃圾摇滚 (post-grunge), 鼓组 (drums), 低音吉他 (bass guitar), 另类摇滚 (alternative rock), 电吉他 (electric guitar), 充满活力 (energetic), 打击乐 (percussion), 流行摇滚 (pop rock), 金属 (metal), 摇滚 (classic rock), 电贝斯 (electric bass guitar), 当代流行/摇滚 (contemporary pop/rock), 专辑摇滚 (album rock), 男性主唱 (male vocalist), 体育馆摇滚 (arena rock), 蓝调摇滚 (blues rock), 原声吉他 (acoustic guitar), 另类流行/摇滚 (alternative pop/rock), 摇滚 (rock and roll), 民谣摇滚 (folk rock), 独立摇滚 (indie rock), 新浪潮 (new wave), 合成器 (synthesizer), 进步摇滚 (progressive rock), 艺术摇滚 (art rock), 另类 (alternative), 重型 (heavy), 合成器流行 (synth-pop), 充满活力 (energetic), 流畅 (flow), 重型 (heavy metal), 惩克 (punk), 动力流行 (power pop), 超流行 (hyperpop), 超流行 (hyperpop), 超流行 (hyperpop), 超流行 (hyperpop), 独立 (indie), 气势磅礴 (anthemic)",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "pop",
+      "electronic"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/b660603b-bf52-4378-9504-143e5da21b85",
+    "title": "Embers of the Abyss",
+    "translation_meta": {
+      "title_zh": "恶魔的归来",
+      "genre_tags_zh": [
+        "Electronicore",
+        "Metalcore",
+        "Pop/Rock",
+        "另类/独立摇滚 (Alternative/Indie Rock)",
+        "重金属 (Heavy Metal)",
+        "电子舞曲 (Electronic Dance Music (EDM))",
+        "欧洲流行 (Europop)",
+        "Slap House",
+        "金属核鼓打贝斯 (metalcore drum and bass)",
+        "鼓打贝斯 (drum and bass)",
+        "舞池鼓打贝斯 (dancefloor drum and bass)",
+        "液态鼓打贝斯 (liquid drum and bass)",
+        "液态金属 (liquid metal)",
+        "另类金属 (alternative metal)",
+        "重金属 (hard rock)",
+        "新金属 (nu metal)",
+        "后垃圾摇滚 (post-grunge)",
+        "另类摇滚 (alternative rock)",
+        "流行摇滚 (pop rock)",
+        "摇滚 (classic rock)",
+        "当代流行/摇滚 (contemporary pop/rock)",
+        "专辑摇滚 (album rock)",
+        "体育馆摇滚 (arena rock)",
+        "蓝调摇滚 (blues rock)",
+        "另类流行/摇滚 (alternative pop/rock)",
+        "摇滚 (rock and roll)",
+        "民谣摇滚 (folk rock)",
+        "独立摇滚 (indie rock)",
+        "新浪潮 (new wave)",
+        "进步摇滚 (progressive rock)",
+        "艺术摇滚 (art rock)",
+        "超流行 (hyperpop)"
+      ],
+      "mood_keywords_zh": [
+        "充满活力 (energetic)",
+        "打击乐 (percussion)",
+        "重型 (heavy)",
+        "流畅 (flow)",
+        "气势磅礴 (anthemic)"
+      ],
+      "translated_at": "2026-03-25T14:31:38.235876"
+    },
+    "usage_tips": [
+      "适合作为背景音乐，建议调整吉他音色来匹配情绪",
+      "可以尝试调整BPM来改变能量感"
+    ],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "hard rock",
+      "indie rock",
+      "alternative rock"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  }
+]

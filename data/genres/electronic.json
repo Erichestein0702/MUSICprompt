@@ -1,0 +1,153 @@
+{
+  "genre": "electronic",
+  "count": 4,
+  "documents": [
+    {
+      "id": "vmdp_6887742ebdcd",
+      "version": "1.0.0",
+      "original_prompt": "- The amazing Suno AI community sharing their discoveries",
+      "translated_prompt": "神奇的Suno AI社区分享他们的发现",
+      "title": {
+        "en": "- The amazing Suno AI community sharing their disc",
+        "zh": "神奇的Suno AI社区分享他们的唱片"
+      },
+      "prompt": {
+        "en": "- The amazing Suno AI community sharing their discoveries",
+        "zh": "神奇的Suno AI社区分享他们的发现"
+      },
+      "genre": "electronic",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 120,
+        "key": "C Major",
+        "energy_level": "medium",
+        "frequency_center": "100Hz-200Hz",
+        "dynamics_range": "Medium",
+        "reverb": "Small Room",
+        "compression": "Moderate"
+      },
+      "gem_suggestion": "增加一些温暖的合成器音色和轻柔的打击乐，以增强社区分享的氛围感。",
+      "viral_score": 0.1,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T22:41:16.186086"
+      },
+      "created_at": "2026-03-24T22:41:16.186086",
+      "updated_at": "2026-03-24T22:41:16.186086"
+    },
+    {
+      "id": "vmdp_6cfa5e465196",
+      "version": "1.0.0",
+      "original_prompt": "EDM/Electronic Prompts",
+      "translated_prompt": "EDM/电子音乐提示",
+      "title": {
+        "en": "EDM/Electronic Prompts",
+        "zh": "EDM/电子音乐提示"
+      },
+      "prompt": {
+        "en": "EDM/Electronic Prompts",
+        "zh": "EDM/电子音乐提示"
+      },
+      "genre": "electronic",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 128,
+        "key": "C Minor",
+        "energy_level": "high",
+        "frequency_center": "100Hz-200Hz",
+        "dynamics_range": "Wide",
+        "reverb": "Large Hall",
+        "compression": "Moderate"
+      },
+      "gem_suggestion": "增加一些高能量的合成器和打击乐元素，以增强电子音乐的氛围感。",
+      "viral_score": 0.0,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T22:53:59.516860"
+      },
+      "created_at": "2026-03-24T22:53:59.516860",
+      "updated_at": "2026-03-24T22:53:59.516860"
+    },
+    {
+      "id": "vmdp_91b35cd13e71",
+      "version": "1.0.0",
+      "original_prompt": "I found that certain tags behave differently in Suno v6 compared to v5. For example, v6 is much more sensitive to [Analog Warmth] tags. If you use that tag correctly, you can almost entirely remove that \"robotic\" sound that usually gives away AI music.",
+      "translated_prompt": "我发现某些标签在Suno v6中的表现与v5不同。例如，v6对[Analog Warmth]标签更加敏感。如果你正确使用这个标签，几乎可以完全去除通常会暴露AI音乐的“机械”声音。",
+      "title": {
+        "en": "I found that certain tags behave differently in Su",
+        "zh": "我发现某些标签在Suno v6中的表现与v5不同"
+      },
+      "prompt": {
+        "en": "I found that certain tags behave differently in Suno v6 compared to v5. For example, v6 is much more sensitive to [Analog Warmth] tags. If you use that tag correctly, you can almost entirely remove that \"robotic\" sound that usually gives away AI music.",
+        "zh": "我发现某些标签在Suno v6中的表现与v5不同。例如，v6对[Analog Warmth]标签更加敏感。如果你正确使用这个标签，几乎可以完全去除通常会暴露AI音乐的“机械”声音。"
+      },
+      "genre": "electronic",
+      "tags": [],
+      "douyin_tags": [
+        "Analog Warmth"
+      ],
+      "dsp_params": {
+        "bpm": 120,
+        "key": "C Major",
+        "energy_level": "medium",
+        "frequency_center": "100Hz-300Hz",
+        "dynamics_range": "Medium",
+        "reverb": "Small Room",
+        "compression": "Light"
+      },
+      "gem_suggestion": "使用[Analog Warmth]标签可以增加音乐的温暖感，减少机械感。",
+      "viral_score": 1.8,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T22:56:43.516681"
+      },
+      "created_at": "2026-03-24T22:56:43.516681",
+      "updated_at": "2026-03-24T22:56:43.516681"
+    },
+    {
+      "id": "vmdp_c22e21c1fcc8",
+      "version": "1.0.0",
+      "original_prompt": "| Effects | Reverb, delay, compression, saturation, sidechain, autotune | Production techniques |",
+      "translated_prompt": "效果 | 混响，延迟，压缩，饱和，侧链，自动调音 | 制作技巧",
+      "title": {
+        "en": "| Effects | Reverb, delay, compression, saturation",
+        "zh": "效果 | 混响，延迟，压缩，饱和"
+      },
+      "prompt": {
+        "en": "| Effects | Reverb, delay, compression, saturation, sidechain, autotune | Production techniques |",
+        "zh": "效果 | 混响，延迟，压缩，饱和，侧链，自动调音 | 制作技巧"
+      },
+      "genre": "electronic",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 120,
+        "key": "C Minor",
+        "energy_level": "medium",
+        "frequency_center": "100Hz-300Hz",
+        "dynamics_range": "Medium",
+        "reverb": "Large Hall",
+        "compression": "Aggressive"
+      },
+      "gem_suggestion": "使用混响和延迟效果增加空间感，侧链压缩增强节奏感，自动调音确保人声的清晰度和稳定性。",
+      "viral_score": 0.1,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T23:35:14.614858"
+      },
+      "created_at": "2026-03-24T23:35:14.614858",
+      "updated_at": "2026-03-24T23:35:14.614858"
+    }
+  ],
+  "updated_at": "2026-03-24T23:35:14.644305"
+}

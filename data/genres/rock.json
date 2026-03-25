@@ -1,0 +1,151 @@
+{
+  "genre": "rock",
+  "count": 4,
+  "documents": [
+    {
+      "id": "vmdp_2e35e91c2a09",
+      "version": "1.0.0",
+      "original_prompt": "- [Rock Prompts]( -rock-prompts) (150+ examples)",
+      "translated_prompt": "摇滚提示 (150+ 示例)",
+      "title": {
+        "en": "- [Rock Prompts]( -rock-prompts) (150+ examples)",
+        "zh": "摇滚提示"
+      },
+      "prompt": {
+        "en": "- [Rock Prompts]( -rock-prompts) (150+ examples)",
+        "zh": "摇滚提示 (150+ 示例)"
+      },
+      "genre": "rock",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 120,
+        "key": "C Major",
+        "energy_level": "high",
+        "frequency_center": "100Hz-300Hz",
+        "dynamics_range": "Wide",
+        "reverb": "Medium Hall",
+        "compression": "Moderate"
+      },
+      "gem_suggestion": "增加吉他失真和鼓的力度，以增强摇滚的感觉",
+      "viral_score": 0.0,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T22:43:45.619507"
+      },
+      "created_at": "2026-03-24T22:43:45.619507",
+      "updated_at": "2026-03-24T22:43:45.619507"
+    },
+    {
+      "id": "vmdp_7756f79b68c4",
+      "version": "1.0.0",
+      "original_prompt": "[🎨 Auto-generate similar →](https://www.songaifarm.com?genre=rock&mood=energetic)",
+      "translated_prompt": "自动生成类似",
+      "title": {
+        "en": "[🎨 Auto-generate similar →](https://www.songaifarm",
+        "zh": "自动生成类似"
+      },
+      "prompt": {
+        "en": "[🎨 Auto-generate similar →](https://www.songaifarm.com?genre=rock&mood=energetic)",
+        "zh": "自动生成类似"
+      },
+      "genre": "rock",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 120,
+        "key": "E Minor",
+        "energy_level": "high",
+        "frequency_center": "100Hz-300Hz",
+        "dynamics_range": "Wide",
+        "reverb": "Medium Room",
+        "compression": "Moderate"
+      },
+      "gem_suggestion": "增加吉他失真效果和强烈的鼓点以增强能量感",
+      "viral_score": 0.0,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T23:24:19.722724"
+      },
+      "created_at": "2026-03-24T23:24:19.722724",
+      "updated_at": "2026-03-24T23:24:19.722724"
+    },
+    {
+      "id": "vmdp_6c11a1e0cedf",
+      "version": "1.0.0",
+      "original_prompt": "[📖 150+ Rock Prompts → ](prompts/rock.md)",
+      "translated_prompt": "150+ 摇滚提示",
+      "title": {
+        "en": "[📖 150+ Rock Prompts → ](prompts/rock.md)",
+        "zh": "150+ 摇滚提示"
+      },
+      "prompt": {
+        "en": "[📖 150+ Rock Prompts → ](prompts/rock.md)",
+        "zh": "150+ 摇滚提示"
+      },
+      "genre": "rock",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 120,
+        "key": "C Major",
+        "energy_level": "medium",
+        "frequency_center": "100Hz-300Hz",
+        "dynamics_range": "Wide",
+        "reverb": "Medium Hall",
+        "compression": "Moderate"
+      },
+      "gem_suggestion": "增加吉他失真效果和鼓点的力度",
+      "viral_score": 0.0,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T23:24:19.722724"
+      },
+      "created_at": "2026-03-24T23:24:19.722724",
+      "updated_at": "2026-03-24T23:24:19.722724"
+    },
+    {
+      "id": "vmdp_500ba6714118",
+      "version": "1.0.0",
+      "original_prompt": "📖 150+ Rock Prompts →",
+      "translated_prompt": "150+ 摇滚提示 →",
+      "title": {
+        "en": "📖 150+ Rock Prompts →",
+        "zh": "150+ 摇滚提示 →"
+      },
+      "prompt": {
+        "en": "📖 150+ Rock Prompts →",
+        "zh": "150+ 摇滚提示 →"
+      },
+      "genre": "rock",
+      "tags": [],
+      "douyin_tags": [],
+      "dsp_params": {
+        "bpm": 120,
+        "key": "C Major",
+        "energy_level": "medium",
+        "frequency_center": "100Hz-300Hz",
+        "dynamics_range": "Wide",
+        "reverb": "Medium Hall",
+        "compression": "Moderate"
+      },
+      "gem_suggestion": "增加吉他失真效果和鼓的打击感",
+      "viral_score": 0.0,
+      "source": {
+        "platform": "cold_start",
+        "url": null,
+        "author": null,
+        "collected_at": "2026-03-24T23:37:53.750401"
+      },
+      "created_at": "2026-03-24T23:37:53.750401",
+      "updated_at": "2026-03-24T23:37:53.750401"
+    }
+  ],
+  "updated_at": "2026-03-24T23:37:53.779501"
+}

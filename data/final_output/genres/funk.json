@@ -1,0 +1,38 @@
+[
+  {
+    "id": "mp_dcc99cc29af1",
+    "prompt_text": "funky good for dancing, fast great bass, introducing a long heavy metal solo guitar, female singer abut the party in the night in a discotheque. Long play",
+    "prompt_zh": "适合跳舞的放克音乐，快速而强劲的贝斯，引入一段长时间的重金属独奏吉他，女性歌手在夜店中唱关于派对的歌曲。长时间演奏",
+    "platform": "suno",
+    "genre": [
+      "funk",
+      "metal"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [
+      "party",
+      "sleep"
+    ],
+    "source": "mister-magpie/112bd9e2-4701-4c82-bac7-d20700be412e",
+    "title": "Dance All Night",
+    "translation_meta": {
+      "title_zh": "适合跳舞的放克音乐",
+      "genre_tags_zh": [
+        "放克 (Funky)",
+        "重金属 (Heavy Metal)"
+      ],
+      "mood_keywords_zh": [
+        "适合跳舞",
+        "强劲",
+        "派对"
+      ],
+      "translated_at": "2026-03-25T14:49:12.936419"
+    }
+  }
+]
