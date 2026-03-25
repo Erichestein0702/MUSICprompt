@@ -1,7 +1,7 @@
 """
-VMDP 数据模型定义
+MUSICprompt 数据模型定义
 
-使用 Pydantic v2 定义 VMDP 文档的标准数据结构，
+使用 Pydantic v2 定义 MUSICprompt 文档的标准数据结构，
 包含原始 Prompt、翻译、DSP 参数、爆款指数等核心字段。
 
 流派分类采用层级结构：
@@ -233,11 +233,11 @@ class SourceInfo(BaseModel):
     )
 
 
-class VMDPDocument(BaseModel):
-    """VMDP 标准文档模型"""
+class MusicPromptDocument(BaseModel):
+    """MUSICprompt 标准文档模型"""
     
     id: str = Field(..., description="文档唯一标识")
-    version: str = Field(default="1.0.0", description="VMDP 协议版本")
+    version: str = Field(default="1.0.0", description="MUSICprompt 协议版本")
     
     original_prompt: str = Field(..., description="原始英文 Prompt")
     translated_prompt: str = Field(..., description="翻译后的中文 Prompt")
@@ -291,12 +291,12 @@ class VMDPDocument(BaseModel):
     
     @model_validator(mode='after')
     @classmethod
-    def generate_id_if_missing(cls, data: 'VMDPDocument') -> 'VMDPDocument':
+    def generate_id_if_missing(cls, data: 'MusicPromptDocument') -> 'MusicPromptDocument':
         if not data.id:
             content_hash = hashlib.md5(
                 (data.original_prompt + data.translated_prompt).encode()
             ).hexdigest()[:12]
-            data.id = f"vmdp_{content_hash}"
+            data.id = f"musicprompt_{content_hash}"
         return data
     
     def calculate_viral_score(
@@ -323,7 +323,7 @@ class VMDPDocument(BaseModel):
         return self.model_dump_json(indent=indent)
     
     @classmethod
-    def from_dict(cls, data: Dict[str, Any]) -> 'VMDPDocument':
+    def from_dict(cls, data: Dict[str, Any]) -> 'MusicPromptDocument':
         """从字典创建实例"""
         return cls.model_validate(data)
     
@@ -332,37 +332,37 @@ class VMDPDocument(BaseModel):
         return GENRE_DISPLAY_NAMES.get(self.genre.value, self.genre.value)
 
 
-class VMDPDocumentCollection(BaseModel):
-    """VMDP 文档集合"""
-    documents: List[VMDPDocument] = Field(default_factory=list)
+class MusicPromptDocumentCollection(BaseModel):
+    """MUSICprompt 文档集合"""
+    documents: List[MusicPromptDocument] = Field(default_factory=list)
     total_count: int = Field(default=0, description="文档总数")
     processed_at: datetime = Field(
         default_factory=datetime.now,
         description="处理时间"
     )
     
-    def add(self, doc: VMDPDocument) -> None:
+    def add(self, doc: MusicPromptDocument) -> None:
         """添加文档"""
         self.documents.append(doc)
         self.total_count = len(self.documents)
     
-    def get_by_genre(self, genre: MusicGenre) -> List[VMDPDocument]:
+    def get_by_genre(self, genre: MusicGenre) -> List[MusicPromptDocument]:
         """按流派筛选"""
         return [doc for doc in self.documents if doc.genre == genre]
     
-    def get_by_genre_prefix(self, prefix: str) -> List[VMDPDocument]:
+    def get_by_genre_prefix(self, prefix: str) -> List[MusicPromptDocument]:
         """按流派前缀筛选（支持层级查询）"""
         return [doc for doc in self.documents if doc.genre.value.startswith(prefix)]
     
-    def get_all_electronic(self) -> List[VMDPDocument]:
+    def get_all_electronic(self) -> List[MusicPromptDocument]:
         """获取所有电子音乐文档"""
         return self.get_by_genre_prefix("electronic")
     
-    def get_all_hip_hop(self) -> List[VMDPDocument]:
+    def get_all_hip_hop(self) -> List[MusicPromptDocument]:
         """获取所有嘻哈文档"""
         return self.get_by_genre_prefix("hip_hop")
     
-    def get_top_viral(self, n: int = 10) -> List[VMDPDocument]:
+    def get_top_viral(self, n: int = 10) -> List[MusicPromptDocument]:
         """获取爆款指数最高的 N 个"""
         return sorted(
             self.documents,
@@ -402,7 +402,7 @@ class GenreStats(BaseModel):
     avg_viral_score: float = 0.0
     top_prompts: List[str] = Field(default_factory=list)
     
-    def update(self, docs: List[VMDPDocument]) -> None:
+    def update(self, docs: List[MusicPromptDocument]) -> None:
         """更新统计"""
         self.count = len(docs)
         if docs:

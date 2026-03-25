@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-VMDP 全自动数据摄取与炼金流水线
+MUSICprompt 全自动数据摄取与炼金流水线
 
 该脚本实现端到端的数据处理流程：
 1. 自动抓取 GitHub 仓库数据
@@ -424,7 +424,7 @@ class PipelineRunner:
         self.stats["start_time"] = datetime.now().isoformat()
         
         self.logger.info("=" * 60)
-        self.logger.info("VMDP 全自动数据摄取与炼金流水线启动")
+        self.logger.info("MUSICprompt 全自动数据摄取与炼金流水线启动")
         self.logger.info("=" * 60)
         
         if not skip_fetch:
@@ -540,7 +540,7 @@ class PipelineRunner:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="VMDP 全自动数据摄取与炼金流水线"
+        description="MUSICprompt 全自动数据摄取与炼金流水线"
     )
     parser.add_argument('--skip-fetch', action='store_true', help='跳过数据抓取阶段')
     parser.add_argument('--skip-process', action='store_true', help='跳过炼金处理阶段')

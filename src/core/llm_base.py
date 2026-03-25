@@ -1,6 +1,6 @@
 """
-VMDP LLM 基础模块 - 抽象提供者接口
-
+MUSICprompt LLM 基础模块 - 抽象提供者接口
+"""
 该模块定义了音乐 AI 提供者的抽象基类，支持无缝切换不同的 LLM 后端
 （如 Gemini、OpenAI、Groq、DeepSeek 等），无需修改业务代码。
 

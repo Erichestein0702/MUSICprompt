@@ -1,14 +1,22 @@
 """
-VMDP 数据模型模块
+MUSICprompt 数据模型模块
+
+提供 MUSICprompt 项目的核心数据结构：
+- MusicPromptDocument: 标准文档模型
+- MusicPromptDocumentCollection: 文档集合
+- DSPParameters: DSP 参数
+- BilingualText: 双语文本
+- MusicGenre: 音乐流派枚举
+- EnergyLevel: 能量等级
 """
 
-from .vmdp_schema import (
-    VMDPDocument,
+from .music_prompt_schema import (
     DSPParameters,
     BilingualText,
     MusicGenre,
     EnergyLevel,
-    VMDPDocumentCollection,
+    MusicPromptDocument,
+    MusicPromptDocumentCollection,
     RawPromptEntry,
     GenreStats,
     SourceInfo,
@@ -16,16 +24,14 @@ from .vmdp_schema import (
 )
 
 __all__ = [
-    "VMDPDocument",
     "DSPParameters",
     "BilingualText",
     "MusicGenre",
     "EnergyLevel",
-    "VMDPDocumentCollection",
+    "MusicPromptDocument",
+    "MusicPromptDocumentCollection",
     "RawPromptEntry",
     "GenreStats",
     "SourceInfo",
     "GENRE_DISPLAY_NAMES",
 ]
-
-__version__ = "1.0.0"

@@ -1,6 +1,6 @@
 """
-VMDP 安全模块 - 日志脱敏与熔断保护
-
+MUSICprompt 安全模块 - 日志脱敏与熔断保护
+"""
 该模块提供：
 1. LogMasker: 自动从日志中屏蔽敏感信息（如 API Key）
 2. CircuitBreaker: API 请求熔断保护，防止连续失败导致资源浪费

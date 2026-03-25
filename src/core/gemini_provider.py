@@ -1,6 +1,6 @@
 """
-VMDP Gemini 提供者 - Google Gemini 2.5 Flash 实现
-
+MUSICprompt Gemini 提供者 - Google Gemini 2.5 Flash 实现
+"""
 该模块实现了 MusicAIProvider 抽象基类，提供对 Google Gemini API 的调用封装。
 支持 Gemini 2.5 Flash 模型，用于音乐 Prompt 的智能处理。
 
@@ -28,7 +28,7 @@ from .llm_base import (
 from .security import CircuitBreaker, CircuitBreakerRegistry
 
 
-GEMINI_SYSTEM_PROMPT = """你是一个专业的音乐 Prompt 分析师。你的任务是将英文音乐 Prompt 转换为标准化的 VMDP 格式。
+GEMINI_SYSTEM_PROMPT = """你是一个专业的音乐 Prompt 分析师。你的任务是将英文音乐 Prompt 转换为标准化的 MUSICprompt 格式。
 
 请按以下步骤处理：
 1. 将英文内容翻译为中文，保持专业术语的准确性

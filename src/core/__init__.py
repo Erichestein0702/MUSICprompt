@@ -1,7 +1,7 @@
 """
-VMDP Core 模块
+MUSICprompt Core 模块
 
-提供 VMDP 项目的核心基础设施：
+提供 MUSICprompt 项目的核心基础设施：
 - 安全模块：日志脱敏、熔断保护
 - LLM 基础模块：抽象提供者接口
 - Gemini 提供者：Google Gemini 实现

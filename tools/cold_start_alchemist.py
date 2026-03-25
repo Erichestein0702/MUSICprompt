@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-VMDP 冷启动炼金脚本 - 全量 Prompt 协议化处理
+MUSICprompt 冷启动炼金脚本 - 全量 Prompt 协议化处理
 
 该脚本读取原始英文 Prompt 文件，批量调用 Gemini API 进行翻译和协议化处理，
 并按流派自动分类存储到 data/genres/ 目录。
@@ -55,8 +55,8 @@ from src.core import (
     BatchProcessingResult,
 )
 from src.models import (
-    VMDPDocument,
-    VMDPDocumentCollection,
+    MusicPromptDocument,
+    MusicPromptDocumentCollection,
     DSPParameters,
     BilingualText,
     MusicGenre,
@@ -66,7 +66,7 @@ from src.models import (
 )
 
 
-ALCHEMIST_SYSTEM_PROMPT = """你是一位顶级音频工程师和音乐制作人，拥有 20 年的行业经验。你的任务是将英文音乐 Prompt 转换为标准化的 VMDP 格式，并提供专业级的 DSP 建议。
+ALCHEMIST_SYSTEM_PROMPT = """你是一位顶级音频工程师和音乐制作人，拥有 20 年的行业经验。你的任务是将英文音乐 Prompt 转换为标准化的 MUSICprompt 格式，并提供专业级的 DSP 建议。
 
 ## 处理流程
 
@@ -395,7 +395,7 @@ class ColdStartAlchemist:
     def process_batch(
         self,
         prompts: List[PromptContent]
-    ) -> List[VMDPDocument]:
+    ) -> List[MusicPromptDocument]:
         """
         批量处理 Prompt
         
@@ -403,7 +403,7 @@ class ColdStartAlchemist:
             prompts: 待处理的 Prompt 列表
             
         Returns:
-            处理后的 VMDPDocument 列表
+            处理后的 MusicPromptDocument 列表
         """
         if self.dry_run:
             return self._mock_process(prompts)
@@ -425,11 +425,11 @@ class ColdStartAlchemist:
         
         return results
     
-    def _mock_process(self, prompts: List[PromptContent]) -> List[VMDPDocument]:
+    def _mock_process(self, prompts: List[PromptContent]) -> List[MusicPromptDocument]:
         """模拟处理（试运行模式）"""
         docs = []
         for prompt in prompts[:5]:
-            doc = VMDPDocument(
+            doc = MusicPromptDocument(
                 original_prompt=prompt.prompt_text,
                 translated_prompt=f"[模拟翻译] {prompt.prompt_text[:50]}",
                 title=BilingualText(
@@ -458,16 +458,16 @@ class ColdStartAlchemist:
         self,
         prompt: PromptContent,
         data: Dict[str, Any]
-    ) -> VMDPDocument:
+    ) -> MusicPromptDocument:
         """
-        从处理结果创建 VMDPDocument
+        从处理结果创建 MusicPromptDocument
         
         Args:
             prompt: 原始 Prompt
             data: AI 返回的数据
             
         Returns:
-            VMDPDocument 实例
+            MusicPromptDocument 实例
         """
         import hashlib
         
@@ -539,7 +539,7 @@ class ColdStartAlchemist:
         if not prompt_zh:
             prompt_zh = prompt.prompt_text
         
-        doc = VMDPDocument(
+        doc = MusicPromptDocument(
             id=doc_id,
             original_prompt=prompt.prompt_text,
             translated_prompt=prompt_zh,
@@ -571,7 +571,7 @@ class ColdStartAlchemist:
         
         return doc
     
-    def save_by_genre(self, documents: List[VMDPDocument]) -> None:
+    def save_by_genre(self, documents: List[MusicPromptDocument]) -> None:
         """
         按流派保存文档（支持层级分类）
         
@@ -595,7 +595,7 @@ class ColdStartAlchemist:
         """
         GENRES_DIR.mkdir(parents=True, exist_ok=True)
         
-        genre_docs: Dict[str, List[VMDPDocument]] = {}
+        genre_docs: Dict[str, List[MusicPromptDocument]] = {}
         for doc in documents:
             genre_value = doc.genre.value
             if genre_value not in genre_docs:
@@ -663,7 +663,7 @@ class ColdStartAlchemist:
         start_time = time.time()
         
         self.logger.info("=" * 60)
-        self.logger.info("VMDP 冷启动炼金脚本启动")
+        self.logger.info("MUSICprompt 冷启动炼金脚本启动")
         self.logger.info("=" * 60)
         
         prompts = self.read_prompts()
@@ -784,7 +784,7 @@ def create_sample_prompts(output_file: str, count: int = 50) -> None:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="VMDP 冷启动炼金脚本 - 批量处理原始 Prompt",
+        description="MUSICprompt 冷启动炼金脚本 - 批量处理原始 Prompt",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 示例:
@@ -844,7 +844,7 @@ def main():
     )
     
     logger = logging.getLogger("main")
-    logger.info("VMDP 冷启动炼金脚本")
+    logger.info("MUSICprompt 冷启动炼金脚本")
     logger.info(f"输入文件: {args.input}")
     logger.info(f"批处理大小: {args.batch_size}")
     logger.info(f"提供者: {args.provider}")

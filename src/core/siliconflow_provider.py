@@ -1,6 +1,6 @@
 """
-VMDP SiliconFlow 提供者 - Qwen2.5-72B 极速炼金模式
-
+MUSICprompt SiliconFlow 提供者 - Qwen2.5-72B 极速炼金模式
+"""
 使用 SiliconFlow API (兼容 OpenAI 格式) 调用 Qwen/Qwen2.5-72B-Instruct 模型
 免费层频率限制宽松，支持极速处理
 """

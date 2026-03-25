@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-VMDP README 管理器 - 自动情报看板生成器
+MUSICprompt README 管理器 - 自动情报看板生成器
 
 该脚本扫描 data/genres/ 下的 JSON 数据，自动更新根目录的 README.md，
 生成动态情报看板、爆款预览、技术特征云等内容。
@@ -32,8 +32,8 @@ from src.models import MusicGenre, GENRE_DISPLAY_NAMES
 GENRES_DIR = PROJECT_ROOT / "data" / "genres"
 README_FILE = PROJECT_ROOT / "README.md"
 
-PLACEHOLDER_START = "<!-- VMDP_AUTO_START -->"
-PLACEHOLDER_END = "<!-- VMDP_AUTO_END -->"
+PLACEHOLDER_START = "<!-- MUSICPROMPT_AUTO_START -->"
+PLACEHOLDER_END = "<!-- MUSICPROMPT_AUTO_END -->"
 
 GENRE_ICONS = {
     "electronic": "🎧",
@@ -382,7 +382,7 @@ class ReadmeManager:
         content = f"""
 {PLACEHOLDER_START}
 
-> 🤖 **本区域由 VMDP 自动生成，请勿手动修改**
+> 🤖 **本区域由 MUSICprompt 自动生成，请勿手动修改**
 > 
 > 最后更新时间：{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
 
@@ -473,7 +473,7 @@ class ReadmeManager:
         Returns:
             完整的 README 内容
         """
-        return f"""# VMDP - 海外音频情报中转站
+        return f"""# MUSICprompt - AI Music Prompt Library
 
 > ⚠️ **免责声明**
 > 
@@ -484,7 +484,7 @@ class ReadmeManager:
 
 ## 📖 项目简介
 
-VMDP（Viral Music DNA Protocol）是一个自动化音乐 Prompt 情报中转站，
+MUSICprompt 是一个自动化音乐 Prompt 情报中转站，
 从海外社区采集优质 Prompt，经过 AI 炼金处理后，输出标准化的双语数据。
 
 ### 核心功能
@@ -544,7 +544,7 @@ vmdp-pipeline/
 
 def main():
     parser = argparse.ArgumentParser(
-        description="VMDP README 管理器 - 自动情报看板生成器",
+        description="MUSICprompt README 管理器 - 自动情报看板生成器",
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
     parser.add_argument(
@@ -561,7 +561,7 @@ def main():
     )
     
     logger = logging.getLogger("main")
-    logger.info("VMDP README 管理器启动")
+    logger.info("MUSICprompt README 管理器启动")
     
     try:
         manager = ReadmeManager(dry_run=args.dry_run)
