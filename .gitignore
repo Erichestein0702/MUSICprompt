@@ -55,3 +55,6 @@ logs/
 tmp/
 temp/
 *.tmp
+
+# Design book (local only)
+DESIGN_BOOK.md
