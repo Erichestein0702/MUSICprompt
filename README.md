@@ -193,17 +193,18 @@ Navigate to `data/final_output/csv/` for Excel-compatible format:
 <p align="center">
   <img src="https://img.shields.io/badge/Total%20Prompts-283-blue?style=flat-square" alt="Total">
   <img src="https://img.shields.io/badge/Curated-95-gold?style=flat-square" alt="Curated">
-  <img src="https://img.shields.io/badge/Genres-23-purple?style=flat-square" alt="Genres">
-  <img src="https://img.shields.io/badge/Use%20Cases-8-green?style=flat-square" alt="Use Cases">
+  <img src="https://img.shields.io/badge/Parent%20Genres-13-purple?style=flat-square" alt="Parent Genres">
+  <img src="https://img.shields.io/badge/Sub%20Genres-10-green?style=flat-square" alt="Sub Genres">
 </p>
 
 | Metric | Value | 指标 | 数值 |
 |--------|-------|------|------|
-| 🎯 Average Quality Score | 7.2/10 | 平均质量分 | 7.2/10 |
-| ⭐ Excellent (9-10) | 1 | 优秀 (9-10分) | 1 |
-| ✅ Good (7-8.9) | 282 | 良好 (7-8.9分) | 282 |
-| 🎵 Udio Platform | 251 (88.7%) | Udio 平台 | 251 (88.7%) |
-| 🎵 Suno Platform | 32 (11.3%) | Suno 平台 | 32 (11.3%) |
+| 🎯 Total Prompts | 283 | 总提示词 | 283 |
+| ⭐ High Quality (≥7) | 283 | 高质量 (≥7分) | 283 |
+| 🏆 Curated (≥8) | 95 | 精校 (≥8分) | 95 |
+| 🎵 Parent Genres | 13 | 父级流派 | 13 |
+| 🎶 Sub Genres | 10 | 子流派 | 10 |
+| 📁 Use Cases | 8 | 使用场景 | 8 |
 
 ---
 

@@ -1,65 +1,53 @@
 # Trance / Trance
 
-> 共收录 10 条提示词
+> 共收录 2 条提示词
 
 ## 提示词列表 / Prompt List
 
 ### 1. AI_DJ - See You Again
 **评分**: 7.0/10
+**流派**: trance
+
+**乐器**: bass, synth
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-Progressive Psytrance, Deep Pulsating Bassline, Hypnotic Synth Stabs, Shimmering...
+Progressive Psytrance, Deep Pulsating Bassline, Hypnotic Synth Stabs, Shimmering Arpeggios, Energetic Percussion, Psychedelic Atmosphere, Driving 138 BPM, Evolving Pads, Trippy FX, Uplifting yet Dark, Mystical and Intense, Club Anthem Vibe
 ```
+
+
+#### 中文翻译
+```
+渐进迷幻电子 (Progressive Psytrance)，深沉跳动的贝斯线 (Deep Pulsating Bassline)，催眠的合成器断奏 (Hypnotic Synth Stabs)，闪耀的琶音 (Shimmering Arpeggios)，充满能量的打击乐 (Energetic Percussion)，迷幻的氛围 (Psychedelic Atmosphere)，138 BPM，不断演变的音垫 (Evolving Pads)，迷幻效果 (Trippy FX)，振奋而黑暗 (Uplifting yet Dark)，神秘而强烈 (Mystical and Intense)，俱乐部圣歌的感觉 (Club Anthem Vibe)
+```
+
+</details>
+
+---
 
 ### 2. Into the Night
 **评分**: 7.0/10
+**流派**: trance
+
+**乐器**: drums, bass, synth
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-Trance,dynamic and uplifting,Fast (122 BPM), Pressing fire drums, Snare, Hi-hats...
+Trance,dynamic and uplifting,Fast (122 BPM), Pressing fire drums, Snare, Hi-hats and claps, Powerful bassline, hot and wide synth pads, Lead synth for striking melodies, arpeggios and pluck sounds
 ```
 
-### 3. The Dream Enhancers
-**评分**: 6.17/10
+
+#### 中文翻译
 ```
-persian tribal beat flutes female vocals angel choir reverb idm psytrance electr...
+Trance, 动态且鼓舞人心, 快速 (122 BPM), 强烈的打击鼓, 军鼓, 钹和掌声, 强劲的贝斯线, 热烈且宽广的合成器垫音, 用于引人旋律的主合成器, 琶音和拨弦音
 ```
 
-### 4. Cosmic Journey
-**评分**: 6.17/10
-```
-Produce a Psychedelic Psytrance track with pulsating basslines, intricate synths...
-```
+</details>
 
-### 5. Dark Stages 
-**评分**: 6.0/10
-```
-120bpm storm trance bass tempo change spirit dance echo ...
-```
-
-### 6. Howl in the Night
-**评分**: 5.5/10
-```
-Dubstep, I'm a wolf,        trance,explosive female chorus,piano,violin,...
-```
-
-### 7. Echoes of Zion remix v2.1 ext v2.1.2.1
-**评分**: 5.33/10
-```
-close harmony, vocal trance, choral symphony, drums (drum set), bassline, epic, ...
-```
-
-### 8. Synthetic Consciousness
-**评分**: 5.33/10
-```
-a psytrance dubstep banger about synthetic religions...
-```
-
-### 9. All For You 🐓 (by Skich) [ruined by imaami]
-**评分**: 5.17/10
-```
- K-pcp, Quad blast kick, Spicy psytrance, Swamp stomping suomisaundi, My neighbo...
-```
-
-### 10. Lost in the Beat
-**评分**: 5.17/10
-```
-A trance, featuring heavy bass, progressivem drop, 128bpm...
-```
+---

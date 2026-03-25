@@ -47,18 +47,7 @@
         "深情"
       ],
       "translated_at": "2026-03-25T14:19:42.202871"
-    },
-    "usage_tips": [],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_88c787e03062",
@@ -91,18 +80,7 @@
         "自信"
       ],
       "translated_at": "2026-03-25T14:19:45.467575"
-    },
-    "usage_tips": [],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_085f1a9f0bf0",
@@ -149,20 +127,7 @@
         "享乐主义的"
       ],
       "translated_at": "2026-03-25T14:19:53.648263"
-    },
-    "usage_tips": [
-      "可以尝试调整BPM来改变能量感"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_f660a958567c",
@@ -203,18 +168,7 @@
         "忧郁"
       ],
       "translated_at": "2026-03-25T14:20:04.627653"
-    },
-    "usage_tips": [],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_f1c7619a8692",
@@ -248,20 +202,7 @@
         "swagger"
       ],
       "translated_at": "2026-03-25T14:20:30.799225"
-    },
-    "usage_tips": [
-      "可以尝试调整BPM来改变能量感"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_47a4aa1acb5d",
@@ -329,20 +270,7 @@
         "生活视角"
       ],
       "translated_at": "2026-03-25T14:21:38.160064"
-    },
-    "usage_tips": [
-      "学习时使用建议降低音量，避免分心"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_d3c6d1d9d4ea",
@@ -383,20 +311,7 @@
         "快节奏 (uptempo)"
       ],
       "translated_at": "2026-03-25T14:21:43.022508"
-    },
-    "usage_tips": [
-      "可以尝试调整BPM来改变能量感"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_bc76cc37e2c1",
@@ -438,22 +353,7 @@
         "上瘾"
       ],
       "translated_at": "2026-03-25T14:21:53.939723"
-    },
-    "usage_tips": [
-      "可以尝试调整BPM来改变能量感",
-      "快速节奏，适合运动或派对场景"
-    ],
-    "param_tips": {
-      "bpm": "当前BPM: 165，可尝试 ±10 调整来改变速度感",
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_1e63999becfa",
@@ -501,21 +401,7 @@
         "感人"
       ],
       "translated_at": "2026-03-25T14:22:08.483758"
-    },
-    "usage_tips": [
-      "可以尝试调整BPM来改变能量感",
-      "学习时使用建议降低音量，避免分心"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_da349667c004",
@@ -554,20 +440,7 @@
         "处理过的"
       ],
       "translated_at": "2026-03-25T14:22:34.869958"
-    },
-    "usage_tips": [
-      "可以尝试调整BPM来改变能量感"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_0ca87afe418d",
@@ -603,20 +476,7 @@
         "儿童颂歌"
       ],
       "translated_at": "2026-03-25T14:23:13.333498"
-    },
-    "usage_tips": [
-      "可以尝试调整BPM来改变能量感"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_fdb107c7e4be",
@@ -669,18 +529,7 @@
         "加勒比"
       ],
       "translated_at": "2026-03-25T14:23:47.456494"
-    },
-    "usage_tips": [],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_4cfb1e139822",
@@ -721,18 +570,7 @@
         "复古"
       ],
       "translated_at": "2026-03-25T14:24:33.782925"
-    },
-    "usage_tips": [],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_ad0f206317b2",
@@ -781,20 +619,7 @@
         "钢琴"
       ],
       "translated_at": "2026-03-25T14:24:45.574729"
-    },
-    "usage_tips": [
-      "可以尝试调整BPM来改变能量感"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_76b52200de89",
@@ -837,20 +662,7 @@
         "电子"
       ],
       "translated_at": "2026-03-25T14:25:09.433065"
-    },
-    "usage_tips": [
-      "可以尝试调整BPM来改变能量感"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_1d815ae10f69",
@@ -883,18 +695,7 @@
         "哀怨"
       ],
       "translated_at": "2026-03-25T14:25:44.749602"
-    },
-    "usage_tips": [],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_4dcbb4553bb1",
@@ -945,20 +746,7 @@
         "乐器"
       ],
       "translated_at": "2026-03-25T14:25:56.120722"
-    },
-    "usage_tips": [
-      "可以尝试调整BPM来改变能量感"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_2b7ca37e9d93",
@@ -999,18 +787,7 @@
         "合成器"
       ],
       "translated_at": "2026-03-25T14:26:47.723116"
-    },
-    "usage_tips": [],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_af3e9ce2d389",
@@ -1050,21 +827,7 @@
         "自信"
       ],
       "translated_at": "2026-03-25T14:26:58.576255"
-    },
-    "usage_tips": [
-      "可以尝试调整BPM来改变能量感",
-      "学习时使用建议降低音量，避免分心"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_37778a5d6be4",
@@ -1117,20 +880,7 @@
         "节奏感强"
       ],
       "translated_at": "2026-03-25T14:27:12.011805"
-    },
-    "usage_tips": [
-      "可以尝试调整BPM来改变能量感"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_0fe4251e2be5",
@@ -1179,20 +929,7 @@
         "享乐主义的"
       ],
       "translated_at": "2026-03-25T14:27:35.134486"
-    },
-    "usage_tips": [
-      "可以尝试调整BPM来改变能量感"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_86f127372bcc",
@@ -1226,18 +963,7 @@
         "渴望"
       ],
       "translated_at": "2026-03-25T14:27:48.913841"
-    },
-    "usage_tips": [],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_e6595fa2b714",
@@ -1277,18 +1003,7 @@
         "调情"
       ],
       "translated_at": "2026-03-25T14:28:03.314555"
-    },
-    "usage_tips": [],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_6c4b8b596360",
@@ -1366,21 +1081,7 @@
         "原声"
       ],
       "translated_at": "2026-03-25T14:29:13.751248"
-    },
-    "usage_tips": [
-      "可以尝试调整BPM来改变能量感",
-      "学习时使用建议降低音量，避免分心"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_5f9d16f975a2",
@@ -1442,22 +1143,7 @@
         "重复"
       ],
       "translated_at": "2026-03-25T14:29:40.173438"
-    },
-    "usage_tips": [
-      "可以尝试调整BPM来改变能量感",
-      "适合冥想或学习场景，建议保持原参数",
-      "学习时使用建议降低音量，避免分心"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_c0f644173365",
@@ -1491,20 +1177,7 @@
         "低传真"
       ],
       "translated_at": "2026-03-25T14:29:43.616421"
-    },
-    "usage_tips": [
-      "学习时使用建议降低音量，避免分心"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_0c91ae757f2e",
@@ -1555,18 +1228,7 @@
         "新传统主义 (new traditionalist)"
       ],
       "translated_at": "2026-03-25T14:30:00.221888"
-    },
-    "usage_tips": [],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_6f96ee6609ec",
@@ -1634,20 +1296,7 @@
         "舞曲"
       ],
       "translated_at": "2026-03-25T14:30:44.327772"
-    },
-    "usage_tips": [
-      "可以尝试调整BPM来改变能量感"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_b85c291f51f5",
@@ -1685,20 +1334,6 @@
         "高能量"
       ],
       "translated_at": "2026-03-25T14:30:54.849056"
-    },
-    "usage_tips": [
-      "可以尝试调整BPM来改变能量感",
-      "学习时使用建议降低音量，避免分心"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "synth pop",
-      "indie pop",
-      "electropop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   }
 ]

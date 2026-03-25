@@ -78,14 +78,6 @@ class GenreReorganizer:
         if translated_file.exists():
             with open(translated_file, 'r', encoding='utf-8') as f:
                 prompts.extend(json.load(f))
-        extracted_file = self.processed_dir / "extracted_prompts.json"
-        if extracted_file.exists():
-            with open(extracted_file, 'r', encoding='utf-8') as f:
-                extracted = json.load(f)
-                existing_ids = {p.get('id') for p in prompts}
-                for p in extracted:
-                    if p.get('id') not in existing_ids:
-                        prompts.append(p)
         return prompts
     
     def normalize_genre(self, genre: str) -> str:
@@ -244,20 +236,44 @@ class GenreReorganizer:
             ""
         ])
         
-        for i, prompt in enumerate(prompts[:50], 1):
+        for i, prompt in enumerate(prompts, 1):
             title = prompt.get('title', f'Prompt #{i}')
             score = prompt.get('quality_score', 0)
-            preview = prompt.get('prompt_text', '')[:80]
+            prompt_text = prompt.get('prompt_text', '')
+            prompt_zh = prompt.get('prompt_zh', '')
+            genres = prompt.get('genre', [])
+            instruments = prompt.get('instruments', [])
             
             lines.append(f"### {i}. {title}")
             lines.append(f"**评分**: {score}/10")
-            lines.append(f"```")
-            lines.append(preview + "...")
+            lines.append(f"**流派**: {', '.join(genres) if genres else '未分类'}")
+            lines.append("")
+            
+            if instruments:
+                lines.append(f"**乐器**: {', '.join(instruments)}")
+            lines.append("")
+            
+            lines.append("<details>")
+            lines.append("<summary>点击展开查看完整提示词</summary>")
+            lines.append("")
+            lines.append("#### 英文提示词")
+            lines.append("```")
+            lines.append(prompt_text)
             lines.append("```")
             lines.append("")
-        
-        if len(prompts) > 50:
-            lines.append(f"\n*... 还有 {len(prompts) - 50} 条提示词*")
+            
+            if prompt_zh:
+                lines.append("")
+                lines.append("#### 中文翻译")
+                lines.append("```")
+                lines.append(prompt_zh)
+                lines.append("```")
+                lines.append("")
+            
+            lines.append("</details>")
+            lines.append("")
+            lines.append("---")
+            lines.append("")
         
         return '\n'.join(lines)
     

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "mp_09801a9d6f31",
+    "prompt_text": "“House of the Rising Sun”, deep voice, bass voice, old man singing, dark country cover of 'House of the Rising Sun' with deep male vocals, Utilize a steel-string guitar for twangy accompaniment, mournful harmonica for added atmosphere, subtle percussion. Keep the tempo slow and steady, lyrics resonate deeply with the listener. Capture the essence of the original.\n\n[Verse]\nAm C D F Am C E E\n\n[Chorus]\nAm C D F Am E Am E",
+    "prompt_zh": "“House of the Rising Sun”，低沉的嗓音，低音嗓音，老人的歌声，使用深沉的男声演绎的黑暗乡村 (Dark Country) 版本的 'House of the Rising Sun'。使用钢弦吉他进行带有颤音的伴奏，悲凉的口琴增加氛围感，轻微的打击乐。保持节奏缓慢而稳定，歌词深深触动听众。捕捉原曲的精髓。",
+    "platform": "udio",
+    "genre": [
+      "country",
+      "house"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass"
+    ],
+    "quality_score": 9.17,
+    "use_cases": [],
+    "source": "mister-magpie/a2b0df73-ef7a-40d1-9550-30a6fe4a09f6",
+    "title": "The House Of The Rising Sun",
+    "translation_meta": {
+      "title_zh": "日出之屋",
+      "genre_tags_zh": [
+        "黑暗乡村 (Dark Country)"
+      ],
+      "mood_keywords_zh": [
+        "低沉的嗓音",
+        "悲凉的口琴",
+        "轻微的打击乐",
+        "节奏缓慢而稳定",
+        "深深触动听众"
+      ],
+      "translated_at": "2026-03-25T14:17:56.274330"
+    }
+  },
+  {
+    "id": "mp_d9b703b6b1da",
+    "prompt_text": "[cyberpunk lo-fi], gritty, glitchy, weird, distorted, acoustic guitars, country synth, hardspace shipbreaker, [industrial country]",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "country",
+      "punk",
+      "lo-fi"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "synth"
+    ],
+    "quality_score": 6.33,
+    "use_cases": [
+      "study"
+    ],
+    "source": "mister-magpie/0c244ce1-8e9c-4598-a6ad-cd6824982a95",
+    "title": "Rust and Chrome"
+  },
+  {
+    "id": "mp_f7db54376783",
+    "prompt_text": "Cover of song \"you are my sunshine\" by Christina Perri, downtempo, country soul, you Are My Sunshine, acoustic guitar, female vocalists, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "country",
+      "soul"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/2980fa76-8dd0-4c72-acad-85f006582df4",
+    "title": "You Are My Sunshine"
+  },
+  {
+    "id": "mp_b7dd24ed3920",
+    "prompt_text": "synth country, upbeat, love song, catchy, exotic, romantic, soul",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "country",
+      "soul"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "synth"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/e272cfa5-68ad-4c72-aa62-dddb9e41b446",
+    "title": "Scratch my Itch"
+  },
+  {
+    "id": "mp_7089a53761b5",
+    "prompt_text": "A intensive dubstepcore song about a dad with 5 kids living in the country, playing sports, fishing, and bike riding\n Driving in the Cadillac with deep bass drops.",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "country",
+      "dubstep"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/e8a44b36-5786-4a90-9fa3-edc45f5c1082",
+    "title": "Country Dad"
+  }
+]

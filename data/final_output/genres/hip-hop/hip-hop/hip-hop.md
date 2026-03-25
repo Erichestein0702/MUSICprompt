@@ -1,168 +1,101 @@
 # Hip-Hop / 嘻哈
 
-> 共收录 27 条提示词
+> 共收录 4 条提示词
 
 ## 提示词列表 / Prompt List
 
 ### 1. My Circles
 **评分**: 8.0/10
+**流派**: hip hop, rap, electronic
+
+**乐器**: piano, drums, bass, synth
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-[Hip hop],[2000s],[a minor key, with a tempo of medium or fast, 90 bpm], [[more ...
+[Hip hop],[2000s],[a minor key, with a tempo of medium or fast, 90 bpm], [[more Lead synthetic piano melody in the background][ONLY MALE VOCAL][[The arrangement of the song consists of dynamic beats and a rap melody performed by the band members"," depth of organized sounds creating music","melodic electronic echoes heart beat in in the background","a constant electronic beat in the form of a rising and falling wave" strong Male vocal"," strong, screaming male vocal""vocalist melodeclamation"'"the reverberation deep inside rises and falls like a wave"" Intro and all track no drums rythm only electronic deep sound"]][DJ scratches, he rapper's singing of the song""low synthesizer sound with reverb"""Hip-Hop of the 2000s", "Hip-Hop","C moll, 105 bpm""no piano""C moll, 105 bpm]["strong Male Vocal","strong, screaming Male Vocal","Vocalist melodeclamation" Rapper Vocals][DJ scratches]][less bass]]
 ```
+
+
+#### 中文翻译
+```
+[Hip hop],[2000s],[a minor key, with a tempo of medium or fast, 90 bpm], [[更多 Lead synthetic piano 旋律在背景][ONLY MALE VOCAL][[歌曲的编排包括动态节拍和乐队成员表演的说唱旋律][有组织的声音深度创造音乐][背景中有旋律的电子回声心跳][以波浪起伏的形式持续的电子节拍] 强烈的男声主唱[强烈的、尖叫的男声主唱][歌手的旋律朗诵][内心的回声像波浪一样起伏][前奏和所有曲目没有鼓的节奏，只有电子深音] ][DJ 擦盘，说唱歌手的演唱][有混响的低合成器声音][2000年代嘻哈, 嘻哈][C moll, 105 bpm][没有钢琴][C moll, 105 bpm][减少低音]]
+```
+
+</details>
+
+---
 
 ### 2. Let’s Kick Off
 **评分**: 8.0/10
+**流派**: hip hop, rap, electronic
+
+**乐器**: guitar, bass, synth, keyboard
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-[hip hop][2000s][Male vocalists][**808 Bass**: The song uses a strong, pulsating...
+[hip hop][2000s][Male vocalists][**808 Bass**: The song uses a strong, pulsating bass typical of hip-hop. This is the rhythmic basis, the bass will be clear but not overwhelming.  **Hip-hop synths for scratching**: sample like Roland SP-404SX. Add sounds that will emphasize the character of the song and give it an optimistic atmosphere.  **Auto-tune vocal harmonies**: . Autotune can help you achieve clear, precise sound. But we want to keep our voice natural and optimistic.][[key G-moll, 85 bpm][Male vocalist] [Vocalist melodeclamation, Rapper Vocals][ mainly instruments such as keyboard, sampler and percussion were used. Additionally, electric guitars, bass guitars, percussion instruments, synthesizers and other electronic musical instruments may also be used. Samples from other musical pieces may also be utilized]
 ```
+
+
+#### 中文翻译
+```
+[嘻哈 (Hip Hop)][2000年代][男歌手][**808 Bass**: 这首歌使用了强劲、脉动的低音，这是嘻哈音乐的典型特征。低音将是清晰的，但不会压倒一切。**用于刮擦的嘻哈合成器**: 采样类似于 Roland SP-404SX。添加能够突出歌曲特点并营造乐观氛围的声音。**自动调音和声**: 自动调音可以帮助你实现清晰、精确的声音。但我们希望保持声音的自然和乐观。][[key G-moll, 85 bpm][男歌手] [歌手旋律朗诵, 说唱歌手声音][主要使用了键盘、采样器和打击乐器。此外，还可以使用电吉他、贝斯吉他、打击乐器、合成器和其他电子乐器。也可以使用其他音乐作品的采样]
+```
+
+</details>
+
+---
 
 ### 3. Red Shirt Blues
 **评分**: 7.17/10
+**流派**: hip hop, electronic, jazz
+
+**乐器**: violin, bass, keyboard, saxophone, trumpet
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
- Trip hop, nu jazz, electronica, alternative hip hop, trumpets, trombones, saxop...
+ Trip hop, nu jazz, electronica, alternative hip hop, trumpets, trombones, saxophones, keyboards, bass, upbeat, violins, cello, melodic
 ```
+
+
+#### 中文翻译
+```
+Trip hop, nu jazz, electronica, alternative hip hop, trumpets, trombones, saxophones, keyboards, bass, 欢快, violins, cello, 旋律
+```
+
+</details>
+
+---
 
 ### 4. Cognitive Dissonance 
 **评分**: 7.0/10
+**流派**: hip hop
+
+**乐器**: bass, synth
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-145 BPM (slightly faster for more intensity), female hip hop singer, Layered 808...
+145 BPM (slightly faster for more intensity), female hip hop singer, Layered 808 bass: deep sub-bass + distorted mid-bass, Polyrhythmic hi-hats: 32nd note pattern with occasional triplet break, Snare on 3rd beat with ghost notes for groove, Eerie synth pad morphing into dissonant chords, Glitchy vocal samples (chopped up "understand" and "depends"), Occasional reverse cymbal sweeps for transitions
 ```
 
-### 5. Borsod Hustler
-**评分**: 6.33/10
+
+#### 中文翻译
 ```
-Instrumental Hip Hop, Nu Jazz, Jazz Rap, soul, electric bass guitar, mellow, sam...
+145 BPM (稍快以增加强度)，女性嘻哈歌手，分层的808贝斯：低频贝斯 + 扭曲的中频贝斯，多节奏的军鼓：32分音符模式，偶尔出现三连音变化，军鼓在第三拍，带有幽灵音符以增加律动感，诡异的合成器垫音逐渐变为不和谐和弦，切碎的“understand”和“depends”人声采样，偶尔使用反向钹扫音以实现过渡
 ```
 
-### 6. Bounce [Full Track], Instrumental Hip Hop
-**评分**: 6.33/10
-```
-Instrumental Hip Hop, Soul, plunderphonics, plunderphonics, plunderphonics, plun...
-```
+</details>
 
-### 7. Get Up and Go
-**评分**: 6.33/10
-```
-g-funk, electric bass guitar, R&B, funk, west coast hip hop, ...
-```
-
-### 8. Can't Wait to See You
-**评分**: 6.33/10
-```
-A powerful drum and bass song about not being able to wait to see you again, aco...
-```
-
-### 9. life's a ride so wild it seems[tease]
-**评分**: 6.17/10
-```
-hip hop, electronic, synthesizer, 2020, upbeat, serene, male vocalist, catchy, b...
-```
-
-### 10. Got My Vans On But They Look Like Sneakers
-**评分**: 6.17/10
-```
-hip hop, urban, vulgar, high hats, future bass, wonky, glitch hop, alternative r...
-```
-
-### 11. Heart on a Shelf
-**评分**: 6.17/10
-```
-Female vocalist, Electronic, Electronic dance music, Nu jazz, Electro swing, Dow...
-```
-
-### 12. Lambo's Crawling View
-**评分**: 6.17/10
-```
-hip hop, London style, synths, bass, subbass , alternative hip hop black singer ...
-```
-
-### 13. Electric Dreams
-**评分**: 5.5/10
-```
-Classical guitar, electric piano, retro, underground, transparent, floating, cin...
-```
-
-### 14. Desert Rain
-**评分**: 5.5/10
-```
-lofi hip hop with female vocal. Instruments are jazzy guitar, saxophone, trumpet...
-```
-
-### 15. All Legends
-**评分**: 5.5/10
-```
-rap, hip hop, breakedown,  pirate, violin, flute, acoustic guitar, japanese, , c...
-```
-
-### 16. Fuelin' It Up
-**评分**: 5.33/10
-```
-a song about drinking G-fuel while gaming playing with a whole bunch of girls, p...
-```
-
-### 17. Victory!!( Into your light!. )
-**评分**: 5.33/10
-```
-Male vocals singing 90s r&b soulful, Trap music,  hip hop, Ambient, melodic, spa...
-```
-
-### 18. Smacka Ya Butt
-**评分**: 5.33/10
-```
-A song about a guy who likes to smack his lady's butt, hip hop, reggaeton, mr ed...
-```
-
-### 19. Rhythm of the Night remix v2
-**评分**: 5.33/10
-```
-Retro hip hop track with slow breakbeat in low quality fading in and out and fem...
-```
-
-### 20. Call Me Floater
-**评分**: 5.33/10
-```
-1990s Southern hip hop haunting piano loop, Heavy drums, deep bass lines. Intens...
-```
-
-### 21. Marcus - Gangsta low rider Renault
-**评分**: 5.33/10
-```
-hardcore rap, hardcore hip hop, gangsta rap, boom bap, (Verse 1) Yo, it’s Marcus...
-```
-
-### 22. Inspiration
-**评分**: 5.33/10
-```
-hi-hat rhythm, big bass drop, trap, Fairy Tale's best fighting music, anime, the...
-```
-
-### 23. Rhythm & Groove Boulevard
-**评分**: 5.33/10
-```
-hip hop, ray charles, piano, groovy bass, guitar, trombone, saxophone, trumpet, ...
-```
-
-### 24. Pineapple Kingpin
-**评分**: 5.33/10
-```
-A song about SpongeBob with a gat. , hip hop, east coast hip hop, bassline, gang...
-```
-
-### 25. Velocity Veins (v5)
-**评分**: 5.33/10
-```
-hip hop, Movie Intro,  guitar riffs fades in , drums and bass, song called Veloc...
-```
-
-### 26. God Fear Loyalty
-**评分**: 5.33/10
-```
-hip hop intro, drums and bass, epic, 
- uplifting beats, guitar, song called God ...
-```
-
-### 27. Echoes of Ayurveda
-**评分**: 5.33/10
-```
-Psychedelic Progressive Mongolian Folk Metal with unique timings and elements of...
-```
+---

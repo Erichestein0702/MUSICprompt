@@ -1,308 +1,492 @@
 # Rap / Rap
 
-> 共收录 70 条提示词
+> 共收录 20 条提示词
 
 ## 提示词列表 / Prompt List
 
 ### 1. Fractal Ascent
 **评分**: 8.0/10
+**流派**: rap, blues, trap
+
+**乐器**: drums, bass, flute
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-Trap Fractal harmony, sou and blues sampling, sample drill, plunderphonics, alto...
+Trap Fractal harmony, sou and blues sampling, sample drill, plunderphonics, alto flute, polyphonic chant, rhythmic noise, recordings with subtle differences, vaportrap, new jack swing, contrabassoon, ultra supreme hyper polyrhythms,  booming bass, 808 bass drums, 808 hihats, 808 snares, 808 cowbell, compression, lpf, hpf
 ```
+
+
+#### 中文翻译
+```
+Trap Fractal 和声，灵魂乐和蓝调采样，钻采样，掠夺式采样，长笛，复调吟唱，节奏噪音，细微差异的录音，VaporTrap，New Jack Swing (新杰克摇摆)，低音大管，超极多节奏，轰鸣低音，808 bass drums，808 hihats，808 snares，808 cowbell，压缩，LPF，HPF
+```
+
+</details>
+
+---
 
 ### 2. Prayer Revolution
 **评分**: 8.0/10
+**流派**: rap, soul
+
+**乐器**: bass, synth
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-Create a dynamic and high-energy track that blends classic 90s hip-hop vibes wit...
+Create a dynamic and high-energy track that blends classic 90s hip-hop vibes with a modern twist. The beat should be driven by a powerful rhythm, incorporating upbeat percussion and a catchy bassline that keeps the momentum strong. Layer the track with gospel-inspired backing vocals for a soulful touch, and include uplifting synths and brass elements to enhance the celebratory, victorious tone of the song. The overall style should be a fusion of old-school rap with contemporary production techniques, designed to inspire and energize listeners as they engage with the themes of the Prayer Revolution
 ```
+
+
+#### 中文翻译
+```
+创作一首充满动感和高能量的曲目，将90年代的经典嘻哈 (90s Hip-Hop) 风格与现代元素融合。节奏应由强劲的节拍驱动，加入明快的打击乐和抓耳的贝斯线，保持歌曲的强劲势头。在曲目中加入受福音音乐启发的和声，增添灵魂感，并使用鼓舞人心的合成器和铜管元素，增强歌曲的庆祝和胜利氛围。整体风格应是老派说唱 (Old-School Rap) 与现代制作技术的融合，旨在激发和激励听众参与祷告革命的主题。
+```
+
+</details>
+
+---
 
 ### 3. Bleach Blonde 2
 **评分**: 8.0/10
+**流派**: rap, trap
+
+**乐器**: piano, bass, flute
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-Create a song in the style of Southern trap rap with a melodic piano and flute, ...
+Create a song in the style of Southern trap rap with a melodic piano and flute, along with a deep 808 bass kick. Make the title and hook of the song say bleach, blonde, bad built Butch body bitch. The song is about Marjorie Taylor green being a an idiotic low-life promiscuous disease infested low IQ individual
+
 ```
+
+
+#### 中文翻译
+```
+创作一首南方陷阱说唱 (Southern trap rap) 风格的歌曲，使用旋律性的钢琴和长笛，以及深沉的808贝斯。歌曲的标题和[副歌]部分要包含“bleach, blonde, bad built Butch body bitch”。歌曲内容是关于Marjorie Taylor Green是一个愚蠢的低贱、放荡、低智商的个体。
+```
+
+</details>
+
+---
 
 ### 4. Rhythms of the Night remix v1
 **评分**: 8.0/10
+**流派**: rap, jazz, trap
+
+**乐器**: drums, bass
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-afro house, afro trap, jazzthing, phat Bass,cristal clear drums, atmospheric, g ...
+afro house, afro trap, jazzthing, phat Bass,cristal clear drums, atmospheric, g Minor,120 bpm.dance vybe,Bass music
 ```
+
+
+#### 中文翻译
+```
+非洲浩室 (Afro House)、非洲陷阱 (Afro Trap)、爵士元素 (Jazzthing)、肥厚贝斯 (Phat Bass)、水晶般清澈的鼓点 (Cristal Clear Drums)、氛围感 (Atmospheric)、g小调 (g Minor)、120 BPM、舞蹈氛围 (Dance Vybe)、贝斯音乐 (Bass Music)
+```
+
+</details>
+
+---
 
 ### 5. Bass Heavy Vibes
 **评分**: 8.0/10
+**流派**: rap, funk, trap
+
+**乐器**: bass, synth
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-rap. trap. heavy  bass, crisp punchy drum, snare drum. atmospheric synths. funk....
+rap. trap. heavy  bass, crisp punchy drum, snare drum. atmospheric synths. funk. raspy black male voice west coast accent. 
 ```
+
+
+#### 中文翻译
+```
+rap. trap. 重低音的贝斯, 清脆有力的鼓点, 军鼓. 氛围合成器. funk. 沙哑的黑人男性声音，西海岸口音.
+```
+
+</details>
+
+---
 
 ### 6. Ramen Ecstasy
 **评分**: 7.17/10
+**流派**: rap, electronic, soul
+
+**乐器**: bass, synth
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-Androgynous vocoder(autotune & soulful), Funky Basslines & Vocoder & Talkbox & E...
+Androgynous vocoder(autotune & soulful), Funky Basslines & Vocoder & Talkbox & Electronic-influenced & Stuttering-voice & funky beats. Trap & Synth Funk & French-house & French House & Funky Synthwave, Synth Funk, Funky Synthwave, French House, Trap, French-house,
+
 ```
+
+
+#### 中文翻译
+```
+中性声音合成器 (autotune & soulful)，摇摆贝斯线 & Vocoder & Talkbox & Electronic-influenced & 断续人声 & 摇摆节奏。Trap & Synth Funk & French-house & French House & Funky Synthwave，Synth Funk，Funky Synthwave，French House，Trap，French-house
+```
+
+</details>
+
+---
 
 ### 7. Sally Sells
 **评分**: 7.17/10
+**流派**: rap, trap
+
+**乐器**: drums, bass
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-A flowy Bay area boombap rap song with trap drums and heavy bass, about Sally fi...
+A flowy Bay area boombap rap song with trap drums and heavy bass, about Sally finds temporary comfort in both her work and substance abuse deep down she knows this lifestyle is not sustainable but she's too roped in now and can't escape
 ```
+
+
+#### 中文翻译
+```
+一首流畅的湾区Boombap说唱歌曲，带有Trap鼓点和沉重的Bass，关于萨莉在工作和物质滥用中找到暂时的安慰，但她内心深处知道这种生活方式是不可持续的，但她已经深陷其中，无法自拔。
+```
+
+</details>
+
+---
 
 ### 8. Bloodthirst - AWA
 **评分**: 7.17/10
+**流派**: rap, ambient, trap
+
+**乐器**: guitar, bass
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-witch house, dark ambient, trap, Dark menacing beat with a growling, angry bass ...
+witch house, dark ambient, trap, Dark menacing beat with a growling, angry bass line, Slow, low tempo, threatening, fierce, darkness and fire, distorted guitar, female vocalist, seductive, nightmare, sexual energy
 ```
+
+
+#### 中文翻译
+```
+witch house, dark ambient, trap, [副歌] 黑暗且威胁的节拍，带有咆哮的、愤怒的贝斯线，[间奏] 缓慢、低速，充满威胁、凶猛、黑暗与火焰，[主歌] 失真的吉他，女性歌手，诱惑，噩梦，性能量
+```
+
+</details>
+
+---
 
 ### 9. The Promise
 **评分**: 7.17/10
+**流派**: rap, electronic, edm
+
+**乐器**: drums, synth
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-Electronic, synth-wave, darkwave, gothic, sad, male vocalist, distortion, electr...
+Electronic, synth-wave, darkwave, gothic, sad, male vocalist, distortion, electro drums, bpm 130, industrial, edm, trap industrial metal
 ```
+
+
+#### 中文翻译
+```
+电子 (Electronic), 合成器波 (Synth-wave), 黑暗波 (Darkwave), 哥特 (Gothic), 悲伤 (sad), 男声主唱 (male vocalist), 失真 (distortion), 电子鼓 (electro drums), BPM 130, 工业 (industrial), 电子舞曲 (EDM), 陷阱 (Trap) 工业金属 (Industrial Metal)
+```
+
+</details>
+
+---
 
 ### 10. Rhythm Unleashed ext v1.2.2.1
 **评分**: 7.17/10
+**流派**: rap, electronic, edm
+
+**乐器**: bass, synth
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-add a bass drop with EDM TRAP DUB STEP , electronic, synthesizer, electro, techn...
+add a bass drop with EDM TRAP DUB STEP , electronic, synthesizer, electro, techno, progressive house, electro house, euro house, eurodance, 
 ```
+
+
+#### 中文翻译
+```
+加入一个带有 EDM TRAP DUB STEP 的低音下落，使用 electronic, synthesizer, electro, techno, progressive house, electro house, euro house, eurodance 等元素
+```
+
+</details>
+
+---
 
 ### 11. Celestialistic  
 **评分**: 7.17/10
+**流派**: rap, ambient, trap
+
+**乐器**: bass, synth, flute
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-Robotic choir beautiful singing female vocals Interstellar, relaxed, deep synth ...
+Robotic choir beautiful singing female vocals Interstellar, relaxed, deep synth lead, bass deep, future bass, native flute, experimental trap, ambient, spacey, futuristic, cool, smooth, hypnotic, 
+
+
 ```
+
+
+#### 中文翻译
+```
+Robotic choir beautiful singing female vocals, 星际, 放松, 深沉的 synth lead, 深沉的 bass, future bass, 原住民长笛, 实验性 trap, 环境音乐, 空灵, 未来感, 凉爽, 顺滑, 催眠
+```
+
+</details>
+
+---
 
 ### 12. Seize the Digital Day ext v2
 **评分**: 7.17/10
+**流派**: rap, funk
+
+**乐器**: bass, synth
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-nergetic, Upbeat, Party, Fast-paced, Synthesizers, Drum machine, 90s club anthem...
+nergetic, Upbeat, Party, Fast-paced, Synthesizers, Drum machine, 90s club anthem, Dancefloor filler, Electric, Exciting, Catchy hooks, Funky bassline, Rap verses, Party playlists, Workout routines, Dance competitions, Ignites the dancefloor, Gets everyone moving and grooving, Creates a high-energy atmosphere.
 ```
+
+
+#### 中文翻译
+```
+充满活力的、欢快的、派对的、快节奏的、使用合成器和鼓机、90s club anthem、舞池热曲、电子的、令人兴奋的、朗朗上口的旋律、Funky bassline、说唱主歌、适合派对播放列表、健身训练、舞蹈比赛、点燃舞池、让每个人动起来、营造高能量氛围。
+```
+
+</details>
+
+---
 
 ### 13. Back to the Eighties
 **评分**: 7.17/10
+**流派**: rap, soul, funk
+
+**乐器**: bass, synth
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-deep synth bass bubble gum 80s soul funk, lyrics about the fact that the songs w...
+deep synth bass bubble gum 80s soul funk, lyrics about the fact that the songs were much better in the eighties, add a icey cube rap solo
 ```
+
+
+#### 中文翻译
+```
+深沉的合成贝斯，泡泡糖 80s Soul Funk，歌词内容关于80年代的歌曲更好，加入 Ice Cube 的说唱独奏
+```
+
+</details>
+
+---
 
 ### 14. Heartbreak Hotel
 **评分**: 7.17/10
+**流派**: rap, trap
+
+**乐器**: piano, drums, bass, synth
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-English heartbreak rap. Mellow trap beat with sparse piano. Deep bass, atmospher...
+English heartbreak rap. Mellow trap beat with sparse piano. Deep bass, atmospheric synths. Emotional vocals blend singing and rapping. Minimal drums emphasize raw lyrics.
 ```
+
+
+#### 中文翻译
+```
+柔和的 trap 节拍，稀疏的 piano。深沉的 bass，氛围感 synths。情感充沛的 vocals 融合了 singing 和 rapping。极简的 drums 突出了原始的歌词。
+```
+
+</details>
+
+---
 
 ### 15. Galactic Gambit
 **评分**: 7.17/10
+**流派**: rap, trap
+
+**乐器**: bass, synth
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-Rappers delight!space warping trap with thick deep hard bass mind bending slidin...
+Rappers delight!space warping trap with thick deep hard bass mind bending sliding wave synths and heavy dark club at mospheric,rap
 ```
+
+
+#### 中文翻译
+```
+Rappers delight! 空间扭曲的 Trap，带有厚重的深沉硬低音、令人头晕目眩的滑动波形合成器和沉重黑暗的俱乐部氛围，rap
+```
+
+</details>
+
+---
 
 ### 16. Self-Love Odyssey
 **评分**: 7.17/10
+**流派**: rap, trap
+
+**乐器**: bass, synth
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-Love yourself!space warping trap with thick deep hard bass mind bending sliding ...
+Love yourself!space warping trap with thick deep hard bass mind bending sliding wave synths and heavy dark club at mospheric
 ```
+
+
+#### 中文翻译
+```
+Love yourself! 空间扭曲的 Trap，带有厚重的深沉硬低音、令人头晕目眩的滑动波合成器和沉重黑暗的俱乐部氛围
+```
+
+</details>
+
+---
 
 ### 17. High Voltage Dreams
 **评分**: 7.17/10
+**流派**: rap, electronic, trap
+
+**乐器**: guitar, bass
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-110 bpm. A modern hip-hop/trap beat with deep bass and electronic elements and d...
+110 bpm. A modern hip-hop/trap beat with deep bass and electronic elements and dirty, distorted guitars with an emphasis on power chords and emotional melodies.
 ```
+
+
+#### 中文翻译
+```
+110 bpm. 一个现代的 hip-hop/trap 节拍，带有深沉的 bass 和电子元素，以及脏兮兮的、失真的吉他，重点在于强力和弦和情感旋律。
+```
+
+</details>
+
+---
 
 ### 18. Rise Up Together (snippet)
 **评分**: 7.0/10
+**流派**: rap, soul
+
+**乐器**: bass
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-Frenna meets sfb meets poke black rapper with singing chorus, sister act like si...
+Frenna meets sfb meets poke black rapper with singing chorus, sister act like singing gospel soulfull meets urban uptempo using strings and snares and heavy bass, jesus walking sound  meet seven days singer  , make it dutch yellow claw dr producing spanker vibe, timberland schoenen.
+
+
+De tekst gaat over rassen haat make it english 
 ```
+
+
+#### 中文翻译
+```
+Frenna 与 sfb 与 poke 黑人说唱歌手相遇，带有演唱副歌，像姐妹合唱团一样演唱福音灵魂乐，充满 Urban Uptempo (城市快节奏) 的感觉，使用 strings (弦乐) 和 snares (军鼓) 以及 heavy bass (重低音)，加入 Jesus walking sound (耶稣行走的声音) 与 seven days 歌手相遇，制作出 Dutch Yellow Claw (荷兰黄爪) 的 Spanker 氛围，Timberland 鞋子。
+```
+
+</details>
+
+---
 
 ### 19. Seize the Crown
 **评分**: 7.0/10
+**流派**: rap, trap
+
+**乐器**: bass
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-Create a trap anthem with a slow beat and deep bass. Craft powerful rhymes about...
+Create a trap anthem with a slow beat and deep bass. Craft powerful rhymes about seizing the moment and claiming success. Tempo: 70 BPM. Mood: Confident and triumphant
 ```
+
+
+#### 中文翻译
+```
+创作一首慢节奏和深低音的 trap 国歌。编写强有力的韵脚，讲述抓住机会和取得成功。Tempo: 70 BPM。情绪：自信且凯旋
+```
+
+</details>
+
+---
 
 ### 20. Bulletproof Dreams
 **评分**: 7.0/10
-```
-A hard-hitting rap track with a gritty urban vibe, led by 50 Cent's commanding v...
-```
+**流派**: rap
 
-### 21. Shadow Scurry
-**评分**: 6.33/10
-```
-horrorcore rap with emo guitar and phaseshifting electronic bass. the squirrel i...
-```
+**乐器**: bass, synth
 
-### 22. Solid Ground (1.5 Remake)
-**评分**: 6.33/10
-```
-future house, bass guitar, female vocalist, electric piano, funky, funk, trap, ...
-```
+<details>
+<summary>点击展开查看完整提示词</summary>
 
-### 23. Drift to Dusk rebooted
-**评分**: 6.33/10
+#### 英文提示词
 ```
-A ambient trap song about chilling at the beach during a sunset, electronic, sax...
-```
-
-### 24. Umami
-**评分**: 6.33/10
-```
-A hip-hop trap song with arabic drums and house piano synthesizer that is joyful...
-```
-
-### 25. Naked & Afraid
-**评分**: 6.33/10
-```
-An energetic southern rap trap song with good beat, piano, rhythmic, double bass...
-```
-
-### 26. Death Therapy Blues
-**评分**: 6.33/10
-```
-A song about Death Therapy, I've got 20 pounds of black powder tied around my ne...
-```
-
-### 27. Trials in the Trenches
-**评分**: 6.33/10
-```
-Create a melodic rap beat with soulful guitar and melancholic piano, featuring h...
-```
-
-### 28. !!!!!Where the Cold Wind Blows remix v1.1.2.1.2.2.1 ext v2.2.1.2.2
-**评分**: 6.17/10
-```
-Sparta remix, fnaf, Linkin park, breakcore, guitar, raw emotion, male vocalist, ...
-```
-
-### 29. Udio 1.5 remix v2 ext v2.2.1.1.2.1
-**评分**: 6.17/10
-```
-alternative post-psychedelic  psy-trance trance dark moody post-rap space synth,...
-```
-
-### 30. watch me do a self-sabotage
-**评分**: 6.17/10
-```
- Trap beats, hip-hop influences, sub-bass layers, snappy snares...
-```
-
-### 31. out in the sun
-**评分**: 6.17/10
-```
-trap, electronic, upbeat, uptempo, serene, beautiful, catchy, synthesizer, mello...
-```
-
-### 32. Times Up
-**评分**: 6.17/10
-```
-Slowed down tempo, Dj Remixed Slowed Down Tempo Scratched Bass Boosted Dubstep R...
-```
-
-### 33. Storm in the Basement
-**评分**: 6.0/10
-```
-Rapid-fire rap, 140 bpm, deep bass beats, aggressive delivery in a minor key, cr...
-```
-
-### 34. Anomaly Symphony
-**评分**: 6.0/10
-```
-"Never Before Seen Timeless ReEditing""Tribal Bangra"Experimental HeartBeats""Ef...
-```
-
-### 35. Urban Pulse ext v2.2.2.2.2.2.1.2.1
-**评分**: 5.5/10
-```
-Merge the improvisational nature of jazz with the rhythmic backbone of trap. Ima...
-```
-
-### 36. (Free) Hard UK Drill instrumental by Didi Beatz - CAT - 2024
-**评分**: 5.5/10
-```
-Create a hard afro drill instrumental inspired by UK Drill with pads, piano, flu...
-```
-
-### 37. City of Dreams
-**评分**: 5.5/10
-```
-an emotional out of tune vintage piano plays and a modern rap drum beat plays al...
-```
-
-### 38. Golden Nights
-**评分**: 5.5/10
-```
-Super rich detailed soundview with melodic eastern oriental flutes, violins, gui...
-```
-
-### 39. No Place to Call Home
-**评分**: 5.5/10
-```
-trap beats and rough mellow voice about the housing crisis hitting the young, de...
-```
-
-### 40. Nightmare's Bay ("Down by the Bay": Deathcore Edition) 
-**评分**: 5.33/10
-```
-Brutal deathcore featuring downtuned guitars, rapid, pummeling riffs, guttural g...
-```
-
-### 41. Chase the White Rabbit
-**评分**: 5.33/10
-```
-club/dance, minimal techno, bass house,  psytrance, trance, Industrial Techno/Hy...
-```
-
-### 42. Human (or so it seems)
-**评分**: 5.33/10
-```
-A song about coming to terms with being human in a digital age. drum and bass, t...
-```
-
-### 43. Lamp Babe
-**评分**: 5.33/10
-```
-synthwave, darksynth, dark electro, electro-industrial, trap / wave, trap, femal...
-```
-
-### 44. I Ain't With No Plain Cones
-**评分**: 5.33/10
-```
-A trap song that uses a djembe as a constant ringing bass note. The melody is si...
-```
-
-### 45. Check That Mole
-**评分**: 5.33/10
-```
-future bass, progressive house, trap edm about how you should check the mole on ...
-```
-
-### 46. Detective Miller
-**评分**: 5.33/10
-```
-Progressive psytrance, hypnotic, psytrance, club/dance, film score, Industrial T...
-```
-
-### 47. Timeless Connection
-**评分**: 5.33/10
-```
-A song about how yutyrannus is so cool, synthwave, rap, techno....
-```
-
-### 48. Blood and Sweat
-**评分**: 5.33/10
-```
-Kengan Ashura, rap metal, dubstep, electronic, drum and bass, cyber metal, uplif...
-```
-
-### 49. Shadows of Dusk ext v1.1.1.2.1.2.1.1
-**评分**: 5.33/10
-```
-Bass guitar, raggae,  dark, piano,  hopeless,  old ghostly rasta male vocalist g...
-```
-
-### 50. Bass Euphoria
-**评分**: 5.33/10
-```
-deep house, trap, electronic, club-house, instrumental, drop, bass, energetic, d...
+A hard-hitting rap track with a gritty urban vibe, led by 50 Cent's commanding vocals. The beat features deep bass lines and heavy drum kicks, creating a powerful rhythm. Synthesizers add a dark
 ```
 
 
-*... 还有 20 条提示词*
+#### 中文翻译
+```
+一首硬核的说唱曲目，带有粗糙的城市氛围，由50 Cent的强势人声主导。节拍包含深沉的Bass线条和沉重的鼓点，营造出强烈的节奏感。合成器增加了暗黑的色彩。
+```
+
+</details>
+
+---

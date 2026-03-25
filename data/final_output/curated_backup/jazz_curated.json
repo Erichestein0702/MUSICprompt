@@ -1,0 +1,65 @@
+[
+  {
+    "id": "mp_2579feed4e20",
+    "prompt_text": "climax, saxophone, snyth, keyboards, Camelot 11B, A Major, high energy, female vocalist, house disco, disco house, female vocalist, Jazztronica, upbeat, romantic, passionate, longing, energetic, warm, breakbeat, maracas, bass, keyboard, club/dance, piano, trumpets, drums, spooky, dark cabaret, psychedelic, Japanese Jazztronica, nu jazz, broken beats,",
+    "prompt_zh": "高潮, 萨克斯风, 合成器, 键盘, Camelot 11B, A Major, 高能量, 女声主唱, 房屋迪斯科 (House Disco), 迪斯科房屋 (Disco House), 女声主唱, 爵士电子 (Jazztronica), 欢快, 浪漫, 热情, 思念, 充满活力, 温暖, 断奏, 沙球, 低音, 键盘, 俱乐部/舞蹈 (Club/Dance), 钢琴, 小号, 鼓, 神秘, 黑暗歌舞厅 (Dark Cabaret), 迷幻, 日本爵士电子 (Japanese Jazztronica), 新爵士 (Nu Jazz), 破碎节拍 (Broken Beats)",
+    "platform": "udio",
+    "genre": [
+      "jazz",
+      "house"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "piano",
+      "drums",
+      "bass",
+      "keyboard",
+      "saxophone"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/67b2b2ea-eeb8-48f9-b491-e150e9eee43a",
+    "title": "Confessions",
+    "translation_meta": {
+      "title_zh": "音乐提示词翻译",
+      "genre_tags_zh": [
+        "房屋迪斯科 (House Disco)",
+        "迪斯科房屋 (Disco House)",
+        "爵士电子 (Jazztronica)",
+        "俱乐部/舞蹈 (Club/Dance)",
+        "黑暗歌舞厅 (Dark Cabaret)",
+        "日本爵士电子 (Japanese Jazztronica)",
+        "新爵士 (Nu Jazz)"
+      ],
+      "mood_keywords_zh": [
+        "高潮",
+        "高能量",
+        "女声主唱",
+        "欢快",
+        "浪漫",
+        "热情",
+        "思念",
+        "充满活力",
+        "温暖",
+        "断奏",
+        "神秘",
+        "迷幻"
+      ],
+      "translated_at": "2026-03-25T14:26:33.099076"
+    },
+    "usage_tips": [],
+    "param_tips": {
+      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
+    },
+    "similar_styles": [
+      "smooth jazz",
+      "fusion",
+      "bebop"
+    ],
+    "refined": true,
+    "refined_version": "1.0"
+  }
+]
