@@ -1,4 +1,4 @@
-# 🎵 VMDP - Viral Music DNA Protocol
+# 🎵 MUSICprompt - AI Music Prompt Library
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total%20Prompts-283-blue?style=for-the-badge&logo=music&logoColor=white" alt="Total Prompts">
@@ -242,6 +242,6 @@ aimusic_prompt/
 ---
 
 <p align="center">
-  <em>Made with 🎵 by VMDP Team</em><br>
+  <em>Made with 🎵 by MUSICprompt Team</em><br>
   <em>让每个人都能创作专业级AI音乐</em>
 </p>
