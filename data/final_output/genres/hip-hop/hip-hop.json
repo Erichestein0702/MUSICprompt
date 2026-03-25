@@ -1,0 +1,2381 @@
+[
+  {
+    "id": "mp_aca5615df208",
+    "prompt_text": "Trap Fractal harmony, sou and blues sampling, sample drill, plunderphonics, alto flute, polyphonic chant, rhythmic noise, recordings with subtle differences, vaportrap, new jack swing, contrabassoon, ultra supreme hyper polyrhythms,  booming bass, 808 bass drums, 808 hihats, 808 snares, 808 cowbell, compression, lpf, hpf",
+    "prompt_zh": "Trap Fractal 和声，灵魂乐和蓝调采样，钻采样，掠夺式采样，长笛，复调吟唱，节奏噪音，细微差异的录音，VaporTrap，New Jack Swing (新杰克摇摆)，低音大管，超极多节奏，轰鸣低音，808 bass drums，808 hihats，808 snares，808 cowbell，压缩，LPF，HPF",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "blues",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "drums",
+      "bass",
+      "flute"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/9e72625e-053d-4bac-8f4a-af389624f3bb",
+    "title": "Fractal Ascent",
+    "translation_meta": {
+      "title_zh": "Trap Fractal 和声",
+      "genre_tags_zh": [
+        "Trap Fractal",
+        "VaporTrap",
+        "New Jack Swing (新杰克摇摆)"
+      ],
+      "mood_keywords_zh": [
+        "灵魂乐和蓝调采样",
+        "钻采样",
+        "掠夺式采样",
+        "复调吟唱",
+        "节奏噪音",
+        "轰鸣低音",
+        "细微差异的录音",
+        "超极多节奏"
+      ],
+      "translated_at": "2026-03-25T14:18:49.979250"
+    }
+  },
+  {
+    "id": "mp_00ab9a37e48f",
+    "prompt_text": "Create a dynamic and high-energy track that blends classic 90s hip-hop vibes with a modern twist. The beat should be driven by a powerful rhythm, incorporating upbeat percussion and a catchy bassline that keeps the momentum strong. Layer the track with gospel-inspired backing vocals for a soulful touch, and include uplifting synths and brass elements to enhance the celebratory, victorious tone of the song. The overall style should be a fusion of old-school rap with contemporary production techniques, designed to inspire and energize listeners as they engage with the themes of the Prayer Revolution",
+    "prompt_zh": "创作一首充满动感和高能量的曲目，将90年代的经典嘻哈 (90s Hip-Hop) 风格与现代元素融合。节奏应由强劲的节拍驱动，加入明快的打击乐和抓耳的贝斯线，保持歌曲的强劲势头。在曲目中加入受福音音乐启发的和声，增添灵魂感，并使用鼓舞人心的合成器和铜管元素，增强歌曲的庆祝和胜利氛围。整体风格应是老派说唱 (Old-School Rap) 与现代制作技术的融合，旨在激发和激励听众参与祷告革命的主题。",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "soul"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/89b39479-a0ba-4038-863c-c6172ddfdad2",
+    "title": "Prayer Revolution",
+    "translation_meta": {
+      "title_zh": "祷告革命",
+      "genre_tags_zh": [
+        "嘻哈 (Hip-Hop)",
+        "老派说唱 (Old-School Rap)"
+      ],
+      "mood_keywords_zh": [
+        "动感",
+        "高能量",
+        "庆祝",
+        "胜利",
+        "鼓舞人心",
+        "灵魂感"
+      ],
+      "translated_at": "2026-03-25T14:25:17.108181"
+    }
+  },
+  {
+    "id": "mp_f3994cefabbd",
+    "prompt_text": "Create a song in the style of Southern trap rap with a melodic piano and flute, along with a deep 808 bass kick. Make the title and hook of the song say bleach, blonde, bad built Butch body bitch. The song is about Marjorie Taylor green being a an idiotic low-life promiscuous disease infested low IQ individual\n",
+    "prompt_zh": "创作一首南方陷阱说唱 (Southern trap rap) 风格的歌曲，使用旋律性的钢琴和长笛，以及深沉的808贝斯。歌曲的标题和[副歌]部分要包含“bleach, blonde, bad built Butch body bitch”。歌曲内容是关于Marjorie Taylor Green是一个愚蠢的低贱、放荡、低智商的个体。",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "piano",
+      "bass",
+      "flute"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/1571d043-d257-4a18-b3bf-8379230ace8f",
+    "title": "Bleach Blonde 2",
+    "translation_meta": {
+      "title_zh": "漂白金发坏身材的肌肉女",
+      "genre_tags_zh": [
+        "南方陷阱说唱 (Southern trap rap)"
+      ],
+      "mood_keywords_zh": [
+        "放荡",
+        "低贱",
+        "愤怒",
+        "讽刺"
+      ],
+      "translated_at": "2026-03-25T14:25:40.188750"
+    }
+  },
+  {
+    "id": "mp_014695ead1fb",
+    "prompt_text": "afro house, afro trap, jazzthing, phat Bass,cristal clear drums, atmospheric, g Minor,120 bpm.dance vybe,Bass music",
+    "prompt_zh": "非洲浩室 (Afro House)、非洲陷阱 (Afro Trap)、爵士元素 (Jazzthing)、肥厚贝斯 (Phat Bass)、水晶般清澈的鼓点 (Cristal Clear Drums)、氛围感 (Atmospheric)、g小调 (g Minor)、120 BPM、舞蹈氛围 (Dance Vybe)、贝斯音乐 (Bass Music)",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "jazz",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "drums",
+      "bass"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/710be2c7-99f6-4471-801d-8ea836503f8b",
+    "title": "Rhythms of the Night remix v1",
+    "translation_meta": {
+      "title_zh": "非洲浩室、非洲陷阱、爵士元素、肥厚贝斯、水晶般清澈的鼓点、氛围感、g小调、120 BPM、舞蹈氛围、贝斯音乐",
+      "genre_tags_zh": [
+        "非洲浩室 (Afro House)",
+        "非洲陷阱 (Afro Trap)",
+        "爵士元素 (Jazzthing)",
+        "贝斯音乐 (Bass Music)"
+      ],
+      "mood_keywords_zh": [
+        "肥厚贝斯 (Phat Bass)",
+        "水晶般清澈的鼓点 (Cristal Clear Drums)",
+        "氛围感 (Atmospheric)",
+        "舞蹈氛围 (Dance Vybe)"
+      ],
+      "translated_at": "2026-03-25T14:26:22.223637"
+    }
+  },
+  {
+    "id": "mp_b7036596a10b",
+    "prompt_text": "rap. trap. heavy  bass, crisp punchy drum, snare drum. atmospheric synths. funk. raspy black male voice west coast accent. ",
+    "prompt_zh": "rap. trap. 重低音的贝斯, 清脆有力的鼓点, 军鼓. 氛围合成器. funk. 沙哑的黑人男性声音，西海岸口音.",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "funk",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/5227a41f-ebfc-4678-b663-f54ede3e94c3",
+    "title": "Bass Heavy Vibes",
+    "translation_meta": {
+      "title_zh": "西海岸说唱",
+      "genre_tags_zh": [
+        "说唱 (rap)",
+        "陷阱 (trap)",
+        "放克 (funk)"
+      ],
+      "mood_keywords_zh": [
+        "重低音",
+        "清脆有力",
+        "氛围感",
+        "沙哑"
+      ],
+      "translated_at": "2026-03-25T14:31:46.337855"
+    }
+  },
+  {
+    "id": "mp_0a595adcbad2",
+    "prompt_text": "[Hip hop],[2000s],[a minor key, with a tempo of medium or fast, 90 bpm], [[more Lead synthetic piano melody in the background][ONLY MALE VOCAL][[The arrangement of the song consists of dynamic beats and a rap melody performed by the band members\",\" depth of organized sounds creating music\",\"melodic electronic echoes heart beat in in the background\",\"a constant electronic beat in the form of a rising and falling wave\" strong Male vocal\",\" strong, screaming male vocal\"\"vocalist melodeclamation\"'\"the reverberation deep inside rises and falls like a wave\"\" Intro and all track no drums rythm only electronic deep sound\"]][DJ scratches, he rapper's singing of the song\"\"low synthesizer sound with reverb\"\"\"Hip-Hop of the 2000s\", \"Hip-Hop\",\"C moll, 105 bpm\"\"no piano\"\"C moll, 105 bpm][\"strong Male Vocal\",\"strong, screaming Male Vocal\",\"Vocalist melodeclamation\" Rapper Vocals][DJ scratches]][less bass]]",
+    "prompt_zh": "[Hip hop],[2000s],[a minor key, with a tempo of medium or fast, 90 bpm], [[更多 Lead synthetic piano 旋律在背景][ONLY MALE VOCAL][[歌曲的编排包括动态节拍和乐队成员表演的说唱旋律][有组织的声音深度创造音乐][背景中有旋律的电子回声心跳][以波浪起伏的形式持续的电子节拍] 强烈的男声主唱[强烈的、尖叫的男声主唱][歌手的旋律朗诵][内心的回声像波浪一样起伏][前奏和所有曲目没有鼓的节奏，只有电子深音] ][DJ 擦盘，说唱歌手的演唱][有混响的低合成器声音][2000年代嘻哈, 嘻哈][C moll, 105 bpm][没有钢琴][C moll, 105 bpm][减少低音]]",
+    "platform": "udio",
+    "genre": [
+      "hip hop",
+      "rap",
+      "electronic"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "piano",
+      "drums",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/c1b364c3-9868-445b-8a08-124660c9ddac",
+    "title": "My Circles",
+    "translation_meta": {
+      "title_zh": "2000年代嘻哈",
+      "genre_tags_zh": [
+        "嘻哈 (Hip hop)",
+        "2000年代 (2000s)"
+      ],
+      "mood_keywords_zh": [
+        "强烈的男声主唱",
+        "强烈的、尖叫的男声主唱",
+        "歌手的旋律朗诵"
+      ],
+      "translated_at": "2026-03-25T14:23:59.090722"
+    }
+  },
+  {
+    "id": "mp_2e3d911f0cff",
+    "prompt_text": "[hip hop][2000s][Male vocalists][**808 Bass**: The song uses a strong, pulsating bass typical of hip-hop. This is the rhythmic basis, the bass will be clear but not overwhelming.  **Hip-hop synths for scratching**: sample like Roland SP-404SX. Add sounds that will emphasize the character of the song and give it an optimistic atmosphere.  **Auto-tune vocal harmonies**: . Autotune can help you achieve clear, precise sound. But we want to keep our voice natural and optimistic.][[key G-moll, 85 bpm][Male vocalist] [Vocalist melodeclamation, Rapper Vocals][ mainly instruments such as keyboard, sampler and percussion were used. Additionally, electric guitars, bass guitars, percussion instruments, synthesizers and other electronic musical instruments may also be used. Samples from other musical pieces may also be utilized]",
+    "prompt_zh": "[嘻哈 (Hip Hop)][2000年代][男歌手][**808 Bass**: 这首歌使用了强劲、脉动的低音，这是嘻哈音乐的典型特征。低音将是清晰的，但不会压倒一切。**用于刮擦的嘻哈合成器**: 采样类似于 Roland SP-404SX。添加能够突出歌曲特点并营造乐观氛围的声音。**自动调音和声**: 自动调音可以帮助你实现清晰、精确的声音。但我们希望保持声音的自然和乐观。][[key G-moll, 85 bpm][男歌手] [歌手旋律朗诵, 说唱歌手声音][主要使用了键盘、采样器和打击乐器。此外，还可以使用电吉他、贝斯吉他、打击乐器、合成器和其他电子乐器。也可以使用其他音乐作品的采样]",
+    "platform": "udio",
+    "genre": [
+      "hip hop",
+      "rap",
+      "electronic"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass",
+      "synth",
+      "keyboard"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/e144c9d0-3c32-4338-bb47-5de7e5cda01d",
+    "title": "Let’s Kick Off",
+    "translation_meta": {
+      "title_zh": "中文标题",
+      "genre_tags_zh": [
+        "嘻哈 (Hip Hop)",
+        "2000年代"
+      ],
+      "mood_keywords_zh": [
+        "乐观",
+        "自然"
+      ],
+      "translated_at": "2026-03-25T14:26:40.881518"
+    }
+  },
+  {
+    "id": "mp_f9e415cec94c",
+    "prompt_text": "Androgynous vocoder(autotune & soulful), Funky Basslines & Vocoder & Talkbox & Electronic-influenced & Stuttering-voice & funky beats. Trap & Synth Funk & French-house & French House & Funky Synthwave, Synth Funk, Funky Synthwave, French House, Trap, French-house,\n",
+    "prompt_zh": "中性声音合成器 (autotune & soulful)，摇摆贝斯线 & Vocoder & Talkbox & Electronic-influenced & 断续人声 & 摇摆节奏。Trap & Synth Funk & French-house & French House & Funky Synthwave，Synth Funk，Funky Synthwave，French House，Trap，French-house",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "electronic",
+      "soul"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [],
+    "source": "mister-magpie/bbe112ca-382b-4ece-b02b-c102252ac9f4",
+    "title": "Ramen Ecstasy",
+    "translation_meta": {
+      "title_zh": "中性声音合成器 (autotune & soulful), 摇摆贝斯线 & 电子影响 & 断续人声 & 摇摆节奏",
+      "genre_tags_zh": [
+        "Trap",
+        "Synth Funk",
+        "French-house",
+        "Funky Synthwave"
+      ],
+      "mood_keywords_zh": [
+        "中性",
+        "摇摆",
+        "断续",
+        "电子影响",
+        "灵魂"
+      ],
+      "translated_at": "2026-03-25T14:33:41.760156"
+    }
+  },
+  {
+    "id": "mp_1208b7054d9d",
+    "prompt_text": "A flowy Bay area boombap rap song with trap drums and heavy bass, about Sally finds temporary comfort in both her work and substance abuse deep down she knows this lifestyle is not sustainable but she's too roped in now and can't escape",
+    "prompt_zh": "一首流畅的湾区Boombap说唱歌曲，带有Trap鼓点和沉重的Bass，关于萨莉在工作和物质滥用中找到暂时的安慰，但她内心深处知道这种生活方式是不可持续的，但她已经深陷其中，无法自拔。",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "drums",
+      "bass"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [],
+    "source": "mister-magpie/1ab7e9d0-f824-4408-8faa-2e6c79b18d33",
+    "title": "Sally Sells",
+    "translation_meta": {
+      "title_zh": "萨莉的暂时慰藉",
+      "genre_tags_zh": [
+        "Boombap (Boombap)",
+        "Trap (Trap)"
+      ],
+      "mood_keywords_zh": [
+        "流畅",
+        "沉重",
+        "暂时的安慰",
+        "深陷其中",
+        "无法自拔"
+      ],
+      "translated_at": "2026-03-25T14:34:37.033515"
+    }
+  },
+  {
+    "id": "mp_abd8e72746b4",
+    "prompt_text": "witch house, dark ambient, trap, Dark menacing beat with a growling, angry bass line, Slow, low tempo, threatening, fierce, darkness and fire, distorted guitar, female vocalist, seductive, nightmare, sexual energy",
+    "prompt_zh": "witch house, dark ambient, trap, [副歌] 黑暗且威胁的节拍，带有咆哮的、愤怒的贝斯线，[间奏] 缓慢、低速，充满威胁、凶猛、黑暗与火焰，[主歌] 失真的吉他，女性歌手，诱惑，噩梦，性能量",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "ambient",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [
+      "study",
+      "sleep"
+    ],
+    "source": "mister-magpie/db521459-5d4e-4a0e-bbdf-b7d5eb09e19f",
+    "title": "Bloodthirst - AWA",
+    "translation_meta": {
+      "title_zh": "黑暗氛围曲",
+      "genre_tags_zh": [
+        "巫屋 (Witch House)",
+        "黑暗氛围 (Dark Ambient)",
+        "陷阱 (Trap)"
+      ],
+      "mood_keywords_zh": [
+        "黑暗且威胁",
+        "咆哮的",
+        "愤怒的",
+        "缓慢",
+        "低速",
+        "威胁",
+        "凶猛",
+        "失真",
+        "诱惑",
+        "噩梦",
+        "性能量"
+      ],
+      "translated_at": "2026-03-25T14:35:03.433068"
+    }
+  },
+  {
+    "id": "mp_13768ff159bd",
+    "prompt_text": "Electronic, synth-wave, darkwave, gothic, sad, male vocalist, distortion, electro drums, bpm 130, industrial, edm, trap industrial metal",
+    "prompt_zh": "电子 (Electronic), 合成器波 (Synth-wave), 黑暗波 (Darkwave), 哥特 (Gothic), 悲伤 (sad), 男声主唱 (male vocalist), 失真 (distortion), 电子鼓 (electro drums), BPM 130, 工业 (industrial), 电子舞曲 (EDM), 陷阱 (Trap) 工业金属 (Industrial Metal)",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "electronic",
+      "edm"
+    ],
+    "bpm": 130,
+    "key": null,
+    "instruments": [
+      "drums",
+      "synth"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [],
+    "source": "mister-magpie/4ddb286b-fb53-4841-b5ee-241a71d59110",
+    "title": "The Promise",
+    "translation_meta": {
+      "title_zh": "电子合成器波",
+      "genre_tags_zh": [
+        "电子 (Electronic)",
+        "合成器波 (Synth-wave)",
+        "黑暗波 (Darkwave)",
+        "哥特 (Gothic)",
+        "工业 (Industrial)",
+        "电子舞曲 (EDM)",
+        "陷阱 (Trap)",
+        "工业金属 (Industrial Metal)"
+      ],
+      "mood_keywords_zh": [
+        "悲伤 (sad)"
+      ],
+      "translated_at": "2026-03-25T14:36:56.828554"
+    }
+  },
+  {
+    "id": "mp_e56a88a37682",
+    "prompt_text": "add a bass drop with EDM TRAP DUB STEP , electronic, synthesizer, electro, techno, progressive house, electro house, euro house, eurodance, ",
+    "prompt_zh": "加入一个带有 EDM TRAP DUB STEP 的低音下落，使用 electronic, synthesizer, electro, techno, progressive house, electro house, euro house, eurodance 等元素",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "electronic",
+      "edm"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/417b0f97-9b27-418b-b1ac-0aa643a2e1f7",
+    "title": "Rhythm Unleashed ext v1.2.2.1",
+    "translation_meta": {
+      "title_zh": "电子音乐提示词",
+      "genre_tags_zh": [
+        "电子舞曲 (EDM)",
+        "陷阱音乐 (TRAP)",
+        "Dubstep (DUB STEP)",
+        "电子 (electronic)",
+        "合成器 (synthesizer)",
+        "电子 (electro)",
+        "科技 (techno)",
+        "渐进浩室 (progressive house)",
+        "电子浩室 (electro house)",
+        "欧洲浩室 (euro house)",
+        "欧陆舞曲 (eurodance)"
+      ],
+      "mood_keywords_zh": [
+        "动感",
+        "激情"
+      ],
+      "translated_at": "2026-03-25T14:39:54.549890"
+    }
+  },
+  {
+    "id": "mp_fda1dc55a53f",
+    "prompt_text": "Robotic choir beautiful singing female vocals Interstellar, relaxed, deep synth lead, bass deep, future bass, native flute, experimental trap, ambient, spacey, futuristic, cool, smooth, hypnotic, \n\n",
+    "prompt_zh": "Robotic choir beautiful singing female vocals, 星际, 放松, 深沉的 synth lead, 深沉的 bass, future bass, 原住民长笛, 实验性 trap, 环境音乐, 空灵, 未来感, 凉爽, 顺滑, 催眠",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "ambient",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth",
+      "flute"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [
+      "study",
+      "meditation"
+    ],
+    "source": "mister-magpie/87f84c95-cdb5-42e7-8516-02a695279d4d",
+    "title": "Celestialistic  ",
+    "translation_meta": {
+      "title_zh": "机器人合唱团",
+      "genre_tags_zh": [
+        "未来贝斯 (future bass)",
+        "实验性陷阱 (experimental trap)",
+        "环境音乐 (ambient)"
+      ],
+      "mood_keywords_zh": [
+        "星际",
+        "放松",
+        "深沉",
+        "空灵",
+        "未来感",
+        "凉爽",
+        "顺滑",
+        "催眠"
+      ],
+      "translated_at": "2026-03-25T14:40:55.355848"
+    }
+  },
+  {
+    "id": "mp_63df348c3e9a",
+    "prompt_text": "nergetic, Upbeat, Party, Fast-paced, Synthesizers, Drum machine, 90s club anthem, Dancefloor filler, Electric, Exciting, Catchy hooks, Funky bassline, Rap verses, Party playlists, Workout routines, Dance competitions, Ignites the dancefloor, Gets everyone moving and grooving, Creates a high-energy atmosphere.",
+    "prompt_zh": "充满活力的、欢快的、派对的、快节奏的、使用合成器和鼓机、90s club anthem、舞池热曲、电子的、令人兴奋的、朗朗上口的旋律、Funky bassline、说唱主歌、适合派对播放列表、健身训练、舞蹈比赛、点燃舞池、让每个人动起来、营造高能量氛围。",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [
+      "workout",
+      "party"
+    ],
+    "source": "mister-magpie/0bfd8ca5-4853-4b03-812e-ccb3cbf79439",
+    "title": "Seize the Digital Day ext v2",
+    "translation_meta": {
+      "title_zh": "90年代俱乐部圣歌",
+      "genre_tags_zh": [
+        "电子舞曲 (Electronic Dance Music)",
+        "嘻哈 (Hip Hop)"
+      ],
+      "mood_keywords_zh": [
+        "充满活力的",
+        "欢快的",
+        "派对的",
+        "快节奏的",
+        "令人兴奋的",
+        "朗朗上口的",
+        "Funky",
+        "点燃舞池",
+        "动起来",
+        "高能量"
+      ],
+      "translated_at": "2026-03-25T14:42:29.886159"
+    }
+  },
+  {
+    "id": "mp_3715ba3d5b29",
+    "prompt_text": "deep synth bass bubble gum 80s soul funk, lyrics about the fact that the songs were much better in the eighties, add a icey cube rap solo",
+    "prompt_zh": "深沉的合成贝斯，泡泡糖 80s Soul Funk，歌词内容关于80年代的歌曲更好，加入 Ice Cube 的说唱独奏",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "soul",
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [],
+    "source": "mister-magpie/c06650a4-7c5b-44f6-83b0-8108daf6704e",
+    "title": "Back to the Eighties",
+    "translation_meta": {
+      "title_zh": "80年代灵魂放克",
+      "genre_tags_zh": [
+        "灵魂放克 (Soul Funk)",
+        "80年代流行 (80s Pop)"
+      ],
+      "mood_keywords_zh": [
+        "怀旧",
+        "欢快"
+      ],
+      "translated_at": "2026-03-25T14:47:41.234048"
+    }
+  },
+  {
+    "id": "mp_d814813d59ab",
+    "prompt_text": "English heartbreak rap. Mellow trap beat with sparse piano. Deep bass, atmospheric synths. Emotional vocals blend singing and rapping. Minimal drums emphasize raw lyrics.",
+    "prompt_zh": "柔和的 trap 节拍，稀疏的 piano。深沉的 bass，氛围感 synths。情感充沛的 vocals 融合了 singing 和 rapping。极简的 drums 突出了原始的歌词。",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "piano",
+      "drums",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [],
+    "source": "mister-magpie/e0b989f5-ba89-4b38-b914-6066221c9446",
+    "title": "Heartbreak Hotel",
+    "translation_meta": {
+      "title_zh": "英文心碎说唱",
+      "genre_tags_zh": [
+        "说唱 (Rap)",
+        "陷阱 (Trap)"
+      ],
+      "mood_keywords_zh": [
+        "心碎",
+        "情感充沛",
+        "原始"
+      ],
+      "translated_at": "2026-03-25T14:47:46.825174"
+    }
+  },
+  {
+    "id": "mp_e9e5b53a35b8",
+    "prompt_text": "Rappers delight!space warping trap with thick deep hard bass mind bending sliding wave synths and heavy dark club at mospheric,rap",
+    "prompt_zh": "Rappers delight! 空间扭曲的 Trap，带有厚重的深沉硬低音、令人头晕目眩的滑动波形合成器和沉重黑暗的俱乐部氛围，rap",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/b3016500-3b2e-4f36-8182-139448caf69c",
+    "title": "Galactic Gambit",
+    "translation_meta": {
+      "title_zh": "说唱者的喜悦",
+      "genre_tags_zh": [
+        "陷阱 (Trap)"
+      ],
+      "mood_keywords_zh": [
+        "空间扭曲",
+        "厚重",
+        "深沉",
+        "硬低音",
+        "头晕目眩",
+        "滑动波形",
+        "沉重黑暗",
+        "俱乐部氛围"
+      ],
+      "translated_at": "2026-03-25T14:47:50.996558"
+    }
+  },
+  {
+    "id": "mp_956550b61943",
+    "prompt_text": "Love yourself!space warping trap with thick deep hard bass mind bending sliding wave synths and heavy dark club at mospheric",
+    "prompt_zh": "Love yourself! 空间扭曲的 Trap，带有厚重的深沉硬低音、令人头晕目眩的滑动波合成器和沉重黑暗的俱乐部氛围",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/34355354-3cec-4f04-b336-8d1b7919c3e8",
+    "title": "Self-Love Odyssey",
+    "translation_meta": {
+      "title_zh": "爱自己！",
+      "genre_tags_zh": [
+        "陷阱 (Trap)"
+      ],
+      "mood_keywords_zh": [
+        "空间扭曲",
+        "厚重",
+        "深沉",
+        "硬低音",
+        "头晕目眩",
+        "滑动波",
+        "沉重",
+        "黑暗",
+        "俱乐部氛围"
+      ],
+      "translated_at": "2026-03-25T14:47:54.919407"
+    }
+  },
+  {
+    "id": "mp_ba90e17e8530",
+    "prompt_text": "110 bpm. A modern hip-hop/trap beat with deep bass and electronic elements and dirty, distorted guitars with an emphasis on power chords and emotional melodies.",
+    "prompt_zh": "110 bpm. 一个现代的 hip-hop/trap 节拍，带有深沉的 bass 和电子元素，以及脏兮兮的、失真的吉他，重点在于强力和弦和情感旋律。",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "electronic",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [],
+    "source": "mister-magpie/eb6f9f21-6669-4fa5-b5bb-8b6e5a7a0588",
+    "title": "High Voltage Dreams",
+    "translation_meta": {
+      "title_zh": "现代嘻哈/陷阱节拍",
+      "genre_tags_zh": [
+        "嘻哈 (Hip-Hop)",
+        "陷阱 (Trap)"
+      ],
+      "mood_keywords_zh": [
+        "深沉",
+        "情感"
+      ],
+      "translated_at": "2026-03-25T14:48:54.888268"
+    }
+  },
+  {
+    "id": "mp_849a84e6a278",
+    "prompt_text": " Trip hop, nu jazz, electronica, alternative hip hop, trumpets, trombones, saxophones, keyboards, bass, upbeat, violins, cello, melodic",
+    "prompt_zh": "Trip hop, nu jazz, electronica, alternative hip hop, trumpets, trombones, saxophones, keyboards, bass, 欢快, violins, cello, 旋律",
+    "platform": "udio",
+    "genre": [
+      "hip hop",
+      "electronic",
+      "jazz"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "violin",
+      "bass",
+      "keyboard",
+      "saxophone",
+      "trumpet"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [],
+    "source": "mister-magpie/9714dce6-c7a8-4543-903b-0408ad3c1e5f",
+    "title": "Red Shirt Blues",
+    "translation_meta": {
+      "title_zh": "音乐提示词翻译",
+      "genre_tags_zh": [
+        "三拍子 (Trip hop)",
+        "新爵士 (Nu jazz)",
+        "电子音乐 (Electronica)",
+        "另类嘻哈 (Alternative hip hop)"
+      ],
+      "mood_keywords_zh": [
+        "欢快",
+        "旋律"
+      ],
+      "translated_at": "2026-03-25T14:40:34.144122"
+    }
+  },
+  {
+    "id": "mp_5f2c75c9d87e",
+    "prompt_text": "Frenna meets sfb meets poke black rapper with singing chorus, sister act like singing gospel soulfull meets urban uptempo using strings and snares and heavy bass, jesus walking sound  meet seven days singer  , make it dutch yellow claw dr producing spanker vibe, timberland schoenen.\n\n\nDe tekst gaat over rassen haat make it english ",
+    "prompt_zh": "Frenna 与 sfb 与 poke 黑人说唱歌手相遇，带有演唱副歌，像姐妹合唱团一样演唱福音灵魂乐，充满 Urban Uptempo (城市快节奏) 的感觉，使用 strings (弦乐) 和 snares (军鼓) 以及 heavy bass (重低音)，加入 Jesus walking sound (耶稣行走的声音) 与 seven days 歌手相遇，制作出 Dutch Yellow Claw (荷兰黄爪) 的 Spanker 氛围，Timberland 鞋子。",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "soul"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 7.0,
+    "use_cases": [],
+    "source": "mister-magpie/bc296f05-fc43-4a0f-a4f5-83c912f07007",
+    "title": "Rise Up Together (snippet)",
+    "translation_meta": {
+      "title_zh": "Frenna 与 sfb 与 poke 黑人说唱歌手相遇，带有演唱副歌",
+      "genre_tags_zh": [
+        "福音灵魂乐 (Gospel Soul)",
+        "城市快节奏 (Urban Uptempo)"
+      ],
+      "mood_keywords_zh": [
+        "充满",
+        "重低音",
+        "Jesus walking sound (耶稣行走的声音)"
+      ],
+      "translated_at": "2026-03-25T14:51:01.276227"
+    }
+  },
+  {
+    "id": "mp_885c6119b803",
+    "prompt_text": "Create a trap anthem with a slow beat and deep bass. Craft powerful rhymes about seizing the moment and claiming success. Tempo: 70 BPM. Mood: Confident and triumphant",
+    "prompt_zh": "创作一首慢节奏和深低音的 trap 国歌。编写强有力的韵脚，讲述抓住机会和取得成功。Tempo: 70 BPM。情绪：自信且凯旋",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "trap"
+    ],
+    "bpm": 70,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 7.0,
+    "use_cases": [],
+    "source": "mister-magpie/60fcfa1b-bf2c-4dfe-b5cb-7cdbb17c97d0",
+    "title": "Seize the Crown",
+    "translation_meta": {
+      "title_zh": "慢节奏深低音的Trap国歌",
+      "genre_tags_zh": [
+        "Trap (trap)"
+      ],
+      "mood_keywords_zh": [
+        "自信",
+        "凯旋"
+      ],
+      "translated_at": "2026-03-25T14:53:13.177130"
+    }
+  },
+  {
+    "id": "mp_1ffe5592a06a",
+    "prompt_text": "A hard-hitting rap track with a gritty urban vibe, led by 50 Cent's commanding vocals. The beat features deep bass lines and heavy drum kicks, creating a powerful rhythm. Synthesizers add a dark",
+    "prompt_zh": "一首硬核的说唱曲目，带有粗糙的城市氛围，由50 Cent的强势人声主导。节拍包含深沉的Bass线条和沉重的鼓点，营造出强烈的节奏感。合成器增加了暗黑的色彩。",
+    "platform": "suno",
+    "genre": [
+      "rap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.0,
+    "use_cases": [],
+    "source": "mister-magpie/f720a6c4-5dbe-4648-ad7b-602ff77ba053",
+    "title": "Bulletproof Dreams",
+    "translation_meta": {
+      "title_zh": "硬核说唱曲目",
+      "genre_tags_zh": [
+        "嘻哈 (Hip Hop)",
+        "说唱 (Rap)"
+      ],
+      "mood_keywords_zh": [
+        "硬核",
+        "粗糙",
+        "城市氛围",
+        "暗黑"
+      ],
+      "translated_at": "2026-03-25T14:53:42.097479"
+    }
+  },
+  {
+    "id": "mp_65b77a6b9305",
+    "prompt_text": "145 BPM (slightly faster for more intensity), female hip hop singer, Layered 808 bass: deep sub-bass + distorted mid-bass, Polyrhythmic hi-hats: 32nd note pattern with occasional triplet break, Snare on 3rd beat with ghost notes for groove, Eerie synth pad morphing into dissonant chords, Glitchy vocal samples (chopped up \"understand\" and \"depends\"), Occasional reverse cymbal sweeps for transitions",
+    "prompt_zh": "145 BPM (稍快以增加强度)，女性嘻哈歌手，分层的808贝斯：低频贝斯 + 扭曲的中频贝斯，多节奏的军鼓：32分音符模式，偶尔出现三连音变化，军鼓在第三拍，带有幽灵音符以增加律动感，诡异的合成器垫音逐渐变为不和谐和弦，切碎的“understand”和“depends”人声采样，偶尔使用反向钹扫音以实现过渡",
+    "platform": "udio",
+    "genre": [
+      "hip hop"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.0,
+    "use_cases": [],
+    "source": "mister-magpie/130a605e-ac71-4de3-9190-a4fdfda8925d",
+    "title": "Cognitive Dissonance ",
+    "translation_meta": {
+      "title_zh": "中文标题",
+      "genre_tags_zh": [
+        "嘻哈 (Hip Hop)"
+      ],
+      "mood_keywords_zh": [
+        "强度",
+        "诡异",
+        "律动感",
+        "不和谐",
+        "过渡"
+      ],
+      "translated_at": "2026-03-25T14:50:49.342519"
+    }
+  },
+  {
+    "id": "mp_f674e5c55236",
+    "prompt_text": "horrorcore rap with emo guitar and phaseshifting electronic bass. the squirrel is here for his walnuts",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "electronic"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass"
+    ],
+    "quality_score": 6.33,
+    "use_cases": [],
+    "source": "mister-magpie/517bf045-71e3-4661-baae-096ecb85fbbb",
+    "title": "Shadow Scurry"
+  },
+  {
+    "id": "mp_6147231dd240",
+    "prompt_text": "future house, bass guitar, female vocalist, electric piano, funky, funk, trap, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "funk",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "piano",
+      "bass"
+    ],
+    "quality_score": 6.33,
+    "use_cases": [],
+    "source": "mister-magpie/796a2983-12f1-4544-ae09-be53d5c19413",
+    "title": "Solid Ground (1.5 Remake)"
+  },
+  {
+    "id": "mp_dd24eecdb18d",
+    "prompt_text": "A ambient trap song about chilling at the beach during a sunset, electronic, saxophone, synthesizer, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "electronic",
+      "ambient"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "synth",
+      "saxophone"
+    ],
+    "quality_score": 6.33,
+    "use_cases": [
+      "study"
+    ],
+    "source": "mister-magpie/d2c86c3d-07fc-4390-8787-58a746e56d56",
+    "title": "Drift to Dusk rebooted"
+  },
+  {
+    "id": "mp_ec30acda8e54",
+    "prompt_text": "A hip-hop trap song with arabic drums and house piano synthesizer that is joyfull that we can dance on with acoustic guitar and upbeat",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "trap",
+      "house"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "piano",
+      "drums",
+      "synth"
+    ],
+    "quality_score": 6.33,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/ca29f40f-39fa-42cf-90a9-1f00adbbb539",
+    "title": "Umami"
+  },
+  {
+    "id": "mp_27220b8fde9e",
+    "prompt_text": "An energetic southern rap trap song with good beat, piano, rhythmic, double bass (drum set), bass,energetic, voice in a lil yachty type sounding voice",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "piano",
+      "bass"
+    ],
+    "quality_score": 6.33,
+    "use_cases": [],
+    "source": "mister-magpie/eeb59c30-7f0f-448b-b668-162d9b4c4f27",
+    "title": "Naked & Afraid"
+  },
+  {
+    "id": "mp_cada97e827f2",
+    "prompt_text": "A song about Death Therapy, I've got 20 pounds of black powder tied around my neck and now I have to untie the emotional knots guaranteed cure. blues revival, double bass, baritone saxophone ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "blues"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "saxophone"
+    ],
+    "quality_score": 6.33,
+    "use_cases": [],
+    "source": "mister-magpie/f00b5b38-2b66-4861-8286-686808f37266",
+    "title": "Death Therapy Blues"
+  },
+  {
+    "id": "mp_fe330e20eaad",
+    "prompt_text": "Create a melodic rap beat with soulful guitar and melancholic piano, featuring hard-hitting 808s and trap hi-hats. Focus on raw, emotional storytelling about struggles in the hood, capturing the authe",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "soul",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "piano"
+    ],
+    "quality_score": 6.33,
+    "use_cases": [
+      "study"
+    ],
+    "source": "mister-magpie/22e25bed-b09e-4241-b5ed-e817ea53f9fe",
+    "title": "Trials in the Trenches"
+  },
+  {
+    "id": "mp_9cb7b3976225",
+    "prompt_text": "Instrumental Hip Hop, Nu Jazz, Jazz Rap, soul, electric bass guitar, mellow, sampling, sentimental, warm, spiritual, soothing, instrumental Instrumental Hip Hop, Nu Jazz, Jazz Rap, Soul, Electric bass guitar, Mellow, Sampling, Sentimental, Warm, Spiritual, Soothing, Instrumental, 90s, hard",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "hip hop",
+      "rap",
+      "jazz"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass"
+    ],
+    "quality_score": 6.33,
+    "use_cases": [],
+    "source": "mister-magpie/e596f72a-d771-40db-989a-e45b616649ea",
+    "title": "Borsod Hustler"
+  },
+  {
+    "id": "mp_b5c3abf136cc",
+    "prompt_text": "Instrumental Hip Hop, Soul, plunderphonics, plunderphonics, plunderphonics, plunderphonics, plunderphonics, melodic, anthemic, electric bass guitar, minimalistic, sampling, bittersweet, instrumental, eclectic, playful, warm, rhythmic, electric bass guitar, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "hip hop",
+      "soul"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass"
+    ],
+    "quality_score": 6.33,
+    "use_cases": [],
+    "source": "mister-magpie/cda0ac6c-d812-4bbd-ad95-474ac42f7eaf",
+    "title": "Bounce [Full Track], Instrumental Hip Hop"
+  },
+  {
+    "id": "mp_e04321bcd577",
+    "prompt_text": "g-funk, electric bass guitar, R&B, funk, west coast hip hop, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "hip hop",
+      "r&b",
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass"
+    ],
+    "quality_score": 6.33,
+    "use_cases": [],
+    "source": "mister-magpie/97c6a6a4-d479-4989-94bd-0b9a45178ca4",
+    "title": "Get Up and Go"
+  },
+  {
+    "id": "mp_c36ad5e91813",
+    "prompt_text": "A powerful drum and bass song about not being able to wait to see you again, acoustic guitar, flute, groovy, funk, upbeat, futuristic, hip hop vibes, electronic trap music ",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "hip hop",
+      "rap",
+      "electronic"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass",
+      "flute"
+    ],
+    "quality_score": 6.33,
+    "use_cases": [],
+    "source": "mister-magpie/dd331896-bfcf-46fb-a202-4f682d580889",
+    "title": "Can't Wait to See You"
+  },
+  {
+    "id": "mp_14633128069f",
+    "prompt_text": "Sparta remix, fnaf, Linkin park, breakcore, guitar, raw emotion, male vocalist, powerful vocals, drum machine, rapper, singer, piano, sustain, bass tones, low frequency, glass squeegee sound as sample",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "piano",
+      "bass"
+    ],
+    "quality_score": 6.17,
+    "use_cases": [],
+    "source": "mister-magpie/fb3b4697-59dc-4a45-9b77-b5935a096d78",
+    "title": "!!!!!Where the Cold Wind Blows remix v1.1.2.1.2.2.1 ext v2.2.1.2.2"
+  },
+  {
+    "id": "mp_f967b0ff63a4",
+    "prompt_text": "alternative post-psychedelic  psy-trance trance dark moody post-rap space synth, emotional, soul, 80bpm, Afrikaans",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "soul",
+      "trance"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "synth"
+    ],
+    "quality_score": 6.17,
+    "use_cases": [],
+    "source": "mister-magpie/dff29642-a182-46ac-8afd-3b3462b48e49",
+    "title": "Udio 1.5 remix v2 ext v2.2.1.1.2.1"
+  },
+  {
+    "id": "mp_8c0c62dbf7f6",
+    "prompt_text": " Trap beats, hip-hop influences, sub-bass layers, snappy snares",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 6.17,
+    "use_cases": [],
+    "source": "mister-magpie/a8b3b8c8-c3db-496f-acfb-bfcfa2eaa52d",
+    "title": "watch me do a self-sabotage"
+  },
+  {
+    "id": "mp_16c9ef2da80f",
+    "prompt_text": "trap, electronic, upbeat, uptempo, serene, beautiful, catchy, synthesizer, mellow, ambient, male vocalist, melodic, the beautiful vibe of summer, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "electronic",
+      "ambient"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "synth"
+    ],
+    "quality_score": 6.17,
+    "use_cases": [
+      "study"
+    ],
+    "source": "mister-magpie/22ea7581-bcfc-4b8d-a5d9-895642642bdf",
+    "title": "out in the sun"
+  },
+  {
+    "id": "mp_e46626f6eb42",
+    "prompt_text": "Slowed down tempo, Dj Remixed Slowed Down Tempo Scratched Bass Boosted Dubstep Rap Flo Scratched Dj Style Epic Freedom Hard, Get off your ass, times up , think fast Don't Be left an outcast",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "dubstep"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 6.17,
+    "use_cases": [
+      "gaming"
+    ],
+    "source": "mister-magpie/29263809-9ca0-4863-b683-229f39125f0c",
+    "title": "Times Up"
+  },
+  {
+    "id": "mp_2dc498615dcf",
+    "prompt_text": "hip hop, electronic, synthesizer, 2020, upbeat, serene, male vocalist, catchy, beautiful, melodic, uptempo, about amazing feeling of a theme park,",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "hip hop",
+      "electronic"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "synth"
+    ],
+    "quality_score": 6.17,
+    "use_cases": [],
+    "source": "mister-magpie/af1cb15b-e547-4e02-83d0-67bb3ba20412",
+    "title": "life's a ride so wild it seems[tease]"
+  },
+  {
+    "id": "mp_25d5845395c3",
+    "prompt_text": "hip hop, urban, vulgar, high hats, future bass, wonky, glitch hop, alternative r&b, UK Bass, hip hop trap, offbeat, jazzy, 808 bass",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "hip hop",
+      "rap",
+      "jazz"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 6.17,
+    "use_cases": [],
+    "source": "mister-magpie/4713244d-2824-473b-a6d1-3b61d0381bc8",
+    "title": "Got My Vans On But They Look Like Sneakers"
+  },
+  {
+    "id": "mp_21437960448c",
+    "prompt_text": "Female vocalist, Electronic, Electronic dance music, Nu jazz, Electro swing, Downtempo, Acid jazz, Trip hop, Atmospheric, Breakbeat, Sampling, Rhythmic, Urban, Double bass, Alternative hip hop, Bass, Electronica, Smooth jazz, Melodic",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "hip hop",
+      "electronic",
+      "jazz"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 6.17,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/bb2cf74f-b3cb-42f8-85e6-a8dfb759f2d2",
+    "title": "Heart on a Shelf"
+  },
+  {
+    "id": "mp_e61351ab8ce3",
+    "prompt_text": "hip hop, London style, synths, bass, subbass , alternative hip hop black singer - car horn intro",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "hip hop"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 6.17,
+    "use_cases": [],
+    "source": "mister-magpie/a80d3616-db05-4ade-bd8b-31f5b0e50471",
+    "title": "Lambo's Crawling View"
+  },
+  {
+    "id": "mp_e2c5a9b9f7e2",
+    "prompt_text": "Rapid-fire rap, 140 bpm, deep bass beats, aggressive delivery in a minor key, creating high tension",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "rap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 6.0,
+    "use_cases": [],
+    "source": "mister-magpie/1b3a1dcf-d49d-43f5-a39f-a866cbe7ec18",
+    "title": "Storm in the Basement"
+  },
+  {
+    "id": "mp_5faa52f8a577",
+    "prompt_text": "\"Never Before Seen Timeless ReEditing\"\"Tribal Bangra\"Experimental HeartBeats\"\"Effective Juggled NuHōgaku Rap\"\"Acrobatic and Catchy Bass\"\"Multi Reverb&TapeEcho&Delay Surround\"\"Anomalous Granulated BPM\"",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "rap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 6.0,
+    "use_cases": [],
+    "source": "mister-magpie/47a6fb12-1ee6-4b86-a3e7-bae5934d35ae",
+    "title": "Anomaly Symphony"
+  },
+  {
+    "id": "mp_e35b928efb2f",
+    "prompt_text": "Merge the improvisational nature of jazz with the rhythmic backbone of trap. Imagine jazz instruments like the saxophone or trumpet over trap beats, creating an innovative sound. (Genres: Trap, Jazz; Vibe: Improvisational, Rhythmic; Instruments: Saxophone, Trumpet, Drums)",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "jazz",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "drums",
+      "saxophone",
+      "trumpet"
+    ],
+    "quality_score": 5.5,
+    "use_cases": [],
+    "source": "mister-magpie/db40ca5b-3f15-49f2-88c4-c49cfe5ad049",
+    "title": "Urban Pulse ext v2.2.2.2.2.2.1.2.1"
+  },
+  {
+    "id": "mp_a811097a4bf0",
+    "prompt_text": "Create a hard afro drill instrumental inspired by UK Drill with pads, piano, flute, guitar, Bell. Add tribute voice and vocal. Tribute instruments. Afro drill style. Brasilian style. The instrumental used to be hard and violent. Sample drill, uk drill, instrumental, rap, African, funk brasileiro, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "piano",
+      "flute"
+    ],
+    "quality_score": 5.5,
+    "use_cases": [],
+    "source": "mister-magpie/c46ca518-11cb-49a9-891a-4ffc0e15fcec",
+    "title": "(Free) Hard UK Drill instrumental by Didi Beatz - CAT - 2024"
+  },
+  {
+    "id": "mp_307b493d7d37",
+    "prompt_text": "an emotional out of tune vintage piano plays and a modern rap drum beat plays alongside it with vintage chopped soul vocals playing alongside drums \"GOOD KID M.A.A.D CITY\" Inspired or \"Donda\" Inspired",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "soul"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "piano",
+      "drums"
+    ],
+    "quality_score": 5.5,
+    "use_cases": [],
+    "source": "mister-magpie/6850e2d8-67f7-4a45-aebc-d631193d1cae",
+    "title": "City of Dreams"
+  },
+  {
+    "id": "mp_a721db037877",
+    "prompt_text": "Super rich detailed soundview with melodic eastern oriental flutes, violins, guitars, trap rap, slows.",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "violin",
+      "flute"
+    ],
+    "quality_score": 5.5,
+    "use_cases": [],
+    "source": "mister-magpie/7a0cb4d6-1b7d-4297-a7d8-a20a6c794ea9",
+    "title": "Golden Nights"
+  },
+  {
+    "id": "mp_13975d670f8b",
+    "prompt_text": "trap beats and rough mellow voice about the housing crisis hitting the young, deprivation, not 4/4, with psychdelics elements, piano and harp in the back",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "piano",
+      "harp"
+    ],
+    "quality_score": 5.5,
+    "use_cases": [],
+    "source": "mister-magpie/0a1ad333-f345-45b4-a6b9-978749fd6464",
+    "title": "No Place to Call Home"
+  },
+  {
+    "id": "mp_9a40243a023d",
+    "prompt_text": "Classical guitar, electric piano, retro, underground, transparent, floating, cinematic, orchestra, hip hop, rap, club, jazz",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "hip hop",
+      "rap",
+      "jazz"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "piano"
+    ],
+    "quality_score": 5.5,
+    "use_cases": [
+      "cinematic",
+      "party"
+    ],
+    "source": "mister-magpie/41fb63ca-aa0c-4d3a-9eab-e710a79c1004",
+    "title": "Electric Dreams"
+  },
+  {
+    "id": "mp_8a89556e2e7b",
+    "prompt_text": "lofi hip hop with female vocal. Instruments are jazzy guitar, saxophone, trumpet and conga drums. The vocal is about the desert rain",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "hip hop",
+      "jazz"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "saxophone",
+      "trumpet"
+    ],
+    "quality_score": 5.5,
+    "use_cases": [],
+    "source": "mister-magpie/945c7d66-9a51-4f32-ad76-6d2ac0f018bf",
+    "title": "Desert Rain"
+  },
+  {
+    "id": "mp_97d04c2a034f",
+    "prompt_text": "rap, hip hop, breakedown,  pirate, violin, flute, acoustic guitar, japanese, , celtic. About japanese legends. Tittle: All Legends.",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "hip hop",
+      "rap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "violin",
+      "flute"
+    ],
+    "quality_score": 5.5,
+    "use_cases": [],
+    "source": "mister-magpie/d51a47b4-54b9-4bd5-afac-548dd7f26243",
+    "title": "All Legends"
+  },
+  {
+    "id": "mp_c9c6eb6d8b67",
+    "prompt_text": "Brutal deathcore featuring downtuned guitars, rapid, pummeling riffs, guttural growls, blast beats, and breakdowns. Dark, aggressive atmosphere, intricate guitar work with technical elements, intense drumming, syncopated rhythms, minimal melodic content, relentless and heavy bass lines, powerful and raw vocal delivery, creating a dense, crushing sound.",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/ddeec3ae-d71e-4486-aaef-b4fecdf8850f",
+    "title": "Nightmare's Bay (\"Down by the Bay\": Deathcore Edition) "
+  },
+  {
+    "id": "mp_3ecc39c31446",
+    "prompt_text": "club/dance, minimal techno, bass house,  psytrance, trance, Industrial Techno/Hybrid Trap, hypnotic, instrumental, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "trap",
+      "house"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/dfee7708-b622-461e-b35a-2a734452b4bb",
+    "title": "Chase the White Rabbit"
+  },
+  {
+    "id": "mp_9e83022315cf",
+    "prompt_text": "A song about coming to terms with being human in a digital age. drum and bass, trap edm, kawaii future bass, female vocalist",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "edm",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/18d13217-ff26-4aee-a6e8-21134c3aecf0",
+    "title": "Human (or so it seems)"
+  },
+  {
+    "id": "mp_11c40adf3e6d",
+    "prompt_text": "synthwave, darksynth, dark electro, electro-industrial, trap / wave, trap, female vocalist, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "synth"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/70d0da38-8870-446a-afb0-59f531a3a502",
+    "title": "Lamp Babe"
+  },
+  {
+    "id": "mp_77f81e29364a",
+    "prompt_text": "A trap song that uses a djembe as a constant ringing bass note. The melody is simple but catchy. There is a rapper who sounds like Lil Wayne. The lyrics are about how rainbow icecream  cones with sprinkles are the best dessert ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/edfdcfac-f5d2-41f6-949b-52207743c023",
+    "title": "I Ain't With No Plain Cones"
+  },
+  {
+    "id": "mp_39d955822da5",
+    "prompt_text": "future bass, progressive house, trap edm about how you should check the mole on your arm",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "edm",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/834675c9-d955-4bf5-970d-63a6d3bd871c",
+    "title": "Check That Mole"
+  },
+  {
+    "id": "mp_0b4d8325b26f",
+    "prompt_text": "Progressive psytrance, hypnotic, psytrance, club/dance, film score, Industrial Techno/Hybrid Trap, dark ambient, melancholic, bass house, trance, techno, dark, atmospheric, groove, haunting,  hythmic, trance, edm, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "edm",
+      "ambient"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [
+      "study",
+      "cinematic",
+      "party"
+    ],
+    "source": "mister-magpie/cb1003f5-4fdc-4b8f-a747-1d4fb8bdf404",
+    "title": "Detective Miller"
+  },
+  {
+    "id": "mp_fa64fe9855ca",
+    "prompt_text": "A song about how yutyrannus is so cool, synthwave, rap, techno.",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "techno"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "synth"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/0af4f660-0622-4745-a6cc-f2fdb6f2bea7",
+    "title": "Timeless Connection"
+  },
+  {
+    "id": "mp_4e7787c5ac9c",
+    "prompt_text": "Kengan Ashura, rap metal, dubstep, electronic, drum and bass, cyber metal, uplifting, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "electronic",
+      "metal"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/cbbc7a66-7e34-40fb-ae8c-e08374523b75",
+    "title": "Blood and Sweat"
+  },
+  {
+    "id": "mp_de191c2092c2",
+    "prompt_text": "Bass guitar, raggae,  dark, piano,  hopeless,  old ghostly rasta male vocalist gangsta rap trumpet female vocalist on the [chorus female vocalist]",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "piano",
+      "bass",
+      "trumpet"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/755f48f1-6daa-4231-aa76-02c4a74cf08e",
+    "title": "Shadows of Dusk ext v1.1.1.2.1.2.1.1"
+  },
+  {
+    "id": "mp_f9331c45fae2",
+    "prompt_text": "deep house, trap, electronic, club-house, instrumental, drop, bass, energetic, dance, male vocalist, hype",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "electronic",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/46fd6660-17a8-44a2-894f-935e021afc42",
+    "title": "Bass Euphoria"
+  },
+  {
+    "id": "mp_8c42bf51e59d",
+    "prompt_text": "funky bass-driven, South African spoken rap, bouncy rhythm, new Jack swing",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/e7f50a0e-290f-44ff-94d8-908fb2378c51",
+    "title": "Maru Theme"
+  },
+  {
+    "id": "mp_d95a22c4a7a2",
+    "prompt_text": "hippo stomp, hardbass, psytrance, hard trance, techno, hard drum and bass, Industrial Techno/Hybrid Trap, hypnotic, hardstep, complex",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "trap",
+      "techno"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/3f03c151-b1d9-4176-bc63-a44c3981c309",
+    "title": "Ambition (Maranya feat. Xbit)"
+  },
+  {
+    "id": "mp_69b9619837e9",
+    "prompt_text": "Song about human mind trapped in robot and realising that world end in near, cyberpunk, sad, industrial, spacesynth, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "punk",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "synth"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/102ddcab-d0ef-4f91-aa64-27ac12995a89",
+    "title": "Fading Echoes"
+  },
+  {
+    "id": "mp_058d6428011a",
+    "prompt_text": "edm, electric, rap, intense, elctric guitar, b major, passionate, rhyme, catchy, intense, euphoriac, he makes her crazy, he makes her want more, she needs this in life and begins to open up with feelings, fade the outro with a guitar and humming",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "edm"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/8d04f3e1-5ac7-493e-8004-92c61d52d94d",
+    "title": "Lola's Chronicles"
+  },
+  {
+    "id": "mp_b2a689e43c2c",
+    "prompt_text": "rebellious kawaii edm song in english about borrowing hoverboards and crashing them into skyscraper windows, the abandoned undercity, messing up the internship, synthesizing pets, plasma stitches for scars, hacking the teacher's computer",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "edm"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "synth"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/74bde383-e22f-4abb-995a-1bdc0add9dbc",
+    "title": "Undercity Ascendance edit v2"
+  },
+  {
+    "id": "mp_5df1258cf116",
+    "prompt_text": "comedy country-rap with alot of bass drops about two cats living the best life in the fields of mentone indiana",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "country"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/69c23a73-c7cf-40ae-bb77-5f99c18bf96d",
+    "title": "Purr-fect Pair"
+  },
+  {
+    "id": "mp_8f6c27e66f1b",
+    "prompt_text": "A song about a guy named \"phobias\" who used to be the most feared warrior of all time. he used to solo everyone by himself with no need for allies. His only weakness was his mercy. Lofi, Bass, Trap",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/a84fbafd-e96b-4343-a134-b4312f16c31d",
+    "title": "The Ballad of Phobias"
+  },
+  {
+    "id": "mp_b4d68511da5c",
+    "prompt_text": "an ravey glitch-trap booming bass ominous psychedalic  song  with creepy occultish rhymes about cope with the fact that there is no rainbowdust at home",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/1affc7d2-6718-4be5-b588-329c6f42f2f9",
+    "title": "No Rainbowdust at Home"
+  },
+  {
+    "id": "mp_2abc2e1469ab",
+    "prompt_text": "a futuristic trap beats heavy synths song about Sister's Day\nDear systers, congratulate you with this gala day . bring happiness and optimistic send you a lot of beautiful flowers and smile ",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "synth"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/64bcea27-1bd6-4945-872a-1636698d95f9",
+    "title": "Sister's Day Celebration"
+  },
+  {
+    "id": "mp_78a862010c14",
+    "prompt_text": "\n80s glitchy synth punk techno a memory of coding a simple drawing program using the most low resolution graphics possible on an apple 2 plus computer achieving much more than we thought was possible",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "punk",
+      "techno"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "synth"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/ed147279-e42b-4c4b-ac56-e8c3ffbccda2",
+    "title": "Pixel Perfection"
+  },
+  {
+    "id": "mp_bb02417962da",
+    "prompt_text": "Old School Rap in TuPac Style transferring into an  Drum & Bass Style Song with e-guitar solo",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "rap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/92b1350f-062a-4ed9-b892-f2e33dd85618",
+    "title": "Streets to Beats"
+  },
+  {
+    "id": "mp_86c2c8fb8804",
+    "prompt_text": "funk bass, oldschool, breakbeat, rap, groove bass, funky, female vocals, bouncy",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/32b845c2-04b1-4591-8281-7a5cb7179495",
+    "title": "Funky Rhythms"
+  },
+  {
+    "id": "mp_80beceacfc67",
+    "prompt_text": "emo rap, synthwave, ethereal, RnB, drill, beat, edm, sad, emo, orchestra, dark, cinematic, futuristic, soundtrack,  vaporwave, emotional, soul, electronic, about a love breakup and personal comeback",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "electronic",
+      "edm"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "synth"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [
+      "cinematic"
+    ],
+    "source": "mister-magpie/b8fc586b-eff4-42e3-bdc9-b28f66605062",
+    "title": "Heartbreak Symphony"
+  },
+  {
+    "id": "mp_b0a284958d2f",
+    "prompt_text": "afrobeat and trap beat with clear vocal hard-hitting bass, sing and rapping about being happy and excited",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/ecf9aeb2-22ca-44ea-b891-90b9bc312bff",
+    "title": "Happy Vibes"
+  },
+  {
+    "id": "mp_0f3d13a6c104",
+    "prompt_text": "black rap, trap, heavy bass, summer vibes about crime in New York",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/581d08d1-9eae-4a66-858b-9bd636724c3e",
+    "title": "NY Summer Heat"
+  },
+  {
+    "id": "mp_b3a86e026ae3",
+    "prompt_text": "trap west coast type beat with synth sounds with arthouse text about living in a big city",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "trap",
+      "house"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "synth"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/7decb57c-84b6-43f1-94d9-241dc82c524c",
+    "title": "City Mirage"
+  },
+  {
+    "id": "mp_7a6b7f37c967",
+    "prompt_text": "A sorrowful, lyrical ballad about nothing being permanent, clean vocals, saxophone groove, electro-step, rap, harmony, synth\n",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "rap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "synth",
+      "saxophone"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/98061ab8-e8c9-4c00-8e2e-b7526b80067a",
+    "title": "Ephemeral Dreams"
+  },
+  {
+    "id": "mp_984dfd00e7ef",
+    "prompt_text": "a song about drinking G-fuel while gaming playing with a whole bunch of girls, phonk, hip hop, hardcore hip hop, dirty south, dirty south rap, trap, rhythmic, sexual, cancer in a jar yuh, motha fucka, duh fuck, bitches wanna grip my stick, make insane bass drop, \"biatch\" gets interrupted by beat, hard intro, sipping sound, drink sound effect, fade out, switch it, different vocalist, faster paste rap, more hardcore hip hop rap, super fast rap verse,",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "hip hop",
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [
+      "gaming"
+    ],
+    "source": "mister-magpie/0a2e4ef6-0176-438a-8aab-99aa92a35235",
+    "title": "Fuelin' It Up"
+  },
+  {
+    "id": "mp_233bfed507d4",
+    "prompt_text": "Male vocals singing 90s r&b soulful, Trap music,  hip hop, Ambient, melodic, spacey, ethereal, atmospheric, future bass, passionate, hypnotic, soothing, uplifting, melancholic, happy, calm,  peaceful ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "hip hop",
+      "rap",
+      "r&b"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [
+      "study",
+      "meditation",
+      "sleep"
+    ],
+    "source": "mister-magpie/6546f52f-0544-4649-b4e3-ee842e91976a",
+    "title": "Victory!!( Into your light!. )"
+  },
+  {
+    "id": "mp_986399c5cf4a",
+    "prompt_text": "A song about a guy who likes to smack his lady's butt, hip hop, reggaeton, mr ed, deep voice, monster mash, funk bass",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "hip hop",
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/8c031e49-de3e-4ad8-8e4b-5578db96bbd1",
+    "title": "Smacka Ya Butt"
+  },
+  {
+    "id": "mp_caef8319ae37",
+    "prompt_text": "Retro hip hop track with slow breakbeat in low quality fading in and out and female vocals for the extended adlib singing which must be a whole choir of sound as well as the bass and a male rapper and kawaii sound effects only please",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "hip hop",
+      "rap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/424f9990-0830-4472-985e-94643f919aec",
+    "title": "Rhythm of the Night remix v2"
+  },
+  {
+    "id": "mp_6a3c89ebc880",
+    "prompt_text": "1990s Southern hip hop haunting piano loop, Heavy drums, deep bass lines. Intense, gritty confrontational. Alternation between different male voices, introspective, threatening, aggressive, boastful, vulgar about Steve It’s my birthday.  Where’s the Austrian Champion - I’ll fuck him up. Where’s my beer? They call me floater because I float it in. I shot myself in the nose. I can barely stand but I am deadly accurate. I am the darts master. You are a lovely ventilator.",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "hip hop"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "piano",
+      "drums",
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/dfc65cb2-af62-44fd-bc0c-c67e763c7135",
+    "title": "Call Me Floater"
+  },
+  {
+    "id": "mp_0e3727a64975",
+    "prompt_text": "hardcore rap, hardcore hip hop, gangsta rap, boom bap, (Verse 1) Yo, it’s Marcus and uncle, a duo insane, Gangster antics in our Renault, we reign. Waiting for my license, can’t wait to be free, Charming the ladies while uncle’s in spree.  (Chorus) Marcus and uncle, we know we’re the top dogs, In our Renault, cruising like gangster gods. Renault so low, sparks fly in the night, Bass pumping loud, our street-crowned delight.",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "hip hop",
+      "rap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [
+      "sleep"
+    ],
+    "source": "mister-magpie/5a74c5dc-248e-477f-bc65-69a6bcb86089",
+    "title": "Marcus - Gangsta low rider Renault"
+  },
+  {
+    "id": "mp_76f896df0d75",
+    "prompt_text": "hi-hat rhythm, big bass drop, trap, Fairy Tale's best fighting music, anime, the most epic shit ever!, east coast hip hop, fantasia, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "hip hop",
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [
+      "gaming"
+    ],
+    "source": "mister-magpie/a895ea41-ce6e-40db-8d0e-74f50b57d095",
+    "title": "Inspiration"
+  },
+  {
+    "id": "mp_cb4489307e0b",
+    "prompt_text": "hip hop, ray charles, piano, groovy bass, guitar, trombone, saxophone, trumpet, hammond organ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "hip hop"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "piano",
+      "bass",
+      "saxophone",
+      "trumpet"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/f2cdcdae-7998-41e4-ba67-223fae101d0e",
+    "title": "Rhythm & Groove Boulevard"
+  },
+  {
+    "id": "mp_3733bcb45bb2",
+    "prompt_text": "A song about SpongeBob with a gat. , hip hop, east coast hip hop, bassline, gangsta rap, Death, Drugs, hedonistic, aggressive, violence, male vocalist, boastful, crime, sexual, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "hip hop",
+      "rap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/c328d889-423d-4bfd-a42d-0b8917c25d72",
+    "title": "Pineapple Kingpin"
+  },
+  {
+    "id": "mp_7b235afd4023",
+    "prompt_text": "hip hop, Movie Intro,  guitar riffs fades in , drums and bass, song called Velocity Veins",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "hip hop"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [
+      "cinematic"
+    ],
+    "source": "mister-magpie/9dc477e6-db5e-4650-b280-2e92ffb92a3c",
+    "title": "Velocity Veins (v5)"
+  },
+  {
+    "id": "mp_923cf06f1609",
+    "prompt_text": "hip hop intro, drums and bass, epic, \n uplifting beats, guitar, song called God Fear Loyalty  ",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "hip hop"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [
+      "gaming"
+    ],
+    "source": "mister-magpie/db4cb66f-eafa-4cc1-87e2-43a80122b88c",
+    "title": "God Fear Loyalty"
+  },
+  {
+    "id": "mp_62be87c4309b",
+    "prompt_text": "Psychedelic Progressive Mongolian Folk Metal with unique timings and elements of hip hop, heavy bass/rhythm resonance corridor throughout the song creating a trancey vibe, lyrics based on ayurvedas",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "hip hop",
+      "folk",
+      "metal"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/3a3593ff-5163-4288-9048-90638dbb9f1a",
+    "title": "Echoes of Ayurveda"
+  },
+  {
+    "id": "mp_a8230a5ae0b4",
+    "prompt_text": "a commercial crossover hip-hop rap about a Dream Chaser: progressive hip-hop, percussion, subbase, rhythmic, Atmospheric, Moody, 105 bpm,, horns section, juxtaposed brass Horns, vocal stabs, looping drum samples, MPC60, A♯/B♭ key,4 beats per bar, ,ramp up, speed ramp, melodic, east coast, trap influences, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [],
+    "quality_score": 5.17,
+    "use_cases": [
+      "sleep"
+    ],
+    "source": "mister-magpie/63e65157-62e1-4be2-9fe4-b08e82481dd2",
+    "title": "Dream Chaser"
+  },
+  {
+    "id": "mp_e0add6b0644e",
+    "prompt_text": "Afro House, Afrotech, afro beats, Afro hits, Afro trap, Tropical house, major scale, about Amsterdam in summer time",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "trap",
+      "house"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [],
+    "quality_score": 5.17,
+    "use_cases": [],
+    "source": "mister-magpie/532eba76-e01a-43c9-b356-caf97e5fba59",
+    "title": "Amsterdam Sun (Alternate Intro)"
+  },
+  {
+    "id": "mp_08d6abcf22ff",
+    "prompt_text": "a grime/140 bpm garage track about boiling cabbage and drinking guinness, with flowdan rapping and a drop switch to drum and bass",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "rap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.17,
+    "use_cases": [],
+    "source": "mister-magpie/ee3a69f3-3c4a-4133-a5e1-a1001de79cad",
+    "title": "Boilin' Madness"
+  }
+]

@@ -139,15 +139,43 @@ Navigate to `data/final_output/csv/` for Excel-compatible format:
 
 ### Browse by Genre / 按流派浏览
 
-| Genre | Curated | Link | 流派 | 精校数 |
-|-------|---------|------|------|--------|
-| 🎸 **Rock** | 42 | [View / 查看](data/final_output/curated/rock_curated.md) | 摇滚 | 42 |
-| 🎤 **Pop** | 29 | [View / 查看](data/final_output/curated/pop_curated.md) | 流行 | 29 |
-| 🎹 **Electronic** | 38 | [View / 查看](data/final_output/curated/electronic_curated.md) | 电子 | 38 |
-| 🎤 **Rap** | 10 | [View / 查看](data/final_output/curated/rap_curated.md) | 说唱 | 10 |
-| 🎺 **Jazz** | 5 | [View / 查看](data/final_output/curated/jazz_curated.md) | 爵士 | 5 |
+#### 🎸 Rock / 摇滚 (495 prompts)
+| Sub-Genre | Count | Link | 子流派 | 数量 |
+|-----------|-------|------|--------|------|
+| **All Rock** | 495 | [View / 查看](data/final_output/genres/rock/rock.md) | 全部摇滚 | 495 |
+| Metal | 34 | [View / 查看](data/final_output/genres/rock/metal/metal.md) | 金属 | 34 |
+| Punk | 8 | [View / 查看](data/final_output/genres/rock/punk/punk.md) | 朋克 | 8 |
+| Indie | 1 | [View / 查看](data/final_output/genres/rock/indie/indie.md) | 独立 | 1 |
 
-[View All 22 Genres → / 查看全部 22 个流派 →](data/final_output/curated/)
+#### 🎹 Electronic / 电子 (115 prompts)
+| Sub-Genre | Count | Link | 子流派 | 数量 |
+|-----------|-------|------|--------|------|
+| **All Electronic** | 115 | [View / 查看](data/final_output/genres/electronic/electronic.md) | 全部电子 | 115 |
+| House | 12 | [View / 查看](data/final_output/genres/electronic/house/house.md) | 浩室 | 12 |
+| Trance | 10 | [View / 查看](data/final_output/genres/electronic/trance/trance.md) | 迷幻舞曲 | 10 |
+| Ambient | 14 | [View / 查看](data/final_output/genres/electronic/ambient/ambient.md) | 氛围 | 14 |
+| Techno | 1 | [View / 查看](data/final_output/genres/electronic/techno/techno.md) | 铁克诺 | 1 |
+| Lo-fi | 2 | [View / 查看](data/final_output/genres/electronic/lo-fi/lo-fi.md) | 低保真 | 2 |
+
+#### 🎤 Hip-Hop / 嘻哈 (97 prompts)
+| Sub-Genre | Count | Link | 子流派 | 数量 |
+|-----------|-------|------|--------|------|
+| **All Hip-Hop** | 97 | [View / 查看](data/final_output/genres/hip-hop/hip-hop.md) | 全部嘻哈 | 97 |
+| Rap | 70 | [View / 查看](data/final_output/genres/hip-hop/rap/rap.md) | 说唱 | 70 |
+
+#### 🎵 Standalone Genres / 独立流派
+| Genre | Count | Link | 流派 | 数量 |
+|-------|-------|------|------|------|
+| 🎤 **Pop** | 389 | [View / 查看](data/final_output/genres/pop/pop.md) | 流行 | 389 |
+| 🎷 **Jazz** | 37 | [View / 查看](data/final_output/genres/jazz/jazz.md) | 爵士 | 37 |
+| 🎻 **Classical** | 10 | [View / 查看](data/final_output/genres/classical/classical.md) | 古典 | 10 |
+| 🪕 **Folk** | 11 | [View / 查看](data/final_output/genres/folk/folk.md) | 民谣 | 11 |
+| 🤠 **Country** | 5 | [View / 查看](data/final_output/genres/country/country.md) | 乡村 | 5 |
+| 🎺 **Soul** | 16 | [View / 查看](data/final_output/genres/soul/soul.md) | 灵魂 | 16 |
+| 🎶 **R&B** | 20 | [View / 查看](data/final_output/genres/r&b/r&b.md) | 节奏布鲁斯 | 20 |
+| 🎸 **Funk** | 16 | [View / 查看](data/final_output/genres/funk/funk.md) | 放克 | 16 |
+| 🎵 **Blues** | 9 | [View / 查看](data/final_output/genres/blues/blues.md) | 布鲁斯 | 9 |
+| 📁 **Else** | 71 | [View / 查看](data/final_output/genres/else/uncategorized.md) | 其他 | 71 |
 
 ### Browse by Use Case / 按场景浏览
 

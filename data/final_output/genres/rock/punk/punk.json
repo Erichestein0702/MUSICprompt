@@ -1,0 +1,172 @@
+[
+  {
+    "id": "mp_eb827a433006",
+    "prompt_text": "Alright, how about this one that keeps the energy high and adds a thematic element:\n\nCyberpunk rave, 140 BPM, minor key. Glittering synths evoke neon alleyways. Pounding bass echoes industrial heartbe",
+    "prompt_zh": "赛博朋克狂欢 (Cyberpunk rave)，140 BPM，小调。闪耀的合成器音效唤起霓虹灯巷道的氛围。强劲的贝斯回响着工业心跳。",
+    "platform": "suno",
+    "genre": [
+      "punk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.0,
+    "use_cases": [],
+    "source": "mister-magpie/04bc277c-4cd2-4f18-8d1e-f700f088ee10",
+    "title": "Neon Shadows",
+    "translation_meta": {
+      "title_zh": "赛博朋克狂欢",
+      "genre_tags_zh": [
+        "赛博朋克 (Cyberpunk)",
+        "狂欢 (Rave)"
+      ],
+      "mood_keywords_zh": [
+        "高能量",
+        "主题元素"
+      ],
+      "translated_at": "2026-03-25T14:54:07.790320"
+    }
+  },
+  {
+    "id": "mp_e3f6c0e53793",
+    "prompt_text": "big beat, old school hardcore & rave & techno, powerful bass, amen break drums, British punk, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "punk",
+      "techno"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "drums",
+      "bass"
+    ],
+    "quality_score": 6.33,
+    "use_cases": [],
+    "source": "mister-magpie/8dfbd500-4b46-4f7c-bbd3-42c1c25d4438",
+    "title": "Kitty Cat"
+  },
+  {
+    "id": "mp_c5aa79d1ee25",
+    "prompt_text": "Create an epic song inspired that combines the complexity and theatricality of Queen's \"Bohemian Rhapsody\" with the punk energy and narrative style of Green Day's \"Jesus of Suburbia.\" The lyrics should follow the provided structure, with soft and melodic verses that build intensity leading to an explosive and anthemic chorus. Include a dramatic bridge with operatic elements, followed by a guitar solo. The vocal tone should reflect a mix of vulnerability and rebellion, with instrumentation varying from soft sections to bursts of electric guitars, powerful bass, and energetic drums.",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "punk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [
+      "gaming"
+    ],
+    "source": "mister-magpie/41ddb6cc-6353-4058-aea6-aa16d0665ee7",
+    "title": "Bohemian Rhapsody 2 (Art Rock)"
+  },
+  {
+    "id": "mp_4ca60650c946",
+    "prompt_text": "new wave/post-punk revival, simple bass line, melancholic mood, guitar riff matching",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "punk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/fb4e734b-bb05-4c2c-83e8-a5b943d09596",
+    "title": "Urban Labyrinth"
+  },
+  {
+    "id": "mp_904e6fd96752",
+    "prompt_text": "The stranglers, the jam, post-punk, drums (drum set), bass guitar, hammond organ, guitar, violin, piano,",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "punk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "piano",
+      "violin",
+      "drums",
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/f87e91cd-b0a4-4775-9a18-0e615ab634f3",
+    "title": "Europe after the Storm 12\""
+  },
+  {
+    "id": "mp_98a68bb161ce",
+    "prompt_text": "NDN-style music. Guitars, synthesizer, some bagpipes. Punk style. A song about a past love. Male vocals",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "punk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "synth"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/146dd417-67b6-4d0b-b796-7b856ee2d76a",
+    "title": "Gone But Not Forgotten"
+  },
+  {
+    "id": "mp_cb880c94efa4",
+    "prompt_text": "Bass, postpunk, chorus guitar, 80s drum, guitar",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "punk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass"
+    ],
+    "quality_score": 5.24,
+    "use_cases": [],
+    "source": "mister-magpie/0c70758d-b91f-4dd9-b63d-13aff839c3c2",
+    "title": "Neon Nights"
+  },
+  {
+    "id": "mp_d4e4652f7632",
+    "prompt_text": "Create an atmospheric synthwave track with a distinct cyberpunk vibe. The song should evoke a futuristic, neon-lit cityscape with dark undertones and a sense of mystery. The tempo should be around 90-",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "punk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "synth"
+    ],
+    "quality_score": 5.17,
+    "use_cases": [],
+    "source": "mister-magpie/af7f0548-309e-4598-a34c-f63f5dd2c529",
+    "title": "Neon Shadows"
+  }
+]

@@ -1,0 +1,349 @@
+[
+  {
+    "id": "mp_dcc99cc29af1",
+    "prompt_text": "funky good for dancing, fast great bass, introducing a long heavy metal solo guitar, female singer abut the party in the night in a discotheque. Long play",
+    "prompt_zh": "适合跳舞的放克音乐，快速而强劲的贝斯，引入一段长时间的重金属独奏吉他，女性歌手在夜店中唱关于派对的歌曲。长时间演奏",
+    "platform": "suno",
+    "genre": [
+      "funk",
+      "metal"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [
+      "party",
+      "sleep"
+    ],
+    "source": "mister-magpie/112bd9e2-4701-4c82-bac7-d20700be412e",
+    "title": "Dance All Night",
+    "translation_meta": {
+      "title_zh": "适合跳舞的放克音乐",
+      "genre_tags_zh": [
+        "放克 (Funky)",
+        "重金属 (Heavy Metal)"
+      ],
+      "mood_keywords_zh": [
+        "适合跳舞",
+        "强劲",
+        "派对"
+      ],
+      "translated_at": "2026-03-25T14:49:12.936419"
+    }
+  },
+  {
+    "id": "mp_4b19ae410d42",
+    "prompt_text": "vocals in key of E major like Micheal Jackson, 1980s, Tempo and Groove: 110-120 BPM, groovy drum pattern, emphasize 2nd and 4th beats, intricate hi-hat rhythms, upbeat danceable style, Bass Line: funky bass, rhythmically complex, melodically engaging, prominent and syncopated, strong foundation, Synths and Keyboards: layer various synths, bright and punchy synth stabs, lush pads, rhythmic electric piano, classic 80s vibe, Harmonic Structure: rich chord progressions, major and minor sevenths, sophisticated harmonies, support melody, add emotional depth, Melodic Elements: create original melodies, capture catchy nature, use lead synth lines, vocal-like synth patches, memorable hooks, Production Style: clean and polished production, focus on rhythmic precision, clarity in the mix, each element distinct, Additional Instruments: add funky guitar riffs, percussive licks, light percussive elements like congas or shakers, Vocal Style (if applicable): dynamic and expressive vocals, match energy and passion, harmonies and backing vocals, enrich overall sound.",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "piano",
+      "bass",
+      "synth",
+      "keyboard"
+    ],
+    "quality_score": 6.83,
+    "use_cases": [
+      "study",
+      "party"
+    ],
+    "source": "mister-magpie/e4241b7d-502b-4d2f-ae8b-e355905e0c25",
+    "title": "Blinded by Rhythm"
+  },
+  {
+    "id": "mp_8e5d2410fe35",
+    "prompt_text": "A funky punk ska song with lots of trumpets and a hint of drum and bass. A song called \"Your Dystopian Utopia\"",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "funk",
+      "punk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "trumpet"
+    ],
+    "quality_score": 6.33,
+    "use_cases": [],
+    "source": "mister-magpie/11979be8-678e-4d6b-8dfb-c60ae7c12239",
+    "title": "Cracks in the Pigment"
+  },
+  {
+    "id": "mp_2660276e15fa",
+    "prompt_text": "funky breaks, sampling, electro, synthesizer, big beat, progressive house, big fat,  tech house, breaks, mechanical, synth funk, 70's funk guitar, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "funk",
+      "house"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "synth"
+    ],
+    "quality_score": 6.33,
+    "use_cases": [],
+    "source": "mister-magpie/ba71ea3c-c92a-495a-94c8-d6e26eb8f54f",
+    "title": "Apes in Black (Funky Breaks, Big Beat, Electro) by The Codemonkeys"
+  },
+  {
+    "id": "mp_c76436f0c7d8",
+    "prompt_text": "An atmospheric synth song with inspiration from tech house, progressive house, funk, synthesizers, effects, delays, reverb",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "funk",
+      "house"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "synth"
+    ],
+    "quality_score": 6.17,
+    "use_cases": [],
+    "source": "mister-magpie/52b423e0-a993-4ddd-b1c5-d4804a8abfad",
+    "title": "Elevate"
+  },
+  {
+    "id": "mp_7f2d1d180726",
+    "prompt_text": "Dark Neon Funk, funk/disco, party, rnb, smooth, dark, modern production, dark, horror synth, smooth guitar, 70s funky basslines, bright brass, darkwave, energetic, bounce, bounce, bounce, rhythmic, modern production, disco, anthemic, playful, male vocalist, horror sounds, spooky, groovy, melodic, dolby atmos, wall of sound, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 6.17,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/47535f53-1417-4cb4-9a8c-a36fd5212ccb",
+    "title": "Groove Igniter"
+  },
+  {
+    "id": "mp_d89454502920",
+    "prompt_text": "[360 Reality Audio][Baile funk][Footwork]inspired by[Soda City Funk][12bit sampling][Vocaloid][Uses vintage analog reverb][Uses vacuum tube amplifier][Pixel filter minimal House][Wobble dub bass line]",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "funk",
+      "house"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 6.17,
+    "use_cases": [],
+    "source": "mister-magpie/79f4d3a6-26f4-4f4d-aaca-c801518d9d41",
+    "title": "Viral Funk Odyssey"
+  },
+  {
+    "id": "mp_2115f2d9ca7b",
+    "prompt_text": "Produce a • disco-influenced track with a modern twist, incorporating funky basslines, shimmering synths, and a strong, danceable beat. Aim for a summer release to capture the energetic, party atmosph",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 6.17,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/42efad68-7900-45c1-ab8b-1dd847e046fb",
+    "title": "Summer Groove"
+  },
+  {
+    "id": "mp_a1515c56bfe3",
+    "prompt_text": "a 1970s disco-funk song with a groovy bass line, tight drum beat, rhythmic guitar, and punchy horns. The lyrics should focus on the theme of \"glow,\" emphasizing energy, dance, and vibrant nightlife. Include a catchy chorus and dynamic bridge",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [
+      "study",
+      "party",
+      "sleep"
+    ],
+    "source": "mister-magpie/f66cc7e0-0270-4d85-b1b6-7127601e34e4",
+    "title": "Midnight Groove v2"
+  },
+  {
+    "id": "mp_c007eca36f5c",
+    "prompt_text": "70s disco, funk, dance music, funky bass, trumpets, male black singer, deep voice, baritone, female background singer,  song about the king of the dancefloor, i'm the daddy cool, the jumping-jack-flash of the dancefloor, no one jumps higher, i have the biggest hair, the plateau boots, breasthair, i can move my hips in crazy ways, you can't predict my dancing moves, i need no fancy clothes, half-naked i am king, i have the tightest ass, i get all the woman and i make all the men gay, i am have the tightest jeans",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "trumpet"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/38321b95-397f-4646-9030-33b5b279fbec",
+    "title": "Disco King"
+  },
+  {
+    "id": "mp_dcce47fbe247",
+    "prompt_text": "A love song about a man who's waiting for his sexy love lady for a passionate night until the morning. The background have to be  a minimal use of choirs or backing vocals.\nmale vocalist, synth funk, ballad, slow jam, passionate, melodic, guitar-virtuoso, romantic, longing,love, sentimental, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "synth"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [
+      "sleep"
+    ],
+    "source": "mister-magpie/b920194e-2bb5-46f9-a00d-1989e26b597a",
+    "title": "\"Don't Make Me Wait\" by José Winters"
+  },
+  {
+    "id": "mp_a5df5abd4051",
+    "prompt_text": "music: 80s disco, funk, dance music, funky bass, trumpets, male black singer, saxophone, cowbells, bongo; song about the new king of the dancefloor, battle between old and new disco king, who is the coolest, you think you have it all but i am the real disco king, let's battle, let's gliding, let' sliding, i can move my legs in crazy ways, i do the moonwalk like no one, with a grip here and there, i will show you the way of the new dancing king, bring your children to safety, here comes the new dancing king, yeah, the 80s are here",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "saxophone",
+      "trumpet"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [
+      "gaming",
+      "party"
+    ],
+    "source": "mister-magpie/08793b94-ea9f-4587-982d-db6e1f6097e9",
+    "title": "Disco King Part II (Enter The King of Pop)"
+  },
+  {
+    "id": "mp_608ce6f384a3",
+    "prompt_text": "brutal death metal, funky bass, circus music, song about clowns, honking horns",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "funk",
+      "metal"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/ed159062-fd64-452d-99ff-3eac737bd95c",
+    "title": "Royalty Free Clowns from Outer Space"
+  },
+  {
+    "id": "mp_e9528ce97e51",
+    "prompt_text": "A grimy, raunchy bailefunk dance floor track that focuses on “Dangy in that booty” with lots of drums, bass, and other percussion,",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "drums",
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [
+      "study",
+      "party"
+    ],
+    "source": "mister-magpie/8835a4ce-eee2-46b6-a1a1-2aad6a7b8679",
+    "title": "Dangus need booty ext v2"
+  },
+  {
+    "id": "mp_af88331aa7e1",
+    "prompt_text": "Fast-paced and rhythmic, with driving drums and a funky bassline, the song builds layers of instrumentation creating a sense of momentum and excitement, ideal for conquering any terrain. ",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "drums",
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/e4f454df-17c2-403f-9012-447cc9bd7e90",
+    "title": "Conquer That Terrain"
+  },
+  {
+    "id": "mp_8ca062b3919a",
+    "prompt_text": "a groovy daft-punk style electro funk song played in a major key called \"The Radioman\". ",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "funk",
+      "punk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [],
+    "quality_score": 5.17,
+    "use_cases": [],
+    "source": "mister-magpie/7e0037e7-a960-444e-b9c4-c2eef4573190",
+    "title": "The Radioman"
+  }
+]

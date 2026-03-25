@@ -1,0 +1,229 @@
+[
+  {
+    "id": "mp_c9a28184ce73",
+    "prompt_text": "Progressive Psytrance, Deep Pulsating Bassline, Hypnotic Synth Stabs, Shimmering Arpeggios, Energetic Percussion, Psychedelic Atmosphere, Driving 138 BPM, Evolving Pads, Trippy FX, Uplifting yet Dark, Mystical and Intense, Club Anthem Vibe",
+    "prompt_zh": "渐进迷幻电子 (Progressive Psytrance)，深沉跳动的贝斯线 (Deep Pulsating Bassline)，催眠的合成器断奏 (Hypnotic Synth Stabs)，闪耀的琶音 (Shimmering Arpeggios)，充满能量的打击乐 (Energetic Percussion)，迷幻的氛围 (Psychedelic Atmosphere)，138 BPM，不断演变的音垫 (Evolving Pads)，迷幻效果 (Trippy FX)，振奋而黑暗 (Uplifting yet Dark)，神秘而强烈 (Mystical and Intense)，俱乐部圣歌的感觉 (Club Anthem Vibe)",
+    "platform": "udio",
+    "genre": [
+      "trance"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.0,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/8520367d-95c7-467c-81ae-9b64213beda6",
+    "title": "AI_DJ - See You Again",
+    "translation_meta": {
+      "title_zh": "迷幻渐进曲",
+      "genre_tags_zh": [
+        "迷幻渐进电子 (Progressive Psytrance)"
+      ],
+      "mood_keywords_zh": [
+        "深沉跳动",
+        "催眠",
+        "闪耀",
+        "充满能量",
+        "迷幻",
+        "振奋而黑暗",
+        "神秘而强烈",
+        "俱乐部圣歌的感觉"
+      ],
+      "translated_at": "2026-03-25T14:51:10.358939"
+    }
+  },
+  {
+    "id": "mp_621d0f20648b",
+    "prompt_text": "Trance,dynamic and uplifting,Fast (122 BPM), Pressing fire drums, Snare, Hi-hats and claps, Powerful bassline, hot and wide synth pads, Lead synth for striking melodies, arpeggios and pluck sounds",
+    "prompt_zh": "Trance, 动态且鼓舞人心, 快速 (122 BPM), 强烈的打击鼓, 军鼓, 钹和掌声, 强劲的贝斯线, 热烈且宽广的合成器垫音, 用于引人旋律的主合成器, 琶音和拨弦音",
+    "platform": "suno",
+    "genre": [
+      "trance"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "drums",
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.0,
+    "use_cases": [],
+    "source": "mister-magpie/fa1a2773-1ac1-4dc9-9cd7-bdc7017b51b0",
+    "title": "Into the Night",
+    "translation_meta": {
+      "title_zh": "Trance风格动态且鼓舞人心的音乐",
+      "genre_tags_zh": [
+        "Trance (Trance)",
+        "电子舞曲 (Electronic Dance Music)"
+      ],
+      "mood_keywords_zh": [
+        "动态",
+        "鼓舞人心",
+        "快速",
+        "热烈",
+        "引人"
+      ],
+      "translated_at": "2026-03-25T14:53:25.726216"
+    }
+  },
+  {
+    "id": "mp_e08287d930a1",
+    "prompt_text": "persian tribal beat flutes female vocals angel choir reverb idm psytrance electro electro synths",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "trance"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "synth",
+      "flute"
+    ],
+    "quality_score": 6.17,
+    "use_cases": [],
+    "source": "mister-magpie/8e682082-b95d-43b4-bed6-81a997faa7c0",
+    "title": "The Dream Enhancers"
+  },
+  {
+    "id": "mp_262527483762",
+    "prompt_text": "Produce a Psychedelic Psytrance track with pulsating basslines, intricate synths, and mind-bending soundscapes. Incorporate hypnotic rhythms, trippy effects, and progressive builds for a surreal vibe",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "trance"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 6.17,
+    "use_cases": [],
+    "source": "mister-magpie/69ef4f66-4156-456b-b019-230ae21f4041",
+    "title": "Cosmic Journey"
+  },
+  {
+    "id": "mp_13e2b3ce41ea",
+    "prompt_text": "120bpm storm trance bass tempo change spirit dance echo ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "trance"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 6.0,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/57e0b4b5-2f21-44c5-992c-79c6be601bd9",
+    "title": "Dark Stages "
+  },
+  {
+    "id": "mp_b9a46fa47be1",
+    "prompt_text": "Dubstep, I'm a wolf,        trance,explosive female chorus,piano,violin,",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "trance",
+      "dubstep"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "piano",
+      "violin"
+    ],
+    "quality_score": 5.5,
+    "use_cases": [],
+    "source": "mister-magpie/d29f764b-a937-45e3-81a5-4c133b5e2bb3",
+    "title": "Howl in the Night"
+  },
+  {
+    "id": "mp_9bc52b77b683",
+    "prompt_text": "close harmony, vocal trance, choral symphony, drums (drum set), bassline, epic, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "trance"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "drums",
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [
+      "gaming"
+    ],
+    "source": "mister-magpie/232deb2b-d8b9-4295-b5f3-8be80501d7cc",
+    "title": "Echoes of Zion remix v2.1 ext v2.1.2.1"
+  },
+  {
+    "id": "mp_f4900c75a8a8",
+    "prompt_text": "a psytrance dubstep banger about synthetic religions",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "trance",
+      "dubstep"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "synth"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/59c0ab5c-10c4-47c8-8a12-582876891c44",
+    "title": "Synthetic Consciousness"
+  },
+  {
+    "id": "mp_f63fcbbb285c",
+    "prompt_text": " K-pcp, Quad blast kick, Spicy psytrance, Swamp stomping suomisaundi, My neighbor licks the mailbox, Grandma said more bass and she's holding a gun",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "trance"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.17,
+    "use_cases": [],
+    "source": "mister-magpie/42b05f80-36da-45ad-87ce-a683de435cd2",
+    "title": "All For You 🐓 (by Skich) [ruined by imaami]"
+  },
+  {
+    "id": "mp_55d0197b1b58",
+    "prompt_text": "A trance, featuring heavy bass, progressivem drop, 128bpm",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "trance"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.17,
+    "use_cases": [],
+    "source": "mister-magpie/e8ccd6de-e673-49c7-9783-7b45678fcf0e",
+    "title": "Lost in the Beat"
+  }
+]

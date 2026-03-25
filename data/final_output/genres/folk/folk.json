@@ -1,0 +1,241 @@
+[
+  {
+    "id": "mp_02d1cbf1aa5b",
+    "prompt_text": " Female vocalist, Folk, Regional music, Northern american music, Contemporary folk, Country, Violin, Double bass, Keyboard, Acoustic guitar",
+    "prompt_zh": "女性歌手，民谣 (Folk)，地方音乐 (Regional music)，北美音乐 (Northern american music)，当代民谣 (Contemporary folk)，乡村音乐 (Country)，小提琴 (Violin)，低音提琴 (Double bass)，键盘 (Keyboard)，原声吉他 (Acoustic guitar)",
+    "platform": "udio",
+    "genre": [
+      "folk",
+      "country"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "violin",
+      "bass",
+      "keyboard"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/23f9320a-308c-4177-bdc0-93befa3b174d",
+    "title": "Can't shake this darkness",
+    "translation_meta": {
+      "title_zh": "女性歌手，民谣，地方音乐，北美音乐，当代民谣，乡村音乐，小提琴，低音提琴，键盘，原声吉他",
+      "genre_tags_zh": [
+        "民谣 (Folk)",
+        "地方音乐 (Regional music)",
+        "北美音乐 (Northern american music)",
+        "当代民谣 (Contemporary folk)",
+        "乡村音乐 (Country)"
+      ],
+      "mood_keywords_zh": [
+        ""
+      ],
+      "translated_at": "2026-03-25T14:24:04.904660"
+    }
+  },
+  {
+    "id": "mp_ba439d166e6b",
+    "prompt_text": "upbeat, tambourine, dark country, moody, drums, grim, gritty, melancholic, dark folk, low pitch vocals, male vocalist, bass vocal, hoarse voice, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "folk",
+      "country"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "drums",
+      "bass"
+    ],
+    "quality_score": 6.33,
+    "use_cases": [],
+    "source": "mister-magpie/60b851e4-842e-465a-95e0-75f201204276",
+    "title": "PTSD"
+  },
+  {
+    "id": "mp_445ac1ce531c",
+    "prompt_text": "folk metal, acoustic, melancholic, melodic, flute, female vocalist, F# Minor key",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "folk",
+      "metal"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "flute"
+    ],
+    "quality_score": 6.17,
+    "use_cases": [],
+    "source": "mister-magpie/13a194aa-e669-4ebc-ae08-2c765bd192cd",
+    "title": "Freyja's Lament"
+  },
+  {
+    "id": "mp_09dd0248d617",
+    "prompt_text": "epic doom metal, riffs, japanese folk music, drums (drum set), electric guitar, nature recordings, male vocalist, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "folk",
+      "metal"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums"
+    ],
+    "quality_score": 5.5,
+    "use_cases": [
+      "gaming"
+    ],
+    "source": "mister-magpie/109b3cf0-7cbd-4fb7-8718-7eba91ce804c",
+    "title": "Kodama's Whisper 「コダマの囁き」"
+  },
+  {
+    "id": "mp_80b749c2e2df",
+    "prompt_text": "Indie Folk, Male Vocalist, Acoustic Guitar, Banjo, Accordion, Soft Drums",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "folk",
+      "indie"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "drums",
+      "banjo"
+    ],
+    "quality_score": 5.5,
+    "use_cases": [],
+    "source": "mister-magpie/afb8e48a-a242-4fe5-9dcd-d93812dd00cd",
+    "title": "The Giving Tree"
+  },
+  {
+    "id": "mp_9858d732b52f",
+    "prompt_text": "folk punk, folk, acoustic guitar, singer-songwriter, violin, confusion, trying to stay sober, got no home, lost, alone",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "folk",
+      "punk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "violin"
+    ],
+    "quality_score": 5.5,
+    "use_cases": [],
+    "source": "mister-magpie/3a9ba307-2254-4af4-afd4-f39062a7c520",
+    "title": "Echoes of the Past"
+  },
+  {
+    "id": "mp_48dc9300ab5b",
+    "prompt_text": "starts like a lullaby, becoming angelic, light orchestral climax light accordion, piano, violin slow folk ballad, sensitive, female vocalist, sincerity in voice, bass, guitar, ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "folk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "piano",
+      "violin",
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [
+      "sleep"
+    ],
+    "source": "mister-magpie/c1a4ff51-c7dc-4fed-9f11-c6daa3f1294b",
+    "title": "I’ll Be Glad to Know You"
+  },
+  {
+    "id": "mp_40655ccc47cc",
+    "prompt_text": "folk, acoustic guitar, soft vocals, moderate tempo, peaceful, reflective, serene, gentle dynamics, piano, strings",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "folk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "piano"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [
+      "meditation",
+      "sleep"
+    ],
+    "source": "mister-magpie/6b2f70b6-a981-4106-8173-2ec05982e614",
+    "title": "Whispers by the Stream"
+  },
+  {
+    "id": "mp_af2f5de2053e",
+    "prompt_text": "folk, [Verse 1] In the heart of Dalhousie, where the rivers run clear, A town of rich history, with so much to revere. From the grand old Inch Arran, where the royals would stay, To the mills and the plants, that took it all away. [Chorus] Heron Bay killed Dalhousie, took its soul, made it weep, Now a mine’s on the horizon, and the wounds are running deep. [Verse 2] Once a place of beauty, where the beaches gleamed white, Now the scars of industry, are hiding from the light. The paper mill, the thermal plant, they left their mark in time, But this mine could be the end, of Dalhousie’s rhyme. [Chorus] Heron Bay killed Dalhousie, took its soul, made it weep, Now a mine’s on the horizon, and the wounds are running deep. [Bridge] Let’s gather in the streets, with our voices loud and clear, No more destruction, no more fear. We fight for our children, and the land that we love, With courage and hope, and the strength from above. [Chorus] Heron Bay killed Dalhousie, took its soul, made it weep, Now a mine’s on the horizon, and the wounds are running deep.",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "folk",
+      "soul"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/3efd48cc-47e9-48dd-888c-365e149de569",
+    "title": "The Wounds of Dalhousie ext v2.1"
+  },
+  {
+    "id": "mp_4953074953ce",
+    "prompt_text": "murder folk, Acoustic Guitar, Upright Bass, Cello, ominous, revenge ",
+    "prompt_zh": "",
+    "platform": "udio",
+    "genre": [
+      "folk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "guitar",
+      "bass",
+      "cello"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/c02684f3-6b9e-4d4f-af20-503cc0b983cb",
+    "title": "In The Wake Of The Beast"
+  },
+  {
+    "id": "mp_36a3fdaef851",
+    "prompt_text": "bounce, drum and bass, nostalgic, uplifting, creepy, weird, funk, avant-garde,   folk song, we the people",
+    "prompt_zh": "",
+    "platform": "suno",
+    "genre": [
+      "folk",
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 5.33,
+    "use_cases": [],
+    "source": "mister-magpie/3c7cf9bc-d5a5-4be1-803a-a7278e797e80",
+    "title": "We the People"
+  }
+]
