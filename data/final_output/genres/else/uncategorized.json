@@ -170,41 +170,5 @@
       ],
       "translated_at": "2026-03-25T14:53:09.921816"
     }
-  },
-  {
-    "id": "mp_0fb798030d6d",
-    "prompt_text": "future bass, dubstep, synthesizer, electric guitar, upbeat, uptempo, serene, beautiful, unfiltered male vocalist, catchy, melodic, 2024, male vocalist,  about being  pulled into another timeline[instrumental] [big finish]",
-    "prompt_zh": "future bass, dubstep, synthesizer, electric guitar, 欢快, 快节奏, 宁静, 美丽, 未经过滤的男声主唱, 上口, 旋律, 2024, 男声主唱, 关于被拉入另一个时间线 [器乐] [大结尾]",
-    "platform": "udio",
-    "genre": [
-      "dubstep"
-    ],
-    "bpm": null,
-    "key": null,
-    "instruments": [
-      "guitar",
-      "bass",
-      "synth"
-    ],
-    "quality_score": 7.0,
-    "use_cases": [],
-    "source": "mister-magpie/0da05a5f-fc35-4d7e-8581-38ee4d23de27",
-    "title": "just you and i[full version]",
-    "translation_meta": {
-      "title_zh": "被拉入另一个时间线",
-      "genre_tags_zh": [
-        "未来贝斯 (future bass)",
-        "Dubstep"
-      ],
-      "mood_keywords_zh": [
-        "欢快",
-        "快节奏",
-        "宁静",
-        "美丽",
-        "上口",
-        "旋律"
-      ],
-      "translated_at": "2026-03-25T14:50:16.604315"
-    }
   }
 ]

@@ -41,42 +41,6 @@
     }
   },
   {
-    "id": "mp_00ab9a37e48f",
-    "prompt_text": "Create a dynamic and high-energy track that blends classic 90s hip-hop vibes with a modern twist. The beat should be driven by a powerful rhythm, incorporating upbeat percussion and a catchy bassline that keeps the momentum strong. Layer the track with gospel-inspired backing vocals for a soulful touch, and include uplifting synths and brass elements to enhance the celebratory, victorious tone of the song. The overall style should be a fusion of old-school rap with contemporary production techniques, designed to inspire and energize listeners as they engage with the themes of the Prayer Revolution",
-    "prompt_zh": "创作一首充满动感和高能量的曲目，将90年代的经典嘻哈 (90s Hip-Hop) 风格与现代元素融合。节奏应由强劲的节拍驱动，加入明快的打击乐和抓耳的贝斯线，保持歌曲的强劲势头。在曲目中加入受福音音乐启发的和声，增添灵魂感，并使用鼓舞人心的合成器和铜管元素，增强歌曲的庆祝和胜利氛围。整体风格应是老派说唱 (Old-School Rap) 与现代制作技术的融合，旨在激发和激励听众参与祷告革命的主题。",
-    "platform": "udio",
-    "genre": [
-      "rap",
-      "soul"
-    ],
-    "bpm": null,
-    "key": null,
-    "instruments": [
-      "bass",
-      "synth"
-    ],
-    "quality_score": 8.0,
-    "use_cases": [],
-    "source": "mister-magpie/89b39479-a0ba-4038-863c-c6172ddfdad2",
-    "title": "Prayer Revolution",
-    "translation_meta": {
-      "title_zh": "祷告革命",
-      "genre_tags_zh": [
-        "嘻哈 (Hip-Hop)",
-        "老派说唱 (Old-School Rap)"
-      ],
-      "mood_keywords_zh": [
-        "动感",
-        "高能量",
-        "庆祝",
-        "胜利",
-        "鼓舞人心",
-        "灵魂感"
-      ],
-      "translated_at": "2026-03-25T14:25:17.108181"
-    }
-  },
-  {
     "id": "mp_f3994cefabbd",
     "prompt_text": "Create a song in the style of Southern trap rap with a melodic piano and flute, along with a deep 808 bass kick. Make the title and hook of the song say bleach, blonde, bad built Butch body bitch. The song is about Marjorie Taylor green being a an idiotic low-life promiscuous disease infested low IQ individual\n",
     "prompt_zh": "创作一首南方陷阱说唱 (Southern trap rap) 风格的歌曲，使用旋律性的钢琴和长笛，以及深沉的808贝斯。歌曲的标题和[副歌]部分要包含“bleach, blonde, bad built Butch body bitch”。歌曲内容是关于Marjorie Taylor Green是一个愚蠢的低贱、放荡、低智商的个体。",
@@ -147,6 +111,47 @@
         "舞蹈氛围 (Dance Vybe)"
       ],
       "translated_at": "2026-03-25T14:26:22.223637"
+    }
+  },
+  {
+    "id": "mp_51a9b5b8d8fe",
+    "prompt_text": "G.O.O.D. MUSIC rappers, riri, G.O.O.D. MUSIC sampler, prismizer vocal harmonies, 2010 trap hip-hop, 808s, direct chicago ye raps, braggadocious rap about fame art thoughts feelings and society, prismizer vocals, lush boniver autotune vocal harmonies, lush prismizer vocal harmony, dolby studio master, professional mix, unique male ye rap vocals, 808s, epic synth driven orchestral hip-hop with lush primizer vocal choir harmonies, direct simple nasal ye rap style, 808s heavy bass, rocafella, prog rock samples",
+    "prompt_zh": "G.O.O.D. MUSIC 说唱歌手，riri，G.O.O.D. MUSIC 采样器，prismizer 人声和声，2010 年的 trap hip-hop，808s，直接的芝加哥 ye 说唱，炫耀的说唱关于名望、艺术、思想、感受和社会，prismizer 人声，丰富的 boniver 自动调音人声和声，丰富的 prismizer 人声和声，杜比工作室母带，专业混音，独特的男性 ye 说唱人声，808s，宏大的合成器主导的交响 hip-hop，丰富的 prismizer 人声合唱和声，直接简单的鼻音 ye 说唱风格，808s 重低音，rocafella，prog rock 采样",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "gaming"
+    ],
+    "source": "mister-magpie/101ba10e-eb8f-4903-8e1a-4ef33274fe22",
+    "title": "Of Gold (og demo leak)",
+    "translation_meta": {
+      "title_zh": "G.O.O.D. MUSIC 说唱",
+      "genre_tags_zh": [
+        "说唱 (Rap)",
+        "嘻哈 (Hip-Hop)",
+        "交响嘻哈 (Orchestral Hip-Hop)",
+        "prog rock (Progressive Rock)"
+      ],
+      "mood_keywords_zh": [
+        "炫耀的",
+        "宏大的",
+        "丰富的",
+        "直接的",
+        "简单的",
+        "鼻音的"
+      ],
+      "translated_at": "2026-03-25T14:28:49.993497"
     }
   },
   {
@@ -257,13 +262,12 @@
     }
   },
   {
-    "id": "mp_f9e415cec94c",
-    "prompt_text": "Androgynous vocoder(autotune & soulful), Funky Basslines & Vocoder & Talkbox & Electronic-influenced & Stuttering-voice & funky beats. Trap & Synth Funk & French-house & French House & Funky Synthwave, Synth Funk, Funky Synthwave, French House, Trap, French-house,\n",
-    "prompt_zh": "中性声音合成器 (autotune & soulful)，摇摆贝斯线 & Vocoder & Talkbox & Electronic-influenced & 断续人声 & 摇摆节奏。Trap & Synth Funk & French-house & French House & Funky Synthwave，Synth Funk，Funky Synthwave，French House，Trap，French-house",
+    "id": "mp_00ab9a37e48f",
+    "prompt_text": "Create a dynamic and high-energy track that blends classic 90s hip-hop vibes with a modern twist. The beat should be driven by a powerful rhythm, incorporating upbeat percussion and a catchy bassline that keeps the momentum strong. Layer the track with gospel-inspired backing vocals for a soulful touch, and include uplifting synths and brass elements to enhance the celebratory, victorious tone of the song. The overall style should be a fusion of old-school rap with contemporary production techniques, designed to inspire and energize listeners as they engage with the themes of the Prayer Revolution",
+    "prompt_zh": "创作一首充满动感和高能量的曲目，将90年代的经典嘻哈 (90s Hip-Hop) 风格与现代元素融合。节奏应由强劲的节拍驱动，加入明快的打击乐和抓耳的贝斯线，保持歌曲的强劲势头。在曲目中加入受福音音乐启发的和声，增添灵魂感，并使用鼓舞人心的合成器和铜管元素，增强歌曲的庆祝和胜利氛围。整体风格应是老派说唱 (Old-School Rap) 与现代制作技术的融合，旨在激发和激励听众参与祷告革命的主题。",
     "platform": "udio",
     "genre": [
       "rap",
-      "electronic",
       "soul"
     ],
     "bpm": null,
@@ -272,26 +276,25 @@
       "bass",
       "synth"
     ],
-    "quality_score": 7.17,
+    "quality_score": 8.0,
     "use_cases": [],
-    "source": "mister-magpie/bbe112ca-382b-4ece-b02b-c102252ac9f4",
-    "title": "Ramen Ecstasy",
+    "source": "mister-magpie/89b39479-a0ba-4038-863c-c6172ddfdad2",
+    "title": "Prayer Revolution",
     "translation_meta": {
-      "title_zh": "中性声音合成器 (autotune & soulful), 摇摆贝斯线 & 电子影响 & 断续人声 & 摇摆节奏",
+      "title_zh": "祷告革命",
       "genre_tags_zh": [
-        "Trap",
-        "Synth Funk",
-        "French-house",
-        "Funky Synthwave"
+        "嘻哈 (Hip-Hop)",
+        "老派说唱 (Old-School Rap)"
       ],
       "mood_keywords_zh": [
-        "中性",
-        "摇摆",
-        "断续",
-        "电子影响",
-        "灵魂"
+        "动感",
+        "高能量",
+        "庆祝",
+        "胜利",
+        "鼓舞人心",
+        "灵魂感"
       ],
-      "translated_at": "2026-03-25T14:33:41.760156"
+      "translated_at": "2026-03-25T14:25:17.108181"
     }
   },
   {
@@ -376,88 +379,6 @@
     }
   },
   {
-    "id": "mp_13768ff159bd",
-    "prompt_text": "Electronic, synth-wave, darkwave, gothic, sad, male vocalist, distortion, electro drums, bpm 130, industrial, edm, trap industrial metal",
-    "prompt_zh": "电子 (Electronic), 合成器波 (Synth-wave), 黑暗波 (Darkwave), 哥特 (Gothic), 悲伤 (sad), 男声主唱 (male vocalist), 失真 (distortion), 电子鼓 (electro drums), BPM 130, 工业 (industrial), 电子舞曲 (EDM), 陷阱 (Trap) 工业金属 (Industrial Metal)",
-    "platform": "udio",
-    "genre": [
-      "rap",
-      "electronic",
-      "edm"
-    ],
-    "bpm": 130,
-    "key": null,
-    "instruments": [
-      "drums",
-      "synth"
-    ],
-    "quality_score": 7.17,
-    "use_cases": [],
-    "source": "mister-magpie/4ddb286b-fb53-4841-b5ee-241a71d59110",
-    "title": "The Promise",
-    "translation_meta": {
-      "title_zh": "电子合成器波",
-      "genre_tags_zh": [
-        "电子 (Electronic)",
-        "合成器波 (Synth-wave)",
-        "黑暗波 (Darkwave)",
-        "哥特 (Gothic)",
-        "工业 (Industrial)",
-        "电子舞曲 (EDM)",
-        "陷阱 (Trap)",
-        "工业金属 (Industrial Metal)"
-      ],
-      "mood_keywords_zh": [
-        "悲伤 (sad)"
-      ],
-      "translated_at": "2026-03-25T14:36:56.828554"
-    }
-  },
-  {
-    "id": "mp_e56a88a37682",
-    "prompt_text": "add a bass drop with EDM TRAP DUB STEP , electronic, synthesizer, electro, techno, progressive house, electro house, euro house, eurodance, ",
-    "prompt_zh": "加入一个带有 EDM TRAP DUB STEP 的低音下落，使用 electronic, synthesizer, electro, techno, progressive house, electro house, euro house, eurodance 等元素",
-    "platform": "udio",
-    "genre": [
-      "rap",
-      "electronic",
-      "edm"
-    ],
-    "bpm": null,
-    "key": null,
-    "instruments": [
-      "bass",
-      "synth"
-    ],
-    "quality_score": 7.17,
-    "use_cases": [
-      "party"
-    ],
-    "source": "mister-magpie/417b0f97-9b27-418b-b1ac-0aa643a2e1f7",
-    "title": "Rhythm Unleashed ext v1.2.2.1",
-    "translation_meta": {
-      "title_zh": "电子音乐提示词",
-      "genre_tags_zh": [
-        "电子舞曲 (EDM)",
-        "陷阱音乐 (TRAP)",
-        "Dubstep (DUB STEP)",
-        "电子 (electronic)",
-        "合成器 (synthesizer)",
-        "电子 (electro)",
-        "科技 (techno)",
-        "渐进浩室 (progressive house)",
-        "电子浩室 (electro house)",
-        "欧洲浩室 (euro house)",
-        "欧陆舞曲 (eurodance)"
-      ],
-      "mood_keywords_zh": [
-        "动感",
-        "激情"
-      ],
-      "translated_at": "2026-03-25T14:39:54.549890"
-    }
-  },
-  {
     "id": "mp_fda1dc55a53f",
     "prompt_text": "Robotic choir beautiful singing female vocals Interstellar, relaxed, deep synth lead, bass deep, future bass, native flute, experimental trap, ambient, spacey, futuristic, cool, smooth, hypnotic, \n\n",
     "prompt_zh": "Robotic choir beautiful singing female vocals, 星际, 放松, 深沉的 synth lead, 深沉的 bass, future bass, 原住民长笛, 实验性 trap, 环境音乐, 空灵, 未来感, 凉爽, 顺滑, 催眠",
@@ -499,82 +420,6 @@
         "催眠"
       ],
       "translated_at": "2026-03-25T14:40:55.355848"
-    }
-  },
-  {
-    "id": "mp_63df348c3e9a",
-    "prompt_text": "nergetic, Upbeat, Party, Fast-paced, Synthesizers, Drum machine, 90s club anthem, Dancefloor filler, Electric, Exciting, Catchy hooks, Funky bassline, Rap verses, Party playlists, Workout routines, Dance competitions, Ignites the dancefloor, Gets everyone moving and grooving, Creates a high-energy atmosphere.",
-    "prompt_zh": "充满活力的、欢快的、派对的、快节奏的、使用合成器和鼓机、90s club anthem、舞池热曲、电子的、令人兴奋的、朗朗上口的旋律、Funky bassline、说唱主歌、适合派对播放列表、健身训练、舞蹈比赛、点燃舞池、让每个人动起来、营造高能量氛围。",
-    "platform": "udio",
-    "genre": [
-      "rap",
-      "funk"
-    ],
-    "bpm": null,
-    "key": null,
-    "instruments": [
-      "bass",
-      "synth"
-    ],
-    "quality_score": 7.17,
-    "use_cases": [
-      "workout",
-      "party"
-    ],
-    "source": "mister-magpie/0bfd8ca5-4853-4b03-812e-ccb3cbf79439",
-    "title": "Seize the Digital Day ext v2",
-    "translation_meta": {
-      "title_zh": "90年代俱乐部圣歌",
-      "genre_tags_zh": [
-        "电子舞曲 (Electronic Dance Music)",
-        "嘻哈 (Hip Hop)"
-      ],
-      "mood_keywords_zh": [
-        "充满活力的",
-        "欢快的",
-        "派对的",
-        "快节奏的",
-        "令人兴奋的",
-        "朗朗上口的",
-        "Funky",
-        "点燃舞池",
-        "动起来",
-        "高能量"
-      ],
-      "translated_at": "2026-03-25T14:42:29.886159"
-    }
-  },
-  {
-    "id": "mp_3715ba3d5b29",
-    "prompt_text": "deep synth bass bubble gum 80s soul funk, lyrics about the fact that the songs were much better in the eighties, add a icey cube rap solo",
-    "prompt_zh": "深沉的合成贝斯，泡泡糖 80s Soul Funk，歌词内容关于80年代的歌曲更好，加入 Ice Cube 的说唱独奏",
-    "platform": "suno",
-    "genre": [
-      "rap",
-      "soul",
-      "funk"
-    ],
-    "bpm": null,
-    "key": null,
-    "instruments": [
-      "bass",
-      "synth"
-    ],
-    "quality_score": 7.17,
-    "use_cases": [],
-    "source": "mister-magpie/c06650a4-7c5b-44f6-83b0-8108daf6704e",
-    "title": "Back to the Eighties",
-    "translation_meta": {
-      "title_zh": "80年代灵魂放克",
-      "genre_tags_zh": [
-        "灵魂放克 (Soul Funk)",
-        "80年代流行 (80s Pop)"
-      ],
-      "mood_keywords_zh": [
-        "怀旧",
-        "欢快"
-      ],
-      "translated_at": "2026-03-25T14:47:41.234048"
     }
   },
   {
@@ -692,39 +537,6 @@
     }
   },
   {
-    "id": "mp_ba90e17e8530",
-    "prompt_text": "110 bpm. A modern hip-hop/trap beat with deep bass and electronic elements and dirty, distorted guitars with an emphasis on power chords and emotional melodies.",
-    "prompt_zh": "110 bpm. 一个现代的 hip-hop/trap 节拍，带有深沉的 bass 和电子元素，以及脏兮兮的、失真的吉他，重点在于强力和弦和情感旋律。",
-    "platform": "suno",
-    "genre": [
-      "rap",
-      "electronic",
-      "trap"
-    ],
-    "bpm": null,
-    "key": null,
-    "instruments": [
-      "guitar",
-      "bass"
-    ],
-    "quality_score": 7.17,
-    "use_cases": [],
-    "source": "mister-magpie/eb6f9f21-6669-4fa5-b5bb-8b6e5a7a0588",
-    "title": "High Voltage Dreams",
-    "translation_meta": {
-      "title_zh": "现代嘻哈/陷阱节拍",
-      "genre_tags_zh": [
-        "嘻哈 (Hip-Hop)",
-        "陷阱 (Trap)"
-      ],
-      "mood_keywords_zh": [
-        "深沉",
-        "情感"
-      ],
-      "translated_at": "2026-03-25T14:48:54.888268"
-    }
-  },
-  {
     "id": "mp_849a84e6a278",
     "prompt_text": " Trip hop, nu jazz, electronica, alternative hip hop, trumpets, trombones, saxophones, keyboards, bass, upbeat, violins, cello, melodic",
     "prompt_zh": "Trip hop, nu jazz, electronica, alternative hip hop, trumpets, trombones, saxophones, keyboards, bass, 欢快, violins, cello, 旋律",
@@ -763,35 +575,199 @@
     }
   },
   {
-    "id": "mp_5f2c75c9d87e",
-    "prompt_text": "Frenna meets sfb meets poke black rapper with singing chorus, sister act like singing gospel soulfull meets urban uptempo using strings and snares and heavy bass, jesus walking sound  meet seven days singer  , make it dutch yellow claw dr producing spanker vibe, timberland schoenen.\n\n\nDe tekst gaat over rassen haat make it english ",
-    "prompt_zh": "Frenna 与 sfb 与 poke 黑人说唱歌手相遇，带有演唱副歌，像姐妹合唱团一样演唱福音灵魂乐，充满 Urban Uptempo (城市快节奏) 的感觉，使用 strings (弦乐) 和 snares (军鼓) 以及 heavy bass (重低音)，加入 Jesus walking sound (耶稣行走的声音) 与 seven days 歌手相遇，制作出 Dutch Yellow Claw (荷兰黄爪) 的 Spanker 氛围，Timberland 鞋子。",
+    "id": "mp_f9e415cec94c",
+    "prompt_text": "Androgynous vocoder(autotune & soulful), Funky Basslines & Vocoder & Talkbox & Electronic-influenced & Stuttering-voice & funky beats. Trap & Synth Funk & French-house & French House & Funky Synthwave, Synth Funk, Funky Synthwave, French House, Trap, French-house,\n",
+    "prompt_zh": "中性声音合成器 (autotune & soulful)，摇摆贝斯线 & Vocoder & Talkbox & Electronic-influenced & 断续人声 & 摇摆节奏。Trap & Synth Funk & French-house & French House & Funky Synthwave，Synth Funk，Funky Synthwave，French House，Trap，French-house",
     "platform": "udio",
     "genre": [
       "rap",
+      "electronic",
       "soul"
     ],
     "bpm": null,
     "key": null,
     "instruments": [
-      "bass"
+      "bass",
+      "synth"
     ],
-    "quality_score": 7.0,
+    "quality_score": 7.17,
     "use_cases": [],
-    "source": "mister-magpie/bc296f05-fc43-4a0f-a4f5-83c912f07007",
-    "title": "Rise Up Together (snippet)",
+    "source": "mister-magpie/bbe112ca-382b-4ece-b02b-c102252ac9f4",
+    "title": "Ramen Ecstasy",
     "translation_meta": {
-      "title_zh": "Frenna 与 sfb 与 poke 黑人说唱歌手相遇，带有演唱副歌",
+      "title_zh": "中性声音合成器 (autotune & soulful), 摇摆贝斯线 & 电子影响 & 断续人声 & 摇摆节奏",
       "genre_tags_zh": [
-        "福音灵魂乐 (Gospel Soul)",
-        "城市快节奏 (Urban Uptempo)"
+        "Trap",
+        "Synth Funk",
+        "French-house",
+        "Funky Synthwave"
       ],
       "mood_keywords_zh": [
-        "充满",
-        "重低音",
-        "Jesus walking sound (耶稣行走的声音)"
+        "中性",
+        "摇摆",
+        "断续",
+        "电子影响",
+        "灵魂"
       ],
-      "translated_at": "2026-03-25T14:51:01.276227"
+      "translated_at": "2026-03-25T14:33:41.760156"
+    }
+  },
+  {
+    "id": "mp_13768ff159bd",
+    "prompt_text": "Electronic, synth-wave, darkwave, gothic, sad, male vocalist, distortion, electro drums, bpm 130, industrial, edm, trap industrial metal",
+    "prompt_zh": "电子 (Electronic), 合成器波 (Synth-wave), 黑暗波 (Darkwave), 哥特 (Gothic), 悲伤 (sad), 男声主唱 (male vocalist), 失真 (distortion), 电子鼓 (electro drums), BPM 130, 工业 (industrial), 电子舞曲 (EDM), 陷阱 (Trap) 工业金属 (Industrial Metal)",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "electronic",
+      "edm"
+    ],
+    "bpm": 130,
+    "key": null,
+    "instruments": [
+      "drums",
+      "synth"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [],
+    "source": "mister-magpie/4ddb286b-fb53-4841-b5ee-241a71d59110",
+    "title": "The Promise",
+    "translation_meta": {
+      "title_zh": "电子合成器波",
+      "genre_tags_zh": [
+        "电子 (Electronic)",
+        "合成器波 (Synth-wave)",
+        "黑暗波 (Darkwave)",
+        "哥特 (Gothic)",
+        "工业 (Industrial)",
+        "电子舞曲 (EDM)",
+        "陷阱 (Trap)",
+        "工业金属 (Industrial Metal)"
+      ],
+      "mood_keywords_zh": [
+        "悲伤 (sad)"
+      ],
+      "translated_at": "2026-03-25T14:36:56.828554"
+    }
+  },
+  {
+    "id": "mp_e56a88a37682",
+    "prompt_text": "add a bass drop with EDM TRAP DUB STEP , electronic, synthesizer, electro, techno, progressive house, electro house, euro house, eurodance, ",
+    "prompt_zh": "加入一个带有 EDM TRAP DUB STEP 的低音下落，使用 electronic, synthesizer, electro, techno, progressive house, electro house, euro house, eurodance 等元素",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "electronic",
+      "edm"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/417b0f97-9b27-418b-b1ac-0aa643a2e1f7",
+    "title": "Rhythm Unleashed ext v1.2.2.1",
+    "translation_meta": {
+      "title_zh": "电子音乐提示词",
+      "genre_tags_zh": [
+        "电子舞曲 (EDM)",
+        "陷阱音乐 (TRAP)",
+        "Dubstep (DUB STEP)",
+        "电子 (electronic)",
+        "合成器 (synthesizer)",
+        "电子 (electro)",
+        "科技 (techno)",
+        "渐进浩室 (progressive house)",
+        "电子浩室 (electro house)",
+        "欧洲浩室 (euro house)",
+        "欧陆舞曲 (eurodance)"
+      ],
+      "mood_keywords_zh": [
+        "动感",
+        "激情"
+      ],
+      "translated_at": "2026-03-25T14:39:54.549890"
+    }
+  },
+  {
+    "id": "mp_63df348c3e9a",
+    "prompt_text": "nergetic, Upbeat, Party, Fast-paced, Synthesizers, Drum machine, 90s club anthem, Dancefloor filler, Electric, Exciting, Catchy hooks, Funky bassline, Rap verses, Party playlists, Workout routines, Dance competitions, Ignites the dancefloor, Gets everyone moving and grooving, Creates a high-energy atmosphere.",
+    "prompt_zh": "充满活力的、欢快的、派对的、快节奏的、使用合成器和鼓机、90s club anthem、舞池热曲、电子的、令人兴奋的、朗朗上口的旋律、Funky bassline、说唱主歌、适合派对播放列表、健身训练、舞蹈比赛、点燃舞池、让每个人动起来、营造高能量氛围。",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [
+      "workout",
+      "party"
+    ],
+    "source": "mister-magpie/0bfd8ca5-4853-4b03-812e-ccb3cbf79439",
+    "title": "Seize the Digital Day ext v2",
+    "translation_meta": {
+      "title_zh": "90年代俱乐部圣歌",
+      "genre_tags_zh": [
+        "电子舞曲 (Electronic Dance Music)",
+        "嘻哈 (Hip Hop)"
+      ],
+      "mood_keywords_zh": [
+        "充满活力的",
+        "欢快的",
+        "派对的",
+        "快节奏的",
+        "令人兴奋的",
+        "朗朗上口的",
+        "Funky",
+        "点燃舞池",
+        "动起来",
+        "高能量"
+      ],
+      "translated_at": "2026-03-25T14:42:29.886159"
+    }
+  },
+  {
+    "id": "mp_3715ba3d5b29",
+    "prompt_text": "deep synth bass bubble gum 80s soul funk, lyrics about the fact that the songs were much better in the eighties, add a icey cube rap solo",
+    "prompt_zh": "深沉的合成贝斯，泡泡糖 80s Soul Funk，歌词内容关于80年代的歌曲更好，加入 Ice Cube 的说唱独奏",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "soul",
+      "funk"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.17,
+    "use_cases": [],
+    "source": "mister-magpie/c06650a4-7c5b-44f6-83b0-8108daf6704e",
+    "title": "Back to the Eighties",
+    "translation_meta": {
+      "title_zh": "80年代灵魂放克",
+      "genre_tags_zh": [
+        "灵魂放克 (Soul Funk)",
+        "80年代流行 (80s Pop)"
+      ],
+      "mood_keywords_zh": [
+        "怀旧",
+        "欢快"
+      ],
+      "translated_at": "2026-03-25T14:47:41.234048"
     }
   },
   {
@@ -825,39 +801,6 @@
     }
   },
   {
-    "id": "mp_1ffe5592a06a",
-    "prompt_text": "A hard-hitting rap track with a gritty urban vibe, led by 50 Cent's commanding vocals. The beat features deep bass lines and heavy drum kicks, creating a powerful rhythm. Synthesizers add a dark",
-    "prompt_zh": "一首硬核的说唱曲目，带有粗糙的城市氛围，由50 Cent的强势人声主导。节拍包含深沉的Bass线条和沉重的鼓点，营造出强烈的节奏感。合成器增加了暗黑的色彩。",
-    "platform": "suno",
-    "genre": [
-      "rap"
-    ],
-    "bpm": null,
-    "key": null,
-    "instruments": [
-      "bass",
-      "synth"
-    ],
-    "quality_score": 7.0,
-    "use_cases": [],
-    "source": "mister-magpie/f720a6c4-5dbe-4648-ad7b-602ff77ba053",
-    "title": "Bulletproof Dreams",
-    "translation_meta": {
-      "title_zh": "硬核说唱曲目",
-      "genre_tags_zh": [
-        "嘻哈 (Hip Hop)",
-        "说唱 (Rap)"
-      ],
-      "mood_keywords_zh": [
-        "硬核",
-        "粗糙",
-        "城市氛围",
-        "暗黑"
-      ],
-      "translated_at": "2026-03-25T14:53:42.097479"
-    }
-  },
-  {
     "id": "mp_65b77a6b9305",
     "prompt_text": "145 BPM (slightly faster for more intensity), female hip hop singer, Layered 808 bass: deep sub-bass + distorted mid-bass, Polyrhythmic hi-hats: 32nd note pattern with occasional triplet break, Snare on 3rd beat with ghost notes for groove, Eerie synth pad morphing into dissonant chords, Glitchy vocal samples (chopped up \"understand\" and \"depends\"), Occasional reverse cymbal sweeps for transitions",
     "prompt_zh": "145 BPM (稍快以增加强度)，女性嘻哈歌手，分层的808贝斯：低频贝斯 + 扭曲的中频贝斯，多节奏的军鼓：32分音符模式，偶尔出现三连音变化，军鼓在第三拍，带有幽灵音符以增加律动感，诡异的合成器垫音逐渐变为不和谐和弦，切碎的“understand”和“depends”人声采样，偶尔使用反向钹扫音以实现过渡",
@@ -888,6 +831,71 @@
         "过渡"
       ],
       "translated_at": "2026-03-25T14:50:49.342519"
+    }
+  },
+  {
+    "id": "mp_5f2c75c9d87e",
+    "prompt_text": "Frenna meets sfb meets poke black rapper with singing chorus, sister act like singing gospel soulfull meets urban uptempo using strings and snares and heavy bass, jesus walking sound  meet seven days singer  , make it dutch yellow claw dr producing spanker vibe, timberland schoenen.\n\n\nDe tekst gaat over rassen haat make it english ",
+    "prompt_zh": "Frenna 与 sfb 与 poke 黑人说唱歌手相遇，带有演唱副歌，像姐妹合唱团一样演唱福音灵魂乐，充满 Urban Uptempo (城市快节奏) 的感觉，使用 strings (弦乐) 和 snares (军鼓) 以及 heavy bass (重低音)，加入 Jesus walking sound (耶稣行走的声音) 与 seven days 歌手相遇，制作出 Dutch Yellow Claw (荷兰黄爪) 的 Spanker 氛围，Timberland 鞋子。",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "soul"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass"
+    ],
+    "quality_score": 7.0,
+    "use_cases": [],
+    "source": "mister-magpie/bc296f05-fc43-4a0f-a4f5-83c912f07007",
+    "title": "Rise Up Together (snippet)",
+    "translation_meta": {
+      "title_zh": "Frenna 与 sfb 与 poke 黑人说唱歌手相遇，带有演唱副歌",
+      "genre_tags_zh": [
+        "福音灵魂乐 (Gospel Soul)",
+        "城市快节奏 (Urban Uptempo)"
+      ],
+      "mood_keywords_zh": [
+        "充满",
+        "重低音",
+        "Jesus walking sound (耶稣行走的声音)"
+      ],
+      "translated_at": "2026-03-25T14:51:01.276227"
+    }
+  },
+  {
+    "id": "mp_1ffe5592a06a",
+    "prompt_text": "A hard-hitting rap track with a gritty urban vibe, led by 50 Cent's commanding vocals. The beat features deep bass lines and heavy drum kicks, creating a powerful rhythm. Synthesizers add a dark",
+    "prompt_zh": "一首硬核的说唱曲目，带有粗糙的城市氛围，由50 Cent的强势人声主导。节拍包含深沉的Bass线条和沉重的鼓点，营造出强烈的节奏感。合成器增加了暗黑的色彩。",
+    "platform": "suno",
+    "genre": [
+      "rap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 7.0,
+    "use_cases": [],
+    "source": "mister-magpie/f720a6c4-5dbe-4648-ad7b-602ff77ba053",
+    "title": "Bulletproof Dreams",
+    "translation_meta": {
+      "title_zh": "硬核说唱曲目",
+      "genre_tags_zh": [
+        "嘻哈 (Hip Hop)",
+        "说唱 (Rap)"
+      ],
+      "mood_keywords_zh": [
+        "硬核",
+        "粗糙",
+        "城市氛围",
+        "暗黑"
+      ],
+      "translated_at": "2026-03-25T14:53:42.097479"
     }
   }
 ]

@@ -1,227 +1,197 @@
 # Jazz / 爵士
 
-> 共收录 37 条提示词
+> 共收录 8 条提示词
 
 ## 提示词列表 / Prompt List
 
 ### 1. Confessions
 **评分**: 8.0/10
+**流派**: jazz, house
+
+**乐器**: piano, drums, bass, keyboard, saxophone
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-climax, saxophone, snyth, keyboards, Camelot 11B, A Major, high energy, female v...
+climax, saxophone, snyth, keyboards, Camelot 11B, A Major, high energy, female vocalist, house disco, disco house, female vocalist, Jazztronica, upbeat, romantic, passionate, longing, energetic, warm, breakbeat, maracas, bass, keyboard, club/dance, piano, trumpets, drums, spooky, dark cabaret, psychedelic, Japanese Jazztronica, nu jazz, broken beats,
 ```
+
+
+#### 中文翻译
+```
+高潮, 萨克斯风, 合成器, 键盘, Camelot 11B, A Major, 高能量, 女声主唱, 房屋迪斯科 (House Disco), 迪斯科房屋 (Disco House), 女声主唱, 爵士电子 (Jazztronica), 欢快, 浪漫, 热情, 思念, 充满活力, 温暖, 断奏, 沙球, 低音, 键盘, 俱乐部/舞蹈 (Club/Dance), 钢琴, 小号, 鼓, 神秘, 黑暗歌舞厅 (Dark Cabaret), 迷幻, 日本爵士电子 (Japanese Jazztronica), 新爵士 (Nu Jazz), 破碎节拍 (Broken Beats)
+```
+
+</details>
+
+---
 
 ### 2. Heartbeat of the City 
 **评分**: 7.17/10
+**流派**: jazz, r&b, soul
+
+**乐器**: guitar, piano, drums, bass, saxophone
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-a funky groove, jazz, contemporary jazz, soul,soul jazz, jazz-funk, tenor saxoph...
+a funky groove, jazz, contemporary jazz, soul,soul jazz, jazz-funk, tenor saxophone, drums (drum set), soul/smooth jazz, guitar, r&b, piano, bass, double bass, jazz vocals, 
 ```
+
+
+#### 中文翻译
+```
+一段充满律动感的 funky groove，风格为爵士 (jazz)、当代爵士 (contemporary jazz)、灵魂乐 (soul)、灵魂爵士 (soul jazz)、爵士放克 (jazz-funk)。主要乐器包括次中音萨克斯风 (tenor saxophone)、鼓组 (drums)、吉他 (guitar)、R&B (r&b)、钢琴 (piano)、贝斯 (bass)、低音提琴 (double bass) 和爵士人声 (jazz vocals)。
+```
+
+</details>
+
+---
 
 ### 3. With You Boy
 **评分**: 7.17/10
+**流派**: jazz, r&b, house
+
+**乐器**: bass, keyboard, flute, trumpet
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-r&b, female vocalists, bass house, flute, trumpet jazz, keyboard, ...
+r&b, female vocalists, bass house, flute, trumpet jazz, keyboard, 
 ```
+
+
+#### 中文翻译
+```
+节奏布鲁斯 (R&B)，女声主唱，贝斯浩室 (Bass House)，长笛，小号爵士 (Trumpet Jazz)，键盘
+```
+
+</details>
+
+---
 
 ### 4. Dreams of Summer Grass (Matsuo Basho live)
 **评分**: 7.17/10
+**流派**: jazz, blues
+
+**乐器**: piano, bass
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-live in a jazz bar, voice over, female singer intro, concert, fusion jazz, nu ja...
+live in a jazz bar, voice over, female singer intro, concert, fusion jazz, nu jazz, blues, jazz, female vocal, double bass, smokey bar, acoustic, piano, live concert, listeners enjoying live music, Applause, clapping, Whistles, Exclamations
 ```
+
+
+#### 中文翻译
+```
+现场在爵士酒吧，旁白，女歌手介绍，音乐会，融合爵士 (Fusion Jazz)，新爵士 (Nu Jazz)，蓝调 (Blues)，爵士 (Jazz)，女声 (Female Vocal)，低音提琴 (Double Bass)，烟雾缭绕的酒吧，原声 (Acoustic)，钢琴 (Piano)，现场音乐会，听众享受现场音乐，掌声 (Applause)，拍手 (Clapping)，口哨声 (Whistles)，欢呼声 (Exclamations)
+```
+
+</details>
+
+---
 
 ### 5. Electric Memory Groove
 **评分**: 7.17/10
+**流派**: jazz, country, soul
+
+**乐器**: guitar, bass, synth
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-emo, jazz, deep, funk, bass, emotional,electric music , dreamy, psychedelic, sou...
+emo, jazz, deep, funk, bass, emotional,electric music , dreamy, psychedelic, soul , synth , country guitar , memory , shake, deep man voice
 ```
+
+
+#### 中文翻译
+```
+情感 (emo), 爵士 (jazz), 深沉 (deep), 放克 (funk), 低音贝斯 (bass), 情感化 (emotional), 电子音乐 (electric music), 梦幻 (dreamy), 迷幻 (psychedelic), 灵魂乐 (soul), 合成器 (synth), 乡村吉他 (country guitar), 记忆 (memory), 摇摆 (shake), 深沉男声 (deep man voice)
+```
+
+</details>
+
+---
 
 ### 6. Thrills of the Afternoon ext v1.1.1.1
 **评分**: 7.0/10
+**流派**: jazz
+
+**乐器**: piano, bass
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-Key: G Major 7...melodic...acoustic jazz bass+piano+ French Horns+Jazzy strings+...
+Key: G Major 7...melodic...acoustic jazz bass+piano+ French Horns+Jazzy strings+male and female singing duo
 ```
+
+
+#### 中文翻译
+```
+Key: G Major 7...旋律...Acoustic Jazz Bass + Piano + French Horns + Jazzy Strings + 男女二重唱
+```
+
+</details>
+
+---
 
 ### 7. This Magic
 **评分**: 7.0/10
+**流派**: jazz, blues
+
+**乐器**: bass
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-soft and cool female vocalist with deep reverb, passionate, Harmony-rich chorus,...
+soft and cool female vocalist with deep reverb, passionate, Harmony-rich chorus, contemporary gospel, rhythm & blues, jazz blues, timpani, double bass, finger snaps, chic, sophisticated, mature, refined,
 ```
+
+
+#### 中文翻译
+```
+柔和而酷炫的女声歌手，带有深混响，充满激情，和声丰富的[副歌]，当代福音音乐 (contemporary gospel)，节奏布鲁斯 (rhythm & blues)，爵士布鲁斯 (jazz blues)，定音鼓 (timpani)，低音提琴 (double bass)，手指打响，时尚，高雅，成熟，精致
+```
+
+</details>
+
+---
 
 ### 8. We Were Young
 **评分**: 7.0/10
+**流派**: jazz
+
+**乐器**: violin, drums, bass
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-83 bpm, cinematic Japanese violin elements, 808s, side chain bass, orchestral,  ...
+83 bpm, cinematic Japanese violin elements, 808s, side chain bass, orchestral,  downtempo, female vocalist, smooth jazz drums,
 ```
 
-### 9. Time's Dance
-**评分**: 6.33/10
+
+#### 中文翻译
 ```
-a song about a race against time, ambient, jazz, swing, piano, bass, female sing...
+83 bpm, cinematic Japanese violin elements, 808s, side chain bass, orchestral, 下节奏, 女声主唱, smooth jazz drums
 ```
 
-### 10. Fading Echoes
-**评分**: 6.33/10
-```
-a song about holding trying to hold someone close as they slip away forever, bas...
-```
+</details>
 
-### 11. Shaggy Feet
-**评分**: 6.33/10
-```
-Indie guitar, Female vocalists, Child hitting drums, Talentless, Extremely bad m...
-```
-
-### 12. Essie Dreaming
-**评分**: 6.33/10
-```
-Instrumental jazz soul with harp arpeggio major 7th chords and hypnotic guitar m...
-```
-
-### 13. Bali Breeze
-**评分**: 6.33/10
-```
-Song about Bali Paradise Life, Brazilian bossa-nova mix with Jazz, Indonesia Voc...
-```
-
-### 14. Bassline Boogie
-**评分**: 6.3/10
-```
-upbeat groovy jazz funk song about my bass guitar...
-```
-
-### 15. Little spider, giant in your world
-**评分**: 6.17/10
-```
-trip-hop, midtempo, atmospheric, rhythmic, violin melody, jazz samples, violin s...
-```
-
-### 16. Groove and Glamour
-**评分**: 6.17/10
-```
-The music style of this track is a vibrant blend of funk, soul, and jazz, charac...
-```
-
-### 17. In the Shadow of Giants
-**评分**: 5.5/10
-```
-soulful 80s jazz, male vocalist, piano and saxophone backing, heartfelt, sincere...
-```
-
-### 18. Common Ground ext v2
-**评分**: 5.5/10
-```
-Generate a song that highlighted the need to love and be one (united), jazz, sou...
-```
-
-### 19. Groove in the Moonlight
-**评分**: 5.5/10
-```
-Soul disco, jazzy and groovy with chicago house drums, a piano jazz playing some...
-```
-
-### 20. Squidward Serenade
-**评分**: 5.5/10
-```
-A jazzy song about Squifward, male vocals, piano, male voice, clarinet , classic...
-```
-
-### 21. Whispers in the Rain
-**评分**: 5.5/10
-```
-Bossa  nova, slow jazz,  R&B, jungle,  rainy, improvise, solo, sad, piano, crows...
-```
-
-### 22. Bear In The Woods
-**评分**: 5.33/10
-```
-drum and bass,  jazz, thechnical deathmetal, hardcore...
-```
-
-### 23. Feast of Shadows
-**评分**: 5.33/10
-```
-song about cannibalism, jazz-funk, punk/new wave, double bass, original film tv ...
-```
-
-### 24. Karma! 
-**评分**: 5.33/10
-```
-Contemporary, Funky Jazz lofi, easy listening, jazz guitar, male vocalist, sad s...
-```
-
-### 25. If I Could Go Back In Time
-**评分**: 5.33/10
-```
-blues, jazz, funky, upright bass, new orleans brass band, soulful, 1950s, upbeat...
-```
-
-### 26. NEVER NUDE (MINE) 
-**评分**: 5.33/10
-```
-Sad piano and bass song about a tattooed girl. , jazz, easy listening, ...
-```
-
-### 27. Fractured Echoes
-**评分**: 5.33/10
-```
-avant garde jazz metal with layered dungeon synth undertones...
-```
-
-### 28. Horizons
-**评分**: 5.33/10
-```
-ballad song, background synth pads, emotional powerful strings in the background...
-```
-
-### 29. Existence Beyond ext v2.1.2.1.2.2.2.2.2.2.2
-**评分**: 5.33/10
-```
-piano, 80s new wave, fantasy, synthesizer, pads, smooth jazz, haunting, power ba...
-```
-
-### 30. Echoes of the Abyss
-**评分**: 5.33/10
-```
-Flute, Catholic Psychedelic Synth, danger music, tuvan throat singing, central a...
-```
-
-### 31. Listening To Life's Calls
-**评分**: 5.33/10
-```
-contemporary jazz, young vocal, batá drum, acoustic, acoustic guitar, cello, ...
-```
-
-### 32. Garage Jazz Session (Garage Jazz Session)
-**评分**: 5.33/10
-```
-Live recording, improvised song about this garage session, jazz, piano, guitar j...
-```
-
-### 33. A Whimsical Heartbeat
-**评分**: 5.33/10
-```
-Glitch Hop Acoustic Texas Blues Dark Jazz Dubstep Kawaii Future Bass...
-```
-
-### 34. Disco Rush Fever
-**评分**: 5.24/10
-```
-disco, 122 bpm, soul, jazz guitar, 80s, strings...
-```
-
-### 35. Influencer's Lament
-**评分**: 5.24/10
-```
-jazz, melancholic, bass, cello, ethereal wave, ...
-```
-
-### 36. Whispers of Farewell
-**评分**: 5.17/10
-```
-Create a minimalist track with soft piano and light strings in a minor key to ev...
-```
-
-### 37. Shakka Kahn - Refuge of Dreams (We Bought a Zoo Theme)
-**评分**: 5.0/10
-```
-1988 smooth jazz, slow and sultry, grainy female contralto vocalist, singing slo...
-```
+---

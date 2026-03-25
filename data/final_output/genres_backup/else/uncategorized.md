@@ -1,312 +1,125 @@
 # Uncategorized / Uncategorized
 
-> 共收录 71 条提示词
+> 共收录 5 条提示词
 
 ## 提示词列表 / Prompt List
 
 ### 1. Until the Sun Rises
 **评分**: 8.0/10
+**流派**: edm, punk, house
+
+**乐器**: guitar, synth
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-a downtempo punk inspired song with 94bpm F, a key changge, some edm house low e...
+a downtempo punk inspired song with 94bpm F, a key changge, some edm house low end, and keep it relaxed but allow the guitar to have some flavour, there should be a blend of organic instruments and synths, and should sound like fidlar meets rufus du sol meets daniel caesar
 ```
+
+
+#### 中文翻译
+```
+一首受慢节奏朋克 (Downtempo Punk) 启发的歌曲，94bpm F，有调性变化，加入一些EDM House的低频部分，保持放松但允许吉他有一些韵味，应该融合有机乐器和合成器，听起来像是Fidlar遇到Rufus Du Sol遇到Daniel Caesar
+```
+
+</details>
+
+---
 
 ### 2. flow
 **评分**: 7.85/10
+**流派**: 未分类
+
+**乐器**: guitar, piano, bass, synth
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-Use [Guitar Riff], [Piano Riff], [Synth Loop] to highlight specific instrumental...
+Use [Guitar Riff], [Piano Riff], [Synth Loop] to highlight specific instrumental sections. [tempo setting] Use [tempo 125 bpm] to define the track's pace. [vocal sample] Tags: [“I’m losing it”, sparse usage, hypnotic] [synths and effects] Tags: [minimalistic synths, build-ups, risers] [drum beat] Tags: [steady four-on-the-floor, snappy hi-hats, claps] [bassline] Tags: [driving, punchy, repetitive groove] [intro] [Steady Four-on-the-Floor beat with snappy hi-hats and claps] Duration: 16 bars Effect: Sets the danceable foundation and introduces the main rhythm.  [buildup] [Minimalistic Synths gradually intensifying] Duration: 8 bars Effect: Increases tension and anticipation for the drop. [drop] [Massive Drop with all elements combined, punchy bassline, driving beat, and vocal sample] Duration: 16 bars Effect: Explosive release of energy, driving the crowd into a frenzy. [verse] [Stripped back to the beat and bassline, minimal synths] Duration: 16 bars Effect: Provides a momentary reduction in intensity, allowing the track to rebuild.
 ```
+
+
+#### 中文翻译
+```
+使用 [Guitar Riff]、[Piano Riff]、[Synth Loop] 来突出特定的乐器部分。[tempo setting] 使用 [tempo 125 bpm] 来定义曲目的节奏。[vocal sample] 标签: [“I’m losing it”，稀疏使用，催眠效果] [synths and effects] 标签: [极简合成器，渐强，上升音效] [drum beat] 标签: [稳定的四四拍，清脆的军鼓，掌声] [bassline] 标签: [推动感，有力，重复的律动] [intro] [Steady Four-on-the-Floor beat with snappy hi-hats and claps] 时长: 16 小节 效果: 奠定可舞动的基础，介绍主要节奏。[buildup] [Minimalistic Synths gradually intensifying] 时长: 8 小节 效果: 增加紧张感和期待感，为下坠部分做准备。[drop] [Massive Drop with all elements combined, punchy bassline, driving beat, and vocal sample] 时长: 16 小节 效果: 爆发能量，将人群推向狂热。[verse] [Stripped back to the beat and bassline, minimal synths] 时长: 16 小节 效果: 暂时降低强度，让曲目重新构建。
+```
+
+</details>
+
+---
 
 ### 3. Electric Love
 **评分**: 7.17/10
+**流派**: edm, techno
+
+**乐器**: bass, synth
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-Vocaloid, drum and bass, chaotic, EDM drop, female vocals, electro, techno, synt...
+Vocaloid, drum and bass, chaotic, EDM drop, female vocals, electro, techno, synth, bass, song about being a lesbian. 
 ```
+
+
+#### 中文翻译
+```
+Vocaloid, drum and bass, 混乱, EDM drop, 女声, electro, techno, synth, bass, 关于同性恋的歌曲。
+```
+
+</details>
+
+---
 
 ### 4. Midori
 **评分**: 7.0/10
+**流派**: edm, metal, trance
+
+**乐器**: bass
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-g minor key, eerie, metalcore, aggressive,female vocals, electro, edm, dark tran...
+g minor key, eerie, metalcore, aggressive,female vocals, electro, edm, dark trance, disturbing, atmospheric drum and bass
 ```
+
+
+#### 中文翻译
+```
+g minor key, 惊悚, metalcore (金属核), 凶猛, 女声, electro (电子), edm (电子舞曲), 黑暗迷幻, 扰乱, atmospheric drum and bass (氛围鼓与贝斯)
+```
+
+</details>
+
+---
 
 ### 5. Push Together
 **评分**: 7.0/10
-```
-EDM: 128-140 BPM, driving bass, cycling rhythm, group chants, synths soar, push ...
-```
+**流派**: edm
 
-### 6. just you and i[full version]
-**评分**: 7.0/10
-```
-future bass, dubstep, synthesizer, electric guitar, upbeat, uptempo, serene, bea...
-```
+**乐器**: bass, synth
 
-### 7. A Better Way
-**评分**: 6.17/10
-```
-Melodic contemporary metal edm wall of sound female vocals synthesizer choir sin...
-```
+<details>
+<summary>点击展开查看完整提示词</summary>
 
-### 8. Journey Into the Unknown
-**评分**: 6.17/10
+#### 英文提示词
 ```
-EDM with atmospheric synths and deep bass drops, capturing the essence of a myth...
-```
-
-### 9. Retake Your Brain
-**评分**: 6.17/10
-```
-raggatek jungle old school beat, dubstep bassline, ska trumpets,dub synths,alert...
-```
-
-### 10. Your Power and Love
-**评分**: 6.0/10
-```
-Christian, worship, male vocalist, uplifting, contemporary worship music, melodi...
-```
-
-### 11. Holy Haze remix v2.2.2.1
-**评分**: 6.0/10
-```
-Slow to medium tempo (70-80 BPM).
-Indian sitar and other Indian instruments, esp...
-```
-
-### 12. Live the Right Way
-**评分**: 6.0/10
-```
-Gospel-inspired chord progressions; lush 7th chords, stirring major/minor shifts...
-```
-
-### 13. Our God is Holy
-**评分**: 6.0/10
-```
-contemporary christian,  female vocalist, male vocalist, guitar, drums (drum set...
-```
-
-### 14. Round and Round
-**评分**: 6.0/10
-```
-futuristic, haunting, piano, heavy synth, electric guitar riff, minor key, vocal...
-```
-
-### 15. La Cascada
-**评分**: 6.0/10
-```
-cello, minor key, sinister,  bouncy, chiptune elements, horror synth,...
-```
-
-### 16. 360 Beats
-**评分**: 6.0/10
-```
-360 Reality Audio][Break Core]inspired by [Gqom][Singeli beats][Analog 12bit sam...
-```
-
-### 17. Arcane Whisper
-**评分**: 6.0/10
-```
-E harmonic minor scale on synth guitar and with sweeping chordal accompaniment w...
-```
-
-### 18. Feel the Night
-**评分**: 6.0/10
-```
-Minimal extend uk garage fast-paced, 125 BPM tight drums, deep bass, syncopated ...
-```
-
-### 19. Journey's Embrace2
-**评分**: 6.0/10
-```
-Tempo: Moderato
-Key: D MajorStrings and Woodwinds: Use rhythmic patterns and syn...
-```
-
-### 20. Party Love Freedom
-**评分**: 6.0/10
-```
-1990s Eurobeat Song Prompt: Energetic party vibe, 140-160 BPM. Structure: intro,...
-```
-
-### 21. Confessions
-**评分**: 6.0/10
-```
-Ethereal soundscape, soft whispery vocals, intimate and emotive, layered harmoni...
-```
-
-### 22. Hovering Corruption
-**评分**: 6.0/10
-```
-female vocalist, dubstep, minor key, synthesizer, ...
-```
-
-### 23. Lame Frame
-**评分**: 6.0/10
-```
-melodic dubstep, analog synthesizer, synthwave / electro, female vocal, harmonie...
-```
-
-### 24. Summer Strength Anthem
-**评分**: 5.33/10
-```
-song about udio, summer, edm, electric guitar, bass guitar, heavy, happy, energe...
-```
-
-### 25. Mr. Hayes
-**评分**: 5.33/10
-```
- Progressive psytrance, hypnotic, psytrance, club/dance, film score, bass house,...
-```
-
-### 26. RUIDO - Like the rest (feat. Death)
-**评分**: 5.33/10
-```
-Hippo stomp, hardbass, whispering & moaning, witch house, hard techno, hard drum...
-```
-
-### 27. RUIDO - Hippo' Alla Flamenco
-**评分**: 5.33/10
-```
-Melodic & catchy flamenco guitar, hippo stomp, bassline, hardcore [edm], rave, p...
-```
-
-### 28. Mr. Thompson
-**评分**: 5.33/10
-```
-a detective unraveling a crime involving a pistol, Progressive psytrance, hypnot...
-```
-
-### 29. For This One Beat
-**评分**: 5.33/10
-```
-Hard Bass Trance Progressive, Big Room EDM, hard electro, hard bass, electro, el...
-```
-
-### 30. Wanted Love
-**评分**: 5.33/10
-```
-Dj house remix full bass edm beat r&b houselof,wanted love...
-```
-
-### 31. Captain Carolina's Flight
-**评分**: 5.33/10
-```
-A EDM song about Cpt Carolina and flying Planes , atmospheric, synth, electro, u...
-```
-
-### 32. Transformation Tales
-**评分**: 5.33/10
-```
-edm, synth+ chipset, native american flute.  A song about transformation stories...
-```
-
-### 33. Heaven's Symphony
-**评分**: 5.33/10
-```
-Write a song about the love of one god.Love is like church bells. Edm Piano. EDM...
-```
-
-### 34. Against The Tide - Tyzidox
-**评分**: 5.33/10
-```
-[Final Chorus]
-Instruments: Full band with additional harmonies, potentially add...
-```
-
-### 35. the end is here[tease]
-**评分**: 5.33/10
-```
-dubstep,  catchy, string synthesizer, melodic, electric guitar, serene, 2024, up...
-```
-
-### 36. Chains Fall Away
-**评分**: 5.33/10
-```
-Heavy dubstep - bass driven track with politically charged lyrics that are full ...
-```
-
-### 37. Digital Awakening
-**评分**: 5.17/10
-```
-A song about AI in Africa
-Afrobeats, keyboard, west African music, Nigeria, guit...
-```
-
-### 38. Echoes of the Digital Moon
-**评分**: 5.17/10
-```
-Male Vocalist, Female Vocalist, Sad, Melancholic turned Passionate, minimalistic...
-```
-
-### 39. Credit Waster #5 
-**评分**: 5.17/10
-```
-rhythmic, sampling, playful, quirky, surreal, dense, bass synthesizer, ...
-```
-
-### 40. Winds of Time and Stories Old
-**评分**: 5.17/10
-```
-a song about memories carried by the wind, ballads, female vocal, prepared piano...
-```
-
-### 41. StringsEDM v2.2.1.2
-**评分**: 5.17/10
-```
-solo strings, violin, instrumental, uptempo, feature bass,...
-```
-
-### 42. Horrorible Night
-**评分**: 5.17/10
-```
-horror synth, dark synth, drum and bass, lots of bass,heavy, fast paced,drops, b...
-```
-
-### 43. Pulse of the Revolution
-**评分**: 5.17/10
-```
-Here’s what I’m thinking for the vibe: punchy synths, a driving bassline, and a ...
-```
-
-### 44. Hear our roar
-**评分**: 5.17/10
-```
-dance/electro, female vocal, upbeat, powerful, emotional music, strong, bass gui...
-```
-
-### 45. Beautiful Fire
-**评分**: 5.17/10
-```
-A ballad song in the David Foster and Kenny Loggins 80's style. Keyboards, bass,...
-```
-
-### 46. The Forest's Edge
-**评分**: 5.17/10
-```
-plucked psaltery, viol, bass crumhorn, Sopranino Crumhorn, alto crumhorn, Tenor,...
-```
-
-### 47. (Hit the Ground) Running
-**评分**: 5.17/10
-```
-nwobhm, electric guitar, electric guitar, electric bass guitar, drums (drum set)...
-```
-
-### 48. You Are Lord remix v2
-**评分**: 5.17/10
-```
-contemporary christian, gospel/christian, male vocalist, guitar, drums (drum set...
-```
-
-### 49. Street Serenade
-**评分**: 5.17/10
-```
-female,b minor, electric guitar, acoustic guitar, drums (drum set), electric bas...
-```
-
-### 50. NSFW (Christmas Came Early) - Sound Test: Known Melody Consistency
-**评分**: 5.17/10
-```
-Jingle bells, Jingle bells, Jingle bells, Drumline, marching band, christmas, sl...
+EDM: 128-140 BPM, driving bass, cycling rhythm, group chants, synths soar, push together, gym music
 ```
 
 
-*... 还有 21 条提示词*
+#### 中文翻译
+```
+EDM: 128-140 BPM, 强劲的贝斯, 循环的节奏, 团体合唱, 合成器高亢, 推动一起, 健身房音乐
+```
+
+</details>
+
+---

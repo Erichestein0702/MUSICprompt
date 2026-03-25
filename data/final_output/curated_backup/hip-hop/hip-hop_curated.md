@@ -1,72 +1,53 @@
-# HIP HOP 精校提示词集
+# Hip-Hop / 嘻哈
 
-> 精选 2 条高质量提示词（8分以上）
-> 经过人工级优化，包含使用建议、参数调整指南和风格推荐
+> 共收录 2 条提示词
 
-## 精选提示词
+## 提示词列表 / Prompt List
 
-### #1 My Circles
-
-**质量评分**: ⭐ 8.0/10
-**平台**: udio
-
-**技术参数**:
-- 🎸 乐器: piano, drums, bass, synth
-
+### 1. My Circles
+**评分**: 8.0/10
 **流派**: hip hop, rap, electronic
 
-#### 📝 英文提示词
+**乐器**: piano, drums, bass, synth
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
 [Hip hop],[2000s],[a minor key, with a tempo of medium or fast, 90 bpm], [[more Lead synthetic piano melody in the background][ONLY MALE VOCAL][[The arrangement of the song consists of dynamic beats and a rap melody performed by the band members"," depth of organized sounds creating music","melodic electronic echoes heart beat in in the background","a constant electronic beat in the form of a rising and falling wave" strong Male vocal"," strong, screaming male vocal""vocalist melodeclamation"'"the reverberation deep inside rises and falls like a wave"" Intro and all track no drums rythm only electronic deep sound"]][DJ scratches, he rapper's singing of the song""low synthesizer sound with reverb"""Hip-Hop of the 2000s", "Hip-Hop","C moll, 105 bpm""no piano""C moll, 105 bpm]["strong Male Vocal","strong, screaming Male Vocal","Vocalist melodeclamation" Rapper Vocals][DJ scratches]][less bass]]
 ```
 
-#### 🈯 中文翻译
+
+#### 中文翻译
 ```
 [Hip hop],[2000s],[a minor key, with a tempo of medium or fast, 90 bpm], [[更多 Lead synthetic piano 旋律在背景][ONLY MALE VOCAL][[歌曲的编排包括动态节拍和乐队成员表演的说唱旋律][有组织的声音深度创造音乐][背景中有旋律的电子回声心跳][以波浪起伏的形式持续的电子节拍] 强烈的男声主唱[强烈的、尖叫的男声主唱][歌手的旋律朗诵][内心的回声像波浪一样起伏][前奏和所有曲目没有鼓的节奏，只有电子深音] ][DJ 擦盘，说唱歌手的演唱][有混响的低合成器声音][2000年代嘻哈, 嘻哈][C moll, 105 bpm][没有钢琴][C moll, 105 bpm][减少低音]]
 ```
 
-#### 💡 使用建议
-
-- 可以尝试调整BPM来改变能量感
-
-#### ⚙️ 参数调整指南
-
-- **instruments**: 可以尝试替换主要乐器来改变风格，如将吉他换成钢琴
-
-#### 🎨 类似风格推荐
-想尝试变化？可以试试: trap, lo-fi hip hop, boom bap
+</details>
 
 ---
 
-### #2 Let’s Kick Off
-
-**质量评分**: ⭐ 8.0/10
-**平台**: udio
-
-**技术参数**:
-- 🎸 乐器: guitar, bass, synth, keyboard
-
+### 2. Let’s Kick Off
+**评分**: 8.0/10
 **流派**: hip hop, rap, electronic
 
-#### 📝 英文提示词
+**乐器**: guitar, bass, synth, keyboard
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
 [hip hop][2000s][Male vocalists][**808 Bass**: The song uses a strong, pulsating bass typical of hip-hop. This is the rhythmic basis, the bass will be clear but not overwhelming.  **Hip-hop synths for scratching**: sample like Roland SP-404SX. Add sounds that will emphasize the character of the song and give it an optimistic atmosphere.  **Auto-tune vocal harmonies**: . Autotune can help you achieve clear, precise sound. But we want to keep our voice natural and optimistic.][[key G-moll, 85 bpm][Male vocalist] [Vocalist melodeclamation, Rapper Vocals][ mainly instruments such as keyboard, sampler and percussion were used. Additionally, electric guitars, bass guitars, percussion instruments, synthesizers and other electronic musical instruments may also be used. Samples from other musical pieces may also be utilized]
 ```
 
-#### 🈯 中文翻译
+
+#### 中文翻译
 ```
 [嘻哈 (Hip Hop)][2000年代][男歌手][**808 Bass**: 这首歌使用了强劲、脉动的低音，这是嘻哈音乐的典型特征。低音将是清晰的，但不会压倒一切。**用于刮擦的嘻哈合成器**: 采样类似于 Roland SP-404SX。添加能够突出歌曲特点并营造乐观氛围的声音。**自动调音和声**: 自动调音可以帮助你实现清晰、精确的声音。但我们希望保持声音的自然和乐观。][[key G-moll, 85 bpm][男歌手] [歌手旋律朗诵, 说唱歌手声音][主要使用了键盘、采样器和打击乐器。此外，还可以使用电吉他、贝斯吉他、打击乐器、合成器和其他电子乐器。也可以使用其他音乐作品的采样]
 ```
 
-#### 💡 使用建议
-
-- 可以尝试调整BPM来改变能量感
-
-#### ⚙️ 参数调整指南
-
-- **instruments**: 可以尝试替换主要乐器来改变风格，如将吉他换成钢琴
-
-#### 🎨 类似风格推荐
-想尝试变化？可以试试: trap, lo-fi hip hop, boom bap
+</details>
 
 ---

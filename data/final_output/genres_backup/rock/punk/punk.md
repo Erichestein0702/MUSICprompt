@@ -1,53 +1,31 @@
 # Punk / Punk
 
-> 共收录 8 条提示词
+> 共收录 1 条提示词
 
 ## 提示词列表 / Prompt List
 
 ### 1. Neon Shadows
 **评分**: 7.0/10
+**流派**: punk
+
+**乐器**: bass, synth
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-Alright, how about this one that keeps the energy high and adds a thematic eleme...
+Alright, how about this one that keeps the energy high and adds a thematic element:
+
+Cyberpunk rave, 140 BPM, minor key. Glittering synths evoke neon alleyways. Pounding bass echoes industrial heartbe
 ```
 
-### 2. Kitty Cat
-**评分**: 6.33/10
+
+#### 中文翻译
 ```
-big beat, old school hardcore & rave & techno, powerful bass, amen break drums, ...
+赛博朋克狂欢 (Cyberpunk rave)，140 BPM，小调。闪耀的合成器音效唤起霓虹灯巷道的氛围。强劲的贝斯回响着工业心跳。
 ```
 
-### 3. Bohemian Rhapsody 2 (Art Rock)
-**评分**: 5.33/10
-```
-Create an epic song inspired that combines the complexity and theatricality of Q...
-```
+</details>
 
-### 4. Urban Labyrinth
-**评分**: 5.33/10
-```
-new wave/post-punk revival, simple bass line, melancholic mood, guitar riff matc...
-```
-
-### 5. Europe after the Storm 12"
-**评分**: 5.33/10
-```
-The stranglers, the jam, post-punk, drums (drum set), bass guitar, hammond organ...
-```
-
-### 6. Gone But Not Forgotten
-**评分**: 5.33/10
-```
-NDN-style music. Guitars, synthesizer, some bagpipes. Punk style. A song about a...
-```
-
-### 7. Neon Nights
-**评分**: 5.24/10
-```
-Bass, postpunk, chorus guitar, 80s drum, guitar...
-```
-
-### 8. Neon Shadows
-**评分**: 5.17/10
-```
-Create an atmospheric synthwave track with a distinct cyberpunk vibe. The song s...
-```
+---

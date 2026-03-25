@@ -33,20 +33,7 @@
         "歌手的旋律朗诵"
       ],
       "translated_at": "2026-03-25T14:23:59.090722"
-    },
-    "usage_tips": [
-      "可以尝试调整BPM来改变能量感"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "trap",
-      "lo-fi hip hop",
-      "boom bap"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_2e3d911f0cff",
@@ -81,19 +68,6 @@
         "自然"
       ],
       "translated_at": "2026-03-25T14:26:40.881518"
-    },
-    "usage_tips": [
-      "可以尝试调整BPM来改变能量感"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "trap",
-      "lo-fi hip hop",
-      "boom bap"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   }
 ]

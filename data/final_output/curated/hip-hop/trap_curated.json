@@ -1,0 +1,193 @@
+[
+  {
+    "id": "mp_aca5615df208",
+    "prompt_text": "Trap Fractal harmony, sou and blues sampling, sample drill, plunderphonics, alto flute, polyphonic chant, rhythmic noise, recordings with subtle differences, vaportrap, new jack swing, contrabassoon, ultra supreme hyper polyrhythms,  booming bass, 808 bass drums, 808 hihats, 808 snares, 808 cowbell, compression, lpf, hpf",
+    "prompt_zh": "Trap Fractal 和声，灵魂乐和蓝调采样，钻采样，掠夺式采样，长笛，复调吟唱，节奏噪音，细微差异的录音，VaporTrap，New Jack Swing (新杰克摇摆)，低音大管，超极多节奏，轰鸣低音，808 bass drums，808 hihats，808 snares，808 cowbell，压缩，LPF，HPF",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "blues",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "drums",
+      "bass",
+      "flute"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/9e72625e-053d-4bac-8f4a-af389624f3bb",
+    "title": "Fractal Ascent",
+    "translation_meta": {
+      "title_zh": "Trap Fractal 和声",
+      "genre_tags_zh": [
+        "Trap Fractal",
+        "VaporTrap",
+        "New Jack Swing (新杰克摇摆)"
+      ],
+      "mood_keywords_zh": [
+        "灵魂乐和蓝调采样",
+        "钻采样",
+        "掠夺式采样",
+        "复调吟唱",
+        "节奏噪音",
+        "轰鸣低音",
+        "细微差异的录音",
+        "超极多节奏"
+      ],
+      "translated_at": "2026-03-25T14:18:49.979250"
+    }
+  },
+  {
+    "id": "mp_f3994cefabbd",
+    "prompt_text": "Create a song in the style of Southern trap rap with a melodic piano and flute, along with a deep 808 bass kick. Make the title and hook of the song say bleach, blonde, bad built Butch body bitch. The song is about Marjorie Taylor green being a an idiotic low-life promiscuous disease infested low IQ individual\n",
+    "prompt_zh": "创作一首南方陷阱说唱 (Southern trap rap) 风格的歌曲，使用旋律性的钢琴和长笛，以及深沉的808贝斯。歌曲的标题和[副歌]部分要包含“bleach, blonde, bad built Butch body bitch”。歌曲内容是关于Marjorie Taylor Green是一个愚蠢的低贱、放荡、低智商的个体。",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "piano",
+      "bass",
+      "flute"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/1571d043-d257-4a18-b3bf-8379230ace8f",
+    "title": "Bleach Blonde 2",
+    "translation_meta": {
+      "title_zh": "漂白金发坏身材的肌肉女",
+      "genre_tags_zh": [
+        "南方陷阱说唱 (Southern trap rap)"
+      ],
+      "mood_keywords_zh": [
+        "放荡",
+        "低贱",
+        "愤怒",
+        "讽刺"
+      ],
+      "translated_at": "2026-03-25T14:25:40.188750"
+    }
+  },
+  {
+    "id": "mp_014695ead1fb",
+    "prompt_text": "afro house, afro trap, jazzthing, phat Bass,cristal clear drums, atmospheric, g Minor,120 bpm.dance vybe,Bass music",
+    "prompt_zh": "非洲浩室 (Afro House)、非洲陷阱 (Afro Trap)、爵士元素 (Jazzthing)、肥厚贝斯 (Phat Bass)、水晶般清澈的鼓点 (Cristal Clear Drums)、氛围感 (Atmospheric)、g小调 (g Minor)、120 BPM、舞蹈氛围 (Dance Vybe)、贝斯音乐 (Bass Music)",
+    "platform": "udio",
+    "genre": [
+      "rap",
+      "jazz",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "drums",
+      "bass"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "party"
+    ],
+    "source": "mister-magpie/710be2c7-99f6-4471-801d-8ea836503f8b",
+    "title": "Rhythms of the Night remix v1",
+    "translation_meta": {
+      "title_zh": "非洲浩室、非洲陷阱、爵士元素、肥厚贝斯、水晶般清澈的鼓点、氛围感、g小调、120 BPM、舞蹈氛围、贝斯音乐",
+      "genre_tags_zh": [
+        "非洲浩室 (Afro House)",
+        "非洲陷阱 (Afro Trap)",
+        "爵士元素 (Jazzthing)",
+        "贝斯音乐 (Bass Music)"
+      ],
+      "mood_keywords_zh": [
+        "肥厚贝斯 (Phat Bass)",
+        "水晶般清澈的鼓点 (Cristal Clear Drums)",
+        "氛围感 (Atmospheric)",
+        "舞蹈氛围 (Dance Vybe)"
+      ],
+      "translated_at": "2026-03-25T14:26:22.223637"
+    }
+  },
+  {
+    "id": "mp_51a9b5b8d8fe",
+    "prompt_text": "G.O.O.D. MUSIC rappers, riri, G.O.O.D. MUSIC sampler, prismizer vocal harmonies, 2010 trap hip-hop, 808s, direct chicago ye raps, braggadocious rap about fame art thoughts feelings and society, prismizer vocals, lush boniver autotune vocal harmonies, lush prismizer vocal harmony, dolby studio master, professional mix, unique male ye rap vocals, 808s, epic synth driven orchestral hip-hop with lush primizer vocal choir harmonies, direct simple nasal ye rap style, 808s heavy bass, rocafella, prog rock samples",
+    "prompt_zh": "G.O.O.D. MUSIC 说唱歌手，riri，G.O.O.D. MUSIC 采样器，prismizer 人声和声，2010 年的 trap hip-hop，808s，直接的芝加哥 ye 说唱，炫耀的说唱关于名望、艺术、思想、感受和社会，prismizer 人声，丰富的 boniver 自动调音人声和声，丰富的 prismizer 人声和声，杜比工作室母带，专业混音，独特的男性 ye 说唱人声，808s，宏大的合成器主导的交响 hip-hop，丰富的 prismizer 人声合唱和声，直接简单的鼻音 ye 说唱风格，808s 重低音，rocafella，prog rock 采样",
+    "platform": "udio",
+    "genre": [
+      "rock",
+      "rap",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [
+      "gaming"
+    ],
+    "source": "mister-magpie/101ba10e-eb8f-4903-8e1a-4ef33274fe22",
+    "title": "Of Gold (og demo leak)",
+    "translation_meta": {
+      "title_zh": "G.O.O.D. MUSIC 说唱",
+      "genre_tags_zh": [
+        "说唱 (Rap)",
+        "嘻哈 (Hip-Hop)",
+        "交响嘻哈 (Orchestral Hip-Hop)",
+        "prog rock (Progressive Rock)"
+      ],
+      "mood_keywords_zh": [
+        "炫耀的",
+        "宏大的",
+        "丰富的",
+        "直接的",
+        "简单的",
+        "鼻音的"
+      ],
+      "translated_at": "2026-03-25T14:28:49.993497"
+    }
+  },
+  {
+    "id": "mp_b7036596a10b",
+    "prompt_text": "rap. trap. heavy  bass, crisp punchy drum, snare drum. atmospheric synths. funk. raspy black male voice west coast accent. ",
+    "prompt_zh": "rap. trap. 重低音的贝斯, 清脆有力的鼓点, 军鼓. 氛围合成器. funk. 沙哑的黑人男性声音，西海岸口音.",
+    "platform": "suno",
+    "genre": [
+      "rap",
+      "funk",
+      "trap"
+    ],
+    "bpm": null,
+    "key": null,
+    "instruments": [
+      "bass",
+      "synth"
+    ],
+    "quality_score": 8.0,
+    "use_cases": [],
+    "source": "mister-magpie/5227a41f-ebfc-4678-b663-f54ede3e94c3",
+    "title": "Bass Heavy Vibes",
+    "translation_meta": {
+      "title_zh": "西海岸说唱",
+      "genre_tags_zh": [
+        "说唱 (rap)",
+        "陷阱 (trap)",
+        "放克 (funk)"
+      ],
+      "mood_keywords_zh": [
+        "重低音",
+        "清脆有力",
+        "氛围感",
+        "沙哑"
+      ],
+      "translated_at": "2026-03-25T14:31:46.337855"
+    }
+  }
+]

@@ -25,8 +25,8 @@ GENRE_HIERARCHY = {
     'electronic': {
         'name': 'Electronic',
         'name_zh': '电子音乐',
-        'sub_genres': ['house', 'techno', 'trance', 'ambient', 'lo-fi'],
-        'description': '电子音乐合集，包含 House、Techno、Trance、Ambient 等子流派'
+        'sub_genres': ['house', 'techno', 'trance', 'ambient', 'lo-fi', 'dubstep', 'trap'],
+        'description': '电子音乐合集，包含 House、Techno、Trance、Ambient、Dubstep、Trap 等子流派'
     },
     'hip-hop': {
         'name': 'Hip-Hop',
@@ -105,7 +105,20 @@ class GenreReorganizer:
                 continue
             
             primary_genre = self.normalize_genre(genres[0])
-            parent = self.get_parent_genre(primary_genre)
+            all_genres = [self.normalize_genre(g) for g in genres]
+            
+            if 'trap' in all_genres:
+                if 'electronic' in all_genres or 'edm' in all_genres or 'dubstep' in all_genres or 'house' in all_genres:
+                    parent = 'electronic'
+                    primary_genre = 'trap'
+                elif 'hip hop' in all_genres or 'rap' in all_genres or 'hip-hop' in all_genres:
+                    parent = 'hip-hop'
+                    primary_genre = 'trap'
+                else:
+                    parent = 'hip-hop'
+                    primary_genre = 'trap'
+            else:
+                parent = self.get_parent_genre(primary_genre)
             
             if parent in GENRE_HIERARCHY:
                 if primary_genre in [self.normalize_genre(g) for g in GENRE_HIERARCHY[parent]['sub_genres']]:

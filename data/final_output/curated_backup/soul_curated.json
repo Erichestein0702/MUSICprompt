@@ -38,17 +38,7 @@
         "分手"
       ],
       "translated_at": "2026-03-25T14:23:08.180165"
-    },
-    "usage_tips": [
-      "适合冥想或学习场景，建议保持原参数",
-      "学习时使用建议降低音量，避免分心"
-    ],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_59017d48fd61",
@@ -86,13 +76,6 @@
         "空间的"
       ],
       "translated_at": "2026-03-25T14:28:28.607884"
-    },
-    "usage_tips": [],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   }
 ]

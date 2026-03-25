@@ -1,59 +1,29 @@
 # Blues / 布鲁斯
 
-> 共收录 9 条提示词
+> 共收录 1 条提示词
 
 ## 提示词列表 / Prompt List
 
 ### 1. Voodoo Outlaws: 01 Shadows and Chains
 **评分**: 7.0/10
+**流派**: blues
+
+**乐器**: guitar, bass
+
+<details>
+<summary>点击展开查看完整提示词</summary>
+
+#### 英文提示词
 ```
-female vocal, Dark blues at 65 BPM, minor key,  slave rhythmic chants. Include s...
+female vocal, Dark blues at 65 BPM, minor key,  slave rhythmic chants. Include slow acoustic guitar riffs, sparse bass lines, subtle percussion, and haunting harmonica. The mood should evoke a sense of doom and spiritual themes, with atmospheric wind effects and eerie echoes in the background. by Port Sulphur Band
 ```
 
-### 2. Mrs. Jeez Louise
-**评分**: 6.33/10
+
+#### 中文翻译
 ```
-Upbeat, Soulful, Groovy Disco Funk, Louisiana Blues, Climatic Instrumental Outro...
+女性主唱, Dark blues (暗黑蓝调) at 65 BPM, minor key, 奴隶节奏吟唱。包括缓慢的原声吉他旋律 (slow acoustic guitar riffs)、稀疏的贝斯线条 (sparse bass lines)、微妙的打击乐 (subtle percussion) 和令人毛骨悚然的口琴 (haunting harmonica)。情绪应传达一种末日感和精神主题 (doom and spiritual themes)，背景中加入氛围风声效果 (atmospheric wind effects) 和诡异的回声 (eerie echoes)。
 ```
 
-### 3. Way On High
-**评分**: 6.33/10
-```
-Dramatic cinematic deep bass blues guitar soul singer singing...
-```
+</details>
 
-### 4. Hard to Match
-**评分**: 6.33/10
-```
-Blues/funk-groove, Blues, Male vocalist, Electric guitar, A blues song in a funk...
-```
-
-### 5. Fake Love Real Hate 
-**评分**: 5.5/10
-```
-A song about a  broken girl who is singing about her pain, soul, singer/songwrit...
-```
-
-### 6. Jimsonweed
-**评分**: 5.33/10
-```
-A song about Jamestown in 1676, the Pilgrims eat Datura Stramonium and have vivi...
-```
-
-### 7. Lonely For You Only
-**评分**: 5.33/10
-```
- blues shuffle, swinging, acoustic guitars, string bass, Tamborine, group vocals...
-```
-
-### 8. Come Back Home
-**评分**: 5.33/10
-```
-Echoing, harmonized outro, singer-songwriter, r&b, blues, drums, quiet, contempo...
-```
-
-### 9. Moonlight Whispers
-**评分**: 5.33/10
-```
-Slow blues instrumental sensual and airy with bass, light piano groove and tenor...
-```
+---

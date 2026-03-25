@@ -38,14 +38,7 @@
         "超极多节奏"
       ],
       "translated_at": "2026-03-25T14:18:49.979250"
-    },
-    "usage_tips": [],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_00ab9a37e48f",
@@ -81,14 +74,7 @@
         "灵魂感"
       ],
       "translated_at": "2026-03-25T14:25:17.108181"
-    },
-    "usage_tips": [],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_f3994cefabbd",
@@ -122,14 +108,7 @@
         "讽刺"
       ],
       "translated_at": "2026-03-25T14:25:40.188750"
-    },
-    "usage_tips": [],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_014695ead1fb",
@@ -168,18 +147,7 @@
         "舞蹈氛围 (Dance Vybe)"
       ],
       "translated_at": "2026-03-25T14:26:22.223637"
-    },
-    "usage_tips": [],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [
-      "smooth jazz",
-      "fusion",
-      "bebop"
-    ],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   },
   {
     "id": "mp_b7036596a10b",
@@ -215,13 +183,6 @@
         "沙哑"
       ],
       "translated_at": "2026-03-25T14:31:46.337855"
-    },
-    "usage_tips": [],
-    "param_tips": {
-      "instruments": "可以尝试替换主要乐器来改变风格，如将吉他换成钢琴"
-    },
-    "similar_styles": [],
-    "refined": true,
-    "refined_version": "1.0"
+    }
   }
 ]
