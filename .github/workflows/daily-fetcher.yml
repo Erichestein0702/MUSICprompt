@@ -7,7 +7,7 @@ on:
 
 permissions:
   issues: write
-  contents: write
+  contents: read
 
 jobs:
   fetch-and-create-issue:
@@ -16,9 +16,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: true
       
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -38,10 +35,6 @@ jobs:
         run: |
           python tools/reddit_fetcher.py
       
-      - name: Sync Prompts Directory
-        run: |
-          python tools/sync_prompts.py
-      
       - name: Create GitHub Issue
         uses: actions/github-script@v7
         with:
@@ -51,7 +44,7 @@ jobs:
             
             const pendingDir = 'prompts/pending';
             if (!fs.existsSync(pendingDir)) {
-              console.log('No pending directory');
+              core.setFailed('No pending directory found');
               return;
             }
             
@@ -61,13 +54,13 @@ jobs:
               .reverse();
             
             if (files.length === 0) {
-              console.log('No pending file found');
+              core.setFailed('No pending file found');
               return;
             }
             
             const content = fs.readFileSync(`${pendingDir}/${files[0]}`, 'utf8');
             
-            await github.rest.issues.create({
+            const issue = await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: `📥 今日待翻译 Prompt (${today})`,
@@ -75,11 +68,5 @@ jobs:
               labels: ['translation-pending', 'automated'],
               assignees: ['Erichestein0702']
             });
-      
-      - name: Commit and Push changes
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add prompts/
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore: daily fetch and sync"
-          git push
+            
+            console.log(`Issue created: ${issue.data.html_url}`);
