@@ -27,6 +27,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
+      - name: Ensure pending directory exists
+        run: |
+          mkdir -p prompts/pending
+      
       - name: Fetch Reddit Posts
         id: fetch
         env:
@@ -54,7 +58,7 @@ jobs:
               .reverse();
             
             if (files.length === 0) {
-              core.setFailed('No pending file found');
+              core.setFailed('No pending file found - Reddit fetch may have failed');
               return;
             }
             
