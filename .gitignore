@@ -58,3 +58,18 @@ temp/
 
 # Design book (local only)
 DESIGN_BOOK.md
+ARCHITECTURE.md
+
+# Backup directories (not needed for users)
+data/final_output/curated_backup/
+data/final_output/genres_backup/
+
+# JSON files (users only need MD)
+data/final_output/**/*.json
+data/processed/
+data/raw/
+data/external/
+data/genres/
+
+# But track prompts directory
+!prompts/

@@ -55,9 +55,11 @@ Navigate to `data/final_output/csv/` for Excel-compatible format:
 
 #### Option 3: Browse Online / 方式三：在线浏览
 
-- **Curated Collection**: [data/final_output/curated/](data/final_output/curated/)
-- **By Genre**: [data/final_output/genres/](data/final_output/genres/)
-- **By Use Case**: [data/final_output/use_cases/](data/final_output/use_cases/)
+👉 **[点击这里直接浏览所有 Prompts](prompts/)** 👈
+
+- **精选合集**: [prompts/curated/](prompts/curated/)
+- **按流派**: [prompts/genres/](prompts/genres/)
+- **按场景**: [prompts/use_cases/](prompts/use_cases/)
 
 ---
 
