@@ -40,9 +40,16 @@ def fetch_reddit_posts(subreddit: str, limit: int = 20, min_upvotes: int = 50) -
                     'created_utc': post['created_utc']
                 })
         
+        print(f"  r/{subreddit}: 找到 {len(posts)} 条符合条件的帖子")
         return posts
+    except urllib.error.HTTPError as e:
+        print(f"  r/{subreddit} HTTP错误: {e.code} {e.reason}")
+        return []
+    except urllib.error.URLError as e:
+        print(f"  r/{subreddit} URL错误: {e.reason}")
+        return []
     except Exception as e:
-        print(f"获取 r/{subreddit} 失败: {e}")
+        print(f"  r/{subreddit} 获取失败: {e}")
         return []
 
 
@@ -115,17 +122,35 @@ def main():
     min_upvotes = int(os.getenv("MIN_UPVOTES", "50"))
     target_count = int(os.getenv("TARGET_COUNT", "7"))
     
+    print(f"\n配置: min_upvotes={min_upvotes}, target_count={target_count}")
+    print(f"目标子版块: {', '.join(subreddits)}\n")
+    
     all_posts = []
     for subreddit in subreddits:
-        print(f"\n获取 r/{subreddit}...")
+        print(f"获取 r/{subreddit}...")
         posts = fetch_reddit_posts(subreddit, limit=30, min_upvotes=min_upvotes)
-        print(f"  找到 {len(posts)} 条符合条件的帖子")
         all_posts.extend(posts)
+    
+    print(f"\n总计找到 {len(all_posts)} 条符合条件的帖子")
+    
+    if not all_posts:
+        print("\n⚠️ 没有找到符合条件的帖子，尝试降低点赞阈值...")
+        min_upvotes = 10
+        for subreddit in subreddits:
+            print(f"重试 r/{subreddit} (min_upvotes={min_upvotes})...")
+            posts = fetch_reddit_posts(subreddit, limit=30, min_upvotes=min_upvotes)
+            all_posts.extend(posts)
+        
+        print(f"\n降低阈值后找到 {len(all_posts)} 条帖子")
     
     top_prompts = select_top_prompts(all_posts, count=target_count)
     
     if not top_prompts:
-        print("\n没有找到符合条件的帖子")
+        print("\n❌ 没有找到任何可用的帖子")
+        print("可能原因:")
+        print("  1. Reddit API 访问受限")
+        print("  2. 子版块没有足够热度的帖子")
+        print("  3. 网络连接问题")
         return
     
     print(f"\n选中 {len(top_prompts)} 条最高赞内容:")
@@ -143,15 +168,7 @@ def main():
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(issue_content)
     
-    print(f"\n已生成待翻译文件: {output_file}")
-    
-    github_output = os.getenv("GITHUB_OUTPUT")
-    if github_output:
-        with open(github_output, 'a', encoding='utf-8') as f:
-            f.write(f"issue_title=📥 今日待翻译 Prompt ({today})\n")
-            issue_content_escaped = issue_content.replace('"', '\\"').replace('\n', '\\n')
-            f.write(f'issue_content<<EOF\n{issue_content}\nEOF\n')
-    
+    print(f"\n✅ 已生成待翻译文件: {output_file}")
     print("=" * 60)
 
 

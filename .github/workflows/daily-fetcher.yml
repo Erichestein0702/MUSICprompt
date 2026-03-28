@@ -27,42 +27,35 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Ensure pending directory exists
-        run: |
-          mkdir -p prompts/pending
-      
       - name: Fetch Reddit Posts
         id: fetch
         env:
           MIN_UPVOTES: 50
           TARGET_COUNT: 7
         run: |
-          python tools/reddit_fetcher.py
+          python tools/reddit_fetcher.py 2>&1 | tee fetch_output.txt
+          echo "fetch_exit_code=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
+      
+      - name: Check if file was created
+        id: check
+        run: |
+          if [ -f "prompts/pending/pending_$(date +%Y-%m-%d).md" ]; then
+            echo "file_exists=true" >> $GITHUB_OUTPUT
+            echo "file_path=prompts/pending/pending_$(date +%Y-%m-%d).md" >> $GITHUB_OUTPUT
+          else
+            echo "file_exists=false" >> $GITHUB_OUTPUT
+          fi
       
       - name: Create GitHub Issue
+        if: steps.check.outputs.file_exists == 'true'
         uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
             const today = new Date().toISOString().split('T')[0];
             
-            const pendingDir = 'prompts/pending';
-            if (!fs.existsSync(pendingDir)) {
-              core.setFailed('No pending directory found');
-              return;
-            }
-            
-            const files = fs.readdirSync(pendingDir)
-              .filter(f => f.startsWith('pending_') && f.endsWith('.md'))
-              .sort()
-              .reverse();
-            
-            if (files.length === 0) {
-              core.setFailed('No pending file found - Reddit fetch may have failed');
-              return;
-            }
-            
-            const content = fs.readFileSync(`${pendingDir}/${files[0]}`, 'utf8');
+            const filePath = 'prompts/pending/pending_' + today + '.md';
+            const content = fs.readFileSync(filePath, 'utf8');
             
             const issue = await github.rest.issues.create({
               owner: context.repo.owner,
@@ -74,3 +67,19 @@ jobs:
             });
             
             console.log(`Issue created: ${issue.data.html_url}`);
+      
+      - name: Create fallback Issue
+        if: steps.check.outputs.file_exists == 'false'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const today = new Date().toISOString().split('T')[0];
+            
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `⚠️ Reddit 爬取失败 (${today})`,
+              body: `## 问题说明\n\n今日 Reddit 爬取未能获取到符合条件的帖子。\n\n### 可能原因\n\n1. Reddit API 访问受限\n2. 子版块没有足够热度的帖子\n3. 网络连接问题\n\n### 建议\n\n- 检查 Actions 日志查看详细错误\n- 手动添加待翻译内容\n- 考虑调整 MIN_UPVOTES 阈值\n`,
+              labels: ['fetch-failed', 'automated'],
+              assignees: ['Erichestein0702']
+            });
