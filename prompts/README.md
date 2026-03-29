@@ -14,6 +14,12 @@
 
 ---
 
+## ⭐ 精选推荐
+
+👉 **[查看 Top 20 高分 Prompt](curated.md)**
+
+---
+
 ## 🎵 按流派浏览
 
 | 流派 | 数量 | 链接 |
@@ -35,14 +41,13 @@
 
 | 场景 | 链接 |
 |------|------|
-| 派对聚会 | [查看](use_cases/party.md) |
-| 学习专注 | [查看](use_cases/study.md) |
-| 游戏电竞 | [查看](use_cases/gaming.md) |
-| 影视配乐 | [查看](use_cases/cinematic.md) |
-| 冥想放松 | [查看](use_cases/meditation.md) |
-| 健身运动 | [查看](use_cases/workout.md) |
-| 睡眠休息 | [查看](use_cases/sleep.md) |
-| 通用场景 | [查看](use_cases/general.md) |
+| 🎉 派对聚会 | [查看](use_cases/party.md) |
+| 📚 学习专注 | [查看](use_cases/study.md) |
+| 🎮 游戏电竞 | [查看](use_cases/gaming.md) |
+| 🎬 影视配乐 | [查看](use_cases/cinematic.md) |
+| 🧘 冥想放松 | [查看](use_cases/meditation.md) |
+| 💪 健身运动 | [查看](use_cases/workout.md) |
+| 😴 睡眠休息 | [查看](use_cases/sleep.md) |
 
 ---
 
@@ -51,6 +56,38 @@
 使用本地检索工具进行高级搜索：
 
 ```bash
-python tools/search_prompts.py --query "关键词"
+# 全文搜索
+python tools/search_prompts.py --query "electronic"
+
+# 按流派筛选（最低评分8分）
 python tools/search_prompts.py --genre pop --min-score 8
+
+# 按场景筛选
+python tools/search_prompts.py --use-case party
+
+# 交互模式
+python tools/search_prompts.py --interactive
+```
+
+---
+
+## 📥 待翻译内容
+
+每日自动从 Reddit 爬取高赞内容，存放在 [pending/](pending/) 目录。
+
+---
+
+## 🏗️ 数据架构
+
+```
+SQLite 数据库 (data/musicprompts.db)
+    ├── 支持复杂查询（流派、场景、评分筛选）
+    ├── 支持全文搜索
+    └── 数据完整性约束
+         │
+         ▼ 同步
+GitHub Markdown (prompts/)
+    ├── 用户友好浏览
+    ├── 无需数据库即可查看
+    └── SEO 友好
 ```

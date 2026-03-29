@@ -215,23 +215,82 @@ Navigate to `data/final_output/csv/` for Excel-compatible format:
 ```
 MUSICprompt/
 ├── 📁 data/
-│   ├── 📁 final_output/          # Final output / 最终输出
-│   │   ├── ⭐ curated/            # Curated prompts / 精校合集
-│   │   ├── 🎵 genres/             # By genre / 按流派分类
-│   │   ├── 🎯 use_cases/          # By use case / 按场景分类
-│   │   └── 📊 csv/                # CSV exports / CSV导出
-│   ├── 📁 processed/              # Processed data / 处理后数据
-│   └── 📁 external/               # External sources / 外部数据源
+│   ├── 🗄️ musicprompts.db         # SQLite database / SQLite数据库
+│   ├── 📁 final_output/           # Final output / 最终输出
+│   │   ├── ⭐ curated/             # Curated prompts / 精校合集
+│   │   ├── 🎵 genres/              # By genre / 按流派分类
+│   │   ├── 🎯 use_cases/           # By use case / 按场景分类
+│   │   └── 📊 csv/                 # CSV exports / CSV导出
+│   ├── 📁 processed/               # Processed data / 处理后数据
+│   └── 📁 external/                # External sources / 外部数据源
+├── 📁 prompts/                     # User-facing Markdown / 用户可见的MD文件
+│   ├── 📄 README.md                # Index page / 索引页
+│   ├── 📁 genres/                  # By genre / 按流派
+│   ├── 📁 use_cases/               # By use case / 按场景
+│   └── 📄 curated.md               # Top rated / 精选
+├── 📁 src/db/
+│   └── 🗄️ models.py                # Database models / 数据库模型
 ├── 📁 tools/
-│   ├── 🔧 prompt_extractor.py     # Extract prompts / 提取器
-│   ├── 🌐 prompt_translator.py    # AI translator / AI翻译器
-│   ├── ✨ prompt_refiner.py       # Refine prompts / 精校器
-│   ├── 📊 output_formatter.py     # Format output / 格式化器
-│   └── 🚀 publish_update.py       # Auto publish / 自动发布
-├── 📄 README.md                   # This file / 本文件
-├── 📄 CONTRIBUTING.md             # Contribution guide / 贡献指南
-├── 📄 LICENSE                     # MIT License / MIT许可证
-└── 📄 ARCHITECTURE.md             # Architecture doc / 架构文档
+│   ├── 🔧 import_to_db.py          # Import JSON to SQLite / 导入数据库
+│   ├── 🔄 sync_to_markdown.py      # Sync DB to Markdown / 同步MD
+│   ├── 🔍 search_prompts.py        # Search tool / 检索工具
+│   ├── 🌐 prompt_translator.py     # AI translator / AI翻译器
+│   └── ✨ output_formatter.py      # Format output / 格式化器
+├── 📁 .github/workflows/
+│   └── ⚡ daily-fetcher.yml        # Auto Reddit fetcher / 自动爬取
+├── 📄 README.md                    # This file / 本文件
+├── 📄 CONTRIBUTING.md              # Contribution guide / 贡献指南
+└── 📄 LICENSE                      # MIT License / MIT许可证
+```
+
+---
+
+## 🏗️ Architecture / 架构说明
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                     数据架构                                 │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│   ┌─────────────┐      同步       ┌─────────────────────┐  │
+│   │  SQLite     │  ───────────▶  │  GitHub Markdown    │  │
+│   │  数据库     │                 │  (用户可见)         │  │
+│   └─────────────┘                 └─────────────────────┘  │
+│         │                                                   │
+│         │ 查询                                              │
+│         ▼                                                   │
+│   ┌─────────────┐                                           │
+│   │  本地工具   │  支持复杂检索、统计分析                   │
+│   │  (Python)   │                                           │
+│   └─────────────┘                                           │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### 数据库表结构
+
+| 表名 | 说明 |
+|------|------|
+| `prompts` | 主表：存储所有 Prompt 数据 |
+| `genres` | 流派标签 |
+| `instruments` | 乐器标签 |
+| `use_cases` | 使用场景 |
+| `moods` | 情绪关键词 |
+
+### 检索能力
+
+```bash
+# 全文搜索
+python tools/search_prompts.py --query "electronic"
+
+# 按流派筛选
+python tools/search_prompts.py --genre pop --min-score 8
+
+# 按场景筛选
+python tools/search_prompts.py --use-case party
+
+# 交互模式
+python tools/search_prompts.py --interactive
 ```
 
 ---
