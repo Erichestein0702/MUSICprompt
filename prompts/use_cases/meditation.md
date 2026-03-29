@@ -1,46 +1,12 @@
-# 冥想放松 音乐提示词集
+# 冥想放松 音乐提示词
 
-> 共收录 6 条适合冥想放松场景的高质量提示词
-
-## 推荐提示词
-
-### 提示词 #1
-
-**质量评分**: 8.0/10
-
-**平台**: udio
-
-**技术参数**:
-- 乐器: piano, bass, synth
-
-**流派**: r&b, soul
-
-**适用场景**: cinematic, meditation
-
-#### 英文提示词
-```
-R&B, Quiet Storm, Soul, 1980s, soft piano melodies, gentle synth pads, smooth vocals, male vocalist, subtle harmonies, heartfelt lyrics, romantic, intimate, slow tempo, tender, emotional, soothing, ballad, minimalistic production, warm bassline, delicate percussion, lush reverb, tender emotions, mellow, serene, love ballad, sentimental, cozy, soft instrumentation, nostalgic, atmospheric, gentle rhythm, relaxing, polished production, acoustic warmth, soulful expression, timeless, heartfelt storytelling, intimate atmosphere, calming, introspective, smooth transitions, warm tones, cinematic feel, dolby atmos, wall of sound, passionate
-```
-
-#### 中文翻译
-```
-R&B, Quiet Storm, Soul, 1980s, 柔和的钢琴旋律, 温柔的合成器垫音, 丝滑的人声, 男歌手, 细腻的和声, 感人的歌词, 浪漫, 亲密, 缓慢的节奏, 温柔, 情感丰富, 安抚人心, 抒情曲, 极简制作, 温暖的贝斯线, 精致的打击乐, 丰富的混响, 温柔的情感, 柔和, 宁静, 爱的抒情曲, 感伤, 舒适, 柔和的编配, 怀旧, 氛围感, 温柔的节奏, 放松, 精致的制作, 原声温暖, 有灵魂的表达, 经典, 感人的故事, 亲密的氛围, 安静, 内省, 丝滑的过渡, 温暖的音色, 电影感, dolby atmos, wall of sound, 热情
-```
+> 共收录 6 条适合冥想放松场景的提示词
 
 ---
 
-### 提示词 #2
+### 1. Until the Sun Rises
 
-**质量评分**: 8.0/10
-
-**平台**: udio
-
-**技术参数**:
-- 乐器: guitar, synth
-
-**流派**: edm, punk, house
-
-**适用场景**: meditation
+**评分**: 8.0/10
 
 #### 英文提示词
 ```
@@ -54,18 +20,41 @@ a downtempo punk inspired song with 94bpm F, a key changge, some edm house low e
 
 ---
 
-### 提示词 #3
+### 2. Gentle Heart
 
-**质量评分**: 7.17/10
+**评分**: 8.0/10
 
-**平台**: udio
+#### 英文提示词
+```
+R&B, Quiet Storm, Soul, 1980s, soft piano melodies, gentle synth pads, smooth vocals, male vocalist, subtle harmonies, heartfelt lyrics, romantic, intimate, slow tempo, tender, emotional, soothing, ballad, minimalistic production, warm bassline, delicate percussion, lush reverb, tender emotions, mellow, serene, love ballad, sentimental, cozy, soft instrumentation, nostalgic, atmospheric, gentle rhythm, relaxing, polished production, acoustic warmth, soulful expression, timeless, heartfelt storytelling, intimate atmosphere, calming, introspective, smooth transitions, warm tones, cinematic feel, dolby atmos, wall of sound, passionate
+```
 
-**技术参数**:
-- 乐器: bass, synth, flute
+#### 中文翻译
+```
+R&B, Quiet Storm, Soul, 1980s, 柔和的钢琴旋律, 温柔的合成器垫音, 丝滑的人声, 男歌手, 细腻的和声, 感人的歌词, 浪漫, 亲密, 缓慢的节奏, 温柔, 情感丰富, 安抚人心, 抒情曲, 极简制作, 温暖的贝斯线, 精致的打击乐, 丰富的混响, 温柔的情感, 柔和, 宁静, 爱的抒情曲, 感伤, 舒适, 柔和的编配, 怀旧, 氛围感, 温柔的节奏, 放松, 精致的制作, 原声温暖, 有灵魂的表达, 经典, 感人的故事, 亲密的氛围, 安静, 内省, 丝滑的过渡, 温暖的音色, 电影感, dolby atmos, wall of sound, 热情
+```
 
-**流派**: rap, ambient, trap
+---
 
-**适用场景**: study, meditation
+### 3. Lost in Time
+
+**评分**: 7.17/10
+
+#### 英文提示词
+```
+Create a moody scene with soft piano at the center, ambient synths, light electronic drums, and a deep bassline. Capture a reflective, calm atmosphere with minimalism and emotional depth.
+```
+
+#### 中文翻译
+```
+创建一个以柔和的钢琴为中心的忧郁场景，加入环境合成器 (ambient synths)、轻电子鼓 (light electronic drums) 和深沉的贝斯线 (deep bassline)。捕捉一种沉思、平静的氛围，通过极简主义和情感深度来表达。
+```
+
+---
+
+### 4. Celestialistic  
+
+**评分**: 7.17/10
 
 #### 英文提示词
 ```
@@ -81,18 +70,9 @@ Robotic choir beautiful singing female vocals, 星际, 放松, 深沉的 synth l
 
 ---
 
-### 提示词 #4
+### 5. Can You Feel It?
 
-**质量评分**: 7.17/10
-
-**平台**: udio
-
-**技术参数**:
-- 乐器: guitar, piano, bass
-
-**流派**: r&b, soul, funk
-
-**适用场景**: meditation, party
+**评分**: 7.17/10
 
 #### 英文提示词
 ```
@@ -106,43 +86,9 @@ Funk, Disco, R&B, Soul, 1970s, 顺滑的贝斯线条, 错落有致的节奏, 以
 
 ---
 
-### 提示词 #5
+### 6. I Remember
 
-**质量评分**: 7.17/10
-
-**平台**: suno
-
-**技术参数**:
-- 乐器: piano, drums, bass, synth
-
-**流派**: electronic, ambient
-
-**适用场景**: study, meditation
-
-#### 英文提示词
-```
-Create a moody scene with soft piano at the center, ambient synths, light electronic drums, and a deep bassline. Capture a reflective, calm atmosphere with minimalism and emotional depth.
-```
-
-#### 中文翻译
-```
-创建一个以柔和的钢琴为中心的忧郁场景，加入环境合成器 (ambient synths)、轻电子鼓 (light electronic drums) 和深沉的贝斯线 (deep bassline)。捕捉一种沉思、平静的氛围，通过极简主义和情感深度来表达。
-```
-
----
-
-### 提示词 #6
-
-**质量评分**: 7.0/10
-
-**平台**: udio
-
-**技术参数**:
-- 乐器: synth
-
-**流派**: pop, electronic
-
-**适用场景**: meditation, sleep
+**评分**: 7.0/10
 
 #### 英文提示词
 ```

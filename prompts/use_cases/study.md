@@ -1,21 +1,12 @@
-# 学习专注 音乐提示词集
+# 学习专注 音乐提示词
 
-> 共收录 35 条适合学习专注场景的高质量提示词
+> 共收录 35 条适合学习专注场景的提示词
 
-## 推荐提示词
+---
 
-### 提示词 #1
+### 1. Shadows to Light
 
-**质量评分**: 8.17/10
-
-**平台**: udio
-
-**技术参数**:
-- 乐器: guitar
-
-**流派**: rock, ambient
-
-**适用场景**: study
+**评分**: 8.17/10
 
 #### 英文提示词
 ```
@@ -47,18 +38,9 @@ Hope and Resilience: There is a strong theme of hope and resilience throughout t
 
 ---
 
-### 提示词 #2
+### 2. Pinguin Dive [FusionBass]
 
-**质量评分**: 8.17/10
-
-**平台**: udio
-
-**技术参数**:
-- 乐器: guitar, drums, bass
-
-**流派**: rock, jazz, ambient
-
-**适用场景**: study
+**评分**: 8.17/10
 
 #### 英文提示词
 ```
@@ -72,18 +54,25 @@ wonky, 爵士摇滚融合 (Jazz Rock Fusion), 未来贝斯 (Future Bass), 快节
 
 ---
 
-### 提示词 #3
+### 3. The Scar
 
-**质量评分**: 8.0/10
+**评分**: 8.0/10
 
-**平台**: udio
+#### 英文提示词
+```
+Djent, ambient, delay, reverb, genre singing, clean vocals, thall, industrial, building, industrial metal, electro-industrial, drums (drum set), synthesizer, electronic drums, percussion, bass, 
+```
 
-**技术参数**:
-- 乐器: bass, synth
+#### 中文翻译
+```
+Djent, 环境音乐 (ambient), 延迟 (delay), 混响 (reverb), 人声演唱 (genre singing), 清澈人声 (clean vocals), Thall, 工业 (industrial), 前奏 (building), 工业金属 (industrial metal), 电子工业 (electro-industrial), 鼓组 (drum set), 合成器 (synthesizer), 电子鼓 (electronic drums), 打击乐 (percussion), 贝斯 (bass)
+```
 
-**流派**: pop, edm, folk
+---
 
-**适用场景**: study, party
+### 4. Chase The Sunlight 
+
+**评分**: 8.0/10
 
 #### 英文提示词
 ```
@@ -97,18 +86,9 @@ A song about carefree summer day with friends: Melodic house, uplifting, folk-in
 
 ---
 
-### 提示词 #4
+### 5. I'll Be There For You
 
-**质量评分**: 8.0/10
-
-**平台**: udio
-
-**技术参数**:
-- 乐器: bass, synth
-
-**流派**: pop, electronic, indie
-
-**适用场景**: study, sleep
+**评分**: 8.0/10
 
 #### 英文提示词
 ```
@@ -122,70 +102,9 @@ chillwave, 电子, future bass, 独立流行 (indie pop), 慢节奏 (downtempo),
 
 ---
 
-### 提示词 #5
+### 6. Moments We Chase
 
-**质量评分**: 8.0/10
-
-**平台**: udio
-
-**技术参数**:
-- 乐器: bass, synth
-
-**流派**: soul, funk, ambient
-
-**适用场景**: study
-
-#### 英文提示词
-```
-Vocalists Falsetto(Sultry~ Female), Hard Style~ Psytrance-Talkbox~ ambient house~ Upbeat-Dark-Synthwave~ dark synthwave~ Deep-Soul. Contemporary Rnb~  Funky Synthwave~  Electro Bass~  house disco~  Down-Tempo~,
-a song about painful break up
-
-```
-
-#### 中文翻译
-```
-主唱 Falsetto (Sultry~ Female), Hard Style~ Psytrance-Talkbox~ 氛围浩室 (ambient house)~ 欢快-黑暗-合成器浪潮 (Upbeat-Dark-Synthwave)~ 黑暗合成器浪潮 (dark synthwave)~ 深沉灵魂 (Deep-Soul)。当代节奏布鲁斯 (Contemporary Rnb)~ 摇摆合成器浪潮 (Funky Synthwave)~ 电子贝斯 (Electro Bass)~ 迪斯科浩室 (house disco)~ 低速 (Down-Tempo)~
-```
-
----
-
-### 提示词 #6
-
-**质量评分**: 8.0/10
-
-**平台**: udio
-
-**技术参数**:
-- 乐器: guitar, drums, bass, synth, keyboard
-
-**流派**: rock, indie, ambient
-
-**适用场景**: study
-
-#### 英文提示词
-```
-alternative rock, trip hop, indie rock, female vocalist, electric guitar, electric bass guitar, drums (drum set), synthesizer rock, keyboard, ambient, american vocals, melodic, rhythmic
-```
-
-#### 中文翻译
-```
-另类摇滚 (alternative rock)，迷幻嘻哈 (trip hop)，独立摇滚 (indie rock)，女声主唱 (female vocalist)，电吉他 (electric guitar)，电贝斯 (electric bass guitar)，鼓组 (drums)，合成器摇滚 (synthesizer rock)，键盘 (keyboard)，氛围 (ambient)，美国唱腔 (american vocals)，旋律性 (melodic)，节奏感 (rhythmic)
-```
-
----
-
-### 提示词 #7
-
-**质量评分**: 8.0/10
-
-**平台**: udio
-
-**技术参数**:
-- 乐器: bass, synth
-
-**流派**: pop, electronic
-
-**适用场景**: study, party
+**评分**: 8.0/10
 
 #### 英文提示词
 ```
@@ -199,18 +118,9 @@ Produce a lively and upbeat pop track with catchy melodies, infectious rhythms, 
 
 ---
 
-### 提示词 #8
+### 7. Neon Heartbreak 
 
-**质量评分**: 8.0/10
-
-**平台**: udio
-
-**技术参数**:
-- 乐器: bass, synth
-
-**流派**: pop, rap, electronic
-
-**适用场景**: study, cinematic, party
+**评分**: 8.0/10
 
 #### 英文提示词
 ```
@@ -224,18 +134,9 @@ lyrics about Digital Heartbreak in a Neon World, remark/catchy, catchy, Female v
 
 ---
 
-### 提示词 #9
+### 8. Through the Looking Glass
 
-**质量评分**: 8.0/10
-
-**平台**: udio
-
-**技术参数**:
-- 乐器: bass, synth
-
-**流派**: pop, electronic, ambient
-
-**适用场景**: study, party, sleep
+**评分**: 8.0/10
 
 #### 英文提示词
 ```
@@ -251,18 +152,9 @@ Airy breathy dreamy sexy female vocals, pop, electronic, dance, deconstructed cl
 
 ---
 
-### 提示词 #10
+### 9. Electric Vibes ext v1.2.1
 
-**质量评分**: 8.0/10
-
-**平台**: udio
-
-**技术参数**:
-- 乐器: bass, synth
-
-**流派**: pop, lo-fi
-
-**适用场景**: study
+**评分**: 8.0/10
 
 #### 英文提示词
 ```
@@ -276,18 +168,9 @@ an Rnb  smooth male voice with ad-lips to chorus,lo-fi kick bass , synthpop,
 
 ---
 
-### 提示词 #11
+### 10. Neon Paths Diverge
 
-**质量评分**: 8.0/10
-
-**平台**: udio
-
-**技术参数**:
-- 乐器: bass, synth
-
-**流派**: pop, electronic
-
-**适用场景**: study, party
+**评分**: 8.0/10
 
 #### 英文提示词
 ```
@@ -301,43 +184,43 @@ a classic example of the Hi-NRG music style, which was popular in the early to m
 
 ---
 
-### 提示词 #12
+### 11. Global Paralysis
 
-**质量评分**: 8.0/10
-
-**平台**: udio
-
-**技术参数**:
-- 乐器: drums, bass, synth
-
-**流派**: electronic, metal, ambient
-
-**适用场景**: study
+**评分**: 8.0/10
 
 #### 英文提示词
 ```
-Djent, ambient, delay, reverb, genre singing, clean vocals, thall, industrial, building, industrial metal, electro-industrial, drums (drum set), synthesizer, electronic drums, percussion, bass, 
+alternative rock, trip hop, indie rock, female vocalist, electric guitar, electric bass guitar, drums (drum set), synthesizer rock, keyboard, ambient, american vocals, melodic, rhythmic
 ```
 
 #### 中文翻译
 ```
-Djent, 环境音乐 (ambient), 延迟 (delay), 混响 (reverb), 人声演唱 (genre singing), 清澈人声 (clean vocals), Thall, 工业 (industrial), 前奏 (building), 工业金属 (industrial metal), 电子工业 (electro-industrial), 鼓组 (drum set), 合成器 (synthesizer), 电子鼓 (electronic drums), 打击乐 (percussion), 贝斯 (bass)
+另类摇滚 (alternative rock)，迷幻嘻哈 (trip hop)，独立摇滚 (indie rock)，女声主唱 (female vocalist)，电吉他 (electric guitar)，电贝斯 (electric bass guitar)，鼓组 (drums)，合成器摇滚 (synthesizer rock)，键盘 (keyboard)，氛围 (ambient)，美国唱腔 (american vocals)，旋律性 (melodic)，节奏感 (rhythmic)
 ```
 
 ---
 
-### 提示词 #13
+### 12. Hurtin' Breakin'
 
-**质量评分**: 7.9/10
+**评分**: 8.0/10
 
-**平台**: udio
+#### 英文提示词
+```
+Vocalists Falsetto(Sultry~ Female), Hard Style~ Psytrance-Talkbox~ ambient house~ Upbeat-Dark-Synthwave~ dark synthwave~ Deep-Soul. Contemporary Rnb~  Funky Synthwave~  Electro Bass~  house disco~  Down-Tempo~,
+a song about painful break up
 
-**技术参数**:
-- 乐器: bass, synth
+```
 
-**流派**: rock, pop, electronic
+#### 中文翻译
+```
+主唱 Falsetto (Sultry~ Female), Hard Style~ Psytrance-Talkbox~ 氛围浩室 (ambient house)~ 欢快-黑暗-合成器浪潮 (Upbeat-Dark-Synthwave)~ 黑暗合成器浪潮 (dark synthwave)~ 深沉灵魂 (Deep-Soul)。当代节奏布鲁斯 (Contemporary Rnb)~ 摇摆合成器浪潮 (Funky Synthwave)~ 电子贝斯 (Electro Bass)~ 迪斯科浩室 (house disco)~ 低速 (Down-Tempo)~
+```
 
-**适用场景**: study, party, sleep
+---
+
+### 13. Delicate Art
+
+**评分**: 7.9/10
 
 #### 英文提示词
 ```
@@ -351,18 +234,9 @@ Djent, 环境音乐 (ambient), 延迟 (delay), 混响 (reverb), 人声演唱 (ge
 
 ---
 
-### 提示词 #14
+### 14. AI waifu Plug-in [hybridtrance]
 
-**质量评分**: 7.33/10
-
-**平台**: udio
-
-**技术参数**:
-- 乐器: guitar, synth
-
-**流派**: rock, edm, funk
-
-**适用场景**: study
+**评分**: 7.33/10
 
 #### 英文提示词
 ```
@@ -376,27 +250,100 @@ Synth Rock, edm, dark electro, Synth Rock Lead, goa psytrance & liquid funk, 女
 
 ---
 
-### 提示词 #15
+### 15. Echoes 2049
 
-**质量评分**: 7.17/10
-
-**平台**: udio
-
-**技术参数**:
-- 乐器: guitar, bass
-
-**流派**: rock, soul, ambient
-
-**适用场景**: study
+**评分**: 7.17/10
 
 #### 英文提示词
 ```
-alternative rock, moody, grunge, heavy rock, hard rock, electric guitar, drum and bass, tom-tom, male vocalist, raw, angry, misanthropic, emotional, passionate, close harmony, male vocalist, smooth, mood/hauntingly-beautiful, blue-eyed soul, close harmony, vocal-chorus, vocal trance, rhythmic, melodic, dark, catchy, midtempo, ethereal, atmospheric, desert ambient, riffs, solo instrumental, disturbing, theme, depressive,melancholic, nocturnal, heavy, 
+ambient techno, techno-industrial, progressive metal, echo, film soundtrack, electronic, low bass, horror synth, thriller, trance metal, disturbing, 1980s 
 ```
 
 #### 中文翻译
 ```
-另类摇滚 (alternative rock)，忧郁的 (moody)，垃圾摇滚 (grunge)，重型摇滚 (heavy rock)，硬摇滚 (hard rock)，电吉他 (electric guitar)，鼓和贝斯 (drum and bass)，通通鼓 (tom-tom)，男声主唱 (male vocalist)，原始 (raw)，愤怒 (angry)，厌世 (misanthropic)，情感 (emotional)，激情 (passionate)，紧密和声 (close harmony)，男声主唱 (male vocalist)，平滑 (smooth)，情绪/幽美动人 (mood/hauntingly-beautiful)，蓝眼灵魂乐 (blue-eyed soul)，紧密和声 (close harmony)，人声合唱 (vocal-chorus)，迷幻人声 (vocal trance)，节奏感强 (rhythmic)，旋律优美 (melodic)，黑暗 (dark)，上口 (catchy)，中速 (midtempo)，空灵 (ethereal)，氛围 (atmospheric)，沙漠氛围 (desert ambient)，吉他段落 (riffs)，独奏乐器 (solo instrumental)，令人不安 (disturbing)，主题 (theme)，抑郁 (depressive)，忧伤 (melancholic)，夜曲 (nocturnal)，重型 (heavy)
+环境科技音乐 (ambient techno)，科技工业音乐 (techno-industrial)，前卫金属 (progressive metal)，回声 (echo)，电影原声 (film soundtrack)，电子音乐 (electronic)，低音贝斯 (low bass)，恐怖合成器 (horror synth)，惊悚 (thriller)，迷幻金属 (trance metal)，令人不安 (disturbing)，1980年代 (1980s)
+```
+
+---
+
+### 16. Lost in Time
+
+**评分**: 7.17/10
+
+#### 英文提示词
+```
+Create a moody scene with soft piano at the center, ambient synths, light electronic drums, and a deep bassline. Capture a reflective, calm atmosphere with minimalism and emotional depth.
+```
+
+#### 中文翻译
+```
+创建一个以柔和的钢琴为中心的忧郁场景，加入环境合成器 (ambient synths)、轻电子鼓 (light electronic drums) 和深沉的贝斯线 (deep bassline)。捕捉一种沉思、平静的氛围，通过极简主义和情感深度来表达。
+```
+
+---
+
+### 17. Bloodthirst - AWA
+
+**评分**: 7.17/10
+
+#### 英文提示词
+```
+witch house, dark ambient, trap, Dark menacing beat with a growling, angry bass line, Slow, low tempo, threatening, fierce, darkness and fire, distorted guitar, female vocalist, seductive, nightmare, sexual energy
+```
+
+#### 中文翻译
+```
+witch house, dark ambient, trap, [副歌] 黑暗且威胁的节拍，带有咆哮的、愤怒的贝斯线，[间奏] 缓慢、低速，充满威胁、凶猛、黑暗与火焰，[主歌] 失真的吉他，女性歌手，诱惑，噩梦，性能量
+```
+
+---
+
+### 18. Celestialistic  
+
+**评分**: 7.17/10
+
+#### 英文提示词
+```
+Robotic choir beautiful singing female vocals Interstellar, relaxed, deep synth lead, bass deep, future bass, native flute, experimental trap, ambient, spacey, futuristic, cool, smooth, hypnotic, 
+
+
+```
+
+#### 中文翻译
+```
+Robotic choir beautiful singing female vocals, 星际, 放松, 深沉的 synth lead, 深沉的 bass, future bass, 原住民长笛, 实验性 trap, 环境音乐, 空灵, 未来感, 凉爽, 顺滑, 催眠
+```
+
+---
+
+### 19. Absent and Voiceless
+
+**评分**: 7.17/10
+
+#### 英文提示词
+```
+dark pop, dark funk, eerie synths, haunting vocals, moody beats, smooth voice, male vocalist, funky basslines, syncopated rhythms, ambient textures, mysterious, brooding guitar, cinematic production, punchy drums, catchy melodies, retro funk, groove rhythms, modern effects, melancholic, energetic, introspective, 
+```
+
+#### 中文翻译
+```
+dark pop, dark funk, eerie synths, haunting vocals, moody beats, smooth voice, male vocalist, funky basslines, syncopated rhythms, ambient textures, mysterious, brooding guitar, cinematic production, punchy drums, catchy melodies, retro funk, groove rhythms, modern effects, melancholic, energetic, introspective
+```
+
+---
+
+### 20. Syncing with Passion feat.Hatsunemiku List: udio.com/playlists/shuCpgkm6wxAAsu3Yj2K72
+
+**评分**: 7.17/10
+
+#### 英文提示词
+```
+Japanese, Electronic music, Vocaloid: Hatsune Miku, Synthesized female vocals, Futuristic, High-energy, Fast-paced, Lively, Dynamic. Genres: Future Bass, EDM, J-Pop. Features digital vocals with distinct Vocaloid effects, Vibrato, High-pitched notes, Strong synthesized sound, Catchy hooks, and Upbeat melodies. Incorporates complex electronic rhythms, Heavy basslines, and Multilayered synths.   Ideal for anime or Vocaloid-themed events, with a focus on energetic dance beats and vibrant soundscapes. Creates a futuristic atmosphere with a high level of engagement and interaction.
+```
+
+#### 中文翻译
+```
+日语, Electronic music, Vocaloid: Hatsune Miku, Synthesized female vocals, 未来感, 高能量, 快节奏, 活泼, 动感. 流派: 未来贝斯 (Future Bass), 电子舞曲 (EDM), 日本流行音乐 (J-Pop). 特点包括具有独特Vocaloid效果的数字人声，颤音，高音，强烈的合成音色，朗朗上口的hook，以及明快的旋律。融合了复杂的电子节奏，厚重的贝斯线，和多层次的合成器。非常适合动漫或Vocaloid主题的活动，重点在于充满活力的舞曲节拍和丰富多彩的音景。营造出未来感的氛围，具有高度的参与性和互动性。
 ```
 
 ---

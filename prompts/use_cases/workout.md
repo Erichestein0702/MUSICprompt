@@ -1,21 +1,12 @@
-# 健身运动 音乐提示词集
+# 健身运动 音乐提示词
 
-> 共收录 2 条适合健身运动场景的高质量提示词
+> 共收录 2 条适合健身运动场景的提示词
 
-## 推荐提示词
+---
 
-### 提示词 #1
+### 1. Seize the Digital Day ext v2
 
-**质量评分**: 7.17/10
-
-**平台**: udio
-
-**技术参数**:
-- 乐器: bass, synth
-
-**流派**: rap, funk
-
-**适用场景**: workout, party
+**评分**: 7.17/10
 
 #### 英文提示词
 ```
@@ -29,18 +20,9 @@ nergetic, Upbeat, Party, Fast-paced, Synthesizers, Drum machine, 90s club anthem
 
 ---
 
-### 提示词 #2
+### 2. Push Together
 
-**质量评分**: 7.0/10
-
-**平台**: suno
-
-**技术参数**:
-- 乐器: bass, synth
-
-**流派**: edm
-
-**适用场景**: workout
+**评分**: 7.0/10
 
 #### 英文提示词
 ```
