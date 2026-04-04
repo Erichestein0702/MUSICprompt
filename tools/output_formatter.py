@@ -5,27 +5,28 @@ AI音乐提示词输出格式化工具
 """
 
 import json
+from collections import defaultdict
 from pathlib import Path
 from typing import List, Dict, Any
-from collections import defaultdict
 import sys
 
-# 添加项目根目录到路径
 sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from src.constants import USE_CASE_NAMES
 
 
 class OutputFormatter:
     """输出格式化器"""
     
-    def __init__(self, data_dir: Path):
-        self.data_dir = data_dir
-        self.output_base = data_dir / "final_output"
+    def __init__(self, data_dir: Path = None):
+        from src.config import config as app_config
+        self.data_dir = data_dir or app_config.data_dir
+        self.output_base = self.data_dir / "final_output"
         
     def load_translated_prompts(self) -> List[Dict]:
         """加载翻译后的提示词"""
         file_path = self.data_dir / "processed" / "extracted" / "translated_prompts.json"
         if not file_path.exists():
-            # 尝试加载未翻译的版本
             file_path = self.data_dir / "processed" / "extracted" / "extracted_prompts.json"
         
         if file_path.exists():
@@ -40,7 +41,6 @@ class OutputFormatter:
         for prompt in prompts:
             genres = prompt.get('genre', [])
             if genres:
-                # 使用第一个流派作为主分类
                 primary_genre = genres[0]
                 genre_groups[primary_genre].append(prompt)
             else:
@@ -68,21 +68,18 @@ class OutputFormatter:
         genres_dir.mkdir(parents=True, exist_ok=True)
         
         for genre, prompts in genre_groups.items():
-            # 按质量分数排序
             sorted_prompts = sorted(
                 prompts,
                 key=lambda x: x.get('quality_score', 0),
                 reverse=True
             )
             
-            # 生成Markdown文档
             md_content = self._generate_genre_markdown(genre, sorted_prompts)
             
             md_file = genres_dir / f"{genre}.md"
             with open(md_file, 'w', encoding='utf-8') as f:
                 f.write(md_content)
             
-            # 同时保存JSON
             json_file = genres_dir / f"{genre}.json"
             with open(json_file, 'w', encoding='utf-8') as f:
                 json.dump(sorted_prompts, f, ensure_ascii=False, indent=2)
@@ -91,8 +88,11 @@ class OutputFormatter:
     
     def _generate_genre_markdown(self, genre: str, prompts: List[Dict]) -> str:
         """生成流派Markdown文档"""
+        from src.constants import GENRE_ICONS
+        icon = GENRE_ICONS.get(genre, "\U0001f3b5")
+        
         lines = [
-            f"# {genre.upper()} 音乐提示词集",
+            f"# {icon} {genre.upper()} 音乐提示词集",
             "",
             f"> 共收录 {len(prompts)} 条高质量提示词",
             "",
@@ -100,8 +100,7 @@ class OutputFormatter:
             "",
         ]
         
-        # 添加目录
-        for i, prompt in enumerate(prompts[:20], 1):  # 只显示前20条在目录
+        for i, prompt in enumerate(prompts[:20], 1):
             title = prompt.get('title', f'提示词 #{i}')
             score = prompt.get('quality_score', 0)
             lines.append(f"{i}. [{title}](#prompt-{i}) - 质量分: {score}")
@@ -111,7 +110,6 @@ class OutputFormatter:
         
         lines.extend(["", "---", ""])
         
-        # 添加详细内容
         for i, prompt in enumerate(prompts, 1):
             lines.extend(self._format_prompt_section(prompt, i))
         
@@ -128,7 +126,6 @@ class OutputFormatter:
             "",
         ]
         
-        # 技术参数
         bpm = prompt.get('bpm')
         key = prompt.get('key')
         instruments = prompt.get('instruments', [])
@@ -143,19 +140,16 @@ class OutputFormatter:
                 lines.append(f"- 乐器: {', '.join(instruments)}")
             lines.append("")
         
-        # 流派标签
         genres = prompt.get('genre', [])
         if genres:
             lines.append(f"**流派**: {', '.join(genres)}")
             lines.append("")
         
-        # 使用场景
         use_cases = prompt.get('use_cases', [])
         if use_cases:
             lines.append(f"**适用场景**: {', '.join(use_cases)}")
             lines.append("")
         
-        # 英文原文
         lines.extend([
             "#### 英文提示词",
             "```",
@@ -164,7 +158,6 @@ class OutputFormatter:
             "",
         ])
         
-        # 中文翻译
         prompt_zh = prompt.get('prompt_zh', '')
         if prompt_zh and prompt_zh != prompt.get('prompt_text', ''):
             lines.extend([
@@ -196,22 +189,11 @@ class OutputFormatter:
             with open(md_file, 'w', encoding='utf-8') as f:
                 f.write(md_content)
             
-            print(f"  生成场景: {use_case} ({len(prompts)} 条)")
+            print(f"  场景: {use_case} ({len(prompts)} 条)")
     
     def _generate_use_case_markdown(self, use_case: str, prompts: List[Dict]) -> str:
         """生成使用场景Markdown文档"""
-        use_case_names = {
-            'workout': '健身运动',
-            'study': '学习专注',
-            'gaming': '游戏电竞',
-            'cinematic': '影视配乐',
-            'meditation': '冥想放松',
-            'party': '派对聚会',
-            'sleep': '睡眠休息',
-            'general': '通用场景'
-        }
-        
-        cn_name = use_case_names.get(use_case, use_case)
+        cn_name = USE_CASE_NAMES.get(use_case, use_case)
         
         lines = [
             f"# {cn_name} 音乐提示词集",
@@ -222,7 +204,6 @@ class OutputFormatter:
             "",
         ]
         
-        # 只显示前15条
         for i, prompt in enumerate(prompts[:15], 1):
             lines.extend(self._format_prompt_section(prompt, i))
         
@@ -242,17 +223,16 @@ class OutputFormatter:
             'top_10_prompts': []
         }
         
-        # 流派统计
         for prompt in prompts:
             for genre in prompt.get('genre', []):
-                index['genre_summary'][genre] = index['genre_summary'].get(genre, 0) + 1
+                index['genre_summary'][genre] = \
+                    index['genre_summary'].get(genre, 0) + 1
         
-        # 平台统计
         for prompt in prompts:
             platform = prompt.get('platform', 'unknown')
-            index['platform_summary'][platform] = index['platform_summary'].get(platform, 0) + 1
+            index['platform_summary'][platform] = \
+                index['platform_summary'].get(platform, 0) + 1
         
-        # 前10条
         top_prompts = sorted(
             prompts,
             key=lambda x: x.get('quality_score', 0),
@@ -270,12 +250,10 @@ class OutputFormatter:
             for p in top_prompts
         ]
         
-        # 保存索引
         index_file = self.output_base / "index.json"
         with open(index_file, 'w', encoding='utf-8') as f:
             json.dump(index, f, ensure_ascii=False, indent=2)
         
-        # 生成Markdown索引
         md_index = self._generate_master_index_markdown(index)
         md_file = self.output_base / "README.md"
         with open(md_file, 'w', encoding='utf-8') as f:
@@ -300,7 +278,6 @@ class OutputFormatter:
             "",
         ]
         
-        # 按数量排序的流派
         sorted_genres = sorted(
             index['genre_summary'].items(),
             key=lambda x: x[1],
@@ -314,13 +291,12 @@ class OutputFormatter:
             "",
             "## 使用场景",
             "",
-            "- [健身运动](use_cases/workout.md)",
-            "- [学习专注](use_cases/study.md)",
-            "- [游戏电竞](use_cases/gaming.md)",
-            "- [影视配乐](use_cases/cinematic.md)",
-            "- [冥想放松](use_cases/meditation.md)",
-            "- [派对聚会](use_cases/party.md)",
-            "- [睡眠休息](use_cases/sleep.md)",
+        ])
+        
+        for uc_key, uc_name in USE_CASE_NAMES.items():
+            lines.append(f"- [{uc_name}](use_cases/{uc_key}.md)")
+        
+        lines.extend([
             "",
             "## 热门提示词 Top 10",
             "",
@@ -340,7 +316,6 @@ class OutputFormatter:
         print("生成最终输出文件")
         print("=" * 60)
         
-        # 加载数据
         prompts = self.load_translated_prompts()
         if not prompts:
             print("错误: 没有找到提示词数据")
@@ -348,17 +323,14 @@ class OutputFormatter:
         
         print(f"加载了 {len(prompts)} 条提示词\n")
         
-        # 按流派组织
         print("生成流派分类文档...")
         genre_groups = self.organize_by_genre(prompts)
         self.create_genre_documents(genre_groups)
         
-        # 按使用场景组织
         print("\n生成使用场景文档...")
         use_case_groups = self.organize_by_use_case(prompts)
         self.create_use_case_documents(use_case_groups)
         
-        # 生成主索引
         print("\n生成主索引...")
         self.create_master_index(prompts)
         
@@ -368,11 +340,8 @@ class OutputFormatter:
 
 
 def main():
-    """主函数"""
-    project_root = Path(__file__).parent.parent
-    data_dir = project_root / "data"
-    
-    formatter = OutputFormatter(data_dir)
+    from src.config import config as app_config
+    formatter = OutputFormatter(app_config.data_dir)
     formatter.generate_all()
 
 

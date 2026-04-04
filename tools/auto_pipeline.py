@@ -28,17 +28,18 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple
 import hashlib
 
-PROJECT_ROOT = Path(__file__).parent.parent
-sys.path.insert(0, str(PROJECT_ROOT))
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.core import setup_secure_logging
+from src.config import config as app_config
+from src.constants import MUSIC_KEYWORDS
 
-
-DATA_DIR = PROJECT_ROOT / "data"
+PROJECT_ROOT = app_config.project_root
+DATA_DIR = app_config.data_dir
 RAW_DIR = DATA_DIR / "raw"
-EXTERNAL_DIR = DATA_DIR / "external"
-PROCESSED_DIR = DATA_DIR / "processed"
-RAW_PROMPTS_FILE = RAW_DIR / "raw_prompts.txt"
+EXTERNAL_DIR = app_config.output.EXTERNAL_DIR
+PROCESSED_DIR = app_config.output.PROCESSED_DIR
+RAW_PROMPTS_FILE = app_config.pipeline.RAW_PROMPTS_FILE
 
 
 @dataclass
@@ -64,30 +65,8 @@ class SourceRepository:
 
 
 SOURCES = [
-    SourceRepository(
-        owner="AlijeeWrites",
-        repo="suno-ai-prompts-book-pdf-2026-guide",
-        target_files=["README.md", "prompts.md", "suno-prompts.md"],
-        description="Suno AI Prompts Book PDF 2026 Guide"
-    ),
-    SourceRepository(
-        owner="daveshap",
-        repo="suno",
-        target_files=["README.md", "prompts.md", "prompts.txt"],
-        description="Dave Shapiro's Suno Prompts"
-    ),
-    SourceRepository(
-        owner="mister-magpie",
-        repo="aims_prompts",
-        target_files=["README.md", "prompts.md", "prompts.csv"],
-        description="AI Music Prompts Collection"
-    ),
-    SourceRepository(
-        owner="naqashmunir21",
-        repo="awesome-suno-prompts",
-        target_files=["README.md", "prompts.md", "suno-prompts.md"],
-        description="Awesome Suno Prompts"
-    ),
+    SourceRepository(**src)
+    for src in app_config.github.SOURCES
 ]
 
 
@@ -236,28 +215,12 @@ class DataCleaner:
     
     负责从原始文件中提取 Prompt 并进行去重。
     """
-    
-    MIN_PROMPT_LENGTH = 20
-    MAX_PROMPT_LENGTH = 2000
-    
-    MUSIC_KEYWORDS = [
-        'bpm', 'key', 'genre', 'style', 'tempo', 'beat', 'melody',
-        'bass', 'drum', 'synth', 'vocal', 'guitar', 'piano',
-        'electronic', 'ambient', 'cinematic', 'hip hop', 'rock',
-        'pop', 'jazz', 'classical', 'lo-fi', 'lofi', 'trap',
-        'house', 'techno', 'dubstep', 'trance', 'r&b', 'folk',
-        'orchestral', 'acoustic', 'instrumental', 'vocal',
-        'upbeat', 'chill', 'dark', 'bright', 'energetic', 'calm',
-        'epic', 'emotional', 'dramatic', 'peaceful', 'intense',
-        'male vocals', 'female vocals', 'choir', 'backing vocals',
-        'reverb', 'delay', 'compression', 'eq', 'mix',
-        'intro', 'verse', 'chorus', 'bridge', 'outro',
-        'suno', 'udio', 'ai music', 'music generation',
-    ]
-    
+
     def __init__(self):
         self.logger = logging.getLogger("DataCleaner")
         self.extracted_prompts: Set[str] = set()
+        self.MIN_PROMPT_LENGTH = app_config.pipeline.MIN_PROMPT_LENGTH
+        self.MAX_PROMPT_LENGTH = app_config.pipeline.MAX_PROMPT_LENGTH
     
     def extract_from_markdown(self, content: str) -> List[str]:
         """从 Markdown 内容中提取 Prompt"""
@@ -345,7 +308,7 @@ class DataCleaner:
     def _is_music_related(self, text: str) -> bool:
         """检查文本是否与音乐相关"""
         text_lower = text.lower()
-        return any(kw in text_lower for kw in self.MUSIC_KEYWORDS)
+        return any(kw in text_lower for kw in MUSIC_KEYWORDS)
     
     def process_file(self, file_path: Path) -> List[str]:
         """处理单个文件"""

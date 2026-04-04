@@ -27,11 +27,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Fetch Reddit Posts
+      - name: Fetch Reddit Posts (RSS Feed)
         id: fetch
         env:
-          MIN_UPVOTES: 50
-          TARGET_COUNT: 7
+          REDDIT_SUBREDDITS: ${{ vars.REDDIT_SUBREDDITS || 'SunoAI,Udio,aiMusic' }}
+          MIN_UPVOTES: ${{ vars.MIN_UPVOTES || '50' }}
+          TARGET_COUNT: ${{ vars.TARGET_COUNT || '7' }}
         run: |
           python tools/reddit_fetcher.py 2>&1 | tee fetch_output.txt
           echo "fetch_exit_code=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
@@ -60,9 +61,9 @@ jobs:
             const issue = await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `📥 今日待翻译 Prompt (${today})`,
+              title: `📥 今日待翻译 Prompt (${today}) [RSS]`,
               body: content,
-              labels: ['translation-pending', 'automated'],
+              labels: ['translation-pending', 'automated', 'rss-feed'],
               assignees: ['Erichestein0702']
             });
             
@@ -78,8 +79,8 @@ jobs:
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `⚠️ Reddit 爬取失败 (${today})`,
-              body: `## 问题说明\n\n今日 Reddit 爬取未能获取到符合条件的帖子。\n\n### 可能原因\n\n1. Reddit API 访问受限\n2. 子版块没有足够热度的帖子\n3. 网络连接问题\n\n### 建议\n\n- 检查 Actions 日志查看详细错误\n- 手动添加待翻译内容\n- 考虑调整 MIN_UPVOTES 阈值\n`,
-              labels: ['fetch-failed', 'automated'],
+              title: `⚠️ RSS 爬取失败 (${today})`,
+              body: `## 问题说明\n\n今日 Reddit RSS Feed 爬取未能获取到符合条件的帖子。\n\n### 可能原因\n\n1. 子版块暂时没有活跃帖子\n2. RSS Feed 服务暂时不可用\n3. 当前所有帖子点赞数均低于阈值 ($MIN_UPVOTES)\n\n### 建议\n\n- 检查 Actions 日志查看详细错误\n- 降低 \`MIN_UPVOTES\` 阈值（通过 Repository Variables 配置）\n- 手动添加待翻译内容到 \`prompts/pending/\`\n\n---\n\n*此 Issue 由 MUSICprompt 自动创建（RSS Feed 方式）*`,
+              labels: ['fetch-failed', 'automated', 'rss-feed'],
               assignees: ['Erichestein0702']
             });

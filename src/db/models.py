@@ -1,12 +1,16 @@
 """
 MUSICprompt 数据库模型定义
 使用 SQLite 存储所有 Prompt 数据
+支持 FTS5 全文搜索 和 Context Manager 连接管理
 """
 
 import sqlite3
+from contextlib import contextmanager
 from datetime import datetime
 from pathlib import Path
-from typing import List, Optional, Dict, Any
+from typing import Generator, List, Optional, Dict, Any
+
+from src.config import config as app_config
 
 
 SCHEMA = """
@@ -91,7 +95,7 @@ CREATE INDEX IF NOT EXISTS idx_prompt_genres_prompt ON prompt_genres(prompt_id);
 CREATE INDEX IF NOT EXISTS idx_prompt_instruments_prompt ON prompt_instruments(prompt_id);
 CREATE INDEX IF NOT EXISTS idx_prompt_use_cases_prompt ON prompt_use_cases(prompt_id);
 
--- 全文搜索虚拟表
+-- 全文搜索虚拟表 (FTS5)
 CREATE VIRTUAL TABLE IF NOT EXISTS prompts_fts USING fts5(
     id,
     title,
@@ -99,7 +103,8 @@ CREATE VIRTUAL TABLE IF NOT EXISTS prompts_fts USING fts5(
     prompt_text,
     prompt_zh,
     content='prompts',
-    content_rowid='rowid'
+    content_rowid='rowid',
+    tokenize='unicode61'
 );
 
 -- 触发器：保持 FTS 索引同步
@@ -123,36 +128,63 @@ END;
 
 
 class MusicPromptDB:
-    """MUSICprompt 数据库管理类"""
-    
-    def __init__(self, db_path: str = "data/musicprompts.db"):
-        self.db_path = Path(db_path)
+    """MUSICprompt 数据库管理类（支持连接复用与 Context Manager）"""
+
+    def __init__(self, db_path: str = None):
+        self.db_path = Path(db_path or app_config.database.DB_PATH)
         self.db_path.parent.mkdir(parents=True, exist_ok=True)
-        self.conn = None
-    
+        self._conn: Optional[sqlite3.Connection] = None
+
+    @contextmanager
+    def connection(self) -> Generator[sqlite3.Connection, None, None]:
+        """
+        Context Manager 方式获取数据库连接
+        
+        Usage:
+            with db.connection() as conn:
+                cursor = conn.cursor()
+                cursor.execute(...)
+        """
+        conn = self._get_conn()
+        try:
+            yield conn
+        except Exception:
+            conn.rollback()
+            raise
+        finally:
+            pass
+
+    def _get_conn(self) -> sqlite3.Connection:
+        """获取或复用数据库连接"""
+        if self._conn is None:
+            self._conn = sqlite3.connect(str(self.db_path))
+            self._conn.row_factory = sqlite3.Row
+            self._conn.execute("PRAGMA journal_mode=WAL")
+            self._conn.execute("PRAGMA foreign_keys=ON")
+        return self._conn
+
     def connect(self):
-        """连接数据库"""
-        self.conn = sqlite3.connect(self.db_path)
-        self.conn.row_factory = sqlite3.Row
-        return self.conn
-    
+        """连接数据库（兼容旧接口）"""
+        return self._get_conn()
+
     def close(self):
-        """关闭连接"""
-        if self.conn:
-            self.conn.close()
-    
+        """关闭数据库连接"""
+        if self._conn:
+            self._conn.close()
+            self._conn = None
+
     def init_db(self):
         """初始化数据库结构"""
-        conn = self.connect()
+        conn = self._get_conn()
         conn.executescript(SCHEMA)
         conn.commit()
         print(f"数据库已初始化: {self.db_path}")
-    
+
     def insert_prompt(self, prompt: Dict[str, Any]) -> bool:
         """插入单条 Prompt"""
-        conn = self.connect()
+        conn = self._get_conn()
         cursor = conn.cursor()
-        
+
         try:
             cursor.execute("""
                 INSERT OR REPLACE INTO prompts 
@@ -170,30 +202,30 @@ class MusicPromptDB:
                 prompt.get('key'),
                 prompt.get('source', '')
             ))
-            
+
             prompt_id = prompt.get('id')
-            
+
             for genre in prompt.get('genre', []):
                 genre_id = self._get_or_create_genre(cursor, genre)
                 cursor.execute(
                     "INSERT OR IGNORE INTO prompt_genres (prompt_id, genre_id) VALUES (?, ?)",
                     (prompt_id, genre_id)
                 )
-            
+
             for inst in prompt.get('instruments', []):
                 inst_id = self._get_or_create_instrument(cursor, inst)
                 cursor.execute(
                     "INSERT OR IGNORE INTO prompt_instruments (prompt_id, instrument_id) VALUES (?, ?)",
                     (prompt_id, inst_id)
                 )
-            
+
             for uc in prompt.get('use_cases', []):
                 uc_id = self._get_or_create_use_case(cursor, uc)
                 cursor.execute(
                     "INSERT OR IGNORE INTO prompt_use_cases (prompt_id, use_case_id) VALUES (?, ?)",
                     (prompt_id, uc_id)
                 )
-            
+
             moods = prompt.get('translation_meta', {}).get('mood_keywords_zh', [])
             for mood in moods:
                 mood_id = self._get_or_create_mood(cursor, mood)
@@ -201,15 +233,15 @@ class MusicPromptDB:
                     "INSERT OR IGNORE INTO prompt_moods (prompt_id, mood_id) VALUES (?, ?)",
                     (prompt_id, mood_id)
                 )
-            
+
             conn.commit()
             return True
-            
+
         except Exception as e:
             print(f"插入失败: {e}")
             conn.rollback()
             return False
-    
+
     def _get_or_create_genre(self, cursor, name: str) -> int:
         cursor.execute("SELECT id FROM genres WHERE name = ?", (name,))
         row = cursor.fetchone()
@@ -217,7 +249,7 @@ class MusicPromptDB:
             return row['id']
         cursor.execute("INSERT INTO genres (name) VALUES (?)", (name,))
         return cursor.lastrowid
-    
+
     def _get_or_create_instrument(self, cursor, name: str) -> int:
         cursor.execute("SELECT id FROM instruments WHERE name = ?", (name,))
         row = cursor.fetchone()
@@ -225,7 +257,7 @@ class MusicPromptDB:
             return row['id']
         cursor.execute("INSERT INTO instruments (name) VALUES (?)", (name,))
         return cursor.lastrowid
-    
+
     def _get_or_create_use_case(self, cursor, name: str) -> int:
         cursor.execute("SELECT id FROM use_cases WHERE name = ?", (name,))
         row = cursor.fetchone()
@@ -233,7 +265,7 @@ class MusicPromptDB:
             return row['id']
         cursor.execute("INSERT INTO use_cases (name) VALUES (?)", (name,))
         return cursor.lastrowid
-    
+
     def _get_or_create_mood(self, cursor, name: str) -> int:
         cursor.execute("SELECT id FROM moods WHERE name = ?", (name,))
         row = cursor.fetchone()
@@ -241,30 +273,48 @@ class MusicPromptDB:
             return row['id']
         cursor.execute("INSERT INTO moods (name) VALUES (?)", (name,))
         return cursor.lastrowid
-    
-    def search(self, query: str, limit: int = 20) -> List[Dict]:
-        """全文搜索（使用 LIKE 简化实现）"""
-        conn = self.connect()
+
+    def search(self, query: str, limit: int = None) -> List[Dict]:
+        """
+        全文搜索（使用 FTS5）
+        
+        利用已建好的 prompts_fts 虚拟表进行高效全文检索，
+        替代原来低效的 LIKE '%keyword%' 模糊匹配。
+        """
+        limit = limit or app_config.database.SEARCH_LIMIT_DEFAULT
+        conn = self._get_conn()
         cursor = conn.cursor()
-        
-        search_pattern = f"%{query}%"
+
         cursor.execute("""
-            SELECT * FROM prompts
-            WHERE title LIKE ? 
-               OR title_zh LIKE ? 
-               OR prompt_text LIKE ? 
-               OR prompt_zh LIKE ?
-            ORDER BY quality_score DESC
+            SELECT p.* FROM prompts p
+            JOIN prompts_fts fts ON p.rowid = fts.rowid
+            WHERE prompts_fts MATCH ?
+            ORDER BY rank, p.quality_score DESC
             LIMIT ?
-        """, (search_pattern, search_pattern, search_pattern, search_pattern, limit))
-        
-        return [dict(row) for row in cursor.fetchall()]
-    
+        """, (query, limit))
+
+        results = [dict(row) for row in cursor.fetchall()]
+
+        if not results:
+            fallback_pattern = f"%{query}%"
+            cursor.execute("""
+                SELECT * FROM prompts
+                WHERE title LIKE ? 
+                   OR title_zh LIKE ? 
+                   OR prompt_text LIKE ? 
+                   OR prompt_zh LIKE ?
+                ORDER BY quality_score DESC
+                LIMIT ?
+            """, (fallback_pattern, fallback_pattern, fallback_pattern, fallback_pattern, limit))
+            results = [dict(row) for row in cursor.fetchall()]
+
+        return results
+
     def get_by_genre(self, genre: str, limit: int = 50, offset: int = 0) -> List[Dict]:
         """按流派筛选"""
-        conn = self.connect()
+        conn = self._get_conn()
         cursor = conn.cursor()
-        
+
         cursor.execute("""
             SELECT p.*
             FROM prompts p
@@ -274,14 +324,14 @@ class MusicPromptDB:
             ORDER BY p.quality_score DESC
             LIMIT ? OFFSET ?
         """, (genre, limit, offset))
-        
+
         return [dict(row) for row in cursor.fetchall()]
-    
+
     def get_by_use_case(self, use_case: str, limit: int = 50) -> List[Dict]:
         """按使用场景筛选"""
-        conn = self.connect()
+        conn = self._get_conn()
         cursor = conn.cursor()
-        
+
         cursor.execute("""
             SELECT p.*
             FROM prompts p
@@ -291,56 +341,56 @@ class MusicPromptDB:
             ORDER BY p.quality_score DESC
             LIMIT ?
         """, (use_case, limit))
-        
+
         return [dict(row) for row in cursor.fetchall()]
-    
+
     def get_top_rated(self, limit: int = 20) -> List[Dict]:
         """获取最高评分"""
-        conn = self.connect()
+        conn = self._get_conn()
         cursor = conn.cursor()
-        
+
         cursor.execute("""
             SELECT * FROM prompts
             ORDER BY quality_score DESC
             LIMIT ?
         """, (limit,))
-        
+
         return [dict(row) for row in cursor.fetchall()]
-    
+
     def get_prompts_by_genre(self, genre: str, limit: int = 50) -> List[Dict]:
         """按流派筛选"""
         return self.get_by_genre(genre, limit=limit)
-    
+
     def get_prompts_by_use_case(self, use_case: str, limit: int = 50) -> List[Dict]:
         """按使用场景筛选"""
         return self.get_by_use_case(use_case, limit=limit)
-    
+
     def get_top_prompts(self, limit: int = 20) -> List[Dict]:
         """获取高分 Prompt"""
         return self.get_top_rated(limit=limit)
-    
+
     def get_stats(self) -> Dict:
         """获取统计信息"""
-        conn = self.connect()
+        conn = self._get_conn()
         cursor = conn.cursor()
-        
+
         stats = {}
-        
+
         cursor.execute("SELECT COUNT(*) as count FROM prompts")
         stats['total_prompts'] = cursor.fetchone()['count']
-        
+
         cursor.execute("SELECT COUNT(*) as count FROM genres")
         stats['total_genres'] = cursor.fetchone()['count']
-        
+
         cursor.execute("SELECT COUNT(*) as count FROM instruments")
         stats['total_instruments'] = cursor.fetchone()['count']
-        
+
         cursor.execute("SELECT COUNT(*) as count FROM use_cases")
         stats['total_use_cases'] = cursor.fetchone()['count']
-        
+
         cursor.execute("SELECT AVG(quality_score) as avg FROM prompts")
         stats['avg_quality_score'] = round(cursor.fetchone()['avg'] or 0, 2)
-        
+
         cursor.execute("""
             SELECT g.name, COUNT(pg.prompt_id) as count
             FROM genres g
@@ -350,7 +400,7 @@ class MusicPromptDB:
             LIMIT 10
         """)
         stats['top_genres'] = [dict(row) for row in cursor.fetchall()]
-        
+
         return stats
 
 
@@ -359,3 +409,4 @@ if __name__ == "__main__":
     db.init_db()
     print("数据库初始化完成")
     print(db.get_stats())
+    db.close()

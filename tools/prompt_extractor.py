@@ -13,8 +13,16 @@ from dataclasses import dataclass, asdict
 from datetime import datetime
 import sys
 
-# 添加项目根目录到路径
 sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from src.config import config as app_config
+from src.constants import (
+    TECH_KEYWORDS,
+    INSTRUMENTS,
+    GENRES,
+    STRUCTURE_TAGS,
+    SCENARIO_MAP,
+)
 
 
 @dataclass
@@ -44,36 +52,7 @@ class MusicPrompt:
 
 class PromptQualityScorer:
     """提示词质量评分器"""
-    
-    # 技术参数关键词
-    TECH_KEYWORDS = [
-        'bpm', 'key', 'tempo', 'major', 'minor', 'scale',
-        'reverb', 'compression', 'saturation', 'eq',
-        '808', 'kick', 'snare', 'hihat', 'bass', 'synth'
-    ]
-    
-    # 乐器关键词
-    INSTRUMENTS = [
-        'guitar', 'piano', 'violin', 'drums', 'bass', 'synth',
-        'keyboard', 'flute', 'saxophone', 'trumpet', 'cello',
-        'harp', 'ukulele', 'mandolin', 'banjo', 'hurdy-gurdy'
-    ]
-    
-    # 流派关键词
-    GENRES = [
-        'rock', 'pop', 'hip hop', 'rap', 'electronic', 'edm',
-        'jazz', 'blues', 'classical', 'folk', 'country', 'r&b',
-        'soul', 'funk', 'metal', 'punk', 'indie', 'ambient',
-        'lo-fi', 'trap', 'house', 'techno', 'trance', 'dubstep'
-    ]
-    
-    # 结构标签
-    STRUCTURE_TAGS = [
-        '[intro]', '[verse]', '[chorus]', '[bridge]', '[outro]',
-        '[hook]', '[pre-chorus]', '[interlude]', '[break]',
-        '[solo]', '[build]', '[drop]'
-    ]
-    
+
     def __init__(self):
         self.score_weights = {
             'technical_params': 0.25,
@@ -82,29 +61,24 @@ class PromptQualityScorer:
             'instrument_spec': 0.20,
             'length_appropriateness': 0.15
         }
-    
+
     def score(self, prompt_text: str) -> float:
         """计算提示词质量分数 (0-10)"""
         text_lower = prompt_text.lower()
         scores = {}
-        
-        # 1. 技术参数得分
-        tech_count = sum(1 for kw in self.TECH_KEYWORDS if kw in text_lower)
+
+        tech_count = sum(1 for kw in TECH_KEYWORDS if kw in text_lower)
         scores['technical_params'] = min(tech_count / 3, 1.0) * 10
-        
-        # 2. 结构清晰度得分
-        structure_count = sum(1 for tag in self.STRUCTURE_TAGS if tag in text_lower)
+
+        structure_count = sum(1 for tag in STRUCTURE_TAGS if tag in text_lower)
         scores['structure'] = min(structure_count / 2, 1.0) * 10
-        
-        # 3. 流派明确度得分
-        genre_count = sum(1 for g in self.GENRES if g in text_lower)
+
+        genre_count = sum(1 for g in GENRES if g in text_lower)
         scores['genre_clarity'] = min(genre_count / 2, 1.0) * 10
-        
-        # 4. 乐器指定得分
-        instrument_count = sum(1 for inst in self.INSTRUMENTS if inst in text_lower)
+
+        instrument_count = sum(1 for inst in INSTRUMENTS if inst in text_lower)
         scores['instrument_spec'] = min(instrument_count / 2, 1.0) * 10
-        
-        # 5. 长度适当性得分 (Suno限制950字符)
+
         length = len(prompt_text)
         if 50 <= length <= 950:
             scores['length_appropriateness'] = 10
@@ -112,71 +86,56 @@ class PromptQualityScorer:
             scores['length_appropriateness'] = length / 50 * 10
         else:
             scores['length_appropriateness'] = max(0, 10 - (length - 950) / 100)
-        
-        # 计算加权总分
+
         total_score = sum(
             scores[key] * self.score_weights[key]
             for key in scores
         )
-        
+
         return round(total_score, 2)
-    
+
     def extract_technical_params(self, text: str) -> Dict[str, Any]:
         """提取技术参数"""
         params = {}
         text_lower = text.lower()
-        
-        # 提取BPM
+
         bpm_match = re.search(r'(?:bpm|tempo)[:\s]*(\d+)', text_lower)
         if bpm_match:
             bpm = int(bpm_match.group(1))
             if 40 <= bpm <= 250:
                 params['bpm'] = bpm
-        
-        # 提取调性
+
         key_match = re.search(r'(?:key|scale)[:\s]*([a-g][#\s]?\s*(?:major|minor))', text_lower)
         if key_match:
             params['key'] = key_match.group(1).strip()
-        
-        # 提取乐器
+
         instruments = []
-        for inst in self.INSTRUMENTS:
+        for inst in INSTRUMENTS:
             if inst in text_lower:
                 instruments.append(inst)
         if instruments:
-            params['instruments'] = instruments[:5]  # 最多5个
-        
+            params['instruments'] = instruments[:5]
+
         return params
-    
+
     def extract_genres(self, text: str) -> List[str]:
         """提取流派标签"""
         text_lower = text.lower()
         genres = []
-        for genre in self.GENRES:
+        for genre in GENRES:
             if genre in text_lower:
                 genres.append(genre)
-        return genres[:3]  # 最多3个主要流派
-    
+        return genres[:3]
+
     def determine_use_cases(self, text: str) -> List[str]:
         """确定使用场景"""
         text_lower = text.lower()
         use_cases = []
-        
-        # 场景映射
-        scenario_map = {
-            'workout': ['gym', 'workout', 'exercise', 'fitness', 'training'],
-            'study': ['study', 'focus', 'concentration', 'lo-fi', 'ambient'],
-            'gaming': ['game', 'gaming', 'epic', 'battle', 'action'],
-            'cinematic': ['cinematic', 'film', 'movie', 'soundtrack', 'score'],
-            'meditation': ['meditation', 'yoga', 'relax', 'calm', 'peaceful'],
-            'party': ['party', 'dance', 'club', 'festival', 'celebration'],
-            'sleep': ['sleep', 'dream', 'night', 'lullaby', 'peaceful']
-        }
-        
-        for scenario, keywords in scenario_map.items():
+
+        for scenario, keywords in SCENARIO_MAP.items():
             if any(kw in text_lower for kw in keywords):
                 use_cases.append(scenario)
-        
+
         return use_cases[:3]
 
 

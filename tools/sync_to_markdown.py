@@ -12,48 +12,13 @@ from typing import List, Dict
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.db.models import MusicPromptDB
-
-
-GENRE_ICONS = {
-    "pop": "🎤",
-    "rock": "🎸",
-    "electronic": "🎹",
-    "hip-hop": "🎤",
-    "rap": "🎤",
-    "jazz": "🎷",
-    "blues": "🎵",
-    "classical": "🎻",
-    "folk": "🪕",
-    "country": "🤠",
-    "r&b": "🎶",
-    "soul": "🎺",
-    "funk": "🎸",
-    "metal": "🤘",
-    "punk": "🎸",
-    "ambient": "🌙",
-    "lo-fi": "📻",
-    "house": "🏠",
-    "techno": "🎛️",
-    "trap": "🎯",
-    "dubstep": "💥",
-    "trance": "✨",
-}
-
-USE_CASE_NAMES = {
-    "party": "派对聚会",
-    "study": "学习专注",
-    "gaming": "游戏电竞",
-    "cinematic": "影视配乐",
-    "meditation": "冥想放松",
-    "workout": "健身运动",
-    "sleep": "睡眠休息",
-    "general": "通用场景",
-}
+from src.constants import GENRE_ICONS, USE_CASE_NAMES
+from src.config import config as app_config
 
 
 def generate_genre_markdown(prompts: List[Dict], genre: str) -> str:
     """生成流派 Markdown 文件"""
-    icon = GENRE_ICONS.get(genre, "🎵")
+    icon = GENRE_ICONS.get(genre, "\U0001f3b5")
     
     lines = [
         f"# {icon} {genre.upper()} 音乐提示词",
@@ -154,8 +119,8 @@ def generate_index_markdown(stats: Dict) -> str:
         "",
         "## 📊 数据统计",
         "",
-        f"| 指标 | 数值 |",
-        f"|------|------|",
+        "| 指标 | 数值 |",
+        "|------|------|",
         f"| 总 Prompt 数 | **{stats['total_prompts']}** |",
         f"| 流派数 | **{stats['total_genres']}** |",
         f"| 乐器数 | **{stats['total_instruments']}** |",
@@ -171,7 +136,7 @@ def generate_index_markdown(stats: Dict) -> str:
     ]
     
     for g in stats['top_genres']:
-        icon = GENRE_ICONS.get(g['name'], "🎵")
+        icon = GENRE_ICONS.get(g['name'], "\U0001f3b5")
         lines.append(
             f"| {icon} {g['name']} | {g['count']} | [查看](genres/{g['name']}.md) |"
         )
@@ -207,16 +172,16 @@ def generate_index_markdown(stats: Dict) -> str:
     return "\n".join(lines)
 
 
-def sync_to_markdown(db_path: str = "data/musicprompts.db", output_dir: str = "prompts"):
+def sync_to_markdown(db_path: str = None, output_dir: str = None):
     """同步数据库到 Markdown 文件"""
-    project_root = Path(__file__).parent.parent
-    output_path = project_root / output_dir
+    project_root = app_config.project_root
+    output_path = Path(output_dir or project_root / "prompts")
     
     print("=" * 60)
     print("Markdown 同步")
     print("=" * 60)
     
-    db = MusicPromptDB(str(project_root / db_path))
+    db = MusicPromptDB(db_path)
     
     stats = db.get_stats()
     print(f"数据库统计: {stats['total_prompts']} 条 Prompt")

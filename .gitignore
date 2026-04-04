@@ -46,10 +46,28 @@ Thumbs.db
 *.log
 logs/
 
-# Data (optional - remove if you want to track data files)
-# data/raw/
-# data/processed/
-# data/genres/
+# ===== 数据文件 (用户本地生成，不应入库) =====
+
+# SQLite 数据库 (二进制，可从源数据重建)
+*.db
+*.db-wal
+*.db-shm
+data/musicprompts.db
+
+# 原始抓取 & 中间处理数据
+data/raw/
+data/processed/
+data/external/
+data/genres/
+
+# JSON 中间产物 (用户只需 Markdown)
+data/final_output/**/*.json
+data/final_output/curated_backup/
+data/final_output/genres_backup/
+
+# 每日自动生成的待翻译文件 (保留 .gitkeep 占位)
+prompts/pending/*.md
+!prompts/pending/.gitkeep
 
 # Temporary files
 tmp/
@@ -59,17 +77,3 @@ temp/
 # Design book (local only)
 DESIGN_BOOK.md
 ARCHITECTURE.md
-
-# Backup directories (not needed for users)
-data/final_output/curated_backup/
-data/final_output/genres_backup/
-
-# JSON files (users only need MD)
-data/final_output/**/*.json
-data/processed/
-data/raw/
-data/external/
-data/genres/
-
-# But track prompts directory
-!prompts/
