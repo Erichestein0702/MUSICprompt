@@ -1,135 +1,306 @@
 #!/usr/bin/env python3
 """
-Reddit RSS Feed 爬取器（替代原 urllib JSON API 方案）
+Reddit 音乐 Prompt 爬取器 v3.0
 
-使用 Reddit 公开 RSS Feed 获取高赞音乐 Prompt，无需 OAuth 认证。
-RSS Feed 是 Reddit 官方提供的公开接口，稳定且合规。
+设计思路：
+1. 多源获取：RSS Feed（主力）+ JSON API（CI 环境备用）
+2. Prompt 检测：用内容特征识别真正的音乐提示词，过滤掉问答/讨论/求助帖
+3. 质量排序：不再依赖不可靠的点赞数，改用 Prompt 质量评分
 
-数据源示例：
-  https://www.reddit.com/r/SunoAI/.rss
-  https://www.reddit.com/r/Udio/.rss
-  https://www.reddit.com/r/aiMusic/.rss
+什么算「真正的音乐 Prompt」：
+  ✅ [rock] [bpm:120] [lo-fi] ... 带结构标签的完整提示词
+  ✅ 包含技术参数（BPM/调性/乐器）的描述性文本
+  ❌ "Help! Why does my song sound bad?" — 求助帖
+  ❌ "How do I make X style?" — 问题帖
+  ❌ "Check out this cool song I made!" — 分享帖（无实际 prompt 文本）
 """
 
 import json
+import os
 import re
 import sys
 from datetime import datetime
 from pathlib import Path
-from typing import List, Optional
-
-try:
-    import feedparser
-except ImportError:
-    print("错误: 缺少 feedparser 依赖")
-    print("请运行: pip install feedparser")
-    sys.exit(1)
+from typing import List, Optional, Tuple
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.config import config
+from src.constants import (
+    MUSIC_KEYWORDS,
+    TECH_KEYWORDS,
+    STRUCTURE_TAGS,
+    GENRES,
+    INSTRUMENTS,
+)
 
 
-def fetch_reddit_rss(subreddit: str, limit: int = 25) -> list:
-    """通过 RSS Feed 获取 Reddit 子版块帖子"""
-    url = config.reddit.RSS_FEED_URL_TEMPLATE.format(subreddit=subreddit)
+# ============================================================
+#  数据源策略：RSS 优先，JSON 兜底
+# ============================================================
 
+def _fetch_via_rss(subreddit: str, limit: int = 25) -> list:
+    """方式一：通过 RSS Feed 获取（无需认证，大部分环境可用）"""
     try:
+        import feedparser
+
+        url = config.reddit.RSS_FEED_URL_TEMPLATE.format(subreddit=subreddit)
         feed = feedparser.parse(
             url,
             request_headers={
-                "User-Agent": "MUSICprompt-RSS/2.0 (by /u/MUSICprompt-team)"
+                "User-Agent": "MUSICprompt-RSS/3.0 (by /u/MUSICprompt-team)"
             },
         )
 
-        if not feed or feed.bozo:
-            print(f"  r/{subreddit}: RSS 解析失败或无内容")
-            if hasattr(feed, "bozo_exception"):
-                print(f"    原因: {feed.bozo_exception}")
+        if feed.bozo or not feed.entries:
             return []
 
         posts = []
         for entry in feed.entries[:limit]:
-            post = _parse_rss_entry(entry, subreddit)
-            if post:
-                posts.append(post)
+            content_raw = entry.get("summary", "") or entry.get("description", "") or ""
+            title = _clean_html(entry.get("title", ""))
+            content = _clean_html(content_raw)
 
-        print(f"  r/{subreddit}: 通过 RSS 获取 {len(posts)} 条帖子")
+            if not content or len(content.strip()) < 30:
+                continue
+
+            upvotes = _extract_upvotes_from_rss(content_raw)
+            posts.append({
+                "id": entry.get("id", "").split("/")[-1] or "",
+                "title": title,
+                "content": content[:2000],
+                "upvotes": max(upvotes, 0),
+                "author": _extract_author(entry),
+                "url": entry.get("link", ""),
+                "subreddit": subreddit,
+                "source": "rss",
+            })
+
         return posts
 
-    except Exception as e:
-        print(f"  r/{subreddit} RSS 获取异常: {e}")
+    except ImportError:
+        return []
+    except Exception:
         return []
 
 
-def _parse_rss_entry(entry: dict, subreddit: str) -> Optional[dict]:
-    """解析单条 RSS entry 为标准格式"""
-    content_raw = entry.get("summary", "") or entry.get("description", "") or ""
+def _fetch_via_json(subreddit: str, limit: int = 25) -> list:
+    """方式二：通过 JSON API 获取（CI/GitHub Actions 环境通常可用）"""
+    url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit={limit}"
 
-    upvotes = _extract_upvotes(content_raw)
-    if upvotes < config.reddit.MIN_UPVOTES and upvotes >= 0:
-        return None
-
-    title = _clean_html(entry.get("title", ""))
-    content = _clean_html(content_raw)
-
-    if not content or len(content.strip()) < 20:
-        return None
-
-    return {
-        "id": entry.get("id", "").split("/")[-1] or "",
-        "title": title,
-        "content": content[:2000],
-        "upvotes": max(upvotes, 0),
-        "author": _extract_author(entry),
-        "url": entry.get("link", ""),
-        "subreddit": subreddit,
-        "created_utc": _parse_published(entry.get("published", "")),
-    }
-
-
-def _extract_upvotes(content: str) -> int:
-    """从 RSS 内容中提取点赞数"""
-    patterns = [
-        r"(\d[\d,]*)\s*(?:points?|upvotes?|votes?|👍)",
-        r"(?:points?|upvotes?|votes?|👍)\s*:?\s*(\d[\d,]*)",
-        r'"score"\s*:\s*(\d+)',
-        r'"ups"\s*:\s*(\d+)',
-    ]
-    for pattern in patterns:
-        match = re.search(pattern, content, re.IGNORECASE)
-        if match:
-            raw = match.group(1).replace(",", "")
-            try:
-                return int(raw)
-            except ValueError:
-                continue
-    return -1
-
-
-def _extract_author(entry: dict) -> str:
-    """从 RSS entry 中提取作者"""
-    author_raw = entry.get("author", "") or ""
-    if isinstance(author_raw, dict):
-        return author_raw.get("name", "unknown")
-    match = re.search(r"/u(?:ser)?/([^/\s]+)", str(author_raw))
-    if match:
-        return match.group(1)
-    return str(author_raw).split("@")[0].strip() or "unknown"
-
-
-def _parse_published(published_str: str) -> float:
-    """解析发布时间为 unix timestamp"""
-    from email.utils import parsedate_to_datetime
     try:
-        dt = parsedate_to_datetime(published_str)
-        return dt.timestamp()
-    except (ValueError, TypeError):
-        return datetime.now().timestamp()
+        req = __import__("urllib.request", fromlist=["Request"]).Request(
+            url,
+            headers={
+                "User-Agent": "MUSICprompt-Bot/3.0 (by /u/MUSICprompt-team)"
+            },
+        )
+        with __import__("urllib.request", fromlist=["urlopen"]).urlopen(
+            req, timeout=config.reddit.REQUEST_TIMEOUT
+        ) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
 
+        posts = []
+        for child in data["data"]["children"]:
+            post = child["data"]
+            if not post.get("selftext"):
+                continue
+
+            posts.append({
+                "id": post["id"],
+                "title": post["title"],
+                "content": post["selftext"][:2000],
+                "upvotes": post.get("score", 0),
+                "author": post.get("author", "unknown"),
+                "url": f"https://reddit.com{post['permalink']}",
+                "subreddit": subreddit,
+                "source": "json",
+            })
+
+        return posts
+
+    except Exception:
+        return []
+
+
+def fetch_reddit_posts(subreddit: str) -> list:
+    """
+    获取 Reddit 子版块帖子（自动选择最佳数据源）
+
+    策略：先尝试 RSS，如果结果为空则 fallback 到 JSON API
+    """
+    posts = _fetch_via_rss(subreddit, limit=30)
+
+    if posts:
+        print(f"  r/{subreddit}: RSS 获取 {len(posts)} 条")
+        return posts
+
+    posts = _fetch_via_json(subreddit, limit=30)
+
+    if posts:
+        print(f"  r/{subreddit}: JSON fallback 获取 {len(posts)} 条")
+        return posts
+
+    print(f"  r/{subreddit}: 两种方式均未获取到数据")
+    return []
+
+
+# ============================================================
+# 核心：Prompt 检测与质量评分
+# ============================================================
+
+# 标题中的垃圾帖模式（匹配即丢弃）
+JUNK_TITLE_PATTERNS = [
+    r"\?",                                    # 含问号
+    r"(?i)\bhelp\b",                          # help
+    r"(?i)\bwhy\s+(does|do|is|are|did|won't)\b",
+    r"(?i)\bhow\s+(do|does|can|i|to)\b",
+    r"(?i)\bbug(s)?\b",
+    r"(?i)\berror(s)?\b",
+    r"(?i)\bissue(s)?\b",
+    r"(?i)\bproblem(s)?\b",
+    r"(?i)\bsurvey\b",
+    r"(?i)\bpoll\b",
+    r"(?i)\bmod\s+post\b",
+    r"(?i)\bstick(y|ied|ies)?\b",
+    r"(?i)\brule(s)?\b",
+    r"(?i)\bban(ned|ning)?\b",
+    r"(?i)^(\[removed\]|\[deleted\])$",
+]
+
+# 正文中的强 Prompt 特征信号
+PROMPT_SIGNALS_STRONG = [
+    # 结构标签（最强信号）
+    r"\[(?:intro|verse|chorus|bridge|outro|hook|solo|build|drop|pre-chorus|interlude|break)\]",
+    # BPM 格式
+    r"\b(?:bpm|tempo)\s*[:\-]?\s*\d{2,3}\b",
+    # 调性格式
+    r"\b(?:key|scale)\s*[:\-]?\s*[a-g][#]?\s*(?:major|minor|maj|min)\b",
+    # 方括号风格标签 [genre], [style]
+    r"\[[^\]]{2,20}\](?:\s*\[[^\]]{2,20}\])+",  # 连续多个方括号标签
+]
+
+# 中等信号
+PROMPT_SIGNALS_MEDIUM = [
+    r"\b(?:reverb|delay|compression|sidechain|saturation|distortion|eq|filter)\b",
+    r"\b(?:male|female)\s*(?:vocals?|singing|voice)\b",
+    r"\b(?:upbeat|chill|dark|bright|energetic|melancholic|epic|cinematic)\b",
+    r"\b\d+\s*(?:bpm|BPM)\b",
+]
+
+
+def is_junk_post(title: str) -> bool:
+    """判断是否为垃圾帖（求助/讨论/问题等非 Prompt 内容）"""
+    for pattern in JUNK_TITLE_PATTERNS:
+        if re.search(pattern, title):
+            return True
+    return False
+
+
+def calc_prompt_score(title: str, content: str) -> float:
+    """
+    计算「Prompt 质量」分数 (0~10)
+
+    这个分数衡量的是：这篇帖子有多大概率是一个真正的音乐生成 Prompt，
+    而不是普通的讨论/分享/求助。
+
+    权重分配：
+      - 强信号（结构标签/BPM/调性）：50%   ← 有这些基本确定是 Prompt
+      - 中等信号（效果词/乐器/情绪）：30%
+      - 音乐关键词密度：20%
+    """
+    combined = f"{title} {content}"
+    combined_lower = combined.lower()
+
+    strong_hits = 0
+    total_strong = len(PROMPT_SIGNALS_STRONG)
+    for pattern in PROMPT_SIGNALS_STRONG:
+        if re.search(pattern, combined_lower):
+            strong_hits += 1
+    strong_score = (strong_hits / max(total_strong, 1)) * 10 if total_strong else 0
+
+    medium_hits = 0
+    total_medium = len(PROMPT_SIGNALS_MEDIUM)
+    for pattern in PROMPT_SIGNALS_MEDIUM:
+        if re.search(pattern, combined_lower):
+            medium_hits += 1
+    medium_score = (medium_hits / max(total_medium, 1)) * 10 if total_medium else 0
+
+    music_kw_hits = sum(1 for kw in MUSIC_KEYWORDS if kw in combined_lower)
+    keyword_density = min(music_kw_hits / 15, 1.0) * 10
+
+    bracket_count = len(re.findall(r"\[[^\]]+\]", combined))
+    bracket_score = min(bracket_count / 5, 1.0) * 10
+
+    length_score = 0
+    content_len = len(content.strip())
+    if 80 <= content_len <= 950:
+        length_score = 10
+    elif content_len >= 50:
+        length_score = content_len / 95
+    elif content_len > 950:
+        length_score = max(0, 10 - (content_len - 950) / 100)
+
+    final_score = (
+        strong_score * 0.35 +
+        medium_score * 0.15 +
+        keyword_density * 0.15 +
+        bracket_score * 0.20 +
+        length_score * 0.15
+    )
+
+    return round(min(final_score, 10), 2)
+
+
+def filter_and_score_posts(posts: list) -> List[dict]:
+    """
+    过滤 + 评分流水线：
+
+    Step 1: 去掉标题为垃圾帖的
+    Step 2: 计算每篇的 Prompt 质量分
+    Step 3: 过滤掉低于阈值的质量分
+    Step 4: 按质量分排序
+    """
+    min_score = float(os.getenv("MIN_PROMPT_SCORE", "4.0"))
+
+    scored = []
+    skipped_junk = 0
+    skipped_low_score = 0
+
+    for post in posts:
+        title = post.get("title", "")
+        content = post.get("content", "")
+
+        # Step 1: 垃圾帖直接丢掉
+        if is_junk_post(title):
+            skipped_junk += 1
+            continue
+
+        # Step 2: 计算 Prompt 质量分
+        score = calc_prompt_score(title, content)
+        post["prompt_score"] = score
+
+        # Step 3: 低于阈值的过滤
+        if score < min_score:
+            skipped_low_score += 1
+            continue
+
+        scored.append(post)
+
+    # Step 4: 按 Prompt 质量分降序排列
+    scored.sort(key=lambda x: x["prompt_score"], reverse=True)
+
+    print(f"    过滤: 跳过 {skipped_junk} 个垃圾帖, {skipped_low_score} 个低质量帖")
+    print(f"    剩余 {len(scored)} 条高质量 Prompt 候选")
+
+    return scored
+
+
+# ============================================================
+# 辅助函数
+# ============================================================
 
 def _clean_html(text: str) -> str:
-    """清理 HTML 标签和多余空白"""
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"&nbsp;", " ", text)
     text = re.sub(r"&amp;", "&", text)
@@ -141,21 +312,53 @@ def _clean_html(text: str) -> str:
     return text.strip()
 
 
+def _extract_upvotes_from_rss(html_content: str) -> int:
+    """从 RSS HTML 内容中尽力提取点赞数"""
+    patterns = [
+        r"(\d[\d,]*)\s*(?:points?|upvotes?|votes?)",
+        r'"score"\s*:\s*(\d+)',
+        r'"ups"\s*:\s*(\d+)',
+        r"(\d+)\s*(?:points?\s*)?(?:\u2022|\u2022)",
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, html_content, re.IGNORECASE)
+        if match:
+            raw = match.group(1).replace(",", "")
+            try:
+                return int(raw)
+            except ValueError:
+                continue
+    return -1
+
+
+def _extract_author(entry: dict) -> str:
+    author_raw = entry.get("author", "") or ""
+    if isinstance(author_raw, dict):
+        return author_raw.get("name", "unknown")
+    match = re.search(r"/u(?:ser)?/([^/\s]+)", str(author_raw))
+    if match:
+        return match.group(1)
+    return str(author_raw).split("@")[0].strip() or "unknown"
+
+
+# ============================================================
+# 输出
+# ============================================================
+
 def select_top_prompts(posts: list, count: int = None) -> list:
-    """选择点赞最高的 N 条"""
     count = count or config.reddit.TARGET_COUNT
-    sorted_posts = sorted(posts, key=lambda x: x["upvotes"], reverse=True)
-    return sorted_posts[:count]
+    return posts[:count]
 
 
 def generate_issue_content(prompts: list) -> str:
-    """生成 Issue 内容"""
     today = datetime.now().strftime("%Y-%m-%d")
 
     lines = [
         f"# 📥 今日待翻译 Prompt ({today})",
         "",
-        f"> 共 {len(prompts)} 条高赞内容待翻译",
+        f"> 共 {len(prompts)} 条高质 Prompt 待翻译（已按 Prompt 质量分排序）",
+        "> ",
+        f"> 筛选标准: 非垃圾帖 + Prompt 质量分 ≥ 阈值",
         "> ",
         f"> 翻译完成后，请将内容添加到 `data/final_output/` 目录",
         "",
@@ -163,19 +366,21 @@ def generate_issue_content(prompts: list) -> str:
         "",
     ]
 
-    for i, prompt in enumerate(prompts, 1):
+    for i, p in enumerate(prompts, 1):
         lines.extend([
-            f"## {i}. {prompt['title']}",
+            f"## {i}. {p['title']}",
             "",
             "| 属性 | 值 |",
             "|------|-----|",
-            f"| 👍 点赞数 | **{prompt['upvotes']}** |",
-            f"| 📍 来源 | [r/{prompt['subreddit']}]({prompt['url']}) |",
-            f"| 👤 作者 | u/{prompt['author']} |",
+            f"| 🎯 Prompt质量分 | **{p.get('prompt_score', 0):.1f}**/10 |",
+            f"| 👍 点赞数 | **{p['upvotes']}** |",
+            f"| 📍 来源 | [r/{p['subreddit']}]({p['url']}) |",
+            f"| 👤 作者 | u/{p['author']} |",
+            f"| 🔗 数据源 | {p.get('source', 'unknown')} |",
             "",
             "**英文原文**:",
             "```",
-            prompt["content"][:1500] + ("..." if len(prompt["content"]) > 1500 else ""),
+            p["content"][:1500] + ("..." if len(p["content"]) > 1500 else ""),
             "```",
             "",
             "**中文翻译** (待填写):",
@@ -196,53 +401,65 @@ def generate_issue_content(prompts: list) -> str:
         "",
         "---",
         "",
-        "*此 Issue 由 MUSICprompt 自动创建 (RSS Feed 方式)*",
+        "*此 Issue 由 MUSICprompt 自动创建 v3.0 (Prompt 质量筛选)*",
     ])
 
     return "\n".join(lines)
 
 
+# ============================================================
+# 主入口
+# ============================================================
+
 def main():
     print("=" * 60)
-    print("Reddit RSS Feed 高赞 Prompt 爬取器 v2.0")
+    print("Reddit 音乐 Prompt 爬取器 v3.0")
     print("=" * 60)
 
     subreddits = config.reddit.SUBREDDITS
     target_count = config.reddit.TARGET_COUNT
 
     print(f"\n配置:")
-    print(f"  子版块:   {', '.join(subreddits)}")
-    print(f"  目标数量: {target_count}")
-    print(f"  数据方式: RSS Feed (无需 OAuth)")
+    print(f"  子版块:     {', '.join(subreddits)}")
+    print(f"  目标数量:   {target_count}")
+    print(f"  最小质量分: {os.getenv('MIN_PROMPT_SCORE', '4.0')}")
+    print(f"  数据策略:   RSS 优先 → JSON 备用")
     print()
 
     all_posts = []
     for subreddit in subreddits:
         print(f"获取 r/{subreddit}...")
-        posts = fetch_reddit_rss(subreddit, limit=30)
+        posts = fetch_reddit_posts(subreddit)
         all_posts.extend(posts)
 
-    print(f"\n总计获取 {len(all_posts)} 条帖子")
+    print(f"\n原始获取: {len(all_posts)} 条帖子")
 
     if not all_posts:
-        print("\n⚠️ 没有找到符合条件的帖子，可能原因：")
-        print("  1. 子版块暂时没有活跃帖子")
-        print("  2. RSS Feed 服务暂时不可用")
-        print("  3. 当前时间所有帖子点赞数均低于阈值")
-        print("\n💡 建议：稍后重试或降低 MIN_UPVOTES 阈值")
+        print("\n⚠️ 未获取到任何帖子，可能原因:")
+        print("  1. 网络无法访问 Reddit（尝试 VPN 或代理）")
+        print("  2. 子版块暂时无活跃内容")
+        print("\n💡 提示: GitHub Actions CI 环境通常会成功获取 JSON 数据")
         return
 
-    top_prompts = select_top_prompts(all_posts)
+    print(f"\n{'=' * 60}")
+    print("Phase 1: Prompt 检测与质量评分")
+    print("=" * 60)
 
-    print(f"\n选中 {len(top_prompts)} 条最高赞内容:")
+    scored_posts = filter_and_score_posts(all_posts)
+
+    if not scored_posts:
+        print("\n❌ 所有帖子均未达到 Prompt 质量标准")
+        return
+
+    top_prompts = select_top_prompts(scored_posts)
+
+    print(f"\n最终选中 {len(top_prompts)} 条:")
     for i, p in enumerate(top_prompts, 1):
-        print(f"  {i}. [{p['upvotes']}👍] {p['title'][:50]}...")
+        print(f"  {i}. [{p['prompt_score']:.1f}分] [{p['upvotes']}👍] {p['title'][:55]}...")
 
     issue_content = generate_issue_content(top_prompts)
 
-    output_dir = (
-        Path(__file__).parent.parent / "prompts" / "pending"
-    )
+    output_dir = Path(__file__).parent.parent / "prompts" / "pending"
     output_dir.mkdir(parents=True, exist_ok=True)
 
     today = datetime.now().strftime("%Y-%m-%d")
@@ -251,7 +468,7 @@ def main():
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(issue_content)
 
-    print(f"\n✅ 已生成待翻译文件: {output_file}")
+    print(f"\n✅ 已生成: {output_file}")
     print("=" * 60)
 
 
