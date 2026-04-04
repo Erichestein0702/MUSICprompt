@@ -77,3 +77,8 @@ temp/
 # Design book (local only)
 DESIGN_BOOK.md
 ARCHITECTURE.md
+
+# Knowledge / Memory (local only, for knowledge graph)
+MEMORY.md
+memory/
+*.memory.*
