@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Reddit 音乐 Prompt 爬取器 v3.0
+Reddit 音乐 Prompt 爬取器 v1.3.0
 
 设计思路：
 1. 多源获取：RSS Feed（主力）+ JSON API（CI 环境备用）
@@ -48,7 +48,7 @@ def _fetch_via_rss(subreddit: str, limit: int = 25) -> list:
         feed = feedparser.parse(
             url,
             request_headers={
-                "User-Agent": "MUSICprompt-RSS/3.0 (by /u/MUSICprompt-team)"
+                "User-Agent": "MUSICprompt-RSS/1.3.0 (by /u/MUSICprompt-team)"
             },
         )
 
@@ -92,7 +92,7 @@ def _fetch_via_json(subreddit: str, limit: int = 25) -> list:
         req = __import__("urllib.request", fromlist=["Request"]).Request(
             url,
             headers={
-                "User-Agent": "MUSICprompt-Bot/3.0 (by /u/MUSICprompt-team)"
+                "User-Agent": "MUSICprompt-Bot/1.3.0 (by /u/MUSICprompt-team)"
             },
         )
         with __import__("urllib.request", fromlist=["urlopen"]).urlopen(
@@ -197,6 +197,30 @@ def is_junk_post(title: str) -> bool:
     return False
 
 
+def is_real_prompt(title: str, content: str) -> Tuple[bool, str]:
+    """
+    硬性门槛：判断是否包含真正的音乐 Prompt 文本
+
+    必须同时满足：
+      1. 标题或正文中含 'prompt' 关键词（不区分大小写）
+      2. 正文中有 5 个以上英文逗号或中文逗号（结构化内容的标志）
+
+    返回: (是否通过, 原因说明)
+    """
+    combined = f"{title} {content}"
+    combined_lower = combined.lower()
+
+    has_prompt_keyword = bool(re.search(r'\bprompt\b', combined_lower))
+    if not has_prompt_keyword:
+        return False, "缺少 prompt 关键词"
+
+    comma_count = len(re.findall(r'[,，]', content))
+    if comma_count < 5:
+        return False, f"逗号不足 ({comma_count}个, 需≥5)"
+
+    return True, ""
+
+
 def calc_prompt_score(title: str, content: str) -> float:
     """
     计算「Prompt 质量」分数 (0~10)
@@ -256,6 +280,7 @@ def filter_and_score_posts(posts: list) -> List[dict]:
     """
     过滤 + 评分流水线：
 
+    Step 0: 硬性门槛 — 必须含 'prompt' 关键词 + ≥5 个逗号
     Step 1: 去掉标题为垃圾帖的
     Step 2: 计算每篇的 Prompt 质量分
     Step 3: 过滤掉低于阈值的质量分
@@ -265,11 +290,18 @@ def filter_and_score_posts(posts: list) -> List[dict]:
 
     scored = []
     skipped_junk = 0
+    skipped_no_prompt = 0
     skipped_low_score = 0
 
     for post in posts:
         title = post.get("title", "")
         content = post.get("content", "")
+
+        # Step 0: 硬性门槛 — 必须是真正的 Prompt 文本
+        is_prompt, reason = is_real_prompt(title, content)
+        if not is_prompt:
+            skipped_no_prompt += 1
+            continue
 
         # Step 1: 垃圾帖直接丢掉
         if is_junk_post(title):
@@ -290,8 +322,8 @@ def filter_and_score_posts(posts: list) -> List[dict]:
     # Step 4: 按 Prompt 质量分降序排列
     scored.sort(key=lambda x: x["prompt_score"], reverse=True)
 
-    print(f"    过滤: 跳过 {skipped_junk} 个垃圾帖, {skipped_low_score} 个低质量帖")
-    print(f"    剩余 {len(scored)} 条高质量 Prompt 候选")
+    print(f"    过滤: {skipped_no_prompt} 个非Prompt帖, {skipped_junk} 个垃圾帖, {skipped_low_score} 个低质量帖")
+    print(f"    剩余 {len(scored)} 条高质量 Prompt")
 
     return scored
 
@@ -401,7 +433,7 @@ def generate_issue_content(prompts: list) -> str:
         "",
         "---",
         "",
-        "*此 Issue 由 MUSICprompt 自动创建 v3.0 (Prompt 质量筛选)*",
+        "*此 Issue 由 MUSICprompt 自动创建 v1.3.0 (Prompt 质量筛选)*",
     ])
 
     return "\n".join(lines)
@@ -413,7 +445,7 @@ def generate_issue_content(prompts: list) -> str:
 
 def main():
     print("=" * 60)
-    print("Reddit 音乐 Prompt 爬取器 v3.0")
+    print("Reddit 音乐 Prompt 爬取器 v1.3.0")
     print("=" * 60)
 
     subreddits = config.reddit.SUBREDDITS
