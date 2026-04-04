@@ -1,99 +1,131 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+Format based on [Keep a Changelog](https://keepachangelog.com/).
 
-## [2.0.0] - 2026-04-04
+## [1.4.0] - 2026-04-04
 
-### 🚀 新增 (Added)
+### 🚀 Added
 
-- **`src/config.py`** — 统一配置管理模块
-  - 集中管理所有配置项（Reddit、流水线、LLM、数据库、输出、GitHub 数据源）
-  - 支持环境变量覆盖，支持 `.env` 文件自动加载
-  - 类型安全的配置类：`RedditConfig`, `PipelineConfig`, `LLMConfig`, `DatabaseConfig`, `OutputConfig`, `GitHubSourceConfig`
+- **Prompt 内容检测系统 v2** (`is_real_prompt()` 完全重写)
+  - 基于真实 Suno Prompt 格式研究（参考 Suno V5 官方指南 + 社区最佳实践）
+  - **Layer 1 正信号检测**（必须 ≥2 分）:
+    - 结构元标签 `[Intro]`, `[Verse]`, `[Chorus]` 等 (3分)
+    - 组合标签 `[Verse][Male][Whispered]` (3分)
+    - BPM 标记 `118 BPM` / `bpm:120` (2分)
+    - 分享引导词 `"my prompt:"`, `"here's my..."`, `"I used:"` (2分)
+    - Suno 风格密集标签串 `rock pop, guitar, distorted, ...` (2分)
+    - 调性标记 `key: C major` (1分)
+  - **Layer 2 负信号扣分**（讨论/散文/吐槽特征）:
+    - 第一人称叙事密度 ("I have been", "my experience"...) — ≥4处 -3分
+    - 吐槽/抱怨词 ("awful", "magic wand", "ruining"...) — ≥2处 -2分
+    - 净分 < 1 则拦截
+  - **Layer 3 格式门槛**: ≥5 个逗号
 
-- **`src/constants.py`** — 共享常量定义模块
-  - `GENRE_ICONS`: 流派图标映射（24 个流派 emoji）
-  - `USE_CASE_NAMES`: 使用场景中英文名称映射
-  - `MUSIC_KEYWORDS`: 音乐关键词列表（用于数据清洗过滤）
-  - `TECH_KEYWORDS`, `INSTRUMENTS`, `GENRES`, `STRUCTURE_TAGS`, `SCENARIO_MAP`
-  - 消除跨文件重复定义，统一维护
+### 🐛 Fixed
 
-- **`.env.template`** — 环境变量配置模板
-  - 包含所有可配置项的说明和默认值
-  - 支持 LLM API Key、Reddit 爬虫参数、数据处理阈值等
+- **Magic Wand 类吐槽帖**: "The new personalize magic wand for styles is awful" → 被负信号层拦截
+- **含 'prompt' 词的讨论帖**: "What prompt settings do you use?" → 无正信号，被拦截
+- **个人散文**: Pearls 长文 → 无正信号 + 高第一人称密度，被拦截
 
-### 🔧 变更 (Changed)
+### 📊 Verified
 
-#### Reddit 爬虫重写 (`tools/reddit_fetcher.py`)
-- **废弃**: 原基于 `urllib` 的 Reddit JSON API 方案（已被 Reddit 2023 OAuth 政策拦截，返回 403）
-- **新增**: 基于 `feedparser` 的 RSS Feed 方案
-  - 无需 OAuth 认证，无需 API Key
-  - 使用 Reddit 公开 RSS 接口: `https://www.reddit.com/r/{subreddit}/.rss`
-  - 新增 HTML 清理、点赞数正则提取、作者解析等辅助函数
-  - 配置项通过 `config.reddit.*` 统一管理
-
-#### 数据库层升级 (`src/db/models.py`)
-- **FTS5 全文搜索**: `search()` 方法从 `LIKE '%keyword%'` 升级为 FTS5 `MATCH` 查询
-  - 主路径使用 `JOIN prompts_fts` + `ORDER BY rank` 高效检索
-  - 保留 LIKE 作为 fallback 兼容无结果场景
-  - FTS5 虚拟表增加 `tokenize='unicode61'` 分词器支持中文
-- **连接管理优化**:
-  - 新增 `_conn` 连接复用机制，避免频繁创建/销毁连接
-  - 新增 `@contextmanager connection()` 上下文管理器接口
-  - 启用 WAL 日志模式和外键约束 (`PRAGMA journal_mode=WAL`, `PRAGMA foreign_keys=ON`)
-  - `db_path` 参数支持从 config 默认值获取
-
-#### 配置与常量去重 (多文件)
-- `tools/sync_to_markdown.py`: 移除本地 `GENRE_ICONS` / `USE_CASE_NAMES` 定义，改用 `src.constants`
-- `tools/output_formatter.py`: 同上，移除本地硬编码的 `USE_CASE_NAMES` 和 `use_case_names` 字典
-- `tools/auto_pipeline.py`:
-  - `SOURCES` 列表改为从 `app_config.github.SOURCES` 动态加载
-  - `DataCleaner.MUSIC_KEYWORDS` 改用共享 `MUSIC_KEYWORDS`
-  - `MIN_PROMPT_LENGTH` / `MAX_PROMPT_LENGTH` 从配置读取
-  - 所有硬编码路径替换为 `app_config.*` 引用
-- `tools/prompt_extractor.py`:
-  - `PromptQualityScorer` 内部 4 组关键词列表全部引用 `src.constants`
-  - `scenario_map` 字典引用共享 `SCENARIO_MAP`
-
-#### GitHub Actions 工作流更新 (`.github/workflows/daily-fetcher.yml`)
-- 步骤名称从 "Fetch Reddit Posts" 更新为 "Fetch Reddit Posts (RSS Feed)"
-- 配置通过 GitHub Repository Variables 注入（`REDDIT_SUBREDDITS`, `MIN_UPVOTES`, `TARGET_COUNT`）
-- Issue 标签增加 `rss-feed` 标识
-- Fallback Issue 内容适配 RSS 方案的错误提示
-
-#### 依赖更新 (`requirements.txt`)
-- 新增 `feedparser>=6.0.0`（RSS 解析）
-- 新增 `requests>=2.31.0`（HTTP 客户端备用）
-- 保留原有依赖不变
-
-### 🐛 修复 (Fixed)
-
-- **Reddit 爬虫 403 错误**: 原 JSON API 方案因 Reddit 强制 OAuth 导致完全不可用，RSS 方案彻底解决此问题
-- **搜索性能**: 全文搜索从 O(n) LIKE 扫描升级为 O(log n) FTS5 索引查询
-- **连接泄漏风险**: 数据库连接复用减少 I/O 开销
-
-### 📝 迁移指南 (Migration)
-
-1. 安装新依赖:
-   ```bash
-   pip install feedparser requests
-   ```
-
-2. 复制环境变量模板:
-   ```bash
-   cp .env.template .env
-   # 编辑 .env 填入你的 API Keys
-   ```
-
-3. 如有自定义 GitHub Actions 配置，在仓库 Settings → Variables 中添加:
-   - `REDDIT_SUBREDDITS` (可选, 默认 `SunoAI,Udio,aiMusic`)
-   - `MIN_UPVOTES` (可选, 默认 `50`)
-   - `TARGET_COUNT` (可选, 默认 `7`)
-
-4. 已有数据库无需迁移，FTS5 表和触发器会在下次 `init_db()` 时自动创建（`CREATE TABLE IF NOT EXISTS`）
+5 条测试数据验证:
+```
+Magic Wand 吐槽   → REJECT (无正信号 + awful/ruining 负信号)
+Pearls 散文        → REJECT (无正信号 + 第一人称过密)
+讨论帖             → REJECT (垃圾标题 + 无正信号)
+真实结构化 Prompt   → PASS  (9.5分, [Intro][Verse][Chorus])
+真实风格 Prompt     → PASS  (8.3分, lo-fi/Rhodes/85 BPM)
+```
 
 ---
 
-## [1.x] - Earlier Releases
+## [1.3.0] - 2026-04-04
+
+### 🐛 Fixed
+
+- **爬虫硬性门槛**: 新增 `is_real_prompt()` 硬性过滤
+  - 必须包含 `prompt` 关键词（不区分大小写）
+  - 正文必须有 ≥5 个英文或中文逗号（结构化内容标志）
+  - 彻底拦截个人散文、项目介绍、纯讨论等非 Prompt 内容
+  - 过滤流水线升级为 5 步: 硬性门槛 → 垃圾帖检测 → 质量评分 → 阈值 → 排序
+
+### 🔧 Changed
+
+- 版本号策略改为语义化版本号 (`x.y.z`)
+
+---
+
+## [1.2.0] - 2026-04-04
+
+### 🚀 Added
+
+- **Prompt 质量检测系统** (`reddit_fetcher.py`)
+  - `is_junk_post()`: 17 种垃圾标题模式一票否决（help/how/why/bug/error/question 等）
+  - `calc_prompt_score()`: Prompt 质量评分 0~10（结构标签 35% + 技术参数 15% + 关键词 15% + 方括号 20% + 长度 15%）
+  - `filter_and_score_posts()`: 4 步过滤流水线
+  - `_fetch_via_json()`: JSON API 作为 RSS 的 fallback（CI 环境可用）
+
+### 🐛 Fixed
+
+- **点赞数排序失效**: RSS 无法可靠提取 score，改用 Prompt 质量评分作为主排序依据
+- **垃圾帖泛滥**: 求助/问题/Bug 报告/分享帖被正确识别并过滤
+
+### 📊 Verified
+
+测试数据验证 (7 条模拟帖子):
+```
+输入: 7 条
+├── 3 垃圾帖 (help/bug/question) → is_junk_post() 拦截
+├── 2 低质量帖 (<4.0 分) → score threshold 淘汰
+└── 2 高质量 Prompt 保留 (9.1分 / 7.0分)
+```
+
+---
+
+## [1.1.0] - 2026-04-04
+
+### 🚀 Added
+
+- **`src/config.py`** — 统一配置管理模块
+  - 6 个配置类: `RedditConfig`, `PipelineConfig`, `LLMConfig`, `DatabaseConfig`, `OutputConfig`, `GitHubSourceConfig`
+  - 支持环境变量覆盖 + `.env` 文件自动加载
+
+- **`src/constants.py`** — 共享常量定义模块
+  - `GENRE_ICONS`, `USE_CASE_NAMES`, `MUSIC_KEYWORDS`, `TECH_KEYWORDS`, `INSTRUMENTS`, `GENRES`, `STRUCTURE_TAGS`, `SCENARIO_MAP`
+  - 消除跨文件重复定义
+
+- **`.env.template`** — 环境变量配置模板
+
+### 🔧 Changed
+
+#### Reddit 爬虫 (`tools/reddit_fetcher.py`)
+- 废弃: `urllib` JSON API（Reddit OAuth 403）
+- 新增: `feedparser` RSS Feed 方案（无需认证）
+
+#### 数据库层 (`src/db/models.py`)
+- FTS5 全文搜索替代 `LIKE '%keyword%'`
+- 连接复用 + WAL 模式 + 外键约束
+- 新增 `@contextmanager connection()` 接口
+
+#### 去重 (多文件)
+- `sync_to_markdown.py`, `output_formatter.py`, `auto_pipeline.py`, `prompt_extractor.py`
+- 所有硬编码常量/路径统一引用 `src.constants` / `src.config`
+
+#### CI/CD (`.github/workflows/daily-fetcher.yml`)
+- 适配 RSS 方案 + Repository Variables 注入
+
+#### 依赖 (`requirements.txt`)
+- 新增 `feedparser>=6.0.0`, `requests>=2.31.0`
+
+### 🐛 Fixed
+
+- Reddit 爬虫 403 错误（RSS 方案解决）
+- 全文搜索性能 O(n) → O(log n)
+
+---
+
+## [1.0.0] - Initial Release
 
 Initial release with basic prompt extraction, LLM translation, and Markdown output pipeline.
