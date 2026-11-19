@@ -22,6 +22,13 @@ from .music_prompt_schema import (
     SourceInfo,
     GENRE_DISPLAY_NAMES,
 )
+from .v2 import (
+    GenerationEvaluation,
+    MusicPromptV2,
+    ParameterOrigin,
+    SourceAttribution,
+    VerificationStatus,
+)
 
 __all__ = [
     "DSPParameters",
@@ -34,4 +41,9 @@ __all__ = [
     "GenreStats",
     "SourceInfo",
     "GENRE_DISPLAY_NAMES",
+    "GenerationEvaluation",
+    "MusicPromptV2",
+    "ParameterOrigin",
+    "SourceAttribution",
+    "VerificationStatus",
 ]

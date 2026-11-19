@@ -1,194 +1,53 @@
-# Contributing to MUSICprompt / 贡献指南
+# Contributing to MUSICprompt
 
-[English](#english) | [中文](#中文)
+欢迎提交 Prompt、生成评测、数据修复和代码改进。v2 的核心要求是：**来源可追踪、参数不冒充事实、效果评分有生成记录支撑。**
 
----
+## 提交 Prompt
 
-## English
+1. Fork 仓库并创建功能分支。
+2. 在 `data/prompts_v2.jsonl` 中每条记录占一行，字段由 `src/models/v2.py` 定义。
+3. 运行 `python tools/build.py --check` 验证数据、去重和主要文档链接。
+4. 运行 `python tools/build.py` 更新 CSV、网站数据和统计产物。
+5. 运行 `python -m unittest discover -s tests -v`，然后提交 PR。
 
-### 🎵 Thank You for Contributing!
-
-MUSICprompt is a community-driven project. We welcome contributions of high-quality AI music prompts, especially in **Phonk** and **Electronic** genres.
-
-### How to Contribute
-
-#### 1. Fork the Repository
-
-Click the "Fork" button on the top right of this page to create your own copy.
-
-#### 2. Clone Your Fork
-
-```bash
-git clone https://github.com/YOUR_USERNAME/MUSICprompt.git
-cd MUSICprompt
-```
-
-#### 3. Create a Branch
-
-```bash
-git checkout -b feature/add-new-prompts
-```
-
-#### 4. Add Your Prompts
-
-Create a new JSON file in `data/contributions/` folder:
+最小示例：
 
 ```json
-[
-  {
-    "prompt_text": "Your prompt with [Verse], [Chorus] tags",
-    "genre": ["phonk", "electronic"],
-    "bpm": 140,
-    "key": "F Minor",
-    "instruments": ["808 bass", "cowbell", "synth"],
-    "description": "Brief style description",
-    "contributor": "Your GitHub username"
-  }
-]
+{"schema_version":"2.0.0","id":"mp_community_example_001","title":"Midnight Circuit","style_prompt":"drift phonk, 140 BPM, F minor, cowbell, distorted 808 bass, no vocals","target_platform":"suno","genres":["phonk","electronic"],"instruments":["cowbell","808 bass"],"bpm":140,"bpm_origin":"explicit","key_signature":"F minor","key_origin":"explicit","source":{"name":"community","author":"your-github-name","license":"CC0-1.0"}}
 ```
 
-**Prompt Quality Guidelines:**
+### 数据规则
 
-| Requirement | Description |
-|-------------|-------------|
-| **Length** | 50-950 characters |
-| **Structure** | Use `[Verse]`, `[Chorus]`, `[Bridge]` tags |
-| **BPM** | Include specific tempo (e.g., 140 BPM) |
-| **Key** | Specify key signature (e.g., F Minor) |
-| **Instruments** | List specific instruments |
-| **Style** | Describe the genre clearly |
+| 字段 | 要求 |
+|---|---|
+| `id` | 唯一且稳定，不要在后续编辑中随意改变 |
+| `style_prompt` | 保留原始文本，不为了“看起来更专业”而覆盖原意 |
+| `bpm_origin` / `key_origin` | 原文明确写出用 `explicit`；模型推测用 `inferred`；没有值用 `unknown` |
+| `text_quality_score` | 只表示文本结构和完整度，不代表音乐效果 |
+| `source` | 尽可能提供名称、URL、作者和许可证 |
+| `evaluations` | 保存真实生成平台、模型版本、结果链接和评分 |
 
-#### 5. Test Your Prompts
+不要把 AI 推断的 BPM、调性或乐器写成原始 Prompt 明确提供的参数。不要仅凭文本评分把记录标记为 `verified`。
 
-Before submitting, test your prompts on:
-- [Suno AI](https://suno.ai)
-- [Udio](https://udio.com)
+## 提交生成评测
 
-#### 6. Commit and Push
+`GenerationEvaluation` 支持以下信息：
 
-```bash
-git add .
-git commit -m "feat: add new Phonk prompts"
-git push origin feature/add-new-prompts
-```
+- 平台与模型版本
+- 音频或结果页面 URL
+- 0–10 分的 `generation_score`
+- 风格、结构、人声、音质等分项评分
+- 失败原因或人工评价
 
-#### 7. Create Pull Request
+一条记录可以保留多次生成结果，用于比较 Prompt 修改前后的表现。
 
-1. Go to your fork on GitHub
-2. Click "Compare & pull request"
-3. Fill in the PR template
-4. Submit!
+## 提交代码
 
-### What We're Looking For
+- 新功能应包含标准库 `unittest` 测试，不依赖真实 API 或外部网络。
+- 不提交 `.env`、API Key 或本地凭据。
+- SQLite 是构建产物；可审查的数据修改应落在 JSONL。
+- 自动采集规则变更应同时补充正例和反例测试。
 
-| Genre | Priority | Examples |
-|-------|----------|----------|
-| **Phonk** | 🔥 High | Drift Phonk, Aggressive Phonk, Memphis Phonk |
-| **Electronic** | 🔥 High | House, Trance, Dubstep, Future Bass |
-| **Brazilian Funk** | ⭐ Medium | Funk Carioca, Brega Funk |
-| **Hip-Hop/Trap** | ⭐ Medium | Trap, Drill, Lo-fi Hip Hop |
+## 行为准则
 
-### Code of Conduct
-
-- Be respectful and inclusive
-- Provide constructive feedback
-- Focus on what is best for the community
-
----
-
-## 中文
-
-### 🎵 感谢您的贡献！
-
-MUSICprompt 是一个社区驱动的项目。我们欢迎高质量 AI 音乐提示词的贡献，特别是 **Phonk** 和 **Electronic** 流派。
-
-### 如何贡献
-
-#### 1. Fork 仓库
-
-点击页面右上角的 "Fork" 按钮创建你自己的副本。
-
-#### 2. 克隆你的 Fork
-
-```bash
-git clone https://github.com/YOUR_USERNAME/MUSICprompt.git
-cd MUSICprompt
-```
-
-#### 3. 创建分支
-
-```bash
-git checkout -b feature/add-new-prompts
-```
-
-#### 4. 添加你的提示词
-
-在 `data/contributions/` 文件夹中创建新的 JSON 文件：
-
-```json
-[
-  {
-    "prompt_text": "你的提示词，包含 [Verse], [Chorus] 标签",
-    "genre": ["phonk", "electronic"],
-    "bpm": 140,
-    "key": "F Minor",
-    "instruments": ["808 bass", "cowbell", "synth"],
-    "description": "风格简述",
-    "contributor": "你的 GitHub 用户名"
-  }
-]
-```
-
-**提示词质量指南：**
-
-| 要求 | 描述 |
-|------|------|
-| **长度** | 50-950 字符 |
-| **结构** | 使用 `[Verse]`, `[Chorus]`, `[Bridge]` 标签 |
-| **BPM** | 包含具体速度（如 140 BPM） |
-| **调性** | 指定调号（如 F Minor） |
-| **乐器** | 列出具体乐器 |
-| **风格** | 清晰描述流派 |
-
-#### 5. 测试你的提示词
-
-提交前，请在以下平台测试：
-- [Suno AI](https://suno.ai)
-- [Udio](https://udio.com)
-
-#### 6. 提交并推送
-
-```bash
-git add .
-git commit -m "feat: 添加新的 Phonk 提示词"
-git push origin feature/add-new-prompts
-```
-
-#### 7. 创建 Pull Request
-
-1. 在 GitHub 上进入你的 fork
-2. 点击 "Compare & pull request"
-3. 填写 PR 模板
-4. 提交！
-
-### 我们正在寻找的内容
-
-| 流派 | 优先级 | 示例 |
-|------|--------|------|
-| **Phonk** | 🔥 高 | Drift Phonk, Aggressive Phonk, Memphis Phonk |
-| **Electronic** | 🔥 高 | House, Trance, Dubstep, Future Bass |
-| **Brazilian Funk** | ⭐ 中 | Funk Carioca, Brega Funk |
-| **Hip-Hop/Trap** | ⭐ 中 | Trap, Drill, Lo-fi Hip Hop |
-
-### 行为准则
-
-- 保持尊重和包容
-- 提供建设性反馈
-- 关注社区共同利益
-
----
-
-## Questions? / 有问题？
-
-- Open an [Issue](https://github.com/Erichestein0702/MUSICprompt/issues)
-- Start a [Discussion](https://github.com/Erichestein0702/MUSICprompt/discussions)
+尊重贡献者，讨论具体问题和证据。涉及第三方数据时，不要移除来源、作者或许可证信息。

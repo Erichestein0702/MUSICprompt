@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.0.0] - 2026-11-18
+
+### Added
+
+- 新增 `MusicPromptV2` 协议：参数来源、目标模型、负面 Prompt、生成评测与验证状态。
+- 新增可审查的 `data/prompts_v2.jsonl` 事实数据和 v1 SQLite 迁移工具。
+- 新增统一构建入口，生成 SQLite、UTF-8 BOM CSV、网站数据及 README 实时统计。
+- 新增确定性 Prompt 编译器，支持中文需求解析、局部 Remix、字段 Diff 和结构化输出。
+- 新增无后端检索网站，支持关键词、流派、平台、文本评分筛选与一键复制。
+- 新增标准库单元测试和独立 CI 检查。
+
+### Changed
+
+- 明确区分 `text_quality_score` 与实际生成评分，旧文本分数不再被解释为音乐效果。
+- SQLite 增加 v2 字段及已有数据库的兼容迁移逻辑。
+- README 与贡献指南改为以 JSONL 为唯一事实数据，修复失效下载和分类链接。
+- 每日采集工作流保留错误码，抓取程序失败时不再错误显示为成功。
+
+### Data
+
+- 完整保留 283 条不重复 Prompt。
+- 仅从原文补提取明确参数：BPM 完整记录由 9 条增至 49 条，调性由 1 条增至 23 条。
+
+---
+
 ## [1.4.0] - 2026-04-04
 
 ### 🚀 Added

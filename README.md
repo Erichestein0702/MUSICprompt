@@ -1,344 +1,125 @@
-# 🎵 MUSICprompt - AI Music Prompt Library
+# MUSICprompt
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Total%20Prompts-283-blue?style=for-the-badge&logo=music&logoColor=white" alt="Total Prompts">
-  <img src="https://img.shields.io/badge/Curated-95-gold?style=for-the-badge&logo=star&logoColor=white" alt="Curated">
-  <img src="https://img.shields.io/badge/Top%20Genre-Rock-red?style=for-the-badge&logo=fire&logoColor=white" alt="Top Genre">
-  <img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=for-the-badge&logo=checkmark&logoColor=white" alt="Status">
-  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License">
-</p>
+面向 AI 音乐创作的开源 Prompt 数据集、检索工具与确定性 Prompt 编译器。
 
----
+v2 的重点不是单纯增加文本数量，而是让数据**可审查、可迁移、可检索、可验证**：区分原始参数与模型推断，区分文本质量与实际生成效果。
 
-## 🎯 What Problem Does This Solve? / 解决了什么技术难题？
+## 当前数据
 
-### English
+<!-- AUTO_STATS:START -->
+| 指标 | 当前值 |
+|---|---:|
+| 不重复 Prompt | 283 |
+| 文本质量分 ≥ 8 | 95 |
+| 有明确 BPM | 49 |
+| 有明确调性 | 23 |
+| 已完成生成验证 | 0 |
+| 平均文本质量分 | 7.44 |
+<!-- AUTO_STATS:END -->
 
-MUSICprompt solves two critical challenges in AI music generation:
-
-1. **Automated Daily Updates**: Automatically collects and processes high-quality prompts from global communities, using Qwen2.5-72B LLM for professional translation - no more manual searching and translating.
-
-2. **Machine Translation Quality Issues**: Traditional machine translation often distorts music terminology and loses emotional nuance. Our LLM-powered translation preserves technical accuracy (BPM, key signatures, instrument names) while maintaining creative expression.
-
-### 中文
-
-MUSICprompt 解决了 AI 音乐生成领域的两大核心难题：
-
-1. **自动化每日更新**：自动从全球社区采集和处理高质量提示词，使用 Qwen2.5-72B 大模型进行专业翻译 —— 不再需要手动搜索和翻译。
-
-2. **机翻文本失真问题**：传统机器翻译经常扭曲音乐术语，丢失情感细微差别。我们的大模型翻译保留了技术准确性（BPM、调号、乐器名称），同时保持创意表达。
-
----
-
-## 🚀 Quick Start / 快速开始
-
-### Where to Use / 在哪里使用
-
-**GitHub Repository**: [https://github.com/Erichestein0702/MUSICprompt](https://github.com/Erichestein0702/MUSICprompt)
-
-### How to Download / 如何下载
-
-#### Option 1: Clone the Repository / 方式一：克隆仓库
+## 快速开始
 
 ```bash
-git clone https://github.com/Erichestein0702/MUSICprompt.git
+python -m pip install -r requirements.txt
+python tools/build.py
 ```
 
-#### Option 2: Download CSV Files / 方式二：下载 CSV 文件
+`build.py` 会从统一事实数据生成 SQLite、CSV、网站数据、统计信息，并检查主要文档链接。
 
-Navigate to `data/final_output/csv/` for Excel-compatible format:
-
-| File | Description | 文件说明 |
-|------|-------------|----------|
-| [all_prompts.csv](data/final_output/csv/all_prompts.csv) | All 283 prompts | 全部 283 条提示词 |
-| [curated_prompts.csv](data/final_output/csv/curated_prompts.csv) | 95 curated prompts (8+ score) | 95 条精校提示词（8分以上） |
-
-#### Option 3: Browse Online / 方式三：在线浏览
-
-👉 **[点击这里直接浏览所有 Prompts](prompts/)** 👈
-
-- **精选合集**: [prompts/curated/](prompts/curated/)
-- **按流派**: [prompts/genres/](prompts/genres/)
-- **按场景**: [prompts/use_cases/](prompts/use_cases/)
-
----
-
-## 📊 Genre Distribution / 流派分布
-
-| Genre | Count | Distribution | 流派 | 数量 |
-|-------|-------|--------------|------|------|
-| 🎸 **Pop** | 131 | `████████████████████▒▒▒▒` | 流行 | 131 |
-| 🎸 **Rock** | 118 | `██████████████████▒▒▒▒▒▒` | 摇滚 | 118 |
-| 🎹 **Electronic** | 90 | `██████████████▒▒▒▒▒▒▒▒▒` | 电子 | 90 |
-| 🎤 **Soul** | 32 | `█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒` | 灵魂 | 32 |
-| 🎤 **Rap** | 32 | `█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒` | 说唱 | 32 |
-
-<details>
-<summary>📊 Full Genre Distribution / 完整流派分布</summary>
-
-| Genre | Count | Genre | Count |
-|-------|-------|-------|-------|
-| Funk | 27 | R&B | 25 |
-| House | 24 | Jazz | 22 |
-| Ambient | 18 | Indie | 18 |
-| Blues | 16 | EDM | 15 |
-| Trap | 13 | Trance | 12 |
-| Hip Hop | 11 | Metal | 32 |
-| Punk | 9 | Techno | 5 |
-
-</details>
-
----
-
-## ⭐ Hall of Fame / 名人堂
-
-### 🥇 The House Of The Rising Sun
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Score-9.17%2F10-gold?style=flat-square" alt="Score">
-  <img src="https://img.shields.io/badge/Genre-Country%20%7C%20House-brown?style=flat-square" alt="Genre">
-</p>
-
-> **EN**: Deep vocals, mournful harmonica, steel-string guitar tremolo accompaniment — a dark country revival of the classic.
-> 
-> **中文**: 低沉的嗓音，悲凉的口琴，钢弦吉他的颤音伴奏 —— 黑暗乡村版的经典重生。
-
-[View Details / 查看详情](data/final_output/curated/country_curated.md)
-
----
-
-### 🥈 Burdens
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Score-8.33%2F10-silver?style=flat-square" alt="Score">
-  <img src="https://img.shields.io/badge/Genre-Rock%20%7C%20Electronic%20%7C%20House-red?style=flat-square" alt="Genre">
-</p>
-
-> **EN**: Portishead's melancholic Trip-Hop + Johnny Marr's complex guitar + Underworld's electronic Prog-House = an unforgettable emotional fusion.
-> 
-> **中文**: Portishead的忧郁Trip-Hop + Johnny Marr的复杂吉他 + Underworld的电子Prog-House = 令人难忘的情感融合。
-
-[View Details / 查看详情](data/final_output/curated/rock_curated.md)
-
----
-
-### 🥉 Shadows to Light
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Score-8.17%2F10-cd7f32?style=flat-square" alt="Score">
-  <img src="https://img.shields.io/badge/Genre-Rock%20%7C%20Ambient-orange?style=flat-square" alt="Genre">
-</p>
-
-> **EN**: Alternative rock/emo rock: finding hope in darkness, a healing sound of overcoming adversity.
-> 
-> **中文**: 另类摇滚/情绪摇滚：在黑暗中寻找希望，战胜逆境的治愈之声。
-
-[View Details / 查看详情](data/final_output/curated/rock_curated.md)
-
----
-
-## 🗂️ Navigation / 导航
-
-### Browse by Genre / 按流派浏览
-
-#### 🎸 Rock / 摇滚 (495 prompts)
-| Sub-Genre | Count | Link | 子流派 | 数量 |
-|-----------|-------|------|--------|------|
-| **All Rock** | 495 | [View / 查看](data/final_output/genres/rock/rock.md) | 全部摇滚 | 495 |
-| Metal | 34 | [View / 查看](data/final_output/genres/rock/metal/metal.md) | 金属 | 34 |
-| Punk | 8 | [View / 查看](data/final_output/genres/rock/punk/punk.md) | 朋克 | 8 |
-| Indie | 1 | [View / 查看](data/final_output/genres/rock/indie/indie.md) | 独立 | 1 |
-
-#### 🎹 Electronic / 电子 (115 prompts)
-| Sub-Genre | Count | Link | 子流派 | 数量 |
-|-----------|-------|------|--------|------|
-| **All Electronic** | 115 | [View / 查看](data/final_output/genres/electronic/electronic.md) | 全部电子 | 115 |
-| House | 12 | [View / 查看](data/final_output/genres/electronic/house/house.md) | 浩室 | 12 |
-| Trance | 10 | [View / 查看](data/final_output/genres/electronic/trance/trance.md) | 迷幻舞曲 | 10 |
-| Ambient | 14 | [View / 查看](data/final_output/genres/electronic/ambient/ambient.md) | 氛围 | 14 |
-| Techno | 1 | [View / 查看](data/final_output/genres/electronic/techno/techno.md) | 铁克诺 | 1 |
-| Lo-fi | 2 | [View / 查看](data/final_output/genres/electronic/lo-fi/lo-fi.md) | 低保真 | 2 |
-
-#### 🎤 Hip-Hop / 嘻哈 (97 prompts)
-| Sub-Genre | Count | Link | 子流派 | 数量 |
-|-----------|-------|------|--------|------|
-| **All Hip-Hop** | 97 | [View / 查看](data/final_output/genres/hip-hop/hip-hop.md) | 全部嘻哈 | 97 |
-| Rap | 70 | [View / 查看](data/final_output/genres/hip-hop/rap/rap.md) | 说唱 | 70 |
-
-#### 🎵 Standalone Genres / 独立流派
-| Genre | Count | Link | 流派 | 数量 |
-|-------|-------|------|------|------|
-| 🎤 **Pop** | 389 | [View / 查看](data/final_output/genres/pop/pop.md) | 流行 | 389 |
-| 🎷 **Jazz** | 37 | [View / 查看](data/final_output/genres/jazz/jazz.md) | 爵士 | 37 |
-| 🎻 **Classical** | 10 | [View / 查看](data/final_output/genres/classical/classical.md) | 古典 | 10 |
-| 🪕 **Folk** | 11 | [View / 查看](data/final_output/genres/folk/folk.md) | 民谣 | 11 |
-| 🤠 **Country** | 5 | [View / 查看](data/final_output/genres/country/country.md) | 乡村 | 5 |
-| 🎺 **Soul** | 16 | [View / 查看](data/final_output/genres/soul/soul.md) | 灵魂 | 16 |
-| 🎶 **R&B** | 20 | [View / 查看](data/final_output/genres/r&b/r&b.md) | 节奏布鲁斯 | 20 |
-| 🎸 **Funk** | 16 | [View / 查看](data/final_output/genres/funk/funk.md) | 放克 | 16 |
-| 🎵 **Blues** | 9 | [View / 查看](data/final_output/genres/blues/blues.md) | 布鲁斯 | 9 |
-| 📁 **Else** | 71 | [View / 查看](data/final_output/genres/else/uncategorized.md) | 其他 | 71 |
-
-### Browse by Use Case / 按场景浏览
-
-| Use Case | Count | Link | 使用场景 | 数量 |
-|----------|-------|------|----------|------|
-| 🎉 **Party** | 79 | [View / 查看](data/final_output/use_cases/party.md) | 派对聚会 | 79 |
-| 📚 **Study** | 35 | [View / 查看](data/final_output/use_cases/study.md) | 学习专注 | 35 |
-| 🎮 **Gaming** | 18 | [View / 查看](data/final_output/use_cases/gaming.md) | 游戏电竞 | 18 |
-| 🎬 **Cinematic** | 54 | [View / 查看](data/final_output/use_cases/cinematic.md) | 影视配乐 | 54 |
-
----
-
-## 📈 Statistics / 数据统计
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Total%20Prompts-283-blue?style=flat-square" alt="Total">
-  <img src="https://img.shields.io/badge/Curated-95-gold?style=flat-square" alt="Curated">
-  <img src="https://img.shields.io/badge/Parent%20Genres-13-purple?style=flat-square" alt="Parent Genres">
-  <img src="https://img.shields.io/badge/Sub%20Genres-10-green?style=flat-square" alt="Sub Genres">
-</p>
-
-| Metric | Value | 指标 | 数值 |
-|--------|-------|------|------|
-| 🎯 Total Prompts | 283 | 总提示词 | 283 |
-| ⭐ High Quality (≥7) | 283 | 高质量 (≥7分) | 283 |
-| 🏆 Curated (≥8) | 95 | 精校 (≥8分) | 95 |
-| 🎵 Parent Genres | 13 | 父级流派 | 13 |
-| 🎶 Sub Genres | 10 | 子流派 | 10 |
-| 📁 Use Cases | 8 | 使用场景 | 8 |
-
----
-
-## 🛠️ Project Structure / 项目结构
-
-```
-MUSICprompt/
-├── 📁 data/
-│   ├── 🗄️ musicprompts.db         # SQLite database / SQLite数据库
-│   ├── 📁 final_output/           # Final output / 最终输出
-│   │   ├── ⭐ curated/             # Curated prompts / 精校合集
-│   │   ├── 🎵 genres/              # By genre / 按流派分类
-│   │   ├── 🎯 use_cases/           # By use case / 按场景分类
-│   │   └── 📊 csv/                 # CSV exports / CSV导出
-│   ├── 📁 processed/               # Processed data / 处理后数据
-│   └── 📁 external/                # External sources / 外部数据源
-├── 📁 prompts/                     # User-facing Markdown / 用户可见的MD文件
-│   ├── 📄 README.md                # Index page / 索引页
-│   ├── 📁 genres/                  # By genre / 按流派
-│   ├── 📁 use_cases/               # By use case / 按场景
-│   └── 📄 curated.md               # Top rated / 精选
-├── 📁 src/db/
-│   └── 🗄️ models.py                # Database models / 数据库模型
-├── 📁 tools/
-│   ├── 🔧 import_to_db.py          # Import JSON to SQLite / 导入数据库
-│   ├── 🔄 sync_to_markdown.py      # Sync DB to Markdown / 同步MD
-│   ├── 🔍 search_prompts.py        # Search tool / 检索工具
-│   ├── 🌐 prompt_translator.py     # AI translator / AI翻译器
-│   └── ✨ output_formatter.py      # Format output / 格式化器
-├── 📁 .github/workflows/
-│   └── ⚡ daily-fetcher.yml        # Auto Reddit fetcher / 自动爬取
-├── 📄 README.md                    # This file / 本文件
-├── 📄 CONTRIBUTING.md              # Contribution guide / 贡献指南
-└── 📄 LICENSE                      # MIT License / MIT许可证
-```
-
----
-
-## 🏗️ Architecture / 架构说明
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     数据架构                                 │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│   ┌─────────────┐      同步       ┌─────────────────────┐  │
-│   │  SQLite     │  ───────────▶  │  GitHub Markdown    │  │
-│   │  数据库     │                 │  (用户可见)         │  │
-│   └─────────────┘                 └─────────────────────┘  │
-│         │                                                   │
-│         │ 查询                                              │
-│         ▼                                                   │
-│   ┌─────────────┐                                           │
-│   │  本地工具   │  支持复杂检索、统计分析                   │
-│   │  (Python)   │                                           │
-│   └─────────────┘                                           │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
-
-### 数据库表结构
-
-| 表名 | 说明 |
-|------|------|
-| `prompts` | 主表：存储所有 Prompt 数据 |
-| `genres` | 流派标签 |
-| `instruments` | 乐器标签 |
-| `use_cases` | 使用场景 |
-| `moods` | 情绪关键词 |
-
-### 检索能力
+### 搜索 Prompt
 
 ```bash
-# 全文搜索
 python tools/search_prompts.py --query "electronic"
-
-# 按流派筛选
 python tools/search_prompts.py --genre pop --min-score 8
-
-# 按场景筛选
 python tools/search_prompts.py --use-case party
-
-# 交互模式
-python tools/search_prompts.py --interactive
+python tools/search_prompts.py --stats
 ```
 
----
+也可以直接打开 [检索网站](web/index.html)，或在仓库根目录运行：
 
-## 📝 Quality Scoring System / 质量评分体系
+```bash
+python -m http.server 8000 --directory web
+```
 
-Each prompt is evaluated on 5 dimensions / 每条提示词都经过5维度评估：
+然后访问 `http://localhost:8000`。
 
-| Dimension | Weight | 维度 | 权重 |
-|-----------|--------|------|------|
-| 🔧 Technical Parameters | 25% | 技术参数 | 25% |
-| 🏗️ Structure Clarity | 20% | 结构清晰度 | 20% |
-| 🎵 Genre Specificity | 20% | 流派明确度 | 20% |
-| 🎸 Instrument Precision | 20% | 乐器精确度 | 20% |
-| 📏 Length Appropriateness | 15% | 长度适当性 | 15% |
+### 从一句话生成 Prompt
 
----
+```bash
+python tools/compose_prompt.py \
+  --text "雨夜开车，克制但逐渐释放的中文独立流行，96 BPM，钢琴和合成器，女声"
+```
 
-## 🤝 Contributing / 贡献指南
+局部修改并查看变化：
 
-We welcome contributions, especially **Phonk** and **Electronic** prompts!
+```bash
+python tools/compose_prompt.py \
+  --text "适合学习的中文民谣，木吉他，72 BPM" \
+  --set '{"bpm": 82, "mood": "warm, focused"}'
+```
 
-我们欢迎贡献，特别是 **Phonk** 和 **Electronic** 流派的提示词！
+完整结构化输出：
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+```bash
+python tools/compose_prompt.py --text "cinematic ambient, piano, 70 BPM" --json
+```
 
-详情请参阅 [CONTRIBUTING.md](CONTRIBUTING.md)。
+## 数据协议 v2
 
----
+唯一事实数据是 [data/prompts_v2.jsonl](data/prompts_v2.jsonl)，每行对应一条由 Pydantic 校验的 `MusicPromptV2` 记录。
 
-## 📜 Data Sources / 数据来源
+```text
+JSONL 事实数据
+  -> 数据校验、ID 与文本去重
+  -> SQLite / CSV / 网站数据 / README 统计
+```
 
-- [mister-magpie/aims_prompts](https://github.com/mister-magpie/aims_prompts) - Suno & Udio user data
-- [daveshap/suno](https://github.com/daveshap/suno) - Suno AI syntax guide
-- [naqashmunir21/awesome-suno-prompts](https://github.com/naqashmunir21/awesome-suno-prompts) - Community prompts
+核心原则：
 
----
+- `bpm_origin` 和 `key_origin` 区分 `explicit`、`inferred`、`unknown`。
+- `text_quality_score` 只描述文本结构与完整度，不代表生成音乐的质量。
+- `generation_score` 来自实际生成评测；没有评测时保持为空。
+- `verified` 记录必须附带至少一条 `GenerationEvaluation`。
+- 来源 URL、作者和许可证使用独立字段保存。
 
-## 📄 License / 许可证
+旧版 SQLite 数据可迁移：
 
-This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
+```bash
+python tools/migrate_v2.py --db data/musicprompts.db --output data/prompts_v2.jsonl
+```
 
-本项目采用 MIT 许可证 - 详情请参阅 [LICENSE](LICENSE)。
+迁移器只补提取原文明确写出的 BPM 和调性，不使用风格猜测填充缺失参数。
 
----
+## 下载与浏览
 
-<p align="center">
-  <em>Made with 🎵 by MUSICprompt Team</em><br>
-  <em>让每个人都能创作专业级AI音乐</em><br>
-  <em>Empowering everyone to create professional AI music</em>
-</p>
+- [全部 Prompt CSV](data/final_output/csv/all_prompts.csv)
+- [文本质量分 8 分以上 CSV](data/final_output/csv/curated_prompts.csv)
+- [按流派浏览](prompts/genres/)
+- [按场景浏览](prompts/use_cases/)
+- [精校合集](prompts/curated/)
+
+旧 Markdown 分类页保留用于阅读；新增数据应先进入 JSONL，再运行统一构建，避免多份产物各自漂移。
+
+## 项目结构
+
+```text
+MUSICprompt/
+├── data/prompts_v2.jsonl       # 可审查、可版本化的事实数据
+├── src/models/v2.py           # v2 数据协议与来源标记
+├── src/composer.py            # 需求解析、编译、Remix 与 Diff
+├── src/repository.py          # JSONL 读写、校验和统计
+├── src/db/models.py           # SQLite / FTS5 检索
+├── tools/build.py             # 统一构建入口
+├── tools/migrate_v2.py        # v1 -> v2 迁移
+├── tools/compose_prompt.py    # Prompt 生成 CLI
+├── web/                       # 无后端检索网站
+└── tests/                     # 单元测试与回归测试
+```
+
+## 评测约定
+
+实际生成评测应记录平台、模型版本、结果链接和评分。推荐维度包括风格符合度、结构符合度、人声符合度、音质和人工偏好。文本评分较高的记录不能自动标记为“生成已验证”。
+
+## 贡献与许可证
+
+贡献方式见 [CONTRIBUTING.md](CONTRIBUTING.md)。代码采用 [MIT License](LICENSE)；第三方 Prompt 数据仍应保留原始来源及适用的数据许可信息。

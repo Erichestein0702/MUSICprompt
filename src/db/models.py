@@ -26,6 +26,16 @@ CREATE TABLE IF NOT EXISTS prompts (
     bpm INTEGER,
     key_signature TEXT,
     source TEXT,
+    schema_version TEXT DEFAULT '2.0.0',
+    target_model TEXT,
+    lyrics_prompt TEXT,
+    negative_prompt TEXT,
+    bpm_origin TEXT DEFAULT 'unknown',
+    key_origin TEXT DEFAULT 'unknown',
+    generation_score REAL,
+    verification_status TEXT DEFAULT 'unverified',
+    source_url TEXT,
+    source_license TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
@@ -174,9 +184,27 @@ class MusicPromptDB:
             self._conn = None
 
     def init_db(self):
-        """初始化数据库结构"""
+        """初始化数据库结构，并为已有 v1 数据库补充 v2 字段。"""
         conn = self._get_conn()
         conn.executescript(SCHEMA)
+        v2_columns = {
+            "schema_version": "TEXT DEFAULT '2.0.0'",
+            "target_model": "TEXT",
+            "lyrics_prompt": "TEXT",
+            "negative_prompt": "TEXT",
+            "bpm_origin": "TEXT DEFAULT 'unknown'",
+            "key_origin": "TEXT DEFAULT 'unknown'",
+            "generation_score": "REAL",
+            "verification_status": "TEXT DEFAULT 'unverified'",
+            "source_url": "TEXT",
+            "source_license": "TEXT",
+        }
+        existing = {
+            row["name"] for row in conn.execute("PRAGMA table_info(prompts)")
+        }
+        for name, definition in v2_columns.items():
+            if name not in existing:
+                conn.execute(f"ALTER TABLE prompts ADD COLUMN {name} {definition}")
         conn.commit()
         print(f"数据库已初始化: {self.db_path}")
 
@@ -187,9 +215,12 @@ class MusicPromptDB:
 
         try:
             cursor.execute("""
-                INSERT OR REPLACE INTO prompts 
-                (id, title, title_zh, prompt_text, prompt_zh, platform, quality_score, bpm, key_signature, source)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                INSERT OR REPLACE INTO prompts
+                (id, title, title_zh, prompt_text, prompt_zh, platform, quality_score,
+                 bpm, key_signature, source, schema_version, target_model,
+                 lyrics_prompt, negative_prompt, bpm_origin, key_origin,
+                 generation_score, verification_status, source_url, source_license)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """, (
                 prompt.get('id'),
                 prompt.get('title', ''),
@@ -199,8 +230,18 @@ class MusicPromptDB:
                 prompt.get('platform', ''),
                 prompt.get('quality_score', 0),
                 prompt.get('bpm'),
-                prompt.get('key'),
-                prompt.get('source', '')
+                prompt.get('key_signature') or prompt.get('key'),
+                prompt.get('source', ''),
+                prompt.get('schema_version', '2.0.0'),
+                prompt.get('target_model'),
+                prompt.get('lyrics_prompt'),
+                prompt.get('negative_prompt'),
+                prompt.get('bpm_origin', 'unknown'),
+                prompt.get('key_origin', 'unknown'),
+                prompt.get('generation_score'),
+                prompt.get('verification_status', 'unverified'),
+                prompt.get('source_url'),
+                prompt.get('source_license'),
             ))
 
             prompt_id = prompt.get('id')
@@ -355,6 +396,12 @@ class MusicPromptDB:
             LIMIT ?
         """, (limit,))
 
+        return [dict(row) for row in cursor.fetchall()]
+
+    def get_all(self) -> List[Dict]:
+        """返回构建与导出所需的全部记录。"""
+        cursor = self._get_conn().cursor()
+        cursor.execute("SELECT * FROM prompts ORDER BY id")
         return [dict(row) for row in cursor.fetchall()]
 
     def get_prompts_by_genre(self, genre: str, limit: int = 50) -> List[Dict]:

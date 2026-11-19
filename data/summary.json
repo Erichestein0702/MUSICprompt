@@ -1,0 +1,39 @@
+{
+  "schema_version": "2.0.0",
+  "total_prompts": 283,
+  "curated_prompts": 95,
+  "verified_prompts": 0,
+  "with_bpm": 49,
+  "with_key": 23,
+  "average_text_quality": 7.44,
+  "genres": {
+    "pop": 131,
+    "rock": 118,
+    "electronic": 90,
+    "rap": 32,
+    "soul": 32,
+    "metal": 32,
+    "funk": 27,
+    "r&b": 25,
+    "house": 24,
+    "jazz": 22,
+    "indie": 18,
+    "ambient": 18,
+    "blues": 16,
+    "edm": 15,
+    "trap": 13,
+    "folk": 12,
+    "trance": 12,
+    "hip hop": 11,
+    "punk": 9,
+    "country": 5,
+    "techno": 5,
+    "dubstep": 3,
+    "classical": 3,
+    "lo-fi": 2
+  },
+  "platforms": {
+    "udio": 251,
+    "suno": 32
+  }
+}

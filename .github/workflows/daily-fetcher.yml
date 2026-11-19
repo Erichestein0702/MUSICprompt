@@ -34,8 +34,8 @@ jobs:
           MIN_UPVOTES: ${{ vars.MIN_UPVOTES || '50' }}
           TARGET_COUNT: ${{ vars.TARGET_COUNT || '7' }}
         run: |
+          set -o pipefail
           python tools/reddit_fetcher.py 2>&1 | tee fetch_output.txt
-          echo "fetch_exit_code=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
       
       - name: Check if file was created
         id: check
@@ -69,18 +69,17 @@ jobs:
             
             console.log(`Issue created: ${issue.data.html_url}`);
       
-      - name: Create fallback Issue
+      - name: Create empty-result Issue
         if: steps.check.outputs.file_exists == 'false'
         uses: actions/github-script@v7
         with:
           script: |
             const today = new Date().toISOString().split('T')[0];
-            
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `⚠️ RSS 爬取失败 (${today})`,
-              body: `## 问题说明\n\n今日 Reddit RSS Feed 爬取未能获取到符合条件的帖子。\n\n### 可能原因\n\n1. 子版块暂时没有活跃帖子\n2. RSS Feed 服务暂时不可用\n3. 当前所有帖子点赞数均低于阈值 ($MIN_UPVOTES)\n\n### 建议\n\n- 检查 Actions 日志查看详细错误\n- 降低 \`MIN_UPVOTES\` 阈值（通过 Repository Variables 配置）\n- 手动添加待翻译内容到 \`prompts/pending/\`\n\n---\n\n*此 Issue 由 MUSICprompt 自动创建（RSS Feed 方式）*`,
-              labels: ['fetch-failed', 'automated', 'rss-feed'],
+              title: `今日无符合条件的 Prompt (${today})`,
+              body: `## 结果说明\n\n采集程序正常结束，但没有生成待翻译文件。这表示本次没有内容通过当前阈值，并不等同于 RSS 请求失败。\n\n### 可检查项目\n\n1. Actions 日志中的各子版块抓取状态\n2. \`MIN_UPVOTES\` 是否过高\n3. 内容是否被质量过滤规则拦截\n\n如需调整阈值，请使用 Repository Variables。\n\n---\n\n*真正的程序错误会使 Fetch 步骤和工作流直接失败。*`,
+              labels: ['fetch-empty', 'automated', 'rss-feed'],
               assignees: ['Erichestein0702']
             });

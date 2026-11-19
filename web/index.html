@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MUSICprompt v2：可检索、可组合、来源清晰的 AI 音乐 Prompt 数据集。">
+  <title>MUSICprompt — Prompt intelligence for AI music</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="MUSICprompt 首页">
+      <span class="brand-mark">M</span>
+      <span>MUSIC<span class="brand-light">prompt</span></span>
+    </a>
+    <nav class="nav-actions" aria-label="项目链接">
+      <span class="version">DATASET V2</span>
+      <a href="https://github.com/Erichestein0702/MUSICprompt">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">OPEN MUSIC PROMPT INTELLIGENCE</p>
+      <h1>不只收藏 Prompt。<br><em>让创作意图可被控制。</em></h1>
+      <p class="hero-copy">检索真实数据，分清事实与推断，再把一句自然语言编译成结构化音乐提示词。</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#library">探索数据库</a>
+        <a class="button secondary" href="#composer">打开生成器</a>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="数据集统计">
+      <article><span id="stat-total">—</span><small>不重复 Prompt</small></article>
+      <article><span id="stat-curated">—</span><small>文本质量分 ≥ 8</small></article>
+      <article><span id="stat-bpm">—</span><small>包含明确 BPM</small></article>
+      <article><span id="stat-verified">—</span><small>生成效果已验证</small></article>
+    </section>
+
+    <section class="workspace">
+      <aside id="composer" class="composer-panel">
+        <div class="section-heading">
+          <span class="step">01</span>
+          <div><p class="eyebrow">PROMPT COMPILER</p><h2>把想法变成参数</h2></div>
+        </div>
+        <label for="idea">创作意图</label>
+        <textarea id="idea" rows="5" placeholder="例如：雨夜开车，克制但逐渐释放的中文独立流行，96 BPM，钢琴和合成器，女声"></textarea>
+        <div class="form-row">
+          <div><label for="compose-platform">目标平台</label><select id="compose-platform"><option>generic</option><option>suno</option><option>udio</option></select></div>
+          <div><label for="compose-genre">流派覆盖</label><input id="compose-genre" placeholder="自动识别"></div>
+        </div>
+        <button id="compose-button" class="button primary full" type="button">生成结构化 Prompt</button>
+        <label for="composed-output">生成结果</label>
+        <textarea id="composed-output" rows="7" readonly placeholder="结果会保留原始创作意图，不会虚构 BPM 或调性。"></textarea>
+        <button id="copy-composed" class="text-button" type="button">复制生成结果</button>
+        <p class="fine-print">这是确定性编译器。更完整的 Remix 与 Diff 功能可通过 `tools/compose_prompt.py` 使用。</p>
+      </aside>
+
+      <section id="library" class="library-panel">
+        <div class="section-heading library-title">
+          <span class="step">02</span>
+          <div><p class="eyebrow">CURATED LIBRARY</p><h2>找到可用的起点</h2></div>
+          <span id="result-count" class="result-count"></span>
+        </div>
+        <div class="filters">
+          <label class="search-box"><span>搜索</span><input id="search" type="search" placeholder="标题、风格、乐器、中文描述…"></label>
+          <label><span>流派</span><select id="genre"><option value="">全部流派</option></select></label>
+          <label><span>平台</span><select id="platform"><option value="">全部平台</option><option value="suno">Suno</option><option value="udio">Udio</option></select></label>
+          <label><span>最低文本分</span><select id="min-score"><option value="0">不限</option><option value="7">7+</option><option value="8">8+</option><option value="9">9+</option></select></label>
+          <label><span>排序</span><select id="sort"><option value="score">文本质量分</option><option value="title">标题</option><option value="bpm">BPM</option></select></label>
+        </div>
+        <div id="active-filter" class="active-filter" aria-live="polite"></div>
+        <div id="results" class="results" aria-live="polite"></div>
+        <button id="load-more" class="button secondary full" type="button">加载更多</button>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <div><strong>MUSICprompt v2</strong><span>文本评分不等于生成效果。参数来源始终可见。</span></div>
+    <a href="../data/prompts_v2.jsonl">下载 JSONL</a>
+  </footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="data/prompts.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
