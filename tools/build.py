@@ -12,6 +12,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.db.models import MusicPromptDB
+from src.models.eval import load_eval_results, load_eval_tasks
 from src.repository import load_prompts, summarize
 
 ROOT = Path(__file__).parent.parent
@@ -43,16 +44,22 @@ def _write_csv(path, prompts):
 
 
 def _stats_markdown(stats):
+    eval_line = "暂无"
+    if stats.get("eval_tasks_total"):
+        eval_line = f"{stats.get('eval_tasks_done', 0)} / {stats['eval_tasks_total']}"
+    generation_avg = stats.get("average_generation_score")
     return "\n".join([
         START,
         "| 指标 | 当前值 |",
         "|---|---:|",
         f"| 不重复 Prompt | {stats['total_prompts']} |",
-        f"| 文本质量分 ≥ 8 | {stats['curated_prompts']} |",
+        f"| 文本质量分 ≥ 8（仅文本参考） | {stats['text_quality_curated']} |",
+        f"| 生成效果验证通过 | {stats['curated_prompts']} |",
+        f"| 评测任务完成 | {eval_line} |",
         f"| 有明确 BPM | {stats['with_bpm']} |",
         f"| 有明确调性 | {stats['with_key']} |",
-        f"| 已完成生成验证 | {stats['verified_prompts']} |",
         f"| 平均文本质量分 | {stats['average_text_quality']} |",
+        f"| 平均生成分 | {generation_avg if generation_avg is not None else '暂无'} |",
         END,
     ])
 
@@ -106,14 +113,25 @@ def check_local_links(root=ROOT):
 
 def build(root=ROOT):
     prompts = load_prompts(root / "data/prompts_v2.jsonl")
-    stats = summarize(prompts)
+    eval_tasks = load_eval_tasks(root / "data/eval_tasks.jsonl")
+    eval_results = load_eval_results(root / "data/eval_results.jsonl")
+    stats = summarize(prompts, eval_tasks, eval_results)
     (root / "data/summary.json").write_text(
         json.dumps(stats, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     csv_dir = root / "data/final_output/csv"
     _write_csv(csv_dir / "all_prompts.csv", prompts)
+    # 精选由真实生成效果驱动：只有生成验证通过（平均生成分 ≥ 8）才进入
     _write_csv(
         csv_dir / "curated_prompts.csv",
+        [
+            p for p in prompts
+            if p.generation_score is not None and p.generation_score >= 8
+        ],
+    )
+    # 文本质量分仅作参考，单独输出，避免与生成效果混淆
+    _write_csv(
+        csv_dir / "text_quality_prompts.csv",
         [p for p in prompts if p.text_quality_score >= 8],
     )
     web_data = root / "web/data"
@@ -141,10 +159,12 @@ def main():
     args = parser.parse_args()
     if args.check:
         prompts = load_prompts(ROOT / "data/prompts_v2.jsonl")
+        eval_tasks = load_eval_tasks(ROOT / "data/eval_tasks.jsonl")
+        eval_results = load_eval_results(ROOT / "data/eval_results.jsonl")
         missing = check_local_links()
         if missing:
             raise SystemExit("失效链接:\n" + "\n".join(missing))
-        print(json.dumps(summarize(prompts), ensure_ascii=False, indent=2))
+        print(json.dumps(summarize(prompts, eval_tasks, eval_results), ensure_ascii=False, indent=2))
         return
     stats = build()
     print(json.dumps(stats, ensure_ascii=False, indent=2))

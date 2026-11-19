@@ -10,11 +10,13 @@ v2 的重点不是单纯增加文本数量，而是让数据**可审查、可迁
 | 指标 | 当前值 |
 |---|---:|
 | 不重复 Prompt | 283 |
-| 文本质量分 ≥ 8 | 95 |
+| 文本质量分 ≥ 8（仅文本参考） | 95 |
+| 生成效果验证通过 | 0 |
+| 评测任务完成 | 0 / 40 |
 | 有明确 BPM | 49 |
 | 有明确调性 | 23 |
-| 已完成生成验证 | 0 |
 | 平均文本质量分 | 7.44 |
+| 平均生成分 | 暂无 |
 <!-- AUTO_STATS:END -->
 
 ## 快速开始
@@ -93,7 +95,8 @@ python tools/migrate_v2.py --db data/musicprompts.db --output data/prompts_v2.js
 ## 下载与浏览
 
 - [全部 Prompt CSV](data/final_output/csv/all_prompts.csv)
-- [文本质量分 8 分以上 CSV](data/final_output/csv/curated_prompts.csv)
+- [生成效果验证通过 CSV](data/final_output/csv/curated_prompts.csv)（由真实评测结果驱动）
+- [文本质量分 8 分以上 CSV](data/final_output/csv/text_quality_prompts.csv)（仅文本参考）
 - [按流派浏览](prompts/genres/)
 - [按场景浏览](prompts/use_cases/)
 - [精校合集](prompts/curated/)
@@ -105,20 +108,60 @@ python tools/migrate_v2.py --db data/musicprompts.db --output data/prompts_v2.js
 ```text
 MUSICprompt/
 ├── data/prompts_v2.jsonl       # 可审查、可版本化的事实数据
+├── data/eval_tasks.jsonl      # 固定评测任务集（测试用例，不含结果）
+├── data/eval_results.jsonl    # 真实生成评测记录（唯一评测事实源）
 ├── src/models/v2.py           # v2 数据协议与来源标记
+├── src/models/eval.py         # 评测任务/结果模型与状态推导
 ├── src/composer.py            # 需求解析、编译、Remix 与 Diff
 ├── src/repository.py          # JSONL 读写、校验和统计
 ├── src/db/models.py           # SQLite / FTS5 检索
 ├── tools/build.py             # 统一构建入口
+├── tools/eval_run.py          # 评测管理 CLI（list/record/report/apply）
 ├── tools/migrate_v2.py        # v1 -> v2 迁移
 ├── tools/compose_prompt.py    # Prompt 生成 CLI
 ├── web/                       # 无后端检索网站
 └── tests/                     # 单元测试与回归测试
 ```
 
-## 评测约定
+## 效果评测
 
-实际生成评测应记录平台、模型版本、结果链接和评分。推荐维度包括风格符合度、结构符合度、人声符合度、音质和人工偏好。文本评分较高的记录不能自动标记为“生成已验证”。
+“精选/已验证”由**真实生成效果**驱动，不由文本质量分决定。文本质量分只描述提示词文本本身的完整度。
+
+固定评测任务集在 [data/eval_tasks.jsonl](data/eval_tasks.jsonl)，共 40 条：
+
+- **12 条固定 Prompt 复测**：覆盖 pop、rock、electronic、rap、soul、metal、funk、r&b、house、jazz、indie、ambient。
+- **28 条需求编译测试**：覆盖场景（派对/学习/睡眠/影视/游戏/冥想/健身/工作）、人声语言（中文/英文/器乐/说唱/合唱）、结构能量（build-up/三段式/drop/转调）、参数精确性（BPM/调性/乐器/拍号）与负向约束（避免 drop/炫技/autotune/失真）。
+
+每条任务包含验收点 `expected` 与评分维度（风格还原、结构、人声、音质、音乐性）。**任务集只是测试用例设计，不含任何生成结果。**
+
+评测流程：
+
+```bash
+# 1. 查看任务与进度
+python tools/eval_run.py --list
+
+# 2. 在生成平台（如 Suno / Udio）真实生成并试听后，录入结果
+python tools/eval_run.py --record --task EV001 --platform suno \
+  --model suno-v5 --audio https://example.com/demo.mp3 \
+  --score 8.2 \
+  --ratings '{"style_fidelity":9,"structure":8,"vocal":7,"audio_quality":8,"musicality":8}' \
+  --notes "副歌还原好，bridge 略偏"
+
+# 3. 汇总报告
+python tools/eval_run.py --report
+
+# 4. 回填到 Prompt 并刷新验证状态
+python tools/eval_run.py --apply
+python tools/build.py
+```
+
+验证状态推导规则：
+
+- 无任何评测记录 → `unverified`
+- 有评测但平均生成分 < 8.0 → `tested`
+- 平均生成分 ≥ 8.0 → `verified`（进入精选）
+
+**评测结果必须来自真实试听，不允许用文本分数推导或伪造音频链接与评分。** 文本评分较高的记录不能自动标记为“生成已验证”。
 
 ## 贡献与许可证
 

@@ -1,11 +1,13 @@
 {
   "schema_version": "2.0.0",
   "total_prompts": 283,
-  "curated_prompts": 95,
+  "curated_prompts": 0,
+  "text_quality_curated": 95,
   "verified_prompts": 0,
   "with_bpm": 49,
   "with_key": 23,
   "average_text_quality": 7.44,
+  "average_generation_score": null,
   "genres": {
     "pop": 131,
     "rock": 118,
@@ -35,5 +37,8 @@
   "platforms": {
     "udio": 251,
     "suno": 32
-  }
+  },
+  "eval_tasks_total": 40,
+  "eval_tasks_done": 0,
+  "eval_results_total": 0
 }

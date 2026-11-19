@@ -97,7 +97,9 @@ class MusicPromptV2Tests(unittest.TestCase):
     def test_summary_separates_curated_from_verified(self):
         prompt = MusicPromptV2.from_legacy(self.legacy())
         stats = summarize([prompt])
-        self.assertEqual(stats["curated_prompts"], 1)
+        # 精选由真实生成效果驱动：无评测时 curated 为 0
+        self.assertEqual(stats["curated_prompts"], 0)
+        self.assertEqual(stats["text_quality_curated"], 1)
         self.assertEqual(stats["verified_prompts"], 0)
 
 
